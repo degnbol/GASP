@@ -13,11 +13,6 @@ conda install -c conda-forge e3fp
 # optionals for e3fp
 conda install -c conda-forge h5py standardiser
 
-pip install --upgrade cazy-parser
-# fix import bug so we get urllib.request loaded properly.
-sed -i '' 's/^import urllib$/import urllib.request/' ~/miniconda3/envs/gt/lib/python3*/site-packages/cazy_parser/create_cazy_db.py
-# I also commented out families that are not Glycosyltransferase since we don't care about those.
-
 # if we want to give attention to the balancing of positive and negative data points.
 conda install imbalanced-learn
 conda install cirpy # https://cirpy.readthedocs.io/en/latest/ conversion of CAS and other identifiers
