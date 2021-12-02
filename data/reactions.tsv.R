@@ -4,7 +4,7 @@ suppressPackageStartupMessages(library(here))
 
 setwd(paste0(here(), "/data"))
 
-hts_ugt.rates = fread("../Fatemeh_eval/all-experimental.tsv")
+hts_ugt.rates = fread("Fatemeh_eval/all-experimental.tsv")
 setnames(hts_ugt.rates, "V1", "enzyme")
 hts_ugt.rates = melt(hts_ugt.rates, "enzyme", variable.name="acceptor", value.name="rate")
 hts_ugt.rates$source = "HTS_UGT"

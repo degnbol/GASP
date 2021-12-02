@@ -1,0 +1,76 @@
+enz_ind =
+
+    35
+
+UDPGlc     Yes
+7-hydroxy 6-methoxy coumarin (Scopoletin)     Yes
+Kaempferol     Yes
+Fisetin     Yes
+Quercetin     Yes
+Luteolin     Yes
+2-Methyl-umbelliferone     No
+Umbelliferone     No
+Genistein     Yes
+Trans-dihydroquercetin (DHQ)     Yes
+Baicalein     Yes
+2-hydroxy cinnamic acid     No
+"3,4-dihyroxy cinnamic acid"     No
+"2,5-dihydroxylbenzoic acid"     No
+"3,4-dihydroxylbenzoic acid"     No
+4-hydroxyl-benzoic acid     No
+4-hydroxy 3-methoxy cinnamic acid     No
+Cinnamic acid     No
+4-hydroxy cinnamic acid     No
+Sinapic acid     No
+7-hydroxycoumerin 4-acetic acid     No
+3-hydroxy cinnamic acid     No
+"(¦)- cis, trans Abscisic acid"     No
+Indole 3-acetate     No
+7-hydroxycoumerin 3-carboxylic acid     No
+"3,4-dichloroaniline"     No
+Dihydrojasmonic acid     No
+(¦)-Jasmonic acid     No
+Olomoucine     No
+DihydroZeatin     No
+trans-Zeatin     No
+a-cyano-4-hydroxyl-cinnamic acid     No
+Chloramphenicol     No
+Ser-Phe     No
+Gibberellin A4     No
+a-ManOCH2Bn     No
+a-ManOPh     No
+Trans-Zentin-Glucose     No
+MUGlcNAc     No
+Threonine     No
+Kinetin     No
+Glucose     No
+Ser-Leu     No
+Gibberellin A3     No
+BocCysThrOMe     No
+GlcNAc     No
+D-glycerate     No
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine     No
+?-GlcOBn     No
+a-ManOPMP     No
+a-ManOBn(pNO2)     No
+a-ManOPhF5     No
+a-ManOBnF5     No
+ManSTol     No
+N6-Benzyladenine     No
+N6-isopentenyladenine     No
+UDPXyl     No
+UDP5SGlc     Yes
+UDPGal     Yes
+dTDPXyl     No
+UDPGlcNAc     No
+dTDPGlc     No
+GDPGlc     No
+UDPMan     No
+UDPRha     No
+dTDPRha     No
+GDPFuc     No
+GDPMan     No
+"6,7-dihydroxy coumarin (Esculetin)"     Yes
+Catechin     No
+a-ManOBn     No
+Spectinomycin     No

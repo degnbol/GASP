@@ -8,7 +8,7 @@ setwd(here())
 
 water = fread("data/water.tsv")
 
-hts_ugt_rates = fread("Fatemeh_eval/all-experimental.tsv")
+hts_ugt_rates = fread("data/Fatemeh_eval/all-experimental.tsv")
 setnames(hts_ugt_rates, "V1", "enzyme")
 
 gt.pred = fread("data/gtpred_reactions_enz.tsv")

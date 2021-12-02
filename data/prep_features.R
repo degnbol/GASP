@@ -7,7 +7,7 @@ suppressPackageStartupMessages(library(here))
 
 setwd(paste0(here(), "/data"))
 
-hts_ugt_rates = fread("../Fatemeh_eval/all-experimental.tsv")
+hts_ugt_rates = fread("Fatemeh_eval/all-experimental.tsv")
 setnames(hts_ugt_rates, "V1", "enzyme")
 
 tmh_rates = fread("raw/pTMH/List_Company_ptMH.tsv")

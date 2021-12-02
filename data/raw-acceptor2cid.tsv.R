@@ -5,7 +5,7 @@ suppressPackageStartupMessages(library(here))
 setwd(paste0(here(), "/data"))
 
 # read
-hts_ugt.raw = colnames(fread("../Fatemeh_eval/all-experimental.tsv"))[-1]
+hts_ugt.raw = colnames(fread("Fatemeh_eval/all-experimental.tsv"))[-1]
 tmh.raw = unique(fread("pTMH.tsv", select="acceptor")$acceptor)
 gtpred.raw = unique(fread("gtpred_reactions.tsv", select="acceptor")$acceptor)
 
