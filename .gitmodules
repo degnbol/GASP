@@ -1,0 +1,3 @@
+[submodule "tools/degnlib"]
+	path = tools/degnlib
+	url = https://bitbucket.org/Degnbol/degnlib
