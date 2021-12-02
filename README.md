@@ -7,9 +7,6 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 - pip
 - miniconda for python 3
 
-## OPTIONAL
-- ProteinVolume v1.3 downloaded from http://gmlab.bio.rpi.edu/download.php . A copy is found in `tools/ProteinVolume_1.3/`.
-
 ## CONFIG
 - Configure some commands by running `./config.sh`.
 - Add `src/` and `tools/degnlib/` to your `$PATH`.
