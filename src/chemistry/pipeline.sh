@@ -7,6 +7,10 @@ OUTFILE="$2"
 WORK="${INFILE:r}-props" # remove extension
 
 mkdir -p "$WORK"
+echo "#!/usr/bin/env zsh
+# This folder contains chemistry features that were generated with the call
+$0 $@" > "$WORK/README.sh"
+
 SRC="`git root`/src/chemistry"
 
 # get SMILES and other pubchem listed properties that are always listed.
@@ -27,10 +31,10 @@ echo '# make volumes from PDBs'
 $SRC/ProteinVolume.sh "$WORK/PDBs" | mlr --tsv rename 'Protein,cid' | mlr --tsv sort -n cid > "$WORK/volumes.tsv"
 
 echo '# make E3FP fingerprints using SMILES'
-$SRC/e3fp-fprints.py "$WORK/acceptors.fpz" < "$WORK/pubchem.tsv"
+$SRC/e3fp-fprints.py "$WORK/E3FP.fpz" < "$WORK/pubchem.tsv"
 
 echo '# use the compressed fingerprints to generate 12 MDS features'
-$SRC/e3fp-features.py "$WORK/acceptors.fpz" -ck 12 | mlr --tsv rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
+$SRC/e3fp-features.py "$WORK/E3FP.fpz" -ck 12 | mlr --tsv rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
 
 echo '# join intermediate files'
 mlr --tsv   --from "$WORK/volumes.tsv" \
