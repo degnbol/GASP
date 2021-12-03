@@ -1,0 +1,9 @@
+cid	acceptor	category
+4477	niclosamide	phenol
+8635	methyl anthranilate	amine
+26945	heme	acid
+5317700	aloesone	phenol
+174375	Pigment Red 254	phenol
+50591	indoxyl	phenol
+129865704	Aza-resveratrol	phenol
+10441749	"Pyrrolo[2,1-f][1,2,4]triazin-4-amine"	amine
