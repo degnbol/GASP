@@ -1,0 +1,11 @@
+BocCysThrOMe
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine
+?-GlcOBn
+a-ManOBn
+a-ManOCH2Bn
+a-ManOPh
+a-ManOPMP
+a-ManOBn(pNO2)
+a-ManOPhF5
+a-ManOBnF5
+ManSTol

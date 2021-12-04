@@ -1,4 +1,10 @@
-Active_enzymes_protein_sequences.txt and the enzyme interactions copied from GT-Predict suppl. GTPredict_All_Data/GTPredict+code/PredictEnzymeInteraction/data and similar for acceptor file.
-It is the sequences used for the enzyme prediction which is simply they do Smith Waterman alignment to new enzyme sequences and copies the yes/no info from closest match.
-hts_ugt_constructs.fa is the text from All_Prot_FASTA.docx from Ditte files.dtu.dk folder 'HTS UGT/Constructs'
-
+- acceptorsOfInterest: short list of chemicals that we wish to find reactivity for.
+- align: sequence alignment.
+- CAZy: GT1 sequences downloaded from CAZy.
+- Fatemeh_eval: initial project work by Fatemeh.
+- GT-Predict: suppl. data downloaded from GT-Predict paper.
+- inhouse: in-house experimental data.
+- lit: literature curated data.
+- pubchem: data downloaded from pubchem.
+- reactions: combining reaction data from various sources.
+- unaligned: combining sequence data from various sources before alignement.
