@@ -3,15 +3,13 @@ library(ggplot2)
 library(pROC)
 library(data.table)
 suppressPackageStartupMessages(library(here))
-# go to git root
-setwd(here())
 
-water = fread("data/water.tsv")
-
-hts_ugt_rates = fread("data/Fatemeh_eval/all-experimental.tsv")
+# read
+water = fread("water.tsv")
+hts_ugt_rates = fread(paste0(here(), "/data/Fatemeh_eval/all-experimental.tsv"))
 setnames(hts_ugt_rates, "V1", "enzyme")
+gt.pred = fread(paste0(here(), "/data/gtpred_reactions_enz.tsv"))
 
-gt.pred = fread("data/gtpred_reactions_enz.tsv")
 # convert away from their weird classification system where 0/missing = not an enzyme-molecule match, 1= match, 2 or 3 is unknown
 gt.pred[is.na(gt.pred)] = F
 gt.pred[gt.pred == 1] = T
