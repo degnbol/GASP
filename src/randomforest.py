@@ -19,7 +19,7 @@ def get_parser():
 
     parser.add_argument("-i", "--id", dest="ids", nargs="+", help="Name of columns that are neither feature nor class so should be identifier columns. They are simply copied to output for identification.")
     parser.add_argument("-F", "--features", nargs="+", help="Name of columns that are features to be used.")
-    parser.add_argument("-t", "--identity", dest="threshold", type=float, default=0.9, help="Threshold for train vs test identity.")
+    parser.add_argument("-t", "--identity", dest="threshold", type=float, default=1., help="Threshold for train vs test identity.")
     parser.add_argument("-o", "--out",
                         help="The model can be saved to this file (e.g. randomforest.joblib). By default the model is not saved.")
     parser.add_argument("-m", "--model",

@@ -12,7 +12,13 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 
 ## CONFIG
 - Configure some commands by running `./config.sh`.
-- Add `src/` and `tools/degnlib/` to your `$PATH`.
+- Modify `$PATH` and `$PYTHONPATH` to easily access code, e.g. on zsh by running `./PATHS.sh >> ~/.zshrc`. Otherwise run `./PATHS.sh` and copy paste.
 
 ## INSTALL
 - `./install.sh` will install python packages to env "gt". Activate with `conda activate gt`.
+- Optionally run `./results/generateResults.sh` to prepare some result files, e.g. feature data for training.
+
+## RUN
+- `encode_features.py --help` and `randomforest.py --help` for instructions.
+- If using the same data from this work there is also `randomforest.sh` for convenience.
+
