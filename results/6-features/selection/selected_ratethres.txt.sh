@@ -1,0 +1,1 @@
+tail -n5 feature_importance.sh.e32058313 | head -n4 | cut -d' ' -f7 | cat - <(grep Adding feature_importance.sh.e32058313) | sed 's/Adding //' | tr ',' '\n' | tr -d ' ' | sort -u > selected_ratethres.txt

@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+ROOT=`git root`
+alignment="$ROOT/data/align/muscle_qual05.hmm.nterm.tsv"
+
+# create a feature set for classification where we discard uncertain data (reaction == 0.5)
+mlr --tsv --from "../*chemicalFeatures/acceptor_features.tsv" join -f "../*generateNegatives/reactions.tsv" -j cid then join -f "$alignment" -j enzyme then \
+    cut -x -f smiles then filter '$reaction != 0.5' > rdkit-desc_muscle-ntern-hmm.tsv
+
+mlr --tsv filter '$source == "GT-Predict"' rdkit-desc_muscle-ntern-hmm.tsv > rdkit-desc_muscle-ntern-hmm_gtpred.tsv
+mlr --tsv filter '$source != "GT-Predict"' rdkit-desc_muscle-ntern-hmm.tsv > rdkit-desc_muscle-ntern-hmm_notgtpred.tsv
+
