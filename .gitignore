@@ -41,4 +41,7 @@ vignettes/*.pdf
 # python
 __pycache__
 
+# MacOS
+.DS_Store
+
 
