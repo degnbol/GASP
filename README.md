@@ -11,7 +11,7 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 - open source pymol (pymol.org) to run chemical feature generation pipeline. E.g. install with `conda install -c schrodinger pymol-bundle`
 
 ## CONFIG
-- Configure some commands by running `./config.sh`.
+- Configure `git root` commands by running `./config.sh`.
 - Modify `$PATH` and `$PYTHONPATH` to easily access code, e.g. on zsh by running `./PATHS.sh >> ~/.zshrc`. Otherwise run `./PATHS.sh` and copy paste.
 
 ## INSTALL
