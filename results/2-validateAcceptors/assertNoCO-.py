@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from src.chemistry.chem_utils.rdkit_utils import *
 from src.utilities.io_utils import git_root
+import pandas as pd
 
 # SMILES from chemicals
 acceptors = pd.read_table("acceptors.tsv")
