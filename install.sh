@@ -1,4 +1,7 @@
 #!/usr/bin/env zsh
+# make sure you have miniconda installed
+conda --version &> /dev/null || ./install_conda.sh
+
 # installing from requirements sets versions that was tested. There is some overlap in packages listed below.
 conda create --name gt --file requirements.txt
 
