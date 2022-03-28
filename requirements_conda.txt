@@ -1,0 +1,43 @@
+biopython
+cairo
+# https://cirpy.readthedocs.io/en/latest/ conversion of CAS and other identifiers
+cirpy
+# 3D fingerprint
+e3fp
+
+freetype
+
+# optionals for e3fp
+h5py
+standardiser
+
+hdf5
+# if we want to give attention to the balancing of positive and negative data points.
+imbalanced-learn
+ipython
+joblib
+matplotlib
+# fork of multiprocessing that uses dill instead of pickle which makes it possible to async call local functions
+multiprocess
+ncurses
+numpy
+pandas
+parso
+pillow
+pip
+prompt-toolkit
+pygments
+# RDKit is for physiochemcial properties of acceptor molecules. https://www.rdkit.org/docs/Install.html
+rdkit
+readline
+scikit-learn
+scipy
+setuptools
+sqlite
+wcwidth
+wheel
+
+# we will need muscle for multiple sequence alignment and hmmer to do HMM alignment on multiple sequence alignments
+muscle
+hmmer
+
