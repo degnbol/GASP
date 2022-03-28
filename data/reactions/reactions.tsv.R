@@ -8,7 +8,7 @@ hts_ugt.rates = fread("Fatemeh_eval/all-experimental.tsv")
 setnames(hts_ugt.rates, "V1", "enzyme")
 hts_ugt.rates = melt(hts_ugt.rates, "enzyme", variable.name="acceptor", value.name="rate")
 hts_ugt.rates$source = "HTS_UGT"
-tmh.rates = fread("pTMH.tsv", drop=c("sequence", "species"))
+tmh.rates = fread("inhouse/pTMH.tsv", drop=c("sequence", "species"))
 tmh.rates$source = "pTMH"
 rates = rbind(hts_ugt.rates, tmh.rates)
 # based on work in visualize folder and discussion with David we decided to set the threshold for reactivity per enzyme 
@@ -29,7 +29,7 @@ gtpred.reactions = fread("reactions/gtpred_reactions.tsv")
 gtpred.reactions$source = "GT-Predict"
 DT = merge(gtpred.reactions, rates, all=T, by=c("acceptor", "enzyme", "source", "reaction"))
 
-acc.raw2cid_title = fread("reactions/raw-acceptor_cid_title.tsv", sep='\t')
+acc.raw2cid_title = fread("reactions/rawAcceptor_cid_title.tsv", sep='\t')
 DT = merge(DT, acc.raw2cid_title, by.x="acceptor", by.y="raw")
 DT[, acceptor:=NULL]
 setnames(DT, "title", "acceptor")
