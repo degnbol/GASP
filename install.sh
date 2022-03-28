@@ -10,3 +10,8 @@ conda activate gt
 # Optionally install interactive python and support for neovim editing
 conda install ipython
 conda install pynvim
+
+# R packages
+./install.R
+
+
