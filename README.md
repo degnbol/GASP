@@ -4,6 +4,7 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 ## REQUIREMENTS
 - unix shell with zsh
 - R
+- java runtime, e.g. with homebrew on mac: `./install_brew_java.sh`
 - pip
 - miniconda for python 3, e.g. use `./install_conda.sh`
 
