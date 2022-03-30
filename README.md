@@ -11,11 +11,10 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 - pymol to run chemical feature generation pipeline. E.g. install free open source pymol for [linux](https://pymolwiki.org/index.php/Linux_Install), [mac](https://pymolwiki.org/index.php/MAC_Install), or [windows](https://pymolwiki.org/index.php/Windows_Install). With homebrew on mac: `brew install brewsci/bio/pymol`
 
 ## CONFIG
-- Configure `git root` commands by running `./config.sh`.
-- Modify `$PATH` and `$PYTHONPATH` to easily access code, e.g. on zsh by running `./PATHS.sh >> ~/.zshrc`. Otherwise run `./PATHS.sh` and copy paste.
+- Modify `$PATH` and `$PYTHONPATH` to easily access code. Assuming zsh this is done by running `./PATHS.sh >> ~/.zshrc` or by copy-pasting the output of `./PATHS.sh` to somewhere in `~/.zshrc`.
 
 ## INSTALL
-- `./install.sh` will install python packages to env "gt". Activate with `conda activate gt`. It then calls `./install.R` which installs R packages.
+- `./install.sh` will install python packages to environment "gt". Activate env with `conda activate gt`. This also calls `./install.R` which installs R packages.
 - Optionally run `./results/generateResults.sh` to prepare some result files, e.g. feature data for training.
 
 ## RUN
