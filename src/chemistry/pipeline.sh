@@ -4,12 +4,14 @@
 # A folder with intermediate files are also generated named INFILE-props
 INFILE="$1"
 OUTFILE="$2"
-WORK="${INFILE:r}-props" # remove extension
 
+WORK="${INFILE:r}-props" # remove extension
 mkdir -p "$WORK"
-echo "#!/usr/bin/env zsh
-# This folder contains chemistry features that were generated with the call
-$0 $@" > "$WORK/README.sh"
+{
+	echo '#!/usr/bin/env zsh'
+	echo '# This folder contains chemistry features that were generated with the call'
+	echo "$0 $@"
+} > "$WORK/README.sh"
 
 SRC="`git root`/src/chemistry"
 

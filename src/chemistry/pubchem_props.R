@@ -24,7 +24,7 @@ if(F) {  # test example
     if(!is.null(args$cid)) {
         cids = fread("cat /dev/stdin")[[args$cid]]
     } else {
-        cids = scan(file("stdin"), quiet=T)
+        cids = fread("cat /dev/stdin", header=FALSE)[["V1"]]
     }
     # ensures that cids are valid, strips spaces at ends
     cids = as.integer(cids)
