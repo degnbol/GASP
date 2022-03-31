@@ -10,7 +10,7 @@ def run(cmd):
     return subprocess.run(cmd.split(), capture_output=True, text=True).stdout.strip()
 
 
-def git_root(relpath):
+def git_root(relpath=""):
     """
     Get absolute path given a path relative to git root.
     :param relpath: string path relative to git root.
