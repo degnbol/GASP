@@ -30,7 +30,7 @@ echo '# calculate areas from PDBs using PyMol'
 $SRC/pymol_areas.sh $WORK/PDBs/*.pdb > "$WORK/areas.tsv"
 
 echo '# make volumes from PDBs'
-$SRC/ProteinVolume.sh "$WORK/PDBs" | mlr --tsv rename 'Protein,cid' | mlr --tsv sort -n cid > "$WORK/volumes.tsv"
+$SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv"
 
 echo '# make E3FP fingerprints using SMILES'
 $SRC/e3fp-fprints.py "$WORK/E3FP.fpz" < "$WORK/pubchem.tsv"
