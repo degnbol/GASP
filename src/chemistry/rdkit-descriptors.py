@@ -31,12 +31,15 @@ mols = [Chem.AddHs(m) for m in mols]
 # calculate 3D shapes
 for m in mols: AllChem.EmbedMolecule(m)
 
+# more effecient to build dict then concat into dataframe in one op
+cols = {}
+
 funcs_pubchem = ["MolWt", "NumHAcceptors", "NumHDonors", "NumRotatableBonds"]
 
 funcs = ["NumValenceElectrons", "NumHeteroatoms",
          "MinPartialCharge", "MaxPartialCharge", "MinAbsPartialCharge", "MaxAbsPartialCharge"]
 for f in funcs:
-    df[f] = [getattr(Descriptors, f)(m) for m in mols]
+    cols[f] = [getattr(Descriptors, f)(m) for m in mols]
 
 funcs = ["CalcHallKierAlpha", "CalcLabuteASA",
          "CalcNumRings", "CalcNumAmideBonds", "CalcNumBridgeheadAtoms", "CalcNumHeterocycles",
@@ -57,19 +60,20 @@ funcs_array = ["BCUT2D"]
 for f in funcs + funcs_3D:
     colname = f
     if colname.startswith('Calc'): colname = colname[len('Calc'):]
-    df[colname] = [getattr(Descriptors.rdMolDescriptors, f)(m) for m in mols]
+    cols[colname] = [getattr(Descriptors.rdMolDescriptors, f)(m) for m in mols]
 
-df["MolLogP"], df["MolMR"] = zip(*[Descriptors.rdMolDescriptors.CalcCrippenDescriptors(m) for m in mols])
-df["HeavyAtomCount"] = [m.GetNumHeavyAtoms() for m in mols]
-df["VanDerWaalsVolume"] = [AllChem.ComputeMolVolume(m) for m in mols]
-df["SASA"] = [rdFreeSASA.CalcSASA(m, rdFreeSASA.classifyAtoms(m)) for m in mols]
+cols["MolLogP"], cols["MolMR"] = zip(*[Descriptors.rdMolDescriptors.CalcCrippenDescriptors(m) for m in mols])
+cols["HeavyAtomCount"] = [m.GetNumHeavyAtoms() for m in mols]
+cols["VanDerWaalsVolume"] = [AllChem.ComputeMolVolume(m) for m in mols]
+cols["SASA"] = [rdFreeSASA.CalcSASA(m, rdFreeSASA.classifyAtoms(m)) for m in mols]
 
 # from http://rdkit.org/docs/source/rdkit.Chem.Fragments.html
-for name, f in rd.numFragments.items(): df[name] = [f(m) for m in mols]
+for name, f in rd.numFragments.items(): cols[name] = [f(m) for m in mols]
 
 for name in ['primary_alcohol', 'secondary_alcohol', 'tertiary_alcohol', 'coumarin', 'thiophenol', 'hydroxyamino']:
-    df[name] = [rd.get_num_substructs(m, rd.substructs[name]) for m in mols]
+    cols[name] = [rd.get_num_substructs(m, rd.substructs[name]) for m in mols]
 
+df = pd.concat([df, pd.DataFrame(cols)], axis=1)
 
 # df.to_csv("~/biosustain/gt/acceptors/rdkit-descriptors.tsv.tmp", sep='\t', index=False)
 df.to_csv(sys.stdout, sep='\t', index=False)
