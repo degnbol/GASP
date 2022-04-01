@@ -16,6 +16,7 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 - Optionally run `./results/generateResults.sh` to prepare some result files, e.g. feature data for training.
 
 ## RUN
+- Adding new acceptors: see `results/5-chemicalFeatures/`
 - `encode_features.py --help` and `randomforest.py --help` for instructions.
 - If using the same data from this work there is also `randomforest.sh` for convenience.
 
