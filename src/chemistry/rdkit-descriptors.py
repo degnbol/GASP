@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import argparse, sys
+import argparse
+import sys
 import pandas as pd
 import src.chemistry.chem_utils.rdkit_utils as rd
 from rdkit import Chem
@@ -13,23 +14,30 @@ def get_parser():
         usage="rdkit-descriptors.py < infile.tsv > outfile.tsv",
         description="Calculate physio-chemical properties from SMILES using RDKit.")
     parser.add_argument("smiles", nargs='?', default='smiles', help="Name of column with SMILES.")
+    parser.add_argument("--cid", default='cid', help="Name of column with CID. Default \"cid\".")
     return parser
 
 
 debug = False
 if debug:
-    df = pd.read_table("~/biosustain/gt/acceptors/acceptor_smiles.tsv")
-    smiles = df.smiles
+    from src.utilities.io_utils import git_root
+    df = pd.read_table(git_root("results/5-chemicalFeatures/acceptors-props/pubchem.tsv"))
 else:
-    args = get_parser().parse_args()
     df = pd.read_table(sys.stdin)
-    smiles = df[args.smiles]
 
+args = get_parser().parse_args()
+smiles = df[args.smiles]
 
 mols = [Chem.MolFromSmiles(s) for s in smiles]
 mols = [Chem.AddHs(m) for m in mols]
+
 # calculate 3D shapes
-for m in mols: AllChem.EmbedMolecule(m)
+for i, m in enumerate(mols):
+    AllChem.EmbedMolecule(m)
+    while m.GetNumConformers() == 0:
+        sys.stderr.write(f"Retrying CID={df.loc[i, args.cid]} SMILES={df.loc[i, args.smiles]}\n")
+        AllChem.EmbedMolecule(m)
+sys.stderr.write(f"Conformers embedded.")
 
 # more effecient to build dict then concat into dataframe in one op
 cols = {}
@@ -50,8 +58,7 @@ funcs = ["CalcHallKierAlpha", "CalcLabuteASA",
          "CalcNumSaturatedCarbocycles", "CalcNumSaturatedHeterocycles", "CalcNumSaturatedRings",
          "CalcFractionCSP3"]
 # requires a 3D conformer
-funcs_3D = ["CalcEccentricity", "CalcAsphericity", "CalcInertialShapeFactor", "CalcNPR1", "CalcNPR2", "CalcSpherocityIndex",
-            "CalcRadiusOfGyration", ]
+funcs_3D = ["CalcEccentricity", "CalcAsphericity", "CalcInertialShapeFactor", "CalcNPR1", "CalcNPR2", "CalcSpherocityIndex", "CalcRadiusOfGyration"]
 # error from these:
 funcs_err = ["CalcNumAtomStereoCenters"]
 # descriptors that are not scalar. Currently not used.
@@ -73,7 +80,5 @@ for name, f in rd.numFragments.items(): cols[name] = [f(m) for m in mols]
 for name in ['primary_alcohol', 'secondary_alcohol', 'tertiary_alcohol', 'coumarin', 'thiophenol', 'hydroxyamino']:
     cols[name] = [rd.get_num_substructs(m, rd.substructs[name]) for m in mols]
 
-df = pd.concat([df, pd.DataFrame(cols)], axis=1)
-
-# df.to_csv("~/biosustain/gt/acceptors/rdkit-descriptors.tsv.tmp", sep='\t', index=False)
-df.to_csv(sys.stdout, sep='\t', index=False)
+out = pd.concat([df, pd.DataFrame(cols)], axis=1)
+out.to_csv(sys.stdout, sep='\t', index=False)
