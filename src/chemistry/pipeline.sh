@@ -27,7 +27,8 @@ mkdir -p "$WORK/PDBs"
 $SRC/smiles2pdb.py cid -o "$WORK/PDBs" < "$WORK/pubchem.tsv"
 
 echo '# calculate areas from PDBs using PyMol'
-$SRC/pymol_areas.sh $WORK/PDBs/*.pdb > "$WORK/areas.tsv"
+N=`ls $WORK/PDBs/*.pdb | wc -l | xargs`
+$SRC/pymol_areas.sh $WORK/PDBs/*.pdb "$WORK/areas.tsv" | $SRC/../progress.sh $N
 
 echo '# make volumes from PDBs'
 $SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv"
