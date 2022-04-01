@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import argparse, sys
+import argparse
+import sys
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem, rdmolfiles
@@ -7,7 +8,7 @@ from src.utilities.io_utils import git_root
 
 def get_parser():
     parser = argparse.ArgumentParser(description="Make .pdb files of structures from SMILES given in stdin.")
-    parser.add_argument("id", help="Column with filenames for the output PDBs.")
+    parser.add_argument("id", nargs='?', default="cid", help="Column with filenames for the output PDBs. Default=\"cid\".")
     parser.add_argument("smiles", nargs='?', default="smiles", help="Name of column with SMILES strings.")
     parser.add_argument("-o", "--out", help="Output directory. Default=current working directory.")
     return parser
@@ -16,22 +17,27 @@ def get_parser():
 # example use
 debug = False
 if debug:
+    args = get_parser().parse_args()
     df = pd.read_table(git_root("data/pubchem.tsv"))
-    fnames = df.cid
-    smiles = df.smiles
-    outdir = args.out
 else:
     args = get_parser().parse_args()
     df = pd.read_table(sys.stdin, sep='\t')
-    fnames = df[args.id]
-    smiles = df[args.smiles]
-    outdir = args.out
 
+fnames = df[args.id]
+smiles = df[args.smiles]
+outdir = args.out
 
 mols = [Chem.MolFromSmiles(s) for s in smiles]
 mols = [Chem.AddHs(m) for m in mols]
+
 # calculate 3D shapes
-for m in mols: AllChem.EmbedMolecule(m)
+for i, m in enumerate(mols):
+    AllChem.EmbedMolecule(m)
+    while m.GetNumConformers() == 0:
+        sys.stderr.write(f"Retrying CID={df.loc[i, args.id]} SMILES={df.loc[i, args.smiles]}\n")
+        AllChem.EmbedMolecule(m)
+sys.stderr.write(f"Conformers embedded.\n")
+
 
 # make valid filenames
 fnames = [str(f) for f in fnames]
