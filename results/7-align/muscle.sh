@@ -1,10 +1,10 @@
 #!/usr/bin/env zsh
 # install muscle with conda install muscle -c bioconda
 
-DATA=`git root`/data
-LIB=`git root`/tools/degnlib/subfunctions
-INFILE=$DATA/unaligned/sequences.faa
-CAZY=$DATA/CAZy/seqs_len.faa
+ROOT=`git root`
+LIB=$ROOT/tools/degnlib/subfunctions
+INFILE=`ls $ROOT/results/*unaligned/sequences.faa`
+CAZY=$ROOT/data/CAZy/seqs_len.faa
 
 # align main sequences with muscle. takes time.
 muscle -align $INFILE -output muscle.faa.tmp
