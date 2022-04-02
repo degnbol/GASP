@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-. setroot.zsh
+ROOT=`git root`
 
 # for mat in match blosum62; do
 for mat in match; do

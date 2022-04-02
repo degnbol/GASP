@@ -1,5 +1,4 @@
 - acceptorsOfInterest: short list of chemicals that we wish to find reactivity for.
-- align: sequence alignment.
 - CAZy: GT1 sequences downloaded from CAZy.
 - Fatemeh_eval: initial project work by Fatemeh.
 - GT-Predict: suppl. data downloaded from GT-Predict paper.
@@ -7,4 +6,3 @@
 - lit: literature curated data.
 - pubchem: data downloaded from pubchem.
 - reactions: combining reaction data from various sources.
-- unaligned: combining sequence data from various sources before alignement.
