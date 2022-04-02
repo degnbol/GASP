@@ -2,7 +2,7 @@
 ROOT=`git root`
 
 acceptorsOfInterest=`ls $ROOT/results/*chemicalFeatures/acceptorsOfInterest.tsv`
-alignment="$ROOT/data/align/muscle_qual05.hmm.nterm.tsv"
+alignment=`ls $ROOT/results/*align/muscle_qual05.hmm.nterm.tsv`
 
 ids="enzyme acceptor source cid reaction rate"
 

@@ -5,7 +5,7 @@ library(ggbeeswarm)
 library(fdrtool)
 suppressPackageStartupMessages(library(here))
 
-dt = fread(paste0(here(), "data/reactions.tsv"))
+dt = fread(paste0(here(), "data/reactions/reactions.tsv"))
 dt = dt[!is.na(rate) & source%in%c("pTMH", "HTS_UGT")]
 
 

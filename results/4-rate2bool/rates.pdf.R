@@ -3,7 +3,7 @@ library(data.table)
 library(ggplot2)
 suppressPackageStartupMessages(library(here))
 
-dt = fread(paste0(here(), "data/reactions.tsv"))
+dt = fread(paste0(here(), "data/reactions/reactions.tsv"))
 dt = dt[!is.na(rate)]
 dt = dt[cid%in%c(7257, 27582, 31553, 5280343)]
 
