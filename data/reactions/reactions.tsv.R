@@ -40,6 +40,8 @@ sebastian[!is.na(rate), reaction:=1]  # we define lit data where a rate is repor
 DT = rbind(DT, sebastian)
 DT[,cid:=as.integer(cid)] # removes spaces at ends and validates
 
+DT = unique(DT)
+
 # NOTE that the CIDs are not validated yet, i.e. may be for chemicals that contain CO-. See results/*validat*
 fwrite(DT, "reactions/reactions.tsv", sep='\t')
 
