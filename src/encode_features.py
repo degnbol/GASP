@@ -10,13 +10,15 @@ import logging as log
 def get_parser():
     parser = argparse.ArgumentParser(description="Encode features for ML, e.g. convert sequences to numeric encoding, remove redundant features, indicate train vs test set. Read train set from stdin, pipe /dev/null to use no train set.")
 
-    parser.add_argument("test", nargs='*', help="Filename(s) of test data with same format as infile or if multiple then they should have the same columns when combined. Multiple test files are combined in an all vs all fashion. "
-                                                "Train and test data files will be concatenated with a new column \"set\" with values \"train\" and \"test\".")
+    parser.add_argument("test", nargs='*',
+            help="""Filename(s) of test data with same format as infile or if multiple then they should have the same columns when combined. 
+                    Multiple test files are combined in an all vs all fashion, so e.g. one file contains enzyme features and the other acceptor features. 
+                    Train and test data files will be concatenated with a new column \"set\" with values \"train\" and \"test\".""")
     parser.add_argument("-i", "--ignore", dest="ignore", nargs="+", help="Name of columns that are not features so should be ignored and simply copied to output as identification.")
     parser.add_argument("--dna", nargs="+", help="Names of columns that should be encoded with alphabet ACGT. Not implemented.")
     parser.add_argument("--rna", nargs="+", help="Names of columns that should be encoded with alphabet ACGU. Not implemented.")
     parser.add_argument("--aa", nargs="+", help="Names of columns that should be encoded with a standard amino acid alphabet.")
-    parser.add_argument("--aa-encoding", help="Encoding matrix for AAs, e.g. BLOSUM. Default is one-hot (sparse).")
+    parser.add_argument("--aa-encoding", help="Path to encoding matrix for AAs, e.g. BLOSUM. Default is one-hot (sparse).")
     parser.add_argument("--cv", type=int, help="Do k-fold cross-validation, provide k. This will add a column \"set\" with integers in range [0;k-1].")
 
     return parser
