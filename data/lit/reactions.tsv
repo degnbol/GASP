@@ -1,0 +1,148 @@
+acceptor	cid	enzyme	rate	reaction	source
+2-HADNT	5484169	UGT73B41	0.05935637267999998	1	sebastian
+4-HADNT	5375469	UGT73B41	0.06205438961999996	1	sebastian
+2-HADNT	5484169	UGT73C11	0.045282911988	1	sebastian
+4-HADNT	5375469	UGT73C11	0.11762512504199997	1	sebastian
+2-hydroxynaringenin	21932272	OsCGT2,3	0.055312969749300105	1	sebastian
+2-hydroxynaringenin	21932272	OsCGT2,3	0.055312969749300105	1	sebastian
+2-hydroxyeriodictyol	90657995	OsCGT2,3	0.023034713050200047	1	sebastian
+2-hydroxyeriodictyol	90657995	OsCGT2,3	0.023034713050200047	1	sebastian
+phloretin	4788	OsCGT2,3	0.029015829528900056	1	sebastian
+2,5,7-trihydroxyflavanone	21611827	OsCGT2,3	0.01888253301540004	1	sebastian
+2',4',6'-trihydroxydihydrochalcone	68146761	OsCGT2,3	0.017300750145000033	1	sebastian
+2,4,6-trihydroxybenzophenone	77093	OsCGT2,3	0.002372674305600005	1	sebastian
+2-hydroxynaringenin	21932272	ZmUGT/UGT708A64		0	sebastian
+2-hydroxynaringenin	21932272	ZmUGT/UGT708A64		0	sebastian
+2-hydroxynaringenin	21932272	FeCGTa/UGT708C15	1.798353056640002	0	sebastian
+2-hydroxynaringenin	21932272	FeCGTa/UGT708C15	1.798353056640002	0	sebastian
+2-hydroxyeriodictyol	90657995	FeCGTa/UGT708C15	1.4155103891200016	0	sebastian
+2-hydroxyeriodictyol	90657995	FeCGTa/UGT708C15	1.4155103891200016	0	sebastian
+2-hydroxypinocembrin	42607887	FeCGTa/UGT708C15	1.7227920038400018	0	sebastian
+phloretin	4788	FeCGTa/UGT708C15	0.2619449830400003	0	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	FeCGTa/UGT708C15	0.6397502470400006	0	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	FeCGTa/UGT708C15	0.6397502470400006	0	sebastian
+2',4',6'-trihydroxyacetophenone	68073	FeCGTa/UGT708C15	0.5087777555200005	0	sebastian
+2',4',6'-trihydroxyacetophenone	68073	FeCGTa/UGT708C15	0.5087777555200005	0	sebastian
+2,4,6-trihydroxybenzaldehyde	68099	FeCGTa/UGT708C15	0.11082287744000012	0	sebastian
+2-hydroxypinocembrin	42607887	FeCGTa/UGT708C15	1.7882782496000018	0	sebastian
+2-hydroxypinocembrin	42607887	FeCGTa/UGT708C15	0.09067326336000008	0	sebastian
+2-hydroxynaringenin	21932272	FeCGTb/UGT708C25	1.7399058837000014	0	sebastian
+2-hydroxynaringenin	21932272	FeCGTb/UGT708C25	1.7399058837000014	0	sebastian
+2-hydroxyeriodictyol	90657995	FeCGTb/UGT708C25	1.205326104940001	0	sebastian
+2-hydroxyeriodictyol	90657995	FeCGTb/UGT708C25	1.205326104940001	0	sebastian
+2-hydroxypinocembrin	42607887	FeCGTb/UGT708C25	2.7788062084600025	0	sebastian
+phloretin	4788	FeCGTb/UGT708C25	0.4236292586400004	0	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	FeCGTb/UGT708C25	2.269442457000002	0	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	FeCGTb/UGT708C25	2.269442457000002	0	sebastian
+2',4',6'-trihydroxyacetophenone	68073	FeCGTb/UGT708C25	0.6304006825000006	0	sebastian
+2',4',6'-trihydroxyacetophenone	68073	FeCGTb/UGT708C25	0.6304006825000006	0	sebastian
+2,4,6-trihydroxybenzaldehyde	68099	FeCGTb/UGT708C25	0.1260801365000001	0	sebastian
+2-hydroxypinocembrin	42607887	FeCGTb/UGT708C25	1.2910605977600011	0	sebastian
+2-hydroxypinocembrin	42607887	FeCGTb/UGT708C25	0.03530243822000003	0	sebastian
+2-hydroxynaringenin	21932272	GmCGT/UGT708D16		0	sebastian
+2-hydroxynaringenin	21932272	GmCGT/UGT708D16		0	sebastian
+apigenin	5280443	GtUF6CGT17	0.006191889837770008	0	sebastian
+luteolin	5280445	GtUF6CGT17	0.013314971405680016	0	sebastian
+maclurin	68213	MiCGT8		1	sebastian
+norathyriol	5281656	MiCGT8		1	sebastian
+phloretin	4788	MiCGTb9		1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	3.2720980412800014	1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	3.2720980412800014	1	sebastian
+2-hydroxypinocembrin	42607887	FcCGT/UGT708G110	3.4888616339200014	1	sebastian
+phloretin	4788	FcCGT/UGT708G110	1.7650749686400011	1	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	FcCGT/UGT708G110	1.956033371680001	1	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	FcCGT/UGT708G110	1.956033371680001	1	sebastian
+maclurin	68213	FcCGT/UGT708G110	0.04128830336000002	1	sebastian
+2',4',6'-trihydroxyacetophenone	68073	FcCGT/UGT708G110	0.2890181235200001	1	sebastian
+2',4',6'-trihydroxyacetophenone	68073	FcCGT/UGT708G110	0.2890181235200001	1	sebastian
+2,4,6-trihydroxybenzaldehyde	68099	FcCGT/UGT708G110	0.09805972048000004	1	sebastian
+6-Cglucosyl-2-hydroxynaringenin	129320321	FcCGT/UGT708G110	1.2592932524800005	1	sebastian
+nothofagin (3'-C-glucosyl-phloretin	21722188	FcCGT/UGT708G110	3.0759786003200014	1	sebastian
+phloridzin	6072	FcCGT/UGT708G110	0.0031998435104000013	1	sebastian
+nothofagin	21722188	FcCGT/UGT708G110		1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	2.095381395520001	1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	2.095381395520001	1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	0.5522310574400002	1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	0.5522310574400002	1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	0.04851375644800002	1	sebastian
+2-hydroxynaringenin	21932272	FcCGT/UGT708G110	0.04851375644800002	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	1.0944169513200004	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	1.0944169513200004	1	sebastian
+2-hydroxypinocembrin	42607887	CuCGT/UGT708G210	1.3422094686000003	1	sebastian
+phloretin	4788	CuCGT/UGT708G210	0.3407147112600001	1	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	CuCGT/UGT708G210	0.9756830367900002	1	sebastian
+2-phenyl-2',4',6'-trihydroxyactophenone	689111	CuCGT/UGT708G210	0.9756830367900002	1	sebastian
+maclurin	68213	CuCGT/UGT708G210	0.06711047343000003	1	sebastian
+2',4',6'-trihydroxyacetophenone	68073	CuCGT/UGT708G210	0.14970797919000006	1	sebastian
+2',4',6'-trihydroxyacetophenone	68073	CuCGT/UGT708G210	0.14970797919000006	1	sebastian
+2,4,6-trihydroxybenzaldehyde	68099	CuCGT/UGT708G210	0.04646109699000002	1	sebastian
+6-C-glucosyl-2-hydroxynaringenin	129320321	CuCGT/UGT708G210	0.6401306696400002	1	sebastian
+nothofagin (3'-C-glucosyl-phloretin	21722188	CuCGT/UGT708G210	1.1460403924200004	1	sebastian
+phloridzin	6072	CuCGT/UGT708G210	0.0010840922631000006	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	0.7898386488300003	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	0.7898386488300003	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	0.2942536142700001	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	0.2942536142700001	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	0.012389625864000005	1	sebastian
+2-hydroxynaringenin	21932272	CuCGT/UGT708G210	0.012389625864000005	1	sebastian
+daidzein	5281708	PlUGT4311		0	sebastian
+genistein	5280961	PlUGT4311		0	sebastian
+apigenin	5280443	TcCGT112		1	sebastian
+luteolin	5280445	TcCGT112		1	sebastian
+apigenin	5280443	TcCGT112		1	sebastian
+luteolin	5280445	TcCGT112		1	sebastian
+apigenin	5280443	WjGT1/UGT84A5713	0.07534270154100016	0	sebastian
+luteolin	5280445	WjGT1/UGT84A5713	0.06305275731800013	0	sebastian
+phloretin	4788	WjGT1/UGT84A5713	0.02778596085200006	0	sebastian
+kaempferol	5280863	WjGT1/UGT84A5713	0.017633398233000037	0	sebastian
+quercetin	5280343	WjGT1/UGT84A5713	0.026717270050000057	0	sebastian
+naringenin	932	WjGT1/UGT84A5713	0.06519013892200014	0	sebastian
+apigenin	5280443	WjGT1/UGT84A5713	0.07534270154100016	0	sebastian
+nothofagin	21722188	GgCGT/UGT708B414		1	sebastian
+phloretin	4788	OsCGT2/UGT708A415		0	sebastian
+2-hydroxynaringenin	21932272	OsCGT2/UGT708A415		0	sebastian
+2-hydroxynaringenin	21932272	OsCGT2/UGT708A415		0	sebastian
+phloretin	4788	OsCGT3/UGT708A215		0	sebastian
+phloretin	4788	OsCGT6/UGT708A4015		0	sebastian
+phloretin	4788	TaCGT1-A/UGT708A1415		0	sebastian
+2-hydroxynaringenin	21932272	TaCGT1-A/UGT708A1415		0	sebastian
+2-hydroxynaringenin	21932272	TaCGT1-A/UGT708A1415		0	sebastian
+phloretin	4788	TaCGT1-B/UGT708A5215		0	sebastian
+phloretin	4788	TaCGT1-D/UGT708A5315		0	sebastian
+2-hydroxynaringenin	21932272	TaCGT1-D/UGT708A5315		0	sebastian
+2-hydroxynaringenin	21932272	TaCGT1-D/UGT708A5315		0	sebastian
+phloretin	4788	TaCGT2-A/UGT708A1515		0	sebastian
+phloretin	4788	TaCGT2-B/UGT708A5415		0	sebastian
+phloretin	4788	SbCGT1/UGT708A3615		0	sebastian
+2-hydroxynaringenin	21932272	SbCGT1/UGT708A3615		0	sebastian
+2-hydroxynaringenin	21932272	SbCGT1/UGT708A3615		0	sebastian
+phloretin	4788	SbCGT2/UGT708A3515		0	sebastian
+phloretin	4788	SbCGT3/UGT708A3415		0	sebastian
+phloretin	4788	ZmCGT2/UGT708A515		0	sebastian
+phloretin	4788	ZmCGT3/UGT708A1115		0	sebastian
+phloretin	4788	ZmCGT4/UGT708A4115		0	sebastian
+phloretin	4788	ZmCGT5/UGT708A4215		0	sebastian
+phloretin	4788	SiCGT1/UGT708A3115		0	sebastian
+2-hydroxynaringenin	21932272	SiCGT1/UGT708A3115		0	sebastian
+2-hydroxynaringenin	21932272	SiCGT1/UGT708A3115		0	sebastian
+phloretin	4788	SiCGT2/UGT708A3215		0	sebastian
+phloretin	4788	SiCGT3/UGT708A3315		0	sebastian
+phloretin	4788	BdCGT1/UGT708A715		0	sebastian
+2-hydroxynaringenin	21932272	BdCGT1/UGT708A715		0	sebastian
+2-hydroxynaringenin	21932272	BdCGT1/UGT708A715		0	sebastian
+phloretin	4788	BdCGT2/UGT708A815		0	sebastian
+phloretin	4788	PhCGT1/UGT708A4315		0	sebastian
+2-hydroxynaringenin	21932272	PhCGT1/UGT708A4315		0	sebastian
+2-hydroxynaringenin	21932272	PhCGT1/UGT708A4315		0	sebastian
+phloretin	4788	PhCGT2/UGT708A4615		0	sebastian
+phloretin	4788	PgCGT1/UGT708A4415		0	sebastian
+2-hydroxynaringenin	21932272	PgCGT1/UGT708A4415		0	sebastian
+2-hydroxynaringenin	21932272	PgCGT1/UGT708A4415		0	sebastian
+phloretin	4788	PpCGT1/UGT708A4515		0	sebastian
+enterobactin	34231	IroB16		1	sebastian
+MGE	5327038	IroB16		1	sebastian
+salmochelin S4	101763507	IroB16		1	sebastian
+enterobactin	34231	IroB16		1	sebastian
+UWM6	53297394	UrdGT217,18		0	sebastian
+flavokermesic acid	9883304	DcUGT220		0	sebastian
+kermesic acid	11727234	DcUGT220		0	sebastian
