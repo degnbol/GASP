@@ -1,0 +1,1 @@
+C_O NumAliphaticCarbocycles NumAromaticRings amide para_hydroxylation seq_*049 seq_*057 seq_*087 seq_*179 seq_A042 seq_A090 seq_A181 seq_A195 seq_E078 seq_E102 seq_E223 seq_F007 seq_I161 seq_M097 seq_N144 seq_N218 seq_P025 seq_P091 seq_Q031 seq_R077 seq_R203 seq_T067 seq_T179 seq_V041 seq_W004 

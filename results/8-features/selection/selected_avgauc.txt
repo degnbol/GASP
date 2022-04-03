@@ -1,0 +1,1 @@
+MDS_06 MolMR NumValenceElectrons seq_*161 seq_A143 seq_A197 seq_C058 seq_C083 seq_C177 seq_D136 seq_F074 seq_H073 seq_I115 seq_M167 seq_N111 seq_Q156 seq_Q177 seq_Q226 seq_V168 

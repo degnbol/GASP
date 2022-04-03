@@ -1,0 +1,1 @@
+NumAliphaticCarbocycles NumAromaticRings seq_*179 seq_A011 seq_A042 seq_E223 seq_I224 seq_N211 seq_N230 seq_Q031 seq_R104 seq_T087 seq_T173 seq_V098 seq_W082 seq_Y215 

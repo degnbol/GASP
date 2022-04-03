@@ -1,0 +1,41 @@
+
+gzip: stdout: Broken pipe
+
+gzip: stdout: Broken pipe
+Using 113 features with threshold 0.99.
+Using 2927 features with threshold 1.0.
+sys:1: DtypeWarning: Columns (5) have mixed types.Specify dtype option on import or set low_memory=False.
+NA found in infile in column(s): rate,acceptor
+Found 31 sets in infile
+Leaving out Cu with 138 datapoints
+Leaving out Lc with 156 datapoints
+Leaving out Mt with 399 datapoints
+Leaving out Nt with 204 datapoints
+Leaving out Ta with 632 datapoints
+Leaving out At with 9734 datapoints
+Leaving out Ph with 253 datapoints
+Leaving out Pt with 202 datapoints
+Leaving out Fe with 580 datapoints
+Leaving out Fc with 139 datapoints
+Leaving out Pl with 127 datapoints
+Leaving out Ct with 155 datapoints
+Leaving out Wj with 132 datapoints
+Leaving out Si with 379 datapoints
+Leaving out Sb with 379 datapoints
+Leaving out Zm with 1563 datapoints
+Leaving out Pg with 127 datapoints
+Leaving out Gm with 282 datapoints
+Leaving out VV with 182 datapoints
+Leaving out Os with 666 datapoints
+Leaving out Mi with 253 datapoints
+Leaving out Dc with 279 datapoints
+Leaving out Bd with 253 datapoints
+Leaving out Sl with 155 datapoints
+Leaving out UG with 254 datapoints
+Leaving out Rc with 155 datapoints
+Leaving out Gg with 126 datapoints
+Leaving out Fi with 154 datapoints
+Leaving out Pp with 126 datapoints
+Leaving out Tc with 129 datapoints
+Leaving out Gt with 127 datapoints
+Train random forest model with 1 feature(s).

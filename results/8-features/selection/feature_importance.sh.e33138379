@@ -1,0 +1,26 @@
+sys:1: DtypeWarning: Columns (5) have mixed types.Specify dtype option on import or set low_memory=False.
+NA found in infile in column(s): rate,acceptor
+Using 24653 features with threshold [1.0].
+Found 3 sets in infile
+Leaving out Zm with 1563 datapoints
+Leaving out At with 9734 datapoints
+Leaving out others with 7143 datapoints
+num proc = 24
+Train random forest model with 1 feature(s).
+score = 0.520 when adding feature MDS_04
+score = 0.543 when adding feature VanDerWaalsVolume
+score = 0.528 when adding feature NPR2
+score = 0.522 when adding feature NPR1
+score = 0.520 when adding feature RadiusOfGyration
+score = 0.554 when adding feature MDS_09
+score = 0.539 when adding feature MDS_10
+score = 0.551 when adding feature MDS_07
+score = 0.545 when adding feature Asphericity
+score = 0.513 when adding feature MDS_08
+score = 0.527 when adding feature MDS_03
+score = 0.513 when adding feature MolMR
+score = 0.515 when adding feature SASA
+score = 0.542 when adding feature MDS_01
+score = 0.528 when adding feature VoidVolume
+score = 0.522 when adding feature MDS_02
+=>> PBS: job killed: walltime 7211 exceeded limit 7200
