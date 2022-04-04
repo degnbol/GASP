@@ -1,12 +1,17 @@
 #!/usr/bin/env zsh
 ROOT=`git root`
 
-# for file in pred*.gz; do
-#     gzcat $file | mlr --tsv cut -f cid,enzyme,pred > $file:r
-# done
+for file in pred*.gz; do
+    gzcat $file | mlr --tsv cut -f cid,enzyme,pred > $file:r
+done
 
 grep '^seq' $ROOT/results/*features/selection/species_select.txt > speciesSeqSelect.tmp
-INFILES="pred.xlsx.info speciesSeqSelect.tmp pred_chem_matchAmb-speciesSeqSelect.tsv pred_chem_matchAmb.tsv pred_seqs_matchAmb-speciesSeqSelect.tsv pred_seqs_matchAmb.tsv"
-table.py excel ${=INFILES} -s "Overview" "species selected seq features" "chem match speciesSeqSelect" "chem match" "seqs match speciesSeqSelect" "seqs match" -o "pred.xlsx" -f
+INFILES="pred.xlsx.info speciesSeqSelect.tmp"
+INFILES="${INFILES} `ls pred*.tsv`"
+SHEETS="Overview species_selected_seq_features"
+SHEETS="${SHEETS} `for file in pred*.tsv; do echo $file:r | sed 's/pred_//' | sed 's/Amb//'; done`"
+echo $INFILES
+echo $SHEETS
+table.py excel ${=INFILES} -s ${=SHEETS} -o "pred.xlsx" -f
 
 
