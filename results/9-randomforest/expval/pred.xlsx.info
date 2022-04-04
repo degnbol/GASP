@@ -1,0 +1,8 @@
+Tables containing reactivity prediction scores calculated from randomforest runs.
+The next table is a list of selected sequence features used in some of the runs.
+
+Legend:
+chem	acceptors that have been experimentally tested are the acceptor testset
+seqs	enzymes that have been experimentally tested are the sequence testset
+match	onehot aka. sparse encoding of amino acids
+speciesSeqSelect	instead of using all sequence features (default) only a subset if used based on a feature selection run where training data was split by species. 
