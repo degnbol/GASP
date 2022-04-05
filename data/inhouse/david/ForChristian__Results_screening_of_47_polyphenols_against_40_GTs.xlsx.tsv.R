@@ -17,4 +17,7 @@ DT.join = DT.enz[DT.melt, on="ID"]
 setnames(DT.join, "CAS Number", "cas")
 DT.join.cid = DT.cid[DT.join, on="cas"]
 
+# keep size down by keeping seqs elsewhere
+DT.join.cid[,AA:=NULL]
 fwrite(DT.join.cid, paste0(bname, ".tsv"), sep='\t', quote=FALSE)
+
