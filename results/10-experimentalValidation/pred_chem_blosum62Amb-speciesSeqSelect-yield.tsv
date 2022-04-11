@@ -1,5 +1,6 @@
 cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	rate	reaction	source
 5320954	Nt_UGT1	A0A024AX02	500-65-2	151	Nt_UGT C-term		Rhapontigenin	68		0.21652777777777774			
+5320954	Pt_UGT1	A0A2R2JFJ4	500-65-2	152	Pt_UGT1 N-term		Rhapontigenin	29		0.15775039682539682			
 5320954	At_72E2	Q9LVR1	500-65-2	153	At_UGT72E2	UGT72E2	Rhapontigenin	2		0.258735			
 5320954	Mt_78G1	A6XNC6	500-65-2	156	Mt_UGT78G1	UGT78G1	Rhapontigenin	5		0.2196083333333333			
 5320954	At_74F1	O22820	500-65-2	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Rhapontigenin	3		0.22550051587301592			
@@ -37,6 +38,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5320954	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	500-65-2	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Rhapontigenin	2		0.28386166666666673			
 5320954	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	500-65-2	124	UDP-Xyl: gentisic acid xylosyltransferase		Rhapontigenin	2		0.2475835714285715			
 5280961	Nt_UGT1	A0A024AX02	446-72-0	151	Nt_UGT C-term		Genistein	2		0.03211833333333333			
+5280961	Pt_UGT1	A0A2R2JFJ4	446-72-0	152	Pt_UGT1 N-term		Genistein	55		0.03581666666666667			
 5280961	At_72E2	Q9LVR1	446-72-0	153	At_UGT72E2	UGT72E2	Genistein	0		0.0166			
 5280961	Mt_78G1	A6XNC6	446-72-0	156	Mt_UGT78G1	UGT78G1	Genistein	64		0.28902833333333333			
 5280961	At_74F1	O22820	446-72-0	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Genistein	12		0.17214			
@@ -74,6 +76,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5280961	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	446-72-0	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Genistein	16		0.37232666666666664			
 5280961	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	446-72-0	124	UDP-Xyl: gentisic acid xylosyltransferase		Genistein	59		0.24301833333333342			
 5280443	Nt_UGT1	A0A024AX02	520-36-5	151	Nt_UGT C-term		Apigenin	23		0.595			
+5280443	Pt_UGT1	A0A2R2JFJ4	520-36-5	152	Pt_UGT1 N-term		Apigenin	74		0.5636166666666667			
 5280443	At_72E2	Q9LVR1	520-36-5	153	At_UGT72E2	UGT72E2	Apigenin	0		0.5017011904761904			
 5280443	Mt_78G1	A6XNC6	520-36-5	156	Mt_UGT78G1	UGT78G1	Apigenin	28		0.6673583333333334			
 5280443	At_74F1	O22820	520-36-5	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Apigenin	25		0.7487283333333333			
@@ -111,6 +114,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5280443	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	520-36-5	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Apigenin	47		0.7903			
 5280443	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	520-36-5	124	UDP-Xyl: gentisic acid xylosyltransferase		Apigenin	83		0.8072883333333333			
 5280445	Nt_UGT1	A0A024AX02	491-70-3	151	Nt_UGT C-term		Luteolin	82		0.1361			
+5280445	Pt_UGT1	A0A2R2JFJ4	491-70-3	152	Pt_UGT1 N-term		Luteolin	60		0.113			
 5280445	At_72E2	Q9LVR1	491-70-3	153	At_UGT72E2	UGT72E2	Luteolin	0		0.03815			
 5280445	Mt_78G1	A6XNC6	491-70-3	156	Mt_UGT78G1	UGT78G1	Luteolin	43		0.2788			
 5280445	At_74F1	O22820	491-70-3	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Luteolin	49		0.9081			
@@ -148,6 +152,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5280445	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	491-70-3	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Luteolin	3		0.7471			
 5280445	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	491-70-3	124	UDP-Xyl: gentisic acid xylosyltransferase		Luteolin	56		0.8124			
 5281647	Nt_UGT1	A0A024AX02	4773-96-0	151	Nt_UGT C-term		Mangiferin	0		0.26329			
+5281647	Pt_UGT1	A0A2R2JFJ4	4773-96-0	152	Pt_UGT1 N-term		Mangiferin	0		0.2689283333333333			
 5281647	At_72E2	Q9LVR1	4773-96-0	153	At_UGT72E2	UGT72E2	Mangiferin	0		0.2466666666666667			
 5281647	Mt_78G1	A6XNC6	4773-96-0	156	Mt_UGT78G1	UGT78G1	Mangiferin	0		0.34778857142857145			
 5281647	At_74F1	O22820	4773-96-0	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Mangiferin	0		0.34822190476190473			
@@ -185,6 +190,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5281647	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	4773-96-0	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Mangiferin	0		0.3921983333333332			
 5281647	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	4773-96-0	124	UDP-Xyl: gentisic acid xylosyltransferase		Mangiferin	1		0.4199833333333333			
 5280441	Nt_UGT1	A0A024AX02	3681-93-4	151	Nt_UGT C-term		Vitexin	0		0.24985			
+5280441	Pt_UGT1	A0A2R2JFJ4	3681-93-4	152	Pt_UGT1 N-term		Vitexin	0		0.2555083333333333			
 5280441	At_72E2	Q9LVR1	3681-93-4	153	At_UGT72E2	UGT72E2	Vitexin	0		0.2384766666666667			
 5280441	Mt_78G1	A6XNC6	3681-93-4	156	Mt_UGT78G1	UGT78G1	Vitexin	0		0.3222985714285715			
 5280441	At_74F1	O22820	3681-93-4	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Vitexin	0		0.3175433333333334			
@@ -222,6 +228,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5280441	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	3681-93-4	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Vitexin	0		0.36760333333333334			
 5280441	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	3681-93-4	124	UDP-Xyl: gentisic acid xylosyltransferase		Vitexin	3		0.38853			
 70775	Nt_UGT1	A0A024AX02	1126-61-0	151	Nt_UGT C-term		4-Allylpyrocatechol	28		0.2209166666666667			
+70775	Pt_UGT1	A0A2R2JFJ4	1126-61-0	152	Pt_UGT1 N-term		4-Allylpyrocatechol	9		0.16885			
 70775	At_72E2	Q9LVR1	1126-61-0	153	At_UGT72E2	UGT72E2	4-Allylpyrocatechol	0		0.28064500000000003			
 70775	Mt_78G1	A6XNC6	1126-61-0	156	Mt_UGT78G1	UGT78G1	4-Allylpyrocatechol	2		0.15191666666666664			
 70775	At_74F1	O22820	1126-61-0	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	4-Allylpyrocatechol	0		0.1868202380952381			
@@ -259,6 +266,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 70775	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	1126-61-0	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	4-Allylpyrocatechol	24		0.18865			
 70775	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	1126-61-0	124	UDP-Xyl: gentisic acid xylosyltransferase		4-Allylpyrocatechol	1		0.18276666666666666			
 83651	Nt_UGT1	A0A024AX02	13677-79-7	151	Nt_UGT C-term		2,3,4-Trihydroxybenzoic acid	0		0.658075			
+83651	Pt_UGT1	A0A2R2JFJ4	13677-79-7	152	Pt_UGT1 N-term		2,3,4-Trihydroxybenzoic acid	0		0.628475			
 83651	At_72E2	Q9LVR1	13677-79-7	153	At_UGT72E2	UGT72E2	2,3,4-Trihydroxybenzoic acid	0		0.6542614285714287			
 83651	Mt_78G1	A6XNC6	13677-79-7	156	Mt_UGT78G1	UGT78G1	2,3,4-Trihydroxybenzoic acid	0		0.54669			
 83651	At_74F1	O22820	13677-79-7	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	2,3,4-Trihydroxybenzoic acid	0		0.6178435714285714			
@@ -296,6 +304,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 83651	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	13677-79-7	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	2,3,4-Trihydroxybenzoic acid	0		0.5749583333333333			
 83651	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	13677-79-7	124	UDP-Xyl: gentisic acid xylosyltransferase		2,3,4-Trihydroxybenzoic acid	0		0.5604166666666666			
 780	Nt_UGT1	A0A024AX02	451-13-8	151	Nt_UGT C-term		Homogentisic acid	15		0.3922333333333333			
+780	Pt_UGT1	A0A2R2JFJ4	451-13-8	152	Pt_UGT1 N-term		Homogentisic acid	0		0.3502833333333333			
 780	At_72E2	Q9LVR1	451-13-8	153	At_UGT72E2	UGT72E2	Homogentisic acid	0		0.4400766666666667			
 780	Mt_78G1	A6XNC6	451-13-8	156	Mt_UGT78G1	UGT78G1	Homogentisic acid	0		0.29315			
 780	At_74F1	O22820	451-13-8	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Homogentisic acid	0		0.30920857142857144			
@@ -333,6 +342,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 780	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	451-13-8	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Homogentisic acid	0		0.310005			
 780	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	451-13-8	124	UDP-Xyl: gentisic acid xylosyltransferase		Homogentisic acid	0		0.2921666666666667			
 5281343	Nt_UGT1	A0A024AX02	31721-94-5	151	Nt_UGT C-term		5,7-Dihydroxychromone	15		0.5896399999999999			
+5281343	Pt_UGT1	A0A2R2JFJ4	31721-94-5	152	Pt_UGT1 N-term		5,7-Dihydroxychromone	35		0.57384			
 5281343	At_72E2	Q9LVR1	31721-94-5	153	At_UGT72E2	UGT72E2	5,7-Dihydroxychromone	0		0.56654			
 5281343	Mt_78G1	A6XNC6	31721-94-5	156	Mt_UGT78G1	UGT78G1	5,7-Dihydroxychromone	12		0.47107666666666664			
 5281343	At_74F1	O22820	31721-94-5	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	5,7-Dihydroxychromone	0		0.57124			
@@ -370,6 +380,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5281343	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	31721-94-5	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	5,7-Dihydroxychromone	7		0.5373399999999999			
 5281343	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	31721-94-5	124	UDP-Xyl: gentisic acid xylosyltransferase		5,7-Dihydroxychromone	16		0.53579			
 54679630	Nt_UGT1	A0A024AX02	1983-81-9	151	Nt_UGT C-term		4,7-DIHYDROXYCOUMARIN	12		0.475575			
+54679630	Pt_UGT1	A0A2R2JFJ4	1983-81-9	152	Pt_UGT1 N-term		4,7-DIHYDROXYCOUMARIN	17		0.4632833333333333			
 54679630	At_72E2	Q9LVR1	1983-81-9	153	At_UGT72E2	UGT72E2	4,7-DIHYDROXYCOUMARIN	0		0.37089380952380957			
 54679630	Mt_78G1	A6XNC6	1983-81-9	156	Mt_UGT78G1	UGT78G1	4,7-DIHYDROXYCOUMARIN	8		0.368725			
 54679630	At_74F1	O22820	1983-81-9	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	4,7-DIHYDROXYCOUMARIN	0		0.428775			
@@ -407,6 +418,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 54679630	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	1983-81-9	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	4,7-DIHYDROXYCOUMARIN	0		0.41148666666666667			
 54679630	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	1983-81-9	124	UDP-Xyl: gentisic acid xylosyltransferase		4,7-DIHYDROXYCOUMARIN	1		0.433125			
 12820	Nt_UGT1	A0A024AX02	708-53-2	151	Nt_UGT C-term		2',3'-Dihydroxy-4'-methoxyacetophenone	40		0.38114166666666666			
+12820	Pt_UGT1	A0A2R2JFJ4	708-53-2	152	Pt_UGT1 N-term		2',3'-Dihydroxy-4'-methoxyacetophenone	39		0.32714999999999994			
 12820	At_72E2	Q9LVR1	708-53-2	153	At_UGT72E2	UGT72E2	2',3'-Dihydroxy-4'-methoxyacetophenone	1		0.4828364285714286			
 12820	Mt_78G1	A6XNC6	708-53-2	156	Mt_UGT78G1	UGT78G1	2',3'-Dihydroxy-4'-methoxyacetophenone	5		0.2887916666666667			
 12820	At_74F1	O22820	708-53-2	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	2',3'-Dihydroxy-4'-methoxyacetophenone	2		0.3335566666666666			
@@ -444,6 +456,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 12820	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	708-53-2	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	2',3'-Dihydroxy-4'-methoxyacetophenone	1		0.31011833333333333			
 12820	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	708-53-2	124	UDP-Xyl: gentisic acid xylosyltransferase		2',3'-Dihydroxy-4'-methoxyacetophenone	1		0.31984000000000007			
 5319502	Nt_UGT1	A0A024AX02	529-84-0	151	Nt_UGT C-term		4-Methylesculetin	35		0.44677333333333336			
+5319502	Pt_UGT1	A0A2R2JFJ4	529-84-0	152	Pt_UGT1 N-term		4-Methylesculetin	31		0.4540866666666667			
 5319502	At_72E2	Q9LVR1	529-84-0	153	At_UGT72E2	UGT72E2	4-Methylesculetin	0		0.44458761904761895			
 5319502	Mt_78G1	A6XNC6	529-84-0	156	Mt_UGT78G1	UGT78G1	4-Methylesculetin	24		0.4293333333333333			
 5319502	At_74F1	O22820	529-84-0	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	4-Methylesculetin	0		0.541225			
@@ -481,6 +494,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5319502	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	529-84-0	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	4-Methylesculetin	0		0.4843299999999999			
 5319502	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	529-84-0	124	UDP-Xyl: gentisic acid xylosyltransferase		4-Methylesculetin	28		0.5263583333333333			
 5354284	Nt_UGT1	A0A024AX02	2107-76-8	151	Nt_UGT C-term		4-Methyllimetol	56		0.4373666666666667			
+5354284	Pt_UGT1	A0A2R2JFJ4	2107-76-8	152	Pt_UGT1 N-term		4-Methyllimetol	95		0.4461666666666666			
 5354284	At_72E2	Q9LVR1	2107-76-8	153	At_UGT72E2	UGT72E2	4-Methyllimetol	0		0.39363166666666666			
 5354284	Mt_78G1	A6XNC6	2107-76-8	156	Mt_UGT78G1	UGT78G1	4-Methyllimetol	48		0.40703666666666666			
 5354284	At_74F1	O22820	2107-76-8	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	4-Methyllimetol	0		0.4748833333333334			
@@ -518,6 +532,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5354284	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	2107-76-8	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	4-Methyllimetol	0		0.4650833333333333			
 5354284	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	2107-76-8	124	UDP-Xyl: gentisic acid xylosyltransferase		4-Methyllimetol	2		0.4749833333333333			
 689075	Nt_UGT1	A0A024AX02	3843-74-1	151	Nt_UGT C-term		Methyl caffeate acid	49		0.2355			
+689075	Pt_UGT1	A0A2R2JFJ4	3843-74-1	152	Pt_UGT1 N-term		Methyl caffeate acid	7		0.19195			
 689075	At_72E2	Q9LVR1	3843-74-1	153	At_UGT72E2	UGT72E2	Methyl caffeate acid	0		0.5154640476190476			
 689075	Mt_78G1	A6XNC6	3843-74-1	156	Mt_UGT78G1	UGT78G1	Methyl caffeate acid	11		0.24083333333333334			
 689075	At_74F1	O22820	3843-74-1	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Methyl caffeate acid	9		0.23227333333333336			
@@ -555,6 +570,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 689075	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	3843-74-1	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Methyl caffeate acid	4		0.25173666666666666			
 689075	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	3843-74-1	124	UDP-Xyl: gentisic acid xylosyltransferase		Methyl caffeate acid	12		0.23297000000000004			
 238398	Nt_UGT1	A0A024AX02	4707-47-5	151	Nt_UGT C-term		Atraric acid	70		0.1498			
+238398	Pt_UGT1	A0A2R2JFJ4	4707-47-5	152	Pt_UGT1 N-term		Atraric acid	35		0.1576			
 238398	At_72E2	Q9LVR1	4707-47-5	153	At_UGT72E2	UGT72E2	Atraric acid	5		0.13147023809523814			
 238398	Mt_78G1	A6XNC6	4707-47-5	156	Mt_UGT78G1	UGT78G1	Atraric acid	3		0.10273333333333334			
 238398	At_74F1	O22820	4707-47-5	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Atraric acid	0		0.11613333333333335			
@@ -592,6 +608,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 238398	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	4707-47-5	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Atraric acid	2		0.12893333333333334			
 238398	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	4707-47-5	124	UDP-Xyl: gentisic acid xylosyltransferase		Atraric acid	2		0.1186			
 155240	Nt_UGT1	A0A024AX02	69039-02-7	151	Nt_UGT C-term		Hydroxytyrosol Acetate	8		0.0053			
+155240	Pt_UGT1	A0A2R2JFJ4	69039-02-7	152	Pt_UGT1 N-term		Hydroxytyrosol Acetate	0		0.0036			
 155240	At_72E2	Q9LVR1	69039-02-7	153	At_UGT72E2	UGT72E2	Hydroxytyrosol Acetate	0		0.021683333333333336			
 155240	Mt_78G1	A6XNC6	69039-02-7	156	Mt_UGT78G1	UGT78G1	Hydroxytyrosol Acetate	0		0.012083333333333335			
 155240	At_74F1	O22820	69039-02-7	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Hydroxytyrosol Acetate	1		0.02770333333333333			
@@ -629,6 +646,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 155240	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	69039-02-7	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Hydroxytyrosol Acetate	0		0.05537833333333333			
 155240	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	69039-02-7	124	UDP-Xyl: gentisic acid xylosyltransferase		Hydroxytyrosol Acetate	2		0.03942			
 4947	Nt_UGT1	A0A024AX02	121-79-9	151	Nt_UGT C-term		Propyl gallate	73		0.17175			
+4947	Pt_UGT1	A0A2R2JFJ4	121-79-9	152	Pt_UGT1 N-term		Propyl gallate	37		0.16229166666666664			
 4947	At_72E2	Q9LVR1	121-79-9	153	At_UGT72E2	UGT72E2	Propyl gallate	2		0.21105333333333337			
 4947	Mt_78G1	A6XNC6	121-79-9	156	Mt_UGT78G1	UGT78G1	Propyl gallate	18		0.19863666666666668			
 4947	At_74F1	O22820	121-79-9	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Propyl gallate	2		0.20765595238095239			
@@ -666,6 +684,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 4947	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	121-79-9	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Propyl gallate	2		0.231965			
 4947	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	121-79-9	124	UDP-Xyl: gentisic acid xylosyltransferase		Propyl gallate	0		0.21723166666666666			
 220295	Nt_UGT1	A0A024AX02	606-12-2	151	Nt_UGT C-term		2,4'-Dihydroxybenzophenone	6		0.2911583333333333			
+220295	Pt_UGT1	A0A2R2JFJ4	606-12-2	152	Pt_UGT1 N-term		2,4'-Dihydroxybenzophenone	4		0.2599			
 220295	At_72E2	Q9LVR1	606-12-2	153	At_UGT72E2	UGT72E2	2,4'-Dihydroxybenzophenone	0		0.3160948484848485			
 220295	Mt_78G1	A6XNC6	606-12-2	156	Mt_UGT78G1	UGT78G1	2,4'-Dihydroxybenzophenone	4		0.27058484848484854			
 220295	At_74F1	O22820	606-12-2	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	2,4'-Dihydroxybenzophenone	0		0.29315499999999994			
@@ -703,6 +722,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 220295	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	606-12-2	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	2,4'-Dihydroxybenzophenone	2		0.33558000000000004			
 220295	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	606-12-2	124	UDP-Xyl: gentisic acid xylosyltransferase		2,4'-Dihydroxybenzophenone	7		0.29469166666666663			
 91469	Nt_UGT1	A0A024AX02	531-95-3	151	Nt_UGT C-term		Equol	2		0.1762			
+91469	Pt_UGT1	A0A2R2JFJ4	531-95-3	152	Pt_UGT1 N-term		Equol	5		0.15527857142857143			
 91469	At_72E2	Q9LVR1	531-95-3	153	At_UGT72E2	UGT72E2	Equol	0		0.1683564285714286			
 91469	Mt_78G1	A6XNC6	531-95-3	156	Mt_UGT78G1	UGT78G1	Equol	16		0.1862			
 91469	At_74F1	O22820	531-95-3	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Equol	1		0.21174607142857144			
@@ -740,6 +760,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 91469	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	531-95-3	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Equol	0		0.2389183333333333			
 91469	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	531-95-3	124	UDP-Xyl: gentisic acid xylosyltransferase		Equol	1		0.2206016666666667			
 6255462	Nt_UGT1	A0A024AX02	33626-08-3	151	Nt_UGT C-term		4'-Methoxyresveratrol	72		0.2660166666666667			
+6255462	Pt_UGT1	A0A2R2JFJ4	33626-08-3	152	Pt_UGT1 N-term		4'-Methoxyresveratrol	67		0.19683333333333336			
 6255462	At_72E2	Q9LVR1	33626-08-3	153	At_UGT72E2	UGT72E2	4'-Methoxyresveratrol	0		0.31764809523809534			
 6255462	Mt_78G1	A6XNC6	33626-08-3	156	Mt_UGT78G1	UGT78G1	4'-Methoxyresveratrol	7		0.22075166666666665			
 6255462	At_74F1	O22820	33626-08-3	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	4'-Methoxyresveratrol	5		0.22421833333333335			
@@ -777,6 +798,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 6255462	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	33626-08-3	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	4'-Methoxyresveratrol	3		0.25743928571428576			
 6255462	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	33626-08-3	124	UDP-Xyl: gentisic acid xylosyltransferase		4'-Methoxyresveratrol	2		0.23599166666666666			
 45382232	Nt_UGT1	A0A024AX02	86361-55-9	151	Nt_UGT C-term		Gnetol	13		0.3681277777777778			
+45382232	Pt_UGT1	A0A2R2JFJ4	86361-55-9	152	Pt_UGT1 N-term		Gnetol	13		0.3086861111111111			
 45382232	At_72E2	Q9LVR1	86361-55-9	153	At_UGT72E2	UGT72E2	Gnetol	4		0.3559388095238095			
 45382232	Mt_78G1	A6XNC6	86361-55-9	156	Mt_UGT78G1	UGT78G1	Gnetol	5		0.3553333333333333			
 45382232	At_74F1	O22820	86361-55-9	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Gnetol	2		0.39148392857142855			
@@ -814,6 +836,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 45382232	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	86361-55-9	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Gnetol	2		0.45061261904761907			
 45382232	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	86361-55-9	124	UDP-Xyl: gentisic acid xylosyltransferase		Gnetol	5		0.4175816666666667			
 5413034	Nt_UGT1	A0A024AX02	842-01-3	151	Nt_UGT C-term		7,8-Dihydroxy-4-phenylcoumarin	38		0.27897000000000005			
+5413034	Pt_UGT1	A0A2R2JFJ4	842-01-3	152	Pt_UGT1 N-term		7,8-Dihydroxy-4-phenylcoumarin	17		0.28147000000000005			
 5413034	At_72E2	Q9LVR1	842-01-3	153	At_UGT72E2	UGT72E2	7,8-Dihydroxy-4-phenylcoumarin	0		0.25133333333333335			
 5413034	Mt_78G1	A6XNC6	842-01-3	156	Mt_UGT78G1	UGT78G1	7,8-Dihydroxy-4-phenylcoumarin	18		0.3389816666666667			
 5413034	At_74F1	O22820	842-01-3	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	7,8-Dihydroxy-4-phenylcoumarin	3		0.3676566666666667			
@@ -851,6 +874,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5413034	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	842-01-3	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	7,8-Dihydroxy-4-phenylcoumarin	0		0.4119916666666666			
 5413034	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	842-01-3	124	UDP-Xyl: gentisic acid xylosyltransferase		7,8-Dihydroxy-4-phenylcoumarin	1		0.41368999999999995			
 5398649	Nt_UGT1	A0A024AX02	7758-73-8	151	Nt_UGT C-term		5,7-Dihydroxy-4-phenylcoumarin	4		0.2489166666666667			
+5398649	Pt_UGT1	A0A2R2JFJ4	7758-73-8	152	Pt_UGT1 N-term		5,7-Dihydroxy-4-phenylcoumarin	25		0.25662333333333337			
 5398649	At_72E2	Q9LVR1	7758-73-8	153	At_UGT72E2	UGT72E2	5,7-Dihydroxy-4-phenylcoumarin	0		0.21070119047619051			
 5398649	Mt_78G1	A6XNC6	7758-73-8	156	Mt_UGT78G1	UGT78G1	5,7-Dihydroxy-4-phenylcoumarin	21		0.29047833333333334			
 5398649	At_74F1	O22820	7758-73-8	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	5,7-Dihydroxy-4-phenylcoumarin	0		0.328505			
@@ -888,6 +912,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5398649	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	7758-73-8	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	5,7-Dihydroxy-4-phenylcoumarin	0		0.3773			
 5398649	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	7758-73-8	124	UDP-Xyl: gentisic acid xylosyltransferase		5,7-Dihydroxy-4-phenylcoumarin	0		0.36071			
 5318650	Nt_UGT1	A0A024AX02	32507-66-7	151	Nt_UGT C-term		Isorhapontigenin	17		0.23480277777777775			
+5318650	Pt_UGT1	A0A2R2JFJ4	32507-66-7	152	Pt_UGT1 N-term		Isorhapontigenin	28		0.18117539682539682			
 5318650	At_72E2	Q9LVR1	32507-66-7	153	At_UGT72E2	UGT72E2	Isorhapontigenin	0		0.2764588095238095			
 5318650	Mt_78G1	A6XNC6	32507-66-7	156	Mt_UGT78G1	UGT78G1	Isorhapontigenin	20		0.23001166666666667			
 5318650	At_74F1	O22820	32507-66-7	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Isorhapontigenin	1		0.25303182539682545			
@@ -925,6 +950,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5318650	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	32507-66-7	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Isorhapontigenin	1		0.3088171428571429			
 5318650	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	32507-66-7	124	UDP-Xyl: gentisic acid xylosyltransferase		Isorhapontigenin	2		0.276035			
 5284649	Nt_UGT1	A0A024AX02	17817-31-1	151	Nt_UGT C-term		6,7,4'-Trihydroxyisoflavone	1		0.2308833333333333			
+5284649	Pt_UGT1	A0A2R2JFJ4	17817-31-1	152	Pt_UGT1 N-term		6,7,4'-Trihydroxyisoflavone	7		0.21972333333333335			
 5284649	At_72E2	Q9LVR1	17817-31-1	153	At_UGT72E2	UGT72E2	6,7,4'-Trihydroxyisoflavone	0		0.16596666666666668			
 5284649	Mt_78G1	A6XNC6	17817-31-1	156	Mt_UGT78G1	UGT78G1	6,7,4'-Trihydroxyisoflavone	52		0.3830966666666667			
 5284649	At_74F1	O22820	17817-31-1	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	6,7,4'-Trihydroxyisoflavone	0		0.3710302380952382			
@@ -962,6 +988,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5284649	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	17817-31-1	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	6,7,4'-Trihydroxyisoflavone	3		0.47955			
 5284649	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	17817-31-1	124	UDP-Xyl: gentisic acid xylosyltransferase		6,7,4'-Trihydroxyisoflavone	32		0.4339333333333333			
 5281222	Nt_UGT1	A0A024AX02	487-52-5	151	Nt_UGT C-term		Butein	98		0.2985666666666667			
+5281222	Pt_UGT1	A0A2R2JFJ4	487-52-5	152	Pt_UGT1 N-term		Butein	55		0.25841261904761903			
 5281222	At_72E2	Q9LVR1	487-52-5	153	At_UGT72E2	UGT72E2	Butein	0		0.25951007936507947			
 5281222	Mt_78G1	A6XNC6	487-52-5	156	Mt_UGT78G1	UGT78G1	Butein	8		0.34976666666666667			
 5281222	At_74F1	O22820	487-52-5	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Butein	4		0.374575753968254			
@@ -999,6 +1026,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5281222	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	487-52-5	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Butein	8		0.44904749999999993			
 5281222	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	487-52-5	124	UDP-Xyl: gentisic acid xylosyltransferase		Butein	75		0.4104416666666666			
 5280448	Nt_UGT1	A0A024AX02	20575-57-9	151	Nt_UGT C-term		Calycosin	15		0.1741			
+5280448	Pt_UGT1	A0A2R2JFJ4	20575-57-9	152	Pt_UGT1 N-term		Calycosin	22		0.15926666666666664			
 5280448	At_72E2	Q9LVR1	20575-57-9	153	At_UGT72E2	UGT72E2	Calycosin	0		0.16473547619047618			
 5280448	Mt_78G1	A6XNC6	20575-57-9	156	Mt_UGT78G1	UGT78G1	Calycosin	7		0.2510311904761905			
 5280448	At_74F1	O22820	20575-57-9	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Calycosin	8		0.24359904761904755			
@@ -1036,6 +1064,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5280448	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	20575-57-9	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Calycosin	3		0.3023145238095239			
 5280448	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	20575-57-9	124	UDP-Xyl: gentisic acid xylosyltransferase		Calycosin	11		0.2788878571428572			
 5320315	Nt_UGT1	A0A024AX02	480-11-5	151	Nt_UGT C-term		Oroxylin A	14		0.18989666666666669			
+5320315	Pt_UGT1	A0A2R2JFJ4	480-11-5	152	Pt_UGT1 N-term		Oroxylin A	51		0.17895000000000003			
 5320315	At_72E2	Q9LVR1	480-11-5	153	At_UGT72E2	UGT72E2	Oroxylin A	1		0.19994428571428574			
 5320315	Mt_78G1	A6XNC6	480-11-5	156	Mt_UGT78G1	UGT78G1	Oroxylin A	45		0.2603095238095238			
 5320315	At_74F1	O22820	480-11-5	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Oroxylin A	12		0.27507071428571434			
@@ -1073,6 +1102,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5320315	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	480-11-5	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Oroxylin A	46		0.34179547619047623			
 5320315	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	480-11-5	124	UDP-Xyl: gentisic acid xylosyltransferase		Oroxylin A	31		0.31771190476190475			
 5281787	Nt_UGT1	A0A024AX02	104594-70-9	151	Nt_UGT C-term		Caffeic Acid Phenethyl Ester	58		0.17639999999999997			
+5281787	Pt_UGT1	A0A2R2JFJ4	104594-70-9	152	Pt_UGT1 N-term		Caffeic Acid Phenethyl Ester	51		0.147825			
 5281787	At_72E2	Q9LVR1	104594-70-9	153	At_UGT72E2	UGT72E2	Caffeic Acid Phenethyl Ester	0		0.22397452380952387			
 5281787	Mt_78G1	A6XNC6	104594-70-9	156	Mt_UGT78G1	UGT78G1	Caffeic Acid Phenethyl Ester	18		0.1884161904761905			
 5281787	At_74F1	O22820	104594-70-9	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Caffeic Acid Phenethyl Ester	14		0.18213000000000001			
@@ -1110,6 +1140,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5281787	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	104594-70-9	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Caffeic Acid Phenethyl Ester	14		0.2244183333333334			
 5281787	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	104594-70-9	124	UDP-Xyl: gentisic acid xylosyltransferase		Caffeic Acid Phenethyl Ester	33		0.2071964285714286			
 73571	Nt_UGT1	A0A024AX02	2957-21-3	151	Nt_UGT C-term		Sakuranetin	13		0.12915			
+73571	Pt_UGT1	A0A2R2JFJ4	2957-21-3	152	Pt_UGT1 N-term		Sakuranetin	18		0.11878333333333335			
 73571	At_72E2	Q9LVR1	2957-21-3	153	At_UGT72E2	UGT72E2	Sakuranetin	0		0.13220845238095238			
 73571	Mt_78G1	A6XNC6	2957-21-3	156	Mt_UGT78G1	UGT78G1	Sakuranetin	10		0.15977			
 73571	At_74F1	O22820	2957-21-3	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Sakuranetin	0		0.17604059523809526			
@@ -1147,6 +1178,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 73571	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	2957-21-3	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Sakuranetin	1		0.23222908730158734			
 73571	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	2957-21-3	124	UDP-Xyl: gentisic acid xylosyltransferase		Sakuranetin	0		0.2041120634920635			
 440735	Nt_UGT1	A0A024AX02	552-58-9	151	Nt_UGT C-term		Eriodictyol	2		0.19558833333333334			
+440735	Pt_UGT1	A0A2R2JFJ4	552-58-9	152	Pt_UGT1 N-term		Eriodictyol	6		0.19422500000000004			
 440735	At_72E2	Q9LVR1	552-58-9	153	At_UGT72E2	UGT72E2	Eriodictyol	0		0.1577592857142857			
 440735	Mt_78G1	A6XNC6	552-58-9	156	Mt_UGT78G1	UGT78G1	Eriodictyol	5		0.30387063492063493			
 440735	At_74F1	O22820	552-58-9	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Eriodictyol	8		0.3570985317460319			
@@ -1184,6 +1216,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 440735	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	552-58-9	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Eriodictyol	16		0.4092283333333333			
 440735	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	552-58-9	124	UDP-Xyl: gentisic acid xylosyltransferase		Eriodictyol	41		0.39381119047619045			
 122850	Nt_UGT1	A0A024AX02	480-20-6	151	Nt_UGT C-term		Aromadendrin	4		0.21862166666666663			
+122850	Pt_UGT1	A0A2R2JFJ4	480-20-6	152	Pt_UGT1 N-term		Aromadendrin	2		0.21909166666666668			
 122850	At_72E2	Q9LVR1	480-20-6	153	At_UGT72E2	UGT72E2	Aromadendrin	1		0.14848666666666668			
 122850	Mt_78G1	A6XNC6	480-20-6	156	Mt_UGT78G1	UGT78G1	Aromadendrin	7		0.3397037301587301			
 122850	At_74F1	O22820	480-20-6	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Aromadendrin	4		0.3316464682539683			
@@ -1221,6 +1254,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 122850	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	480-20-6	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Aromadendrin	14		0.3888611904761904			
 122850	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	480-20-6	124	UDP-Xyl: gentisic acid xylosyltransferase		Aromadendrin	19		0.3847278571428571			
 5281628	Nt_UGT1	A0A024AX02	1447-88-7	151	Nt_UGT C-term		Hispidulin	16		0.19932166666666667			
+5281628	Pt_UGT1	A0A2R2JFJ4	1447-88-7	152	Pt_UGT1 N-term		Hispidulin	64		0.19072500000000003			
 5281628	At_72E2	Q9LVR1	1447-88-7	153	At_UGT72E2	UGT72E2	Hispidulin	1		0.15687357142857142			
 5281628	Mt_78G1	A6XNC6	1447-88-7	156	Mt_UGT78G1	UGT78G1	Hispidulin	52		0.30851452380952377			
 5281628	At_74F1	O22820	1447-88-7	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Hispidulin	6		0.33671238095238104			
@@ -1258,6 +1292,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5281628	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	1447-88-7	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Hispidulin	51		0.3937078571428571			
 5281628	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	1447-88-7	124	UDP-Xyl: gentisic acid xylosyltransferase		Hispidulin	56		0.3831461904761904			
 5281811	Nt_UGT1	A0A024AX02	548-77-6	151	Nt_UGT C-term		Tectorigenin	4		0.13540166666666667			
+5281811	Pt_UGT1	A0A2R2JFJ4	548-77-6	152	Pt_UGT1 N-term		Tectorigenin	14		0.126825			
 5281811	At_72E2	Q9LVR1	548-77-6	153	At_UGT72E2	UGT72E2	Tectorigenin	1		0.10325833333333333			
 5281811	Mt_78G1	A6XNC6	548-77-6	156	Mt_UGT78G1	UGT78G1	Tectorigenin	10		0.25198785714285715			
 5281811	At_74F1	O22820	548-77-6	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Tectorigenin	3		0.25961238095238104			
@@ -1295,6 +1330,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5281811	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	548-77-6	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Tectorigenin	15		0.33090285714285717			
 5281811	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	548-77-6	124	UDP-Xyl: gentisic acid xylosyltransferase		Tectorigenin	9		0.3043811904761905			
 6293081	Nt_UGT1	A0A024AX02	37308-75-1	151	Nt_UGT C-term		Flavokawain C	17		0.2087333333333333			
+6293081	Pt_UGT1	A0A2R2JFJ4	37308-75-1	152	Pt_UGT1 N-term		Flavokawain C	31		0.18699999999999997			
 6293081	At_72E2	Q9LVR1	37308-75-1	153	At_UGT72E2	UGT72E2	Flavokawain C	0		0.2555811111111111			
 6293081	Mt_78G1	A6XNC6	37308-75-1	156	Mt_UGT78G1	UGT78G1	Flavokawain C	33		0.24364166666666665			
 6293081	At_74F1	O22820	37308-75-1	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Flavokawain C	35		0.23582142857142857			
@@ -1332,6 +1368,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 6293081	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	37308-75-1	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Flavokawain C	19		0.30114880952380957			
 6293081	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	37308-75-1	124	UDP-Xyl: gentisic acid xylosyltransferase		Flavokawain C	36		0.27738333333333337			
 4534	Nt_UGT1	A0A024AX02	500-38-9	151	Nt_UGT C-term		Nordihydroguaiaretic acid	2		0.1017			
+4534	Pt_UGT1	A0A2R2JFJ4	500-38-9	152	Pt_UGT1 N-term		Nordihydroguaiaretic acid	0		0.09035928571428571			
 4534	At_72E2	Q9LVR1	500-38-9	153	At_UGT72E2	UGT72E2	Nordihydroguaiaretic acid	0		0.08659063492063492			
 4534	Mt_78G1	A6XNC6	500-38-9	156	Mt_UGT78G1	UGT78G1	Nordihydroguaiaretic acid	51		0.120125			
 4534	At_74F1	O22820	500-38-9	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Nordihydroguaiaretic acid	0		0.13191444444444442			
@@ -1369,6 +1406,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 4534	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	500-38-9	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Nordihydroguaiaretic acid	0		0.16773500000000002			
 4534	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	500-38-9	124	UDP-Xyl: gentisic acid xylosyltransferase		Nordihydroguaiaretic acid	8		0.1623585714285714			
 13846689	Nt_UGT1	A0A024AX02	102036-29-3	151	Nt_UGT C-term		Protosappanin B	0		0.12692499999999998			
+13846689	Pt_UGT1	A0A2R2JFJ4	102036-29-3	152	Pt_UGT1 N-term		Protosappanin B	0		0.13449166666666665			
 13846689	At_72E2	Q9LVR1	102036-29-3	153	At_UGT72E2	UGT72E2	Protosappanin B	0		0.09569452380952381			
 13846689	Mt_78G1	A6XNC6	102036-29-3	156	Mt_UGT78G1	UGT78G1	Protosappanin B	0		0.2097			
 13846689	At_74F1	O22820	102036-29-3	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Protosappanin B	0		0.19051833333333332			
@@ -1406,6 +1444,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 13846689	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	102036-29-3	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Protosappanin B	0		0.21744499999999994			
 13846689	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	102036-29-3	124	UDP-Xyl: gentisic acid xylosyltransferase		Protosappanin B	0		0.2424			
 176096	Nt_UGT1	A0A024AX02	108853-14-1	151	Nt_UGT C-term		Dendrophenol	21		0.0595			
+176096	Pt_UGT1	A0A2R2JFJ4	108853-14-1	152	Pt_UGT1 N-term		Dendrophenol	3		0.06075			
 176096	At_72E2	Q9LVR1	108853-14-1	153	At_UGT72E2	UGT72E2	Dendrophenol	1		0.09693666666666667			
 176096	Mt_78G1	A6XNC6	108853-14-1	156	Mt_UGT78G1	UGT78G1	Dendrophenol	2		0.06346666666666666			
 176096	At_74F1	O22820	108853-14-1	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Dendrophenol	1		0.07250119047619048			
@@ -1443,6 +1482,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 176096	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	108853-14-1	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Dendrophenol	2		0.09696833333333332			
 176096	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	108853-14-1	124	UDP-Xyl: gentisic acid xylosyltransferase		Dendrophenol	0		0.0922607142857143			
 5317284	Nt_UGT1	A0A024AX02	520-11-6	151	Nt_UGT C-term		6-Methoxyluteolin	26		0.175205			
+5317284	Pt_UGT1	A0A2R2JFJ4	520-11-6	152	Pt_UGT1 N-term		6-Methoxyluteolin	80		0.16935			
 5317284	At_72E2	Q9LVR1	520-11-6	153	At_UGT72E2	UGT72E2	6-Methoxyluteolin	0		0.14719833333333335			
 5317284	Mt_78G1	A6XNC6	520-11-6	156	Mt_UGT78G1	UGT78G1	6-Methoxyluteolin	50		0.3252678571428572			
 5317284	At_74F1	O22820	520-11-6	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	6-Methoxyluteolin	44		0.3325328571428572			
@@ -1480,6 +1520,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5317284	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	520-11-6	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	6-Methoxyluteolin	30		0.3963661904761905			
 5317284	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	520-11-6	124	UDP-Xyl: gentisic acid xylosyltransferase		6-Methoxyluteolin	34		0.4063695238095238			
 5320053	Nt_UGT1	A0A024AX02	41060-15-5	151	Nt_UGT C-term		Neobavaisoflavone	11		0.0626			
+5320053	Pt_UGT1	A0A2R2JFJ4	41060-15-5	152	Pt_UGT1 N-term		Neobavaisoflavone	61		0.054208333333333324			
 5320053	At_72E2	Q9LVR1	41060-15-5	153	At_UGT72E2	UGT72E2	Neobavaisoflavone	0		0.049914047619047615			
 5320053	Mt_78G1	A6XNC6	41060-15-5	156	Mt_UGT78G1	UGT78G1	Neobavaisoflavone	61		0.10380999999999999			
 5320053	At_74F1	O22820	41060-15-5	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Neobavaisoflavone	3		0.10030190476190476			
@@ -1517,6 +1558,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5320053	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	41060-15-5	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Neobavaisoflavone	4		0.14541333333333337			
 5320053	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	41060-15-5	124	UDP-Xyl: gentisic acid xylosyltransferase		Neobavaisoflavone	75		0.13079857142857143			
 5321775	Nt_UGT1	A0A024AX02	19879-32-4	151	Nt_UGT C-term		Bavachin	8		0.08808333333333333			
+5321775	Pt_UGT1	A0A2R2JFJ4	19879-32-4	152	Pt_UGT1 N-term		Bavachin	10		0.081175			
 5321775	At_72E2	Q9LVR1	19879-32-4	153	At_UGT72E2	UGT72E2	Bavachin	0		0.09187527777777776			
 5321775	Mt_78G1	A6XNC6	19879-32-4	156	Mt_UGT78G1	UGT78G1	Bavachin	28		0.11027666666666669			
 5321775	At_74F1	O22820	19879-32-4	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Bavachin	2		0.11821666666666668			
@@ -1554,6 +1596,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5321775	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	19879-32-4	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Bavachin	16		0.16092325396825397			
 5321775	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	19879-32-4	124	UDP-Xyl: gentisic acid xylosyltransferase		Bavachin	31		0.1517723015873016			
 155011	Nt_UGT1	A0A024AX02	67979-25-3	151	Nt_UGT C-term		Aurantio-obtusin	56		0.12055			
+155011	Pt_UGT1	A0A2R2JFJ4	67979-25-3	152	Pt_UGT1 N-term		Aurantio-obtusin	32		0.12258333333333335			
 155011	At_72E2	Q9LVR1	67979-25-3	153	At_UGT72E2	UGT72E2	Aurantio-obtusin	0		0.13068833333333332			
 155011	Mt_78G1	A6XNC6	67979-25-3	156	Mt_UGT78G1	UGT78G1	Aurantio-obtusin	59		0.2080373015873016			
 155011	At_74F1	O22820	67979-25-3	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Aurantio-obtusin	0		0.18846230158730162			
@@ -1591,6 +1634,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 155011	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	67979-25-3	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Aurantio-obtusin	53		0.2456316666666667			
 155011	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	67979-25-3	124	UDP-Xyl: gentisic acid xylosyltransferase		Aurantio-obtusin	10		0.2559071428571428			
 5379096	Nt_UGT1	A0A024AX02	18085-97-7	151	Nt_UGT C-term		Jaceosidin	15		0.16394166666666665			
+5379096	Pt_UGT1	A0A2R2JFJ4	18085-97-7	152	Pt_UGT1 N-term		Jaceosidin	73		0.16008333333333336			
 5379096	At_72E2	Q9LVR1	18085-97-7	153	At_UGT72E2	UGT72E2	Jaceosidin	4		0.15056833333333333			
 5379096	Mt_78G1	A6XNC6	18085-97-7	156	Mt_UGT78G1	UGT78G1	Jaceosidin	48		0.2635345238095238			
 5379096	At_74F1	O22820	18085-97-7	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Jaceosidin	53		0.2829811904761905			
@@ -1628,6 +1672,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5379096	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	18085-97-7	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Jaceosidin	53		0.33891619047619054			
 5379096	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	18085-97-7	124	UDP-Xyl: gentisic acid xylosyltransferase		Jaceosidin	28		0.3454995238095238			
 5280633	Nt_UGT1	A0A024AX02	906-33-2	151	Nt_UGT C-term		Neochlorogenic acid	0		0.17044166666666669			
+5280633	Pt_UGT1	A0A2R2JFJ4	906-33-2	152	Pt_UGT1 N-term		Neochlorogenic acid	0		0.16586666666666666			
 5280633	At_72E2	Q9LVR1	906-33-2	153	At_UGT72E2	UGT72E2	Neochlorogenic acid	0		0.185585			
 5280633	Mt_78G1	A6XNC6	906-33-2	156	Mt_UGT78G1	UGT78G1	Neochlorogenic acid	0		0.20426333333333332			
 5280633	At_74F1	O22820	906-33-2	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Neochlorogenic acid	0		0.1897066666666667			
@@ -1665,6 +1710,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5280633	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	906-33-2	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Neochlorogenic acid	0		0.22796547619047625			
 5280633	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	906-33-2	124	UDP-Xyl: gentisic acid xylosyltransferase		Neochlorogenic acid	0		0.2227583333333333			
 5464170	Nt_UGT1	A0A024AX02	548-76-5	151	Nt_UGT C-term		Irigenin	2		0.09146333333333333			
+5464170	Pt_UGT1	A0A2R2JFJ4	548-76-5	152	Pt_UGT1 N-term		Irigenin	32		0.08814166666666667			
 5464170	At_72E2	Q9LVR1	548-76-5	153	At_UGT72E2	UGT72E2	Irigenin	0		0.08706333333333333			
 5464170	Mt_78G1	A6XNC6	548-76-5	156	Mt_UGT78G1	UGT78G1	Irigenin	23		0.16850833333333332			
 5464170	At_74F1	O22820	548-76-5	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Irigenin	4		0.164705			
@@ -1702,6 +1748,7 @@ cid	enzyme	Accession	cas	ID	Description	UGT	Polyphenol Name	Yield	acceptor	pred	
 5464170	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	F8WKW0	548-76-5	149	UDP-glucose crocetin glucosyltransferase	UGT75L6	Irigenin	22		0.22454000000000002			
 5464170	CAI62049.1 UDP-xylose phenolic glycosyltransferase [Solanum lycopersicum]	Q5CAZ5	548-76-5	124	UDP-Xyl: gentisic acid xylosyltransferase		Irigenin	0		0.22199666666666668			
 5281718	Nt_UGT1	A0A024AX02	27208-80-6	151	Nt_UGT C-term		Polydatin	0		0.239125			
+5281718	Pt_UGT1	A0A2R2JFJ4	27208-80-6	152	Pt_UGT1 N-term		Polydatin	9		0.2350166666666667			
 5281718	At_72E2	Q9LVR1	27208-80-6	153	At_UGT72E2	UGT72E2	Polydatin	0		0.22769166666666665			
 5281718	Mt_78G1	A6XNC6	27208-80-6	156	Mt_UGT78G1	UGT78G1	Polydatin	19		0.2719428571428572			
 5281718	At_74F1	O22820	27208-80-6	118	UGT74F1 (Arabidopsis thaliana)	UGT74F1	Polydatin	1		0.2807242857142857			

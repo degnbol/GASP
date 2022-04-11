@@ -25,3 +25,6 @@ done >> enzymes.tmp.tsv
 mlr --tsv join -j Accession -f $FILE enzymes.tmp.tsv > temp && mv temp $FILE
 rm enzymes.tmp.tsv
 
+# enzyme 152 aka. PtUGT-Nterm aka. A0A2R2JFJ4 has M instead of the downloaded GS
+mlr -I --tsv --from $FILE put 'if ($ID == 152) {$AA = sub($AA, "^GS", "M")}'
+
