@@ -1,8 +1,25 @@
-pred_chem_blosum62Amb-speciesSeqSelect-yield	0.5397405017604338
-pred_chem_blosum62Amb-yield	0.46728189773279716
-pred_chem_matchAmb-speciesSeqSelect-yield	0.5371265523489637
-pred_chem_matchAmb-yield	0.49385137225438636
-pred_seqs_blosum62Amb-speciesSeqSelect-yield	0.692762645914397
-pred_seqs_blosum62Amb-yield	0.7998443579766537
-pred_seqs_matchAmb-speciesSeqSelect-yield	0.6712840466926071
-pred_seqs_matchAmb-yield	0.7341634241245136
+file	thres	n0	n1	auc
+pred_chem_blosum62Amb-speciesSeqSelect-yield	25	620	1119	0.5371983914209115
+pred_chem_blosum62Amb-yield	25	620	1119	0.4737878001672
+pred_chem_matchAmb-speciesSeqSelect-yield	25	620	1119	0.5272413445184352
+pred_chem_matchAmb-yield	25	620	1119	0.4942791663063219
+pred_seqs_blosum62Amb-speciesSeqSelect-yield	25	230	52	0.6529264214046823
+pred_seqs_blosum62Amb-yield	25	230	52	0.724581939799331
+pred_seqs_matchAmb-speciesSeqSelect-yield	25	230	52	0.6275083612040134
+pred_seqs_matchAmb-yield	25	230	52	0.6710702341137124
+pred_chem_blosum62Amb-speciesSeqSelect-yield	50	408	1331	0.5397405017604338
+pred_chem_blosum62Amb-yield	50	408	1331	0.46728189773279716
+pred_chem_matchAmb-speciesSeqSelect-yield	50	408	1331	0.5371265523489637
+pred_chem_matchAmb-yield	50	408	1331	0.49385137225438636
+pred_seqs_blosum62Amb-speciesSeqSelect-yield	50	257	25	0.692762645914397
+pred_seqs_blosum62Amb-yield	50	257	25	0.7998443579766537
+pred_seqs_matchAmb-speciesSeqSelect-yield	50	257	25	0.6712840466926071
+pred_seqs_matchAmb-yield	50	257	25	0.7341634241245136
+pred_chem_blosum62Amb-speciesSeqSelect-yield	75	1513	226	0.5474501225368341
+pred_chem_blosum62Amb-yield	75	1513	226	0.47863501570460143
+pred_chem_matchAmb-speciesSeqSelect-yield	75	1513	226	0.556684252700782
+pred_chem_matchAmb-yield	75	1513	226	0.5085702671244494
+pred_seqs_blosum62Amb-speciesSeqSelect-yield	75	273	9	0.6324786324786325
+pred_seqs_blosum62Amb-yield	75	273	9	0.7855107855107855
+pred_seqs_matchAmb-speciesSeqSelect-yield	75	273	9	0.6200651200651202
+pred_seqs_matchAmb-yield	75	273	9	0.6837606837606838
