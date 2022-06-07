@@ -1,0 +1,156 @@
+ID	Name	Description	Source
+cid	PubChem CID	Identifier used by PubChem	PubChem
+MDS_01	MDS dimension 1		
+MDS_02	MDS dimension 2		
+MDS_03	MDS dimension 3		
+MDS_04	MDS dimension 4		
+MDS_05	MDS dimension 5		
+MDS_06	MDS dimension 6		
+MDS_07	MDS dimension 7		
+MDS_08	MDS dimension 8		
+MDS_09	MDS dimension 9		
+MDS_10	MDS dimension 10		
+MDS_11	MDS dimension 11		
+MDS_12	MDS dimension 12		
+SESA	SESA		
+MolecularWeight	Molecular weight		
+smiles	SMILES	SMILES chemical representation	
+TPSA	TPSA		
+Complexity	Complexity		
+Charge	Molecular charge		
+HBondDonorCount	H-bond donor count		
+HBondAcceptorCount	H-bond acceptor count		
+RotatableBondCount	Rotatable bond count		
+HeavyAtomCount	Heavy atom count		
+AtomStereoCount	Atom stereo count		
+BondStereoCount	Bond stereo count		
+NumValenceElectrons	Valence electron count		
+NumHeteroatoms	Heteroatom count		
+MinPartialCharge	Minimum partial charge		
+MaxPartialCharge	Maximum partial charge		
+MinAbsPartialCharge	Minimum absolute partial charge		
+MaxAbsPartialCharge	Maximum absolute partial charge		
+HallKierAlpha	Hall-Kier alpha		
+LabuteASA	Labute accessible surface area		
+NumRings	Ring count		
+NumAmideBonds	Amide bond count		
+NumBridgeheadAtoms	bridgehead atoms			
+NumHeterocycles	Heterocycles			
+NumLipinskiHBA	Lipinski HBA			
+NumLipinskiHBD	Lipinski HBD			
+NumSpiroAtoms	Spiro atoms			
+NumAliphaticRings	Aliphatic rings			
+NumAliphaticCarbocycles	Aliphatic carbocycles			
+NumAliphaticHeterocycles	Aliphatic heterocycles			
+NumAromaticRings	Aromatic rings			
+NumAromaticCarbocycles	Aromatic carbocycles			
+NumAromaticHeterocycles	Aromatic heterocycles			
+NumSaturatedCarbocycles	Saturated carbocycles			
+NumSaturatedHeterocycles	Saturated heterocycles			
+NumSaturatedRings	Saturated rings			
+FractionCSP3	Fraction CSP3		
+Eccentricity	Eccentricity		
+Asphericity	Asphericity		
+InertialShapeFactor	Inertial shape factor		
+NPR1	NPR1		
+NPR2	NPR2		
+SpherocityIndex	Spherocity index		
+RadiusOfGyration	Radius of gyration		
+MolLogP	Molecular logP		
+MolMR	MolMR		
+VanDerWaalsVolume	Van Der Waals Volume		
+SASA	Solvent accessible surface area		
+C_O	C_O		
+C_O_noCOO	C_O_noCOO		
+Al_OH	Aliphatic OH		
+Ar_OH	Aromatic OH		
+methoxy	methoxy		
+oxime	oxime		
+ester	ester		
+Al_COO	Aliphatic COO		
+Ar_COO	Aromatic COO		
+COO	COO		
+COO2	COO2		
+ketone	ketone		
+ether	ether		
+phenol	phenol		
+aldehyde	aldehyde		
+quatN	quatN		
+NH2	NH2		
+NH1	NH1		
+NH0	NH0		
+Ar_N	Aromatic N		
+Ar_NH	Aromatic NH		
+aniline	aniline		
+Imine	Imine		
+nitrile	nitrile		
+hdrzine	hdrzine		
+hdrzone	hdrzone		
+nitroso	nitroso		
+N_O	N_O		
+nitro	nitro		
+azo	azo		
+diazo	diazo		
+azide	azide		
+amide	amide		
+priamide	priamide		
+amidine	amidine		
+guanido	guanido		
+Nhpyrrole	Nhpyrrole		
+imide	imide		
+isocyan	isocyan		
+isothiocyan	isothiocyan		
+thiocyan	thiocyan		
+halogen	halogen		
+alkyl_halide	alkyl halide		
+sulfide	sulfide		
+SH	SH		
+C_S	C_S		
+sulfone	sulfone		
+sulfonamd	sulfonamd		
+prisulfonamd	prisulfonamd		
+barbitur	barbitur		
+urea	urea		
+term_acetylene	term acetylene		
+imidazole	imidazole		
+furan	furan		
+thiophene	thiophene		
+thiazole	thiazole		
+oxazole	oxazole		
+pyridine	pyridine		
+piperdine	piperdine		
+piperzine	piperzine		
+morpholine	morpholine		
+lactam	lactam		
+lactone	lactone		
+tetrazole	tetrazole		
+epoxide	epoxide		
+unbrch_alkane	unbranched alkane		
+bicyclic	bicyclic		
+benzene	benzene		
+phos_acid	phos acid		
+phos_ester	phos ester		
+nitro_arom	nitro arom		
+nitro_arom_nonortho	nitro arom nonortho		
+dihydropyridine	dihydropyridine		
+phenol_noOrthoHbond	phenol no ortho H-bond		
+Al_OH_noTert	Aliphatic OH no tertiary		
+benzodiazepine	benzodiazepine		
+para_hydroxylation	para_hydroxylation		
+allylic_oxid	allylic oxid		
+aryl_methyl	aryl methyl		
+Ndealkylation1	Ndealkylation1		
+Ndealkylation2	Ndealkylation2		
+alkyl_carbamate	alkyl carbamate		
+ketone_Topliss	ketone topliss		
+ArN	Aromatic N		
+HOCCN	HOCCN		
+primary_alcohol	primary alcohol		
+secondary_alcohol	secondary alcohol		
+tertiary_alcohol	tertiary alcohol		
+coumarin	coumarin		
+thiophenol	thiophenol		
+hydroxyamino	hydroxyamino		
+SolventExcludedVolume	Solvent excluded volume		
+VoidVolume	Void volume		ProteinVolume
+PackingDensity	Packing density		ProteinVolume
