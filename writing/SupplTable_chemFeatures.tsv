@@ -1,156 +1,156 @@
 ID	Name	Description	Source
 cid	PubChem CID	Identifier used by PubChem	PubChem
-MDS_01	MDS dimension 1		
-MDS_02	MDS dimension 2		
-MDS_03	MDS dimension 3		
-MDS_04	MDS dimension 4		
-MDS_05	MDS dimension 5		
-MDS_06	MDS dimension 6		
-MDS_07	MDS dimension 7		
-MDS_08	MDS dimension 8		
-MDS_09	MDS dimension 9		
-MDS_10	MDS dimension 10		
-MDS_11	MDS dimension 11		
-MDS_12	MDS dimension 12		
-SESA	SESA		
-MolecularWeight	Molecular weight		
-smiles	SMILES	SMILES chemical representation	
-TPSA	TPSA		
-Complexity	Complexity		
-Charge	Molecular charge		
-HBondDonorCount	H-bond donor count		
-HBondAcceptorCount	H-bond acceptor count		
-RotatableBondCount	Rotatable bond count		
-HeavyAtomCount	Heavy atom count		
-AtomStereoCount	Atom stereo count		
-BondStereoCount	Bond stereo count		
-NumValenceElectrons	Valence electron count		
-NumHeteroatoms	Heteroatom count		
-MinPartialCharge	Minimum partial charge		
-MaxPartialCharge	Maximum partial charge		
-MinAbsPartialCharge	Minimum absolute partial charge		
-MaxAbsPartialCharge	Maximum absolute partial charge		
-HallKierAlpha	Hall-Kier alpha		
-LabuteASA	Labute accessible surface area		
-NumRings	Ring count		
-NumAmideBonds	Amide bond count		
-NumBridgeheadAtoms	bridgehead atoms			
-NumHeterocycles	Heterocycles			
-NumLipinskiHBA	Lipinski HBA			
-NumLipinskiHBD	Lipinski HBD			
-NumSpiroAtoms	Spiro atoms			
-NumAliphaticRings	Aliphatic rings			
-NumAliphaticCarbocycles	Aliphatic carbocycles			
-NumAliphaticHeterocycles	Aliphatic heterocycles			
-NumAromaticRings	Aromatic rings			
-NumAromaticCarbocycles	Aromatic carbocycles			
-NumAromaticHeterocycles	Aromatic heterocycles			
-NumSaturatedCarbocycles	Saturated carbocycles			
-NumSaturatedHeterocycles	Saturated heterocycles			
-NumSaturatedRings	Saturated rings			
-FractionCSP3	Fraction CSP3		
-Eccentricity	Eccentricity		
-Asphericity	Asphericity		
-InertialShapeFactor	Inertial shape factor		
-NPR1	NPR1		
-NPR2	NPR2		
-SpherocityIndex	Spherocity index		
-RadiusOfGyration	Radius of gyration		
-MolLogP	Molecular logP		
-MolMR	MolMR		
-VanDerWaalsVolume	Van Der Waals Volume		
-SASA	Solvent accessible surface area		
-C_O	C_O		
-C_O_noCOO	C_O_noCOO		
-Al_OH	Aliphatic OH		
-Ar_OH	Aromatic OH		
-methoxy	methoxy		
-oxime	oxime		
-ester	ester		
-Al_COO	Aliphatic COO		
-Ar_COO	Aromatic COO		
-COO	COO		
-COO2	COO2		
-ketone	ketone		
-ether	ether		
-phenol	phenol		
-aldehyde	aldehyde		
-quatN	quatN		
-NH2	NH2		
-NH1	NH1		
-NH0	NH0		
-Ar_N	Aromatic N		
-Ar_NH	Aromatic NH		
-aniline	aniline		
-Imine	Imine		
-nitrile	nitrile		
-hdrzine	hdrzine		
-hdrzone	hdrzone		
-nitroso	nitroso		
-N_O	N_O		
-nitro	nitro		
-azo	azo		
-diazo	diazo		
-azide	azide		
-amide	amide		
-priamide	priamide		
-amidine	amidine		
-guanido	guanido		
-Nhpyrrole	Nhpyrrole		
-imide	imide		
-isocyan	isocyan		
-isothiocyan	isothiocyan		
-thiocyan	thiocyan		
-halogen	halogen		
-alkyl_halide	alkyl halide		
-sulfide	sulfide		
-SH	SH		
-C_S	C_S		
-sulfone	sulfone		
-sulfonamd	sulfonamd		
-prisulfonamd	prisulfonamd		
-barbitur	barbitur		
-urea	urea		
-term_acetylene	term acetylene		
-imidazole	imidazole		
-furan	furan		
-thiophene	thiophene		
-thiazole	thiazole		
-oxazole	oxazole		
-pyridine	pyridine		
-piperdine	piperdine		
-piperzine	piperzine		
-morpholine	morpholine		
-lactam	lactam		
-lactone	lactone		
-tetrazole	tetrazole		
-epoxide	epoxide		
-unbrch_alkane	unbranched alkane		
-bicyclic	bicyclic		
-benzene	benzene		
-phos_acid	phos acid		
-phos_ester	phos ester		
-nitro_arom	nitro arom		
-nitro_arom_nonortho	nitro arom nonortho		
-dihydropyridine	dihydropyridine		
-phenol_noOrthoHbond	phenol no ortho H-bond		
-Al_OH_noTert	Aliphatic OH no tertiary		
-benzodiazepine	benzodiazepine		
-para_hydroxylation	para_hydroxylation		
-allylic_oxid	allylic oxid		
-aryl_methyl	aryl methyl		
-Ndealkylation1	Ndealkylation1		
-Ndealkylation2	Ndealkylation2		
-alkyl_carbamate	alkyl carbamate		
-ketone_Topliss	ketone topliss		
-ArN	Aromatic N		
-HOCCN	HOCCN		
-primary_alcohol	primary alcohol		
-secondary_alcohol	secondary alcohol		
-tertiary_alcohol	tertiary alcohol		
-coumarin	coumarin		
-thiophenol	thiophenol		
-hydroxyamino	hydroxyamino		
-SolventExcludedVolume	Solvent excluded volume		
+MDS_01	MDS dimension 1	Molecular fingerprint representation using MultiDimensional Scaling (dim=1)	E3FP
+MDS_02	MDS dimension 2	Molecular fingerprint representation using MultiDimensional Scaling (dim=2)	E3FP
+MDS_03	MDS dimension 3	Molecular fingerprint representation using MultiDimensional Scaling (dim=3)	E3FP
+MDS_04	MDS dimension 4	Molecular fingerprint representation using MultiDimensional Scaling (dim=4)	E3FP
+MDS_05	MDS dimension 5	Molecular fingerprint representation using MultiDimensional Scaling (dim=5)	E3FP
+MDS_06	MDS dimension 6	Molecular fingerprint representation using MultiDimensional Scaling (dim=6)	E3FP
+MDS_07	MDS dimension 7	Molecular fingerprint representation using MultiDimensional Scaling (dim=7)	E3FP
+MDS_08	MDS dimension 8	Molecular fingerprint representation using MultiDimensional Scaling (dim=8)	E3FP
+MDS_09	MDS dimension 9	Molecular fingerprint representation using MultiDimensional Scaling (dim=9)	E3FP
+MDS_10	MDS dimension 10	Molecular fingerprint representation using MultiDimensional Scaling (dim=10)	E3FP
+MDS_11	MDS dimension 11	Molecular fingerprint representation using MultiDimensional Scaling (dim=11)	E3FP
+MDS_12	MDS dimension 12	Molecular fingerprint representation using MultiDimensional Scaling (dim=12)	E3FP
+SESA	SESA	Solvent excluded surface area	PyMol
+MolecularWeight	Molecular weight		PubChem
+smiles	SMILES	SMILES chemical representation	PubChem
+TPSA	TPSA		PubChem
+Complexity	Complexity		PubChem
+Charge	Molecular charge		PubChem
+HBondDonorCount	H-bond donor count		PubChem
+HBondAcceptorCount	H-bond acceptor count		PubChem
+RotatableBondCount	Rotatable bond count		PubChem
+HeavyAtomCount	Heavy atom count		PubChem
+AtomStereoCount	Atom stereo count		PubChem
+BondStereoCount	Bond stereo count		PubChem
+NumValenceElectrons	Valence electron count		RDKit
+NumHeteroatoms	Heteroatom count		RDKit
+MinPartialCharge	Minimum partial charge		RDKit
+MaxPartialCharge	Maximum partial charge		RDKit
+MinAbsPartialCharge	Minimum absolute partial charge		RDKit
+MaxAbsPartialCharge	Maximum absolute partial charge		RDKit
+HallKierAlpha	Hall-Kier alpha		RDKit
+LabuteASA	Labute accessible surface area		RDKit
+NumRings	Ring count		RDKit
+NumAmideBonds	Amide bond count		RDKit
+NumBridgeheadAtoms	bridgehead atoms		RDKit
+NumHeterocycles	Heterocycles		RDKit
+NumLipinskiHBA	Lipinski HBA		RDKit
+NumLipinskiHBD	Lipinski HBD		RDKit
+NumSpiroAtoms	Spiro atoms		RDKit
+NumAliphaticRings	Aliphatic rings		RDKit
+NumAliphaticCarbocycles	Aliphatic carbocycles		RDKit
+NumAliphaticHeterocycles	Aliphatic heterocycles		RDKit
+NumAromaticRings	Aromatic rings		RDKit
+NumAromaticCarbocycles	Aromatic carbocycles		RDKit
+NumAromaticHeterocycles	Aromatic heterocycles		RDKit
+NumSaturatedCarbocycles	Saturated carbocycles		RDKit
+NumSaturatedHeterocycles	Saturated heterocycles		RDKit
+NumSaturatedRings	Saturated rings		RDKit
+FractionCSP3	Fraction CSP3		RDKit
+Eccentricity	Eccentricity		RDKit
+Asphericity	Asphericity		RDKit
+InertialShapeFactor	Inertial shape factor		RDKit
+NPR1	NPR1		RDKit
+NPR2	NPR2		RDKit
+SpherocityIndex	Spherocity index		RDKit
+RadiusOfGyration	Radius of gyration		RDKit
+MolLogP	Molecular logP		RDKit
+MolMR	MolMR		RDKit
+SASA	Solvent accessible surface area		RDKit
+C_O	C_O		RDKit
+C_O_noCOO	C_O_noCOO		RDKit
+Al_OH	Aliphatic OH		RDKit
+Ar_OH	Aromatic OH		RDKit
+methoxy	methoxy		RDKit
+oxime	oxime		RDKit
+ester	ester		RDKit
+Al_COO	Aliphatic COO		RDKit
+Ar_COO	Aromatic COO		RDKit
+COO	COO		RDKit
+COO2	COO2		RDKit
+ketone	ketone		RDKit
+ether	ether		RDKit
+phenol	phenol		RDKit
+aldehyde	aldehyde		RDKit
+quatN	quatN		RDKit
+NH2	NH2		RDKit
+NH1	NH1		RDKit
+NH0	NH0		RDKit
+Ar_N	Aromatic N		RDKit
+Ar_NH	Aromatic NH		RDKit
+aniline	aniline		RDKit
+Imine	Imine		RDKit
+nitrile	nitrile		RDKit
+hdrzine	hdrzine		RDKit
+hdrzone	hdrzone		RDKit
+nitroso	nitroso		RDKit
+N_O	N_O		RDKit
+nitro	nitro		RDKit
+azo	azo		RDKit
+diazo	diazo		RDKit
+azide	azide		RDKit
+amide	amide		RDKit
+priamide	priamide		RDKit
+amidine	amidine		RDKit
+guanido	guanido		RDKit
+Nhpyrrole	Nhpyrrole		RDKit
+imide	imide		RDKit
+isocyan	isocyan		RDKit
+isothiocyan	isothiocyan		RDKit
+thiocyan	thiocyan		RDKit
+halogen	halogen		RDKit
+alkyl_halide	alkyl halide		RDKit
+sulfide	sulfide		RDKit
+SH	SH		RDKit
+C_S	C_S		RDKit
+sulfone	sulfone		RDKit
+sulfonamd	sulfonamd		RDKit
+prisulfonamd	prisulfonamd		RDKit
+barbitur	barbitur		RDKit
+urea	urea		RDKit
+term_acetylene	term acetylene		RDKit
+imidazole	imidazole		RDKit
+furan	furan		RDKit
+thiophene	thiophene		RDKit
+thiazole	thiazole		RDKit
+oxazole	oxazole		RDKit
+pyridine	pyridine		RDKit
+piperdine	piperdine		RDKit
+piperzine	piperzine		RDKit
+morpholine	morpholine		RDKit
+lactam	lactam		RDKit
+lactone	lactone		RDKit
+tetrazole	tetrazole		RDKit
+epoxide	epoxide		RDKit
+unbrch_alkane	unbranched alkane		RDKit
+bicyclic	bicyclic		RDKit
+benzene	benzene		RDKit
+phos_acid	phos acid		RDKit
+phos_ester	phos ester		RDKit
+nitro_arom	nitro arom		RDKit
+nitro_arom_nonortho	nitro arom nonortho		RDKit
+dihydropyridine	dihydropyridine		RDKit
+phenol_noOrthoHbond	phenol no ortho H-bond		RDKit
+Al_OH_noTert	Aliphatic OH no tertiary		RDKit
+benzodiazepine	benzodiazepine		RDKit
+para_hydroxylation	para_hydroxylation		RDKit
+allylic_oxid	allylic oxid		RDKit
+aryl_methyl	aryl methyl		RDKit
+Ndealkylation1	Ndealkylation1		RDKit
+Ndealkylation2	Ndealkylation2		RDKit
+alkyl_carbamate	alkyl carbamate		RDKit
+ketone_Topliss	ketone topliss		RDKit
+ArN	Aromatic N		RDKit
+HOCCN	HOCCN		RDKit
+primary_alcohol	primary alcohol		RDKit
+secondary_alcohol	secondary alcohol		RDKit
+tertiary_alcohol	tertiary alcohol		RDKit
+coumarin	coumarin		RDKit
+thiophenol	thiophenol		RDKit
+hydroxyamino	hydroxyamino		RDKit
+VanDerWaalsVolume	Van Der Waals Volume		ProteinVolume
+SolventExcludedVolume	Solvent excluded volume		ProteinVolume
 VoidVolume	Void volume		ProteinVolume
 PackingDensity	Packing density		ProteinVolume
