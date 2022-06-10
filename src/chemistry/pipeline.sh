@@ -39,6 +39,9 @@ $SRC/e3fp-fprints.py "$WORK/E3FP.fpz" < "$WORK/pubchem.tsv"
 echo '# use the compressed fingerprints to generate 12 MDS features'
 $SRC/e3fp-features.py "$WORK/E3FP.fpz" -ck 12 | mlr --tsv rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
 
+# RDKit and ProteinVolume both generate a Van Der Waals Volume.
+# We keep the version from ProteinVolume to have consistency between different volume calculations.
+# This is done by having it earlier in the list, since miller takes priority to earlier files in the join.
 echo '# join intermediate files'
 mlr --tsv   --from "$WORK/volumes.tsv" \
     join -j cid -f "$WORK/RDKitDescriptors.tsv" then \
