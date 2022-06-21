@@ -11,7 +11,7 @@ hts_ugt.rates$source = "HTS_UGT"
 tmh.rates = fread("inhouse/pTMH.tsv", drop=c("sequence", "species"))
 tmh.rates$source = "pTMH"
 rates = rbind(hts_ugt.rates, tmh.rates)
-# based on work in visualize folder and discussion with David we decided to set the threshold for reactivity per enzyme 
+# based on work in rate2bool results folder and discussion with David we decided to set the threshold for reactivity per enzyme 
 # by fitting a normal distribution and looking for outliers.
 rates[,pNormEnz:=pnorm(rate, sd=mean(rate), lower.tail=F), by=enzyme]
 rates[,qNormEnz:=p.adjust(pNormEnz), by=enzyme]
