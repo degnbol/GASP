@@ -11,7 +11,7 @@ from src.utilities.io_utils import git_root
 
 # Rules for generating negative acceptors:
 # 1) if the molecule presents a -NH group (R-NH2, or R-NH-R'), ignore it.
-# 2) In other molecules, replace each OH-and -SH groups by -H (best negative analogue), and
+# 2) In other molecules, replace each -OH and -SH groups by -H (best negative analogue), and
 # 3) ideally a random mix of -H, -F, OMe (OCH3), -Cl, OAc (OCOCH3).
 # As an example, ethanol should become ethane, 1-fluoro ethane, methoxyethane, Ethyl acetate.
 
@@ -38,14 +38,16 @@ mols = mols[~has_frag(mols, "NH0", "NH1", "NH2")] # filter out NH
 assert not has_atom(mols, 'N').any(), "things changed"
 
 mols = COOH2COOMe(mols)
-mols_H = replace_sub(replace_sub(mols, "C[OH]", "C"), "c[OH]", "c")
 
+# mols_H is without any OH, but we ended up not using this strict version and 
+# instead make more data by replacing some of the OHs randomly further down.
+mols_H = replace_sub(replace_sub(mols, "C[OH]", "C"), "c[OH]", "c")
 assert not has_frag(mols_H, "Al_OH", "Ar_OH").any(), "Not all R-OH has been removed."
 # render_pdf("diagrams/negatives_H.pdf", mols_H)
+assert not has_hydroxy(mols_H).any(), "The current version of randomly_replace_hydroxy will replace ANY OH, not just Al_OH and Ar_OH"
 
-# random replacement versions
-assert not has_hydroxy(mols_H).any(), "The current version of randomly_replace_hydroxy will replace ANY OH, not just Al_OH and Ar_Oh"
-
+# random replacement versions.
+# Sort mols according to their name which are CIDs.
 mols = mols[np.argsort([int(c) for c in get_names(mols)])]
 mols_rnd = randomly_replace_OH_SH(mols)
 mols_rnd = [Molecule(m) for m in mols_rnd]
