@@ -1,9 +1,9 @@
 #!/usr/bin/env Rscript
+suppressPackageStartupMessages(library("data.table")) # fifelse
 library("ggplot2")
 library("reshape2")
 library("pROC")
 suppressPackageStartupMessages(library("here"))
-suppressPackageStartupMessages(library("data.table")) # fifelse
 setwd(paste0(here(), "/data/Fatemeh_eval"))
 library(grid) # viewport
 
@@ -37,9 +37,6 @@ p = ggplot(toplot, aes(x=enzyme, y=experimental)) +
   scale_shape_manual(values=0:5) + 
   labs(color="GT-predict prediction", shape="Substrate")
 
-mainp = p +
-    ggtitle("GT-Predict accurately predicts reactivity for in-house data")
-
 insetp = p +
     guides(color="none", shape="none") +
     scale_y_continuous(limits=c(min(toplot$experimental), 0.2), expand=c(0.01,0)) +
@@ -47,11 +44,10 @@ insetp = p +
         panel.grid.major.y=element_line(color="gray"),
         panel.grid.minor.y=element_line(color="lightgray"))
 
-pdf("GTPredict-evaluation.pdf")
-mainp + annotation_custom(ggplotGrob(insetp), xmin=2.2, xmax=18.8, ymin=0.5, ymax=1.93)
-dev.off()
+p2 = p + annotation_custom(ggplotGrob(insetp), xmin=2.2, xmax=18.8, ymin=0.5, ymax=1.93)
+ggsave("GTPredict-evaluation.pdf", p2)
 
 toplot$pred = fifelse(toplot$gtpredict=="reactive", 1, 0)
-cat("cor =", cor(toplot$pred, toplot$experimental))
-cat("auc =", auc(roc(toplot$pred, toplot$experimental)))
+cat("cor =", cor(toplot$pred, toplot$experimental), end='\n')
+cat("auc =", auc(roc(toplot$pred, toplot$experimental)), end='\n')
 
