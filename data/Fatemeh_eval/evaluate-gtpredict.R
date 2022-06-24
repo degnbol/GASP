@@ -5,7 +5,6 @@ library("reshape2")
 library("pROC")
 suppressPackageStartupMessages(library("here"))
 setwd(paste0(here(), "/data/Fatemeh_eval"))
-library(grid) # viewport
 
 experimental <- read.table('all-experimental.tsv')
 gtpredict <- read.table('all-gtpredict.csv')
