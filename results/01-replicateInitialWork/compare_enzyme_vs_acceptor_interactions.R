@@ -6,8 +6,9 @@ suppressPackageStartupMessages(library(here))
 # go to git root
 setwd(here())
 
-gt.pred = fread("data/GT-Predict_enzyme_interactions.tsv")
-acc.int = fread("data/raw/acceptor_interaction_data.txt", drop=c(1,3:22))
+# gt.pred = fread("data/GT-Predict/enzyme_interaction_data.txt")
+gt.pred = fread("data/reactions/gtpred_reactions_enz.tsv")
+acc.int = fread("data/GT-Predict/acceptor_interaction_data.txt", drop=c(1,3:22))
 acc.int$Name = sub("^ ", "", acc.int$Name)
 acc.int$Name = sub("(?)", "()", acc.int$Name, fixed=T)
 acc.int$Name = sub("cinamic acid", "cinnamic acid", acc.int$Name, fixed=T)
