@@ -211,13 +211,14 @@ def randomly_replace_remove_any(molecule, queries, replacement):
 
 def randomly_replace_OH_SH(molecules):
     """
-    Draw n random samples evenly taken from a vector of molecules, randomly substituting all hydroxy in each.
+    Take any molecule with OH, then remove any OH and any SH except a randomly 
+    selected one that will be replaced by one of the replacement choices.
     WARNING: All OH, so it will also be OH that are not Al_OH or Ar_OH, if present.
     :param molecules: vector of molecules
     :return: randomly substituted versions of the given molecules (potentially with duplicates)
     """
-    molecules = np.asarray(molecules)[has_hydroxy(molecules)]
     queries = [hydroxy, thiol]
+    molecules = np.asarray(molecules)[has_hydroxy(molecules)]
     replacements = [hydrogen, flour, chlorine, OMe, OAc]
     return np.asarray([randomly_replace_remove_any(m, queries, r) for m in molecules for r in replacements])
 

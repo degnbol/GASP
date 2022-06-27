@@ -5,17 +5,17 @@ library(randomForest)
 library(pROC)
 suppressPackageStartupMessages(library(here))
 
-cwd(s) = paste0(here(), "/", s)
+cwd = function(s) paste0(here(), "/", s)
 
 acc.ints.melt = fread("gtpred_features.tsv", drop="seq")
 hts.ugt.melt = fread("hts_ugt_features.tsv", drop="seq")
 
-alignment = read.fasta(cwd("data/muscle.fa"), seqtype="AA", whole.header=T, set.attributes=F)
+alignment = read.fasta("gtpred.muscle.hmm.fa", seqtype="AA", whole.header=T, set.attributes=F)
 alignment = data.table(enzyme=names(alignment), matrix(unlist(alignment), nrow=length(alignment), byrow=T))
 align.melt = melt(alignment, "enzyme", variable.name="pos", value.name="code")[order(enzyme)]
 
 blosum62 = fread(cwd("data/NCBI/blosum62.tsv"))
-eye = fread(cwd("data/ncbi/match.tsv"))
+eye = fread(cwd("data/NCBI/match.tsv"))
 setnames(blosum62, "*", "-"); setnames(eye, "*", "-")
 setnames(blosum62, "_", "code"); setnames(eye, "_", "code")
 blosum62[code=="*", code:="-"]; eye[code=="*", code:="-"]
