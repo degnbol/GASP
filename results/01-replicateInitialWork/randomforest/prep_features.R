@@ -5,12 +5,12 @@ library(randomForest)
 library(pROC)
 suppressPackageStartupMessages(library(here))
 
-cwd(s) = paste0(here(), "/", s)
+cwd = function(s) paste0(here(), "/", s)
 
 hts_ugt_rates = fread(cwd("data/Fatemeh_eval/all-experimental.tsv"))
 setnames(hts_ugt_rates, "V1", "enzyme")
 
-tmh_rates = fread(cwd("data/inhouse/pTMH/List_Company_ptMH.tsv"))
+tmh_rates = fread(cwd("data/inhouse/raw/pTMH/List_Company_ptMH.tsv"))
 setnames(tmh_rates, c("compound", "UGT"), c("acceptor", "enzyme"))
 
 acc.props = fread(cwd("data/GT-Predict/acceptor_interaction_data.txt"), select=2:22)
