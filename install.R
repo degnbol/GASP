@@ -7,3 +7,5 @@ install.packages("rentrez")
 install.packages("here")
 # for data/Fatemeh_eval
 install.packages(c("reshape2", "pROC"))
+# for results/01-replicateInitialWork
+install.packages(c("randomForest", "seqinr"))
