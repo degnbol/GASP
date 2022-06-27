@@ -1,14 +1,14 @@
 #!/usr/bin/env Rscript
-library(ggplot2)
-library(pROC)
-library(data.table)
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(pROC))
+suppressPackageStartupMessages(library(data.table))
 suppressPackageStartupMessages(library(here))
 
 # read
 water = fread("water.tsv")
 hts_ugt_rates = fread(paste0(here(), "/data/Fatemeh_eval/all-experimental.tsv"))
 setnames(hts_ugt_rates, "V1", "enzyme")
-gt.pred = fread(paste0(here(), "/data/gtpred_reactions_enz.tsv"))
+gt.pred = fread(paste0(here(), "/data/reactions/gtpred_reactions_enz.tsv"))
 
 # convert away from their weird classification system where 0/missing = not an enzyme-molecule match, 1= match, 2 or 3 is unknown
 gt.pred[is.na(gt.pred)] = F
@@ -64,7 +64,6 @@ ggplot(DT, aes(x=enzyme, y=rate, color=factor(pred), shape=acceptor))+
           legend.position='right') +
     theme(axis.text.x = element_text(size=14, angle=90), axis.text.y = element_text(size=14),
           axis.title = element_text(size=18, face="bold")) +
-    guides(size = FALSE) + 
     scale_color_manual(values=c('#5ab4ac','#8c510a')) +
     scale_shape_manual(values=seq(0,5))
 
