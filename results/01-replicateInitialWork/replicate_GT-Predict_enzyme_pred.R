@@ -84,7 +84,6 @@ ggplot(DT, aes(x=identity, y=rate, color=factor(pred), shape=acceptor)) +
           legend.position='right') +
     theme(axis.text.x = element_text(size=14, angle=90), axis.text.y = element_text(size=14),
           axis.title = element_text(size=18, face="bold")) +
-    guides(size = FALSE) + 
     scale_color_manual(values=c('#5ab4ac','#8c510a')) +
     scale_shape_manual(values=seq(0,5))
 # we don't see a clear tendency
