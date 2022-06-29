@@ -9,3 +9,5 @@ install.packages("here")
 install.packages(c("reshape2", "pROC"))
 # for results/01-replicateInitialWork
 install.packages(c("randomForest", "seqinr"))
+# for results/04-rate2bool
+install.packages("fdrtool")

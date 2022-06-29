@@ -1,11 +1,10 @@
 #!/usr/bin/env Rscript
 library(data.table)
 library(ggplot2)
-library(ggbeeswarm)
 library(fdrtool)
 suppressPackageStartupMessages(library(here))
 
-dt = fread(paste0(here(), "data/reactions/reactions.tsv"))
+dt = fread(paste0(here(), "/data/reactions/reactions.tsv"))
 dt = dt[!is.na(rate) & source%in%c("pTMH", "HTS_UGT")]
 
 
@@ -61,22 +60,29 @@ dt.melt[startsWith(as.character(method), "p"), signif:=signif < 0.05]
 dt.melt[startsWith(as.character(method), "q"), signif:=signif < 0.05]
 dt.melt[, signif:=as.factor(signif)]
 
+# prettier plotting labels
+dt.melt[signif==0,   signif:="neither"]
+dt.melt[signif==1,   signif:="both p and q"]
+dt.melt[signif==0.5, signif:="only p"]
 
 plot_rank = function(meth) {
-    ggplot(dt.melt[method==meth], aes(rank(rate), rate, color=signif)) +
+    ggplot(dt.melt[method==meth], aes(rank(rate), rate, color=signif, shape=signif)) +
         facet_wrap(~enzyme) +
         geom_point(alpha=0.5) +
         theme_linedraw() +
         ggtitle(meth) +
-        theme(panel.grid.major=element_line(color="gray"), panel.grid.minor=element_line(color="lightgray"))
+        theme(panel.grid.major=element_line(color="gray"),
+            panel.grid.minor=element_line(color="lightgray")) +
+        scale_color_manual(name="Significant", values=c("grey", "red", "blue")) +
+        scale_shape_manual(name="Significant", values=c(1, 4, 3))
 }
 
 plot_rank("HalfnormEnz")
-ggsave(paste0("thres_HalfnormEnz.pdf"))
+ggsave("thres_HalfnormEnz.pdf", width=9, height=9)
 plot_rank("NormEnz")
-ggsave(paste0("thres_NormEnz.pdf"))
+ggsave("thres_NormEnz.pdf", width=9, height=9)
 plot_rank("FdrtoolEnz")
-ggsave(paste0("thres_FdrtoolEnz.pdf"))
+ggsave("thres_FdrtoolEnz.pdf", width=9, height=9)
 
 
 dt.melt[(method=="HalfnormEnz") & (signif==1), .N]
@@ -87,5 +93,30 @@ dt.melt[(method=="NormEnz") & (signif==0), .N]
 dt.melt[(method=="NormEnz") & (signif==0.5), .N]
 dt.melt[(method=="FdrtoolEnz") & (signif==1), .N]
 dt.melt[(method=="FdrtoolEnz") & (signif!=0), .N]
+
+
+ggplot(dt.melt[method=="NormEnz"],
+    aes(rank(rate), rate, color=signif, shape=signif)) +
+    facet_wrap(~enzyme) +
+    geom_point() +
+    theme_linedraw() +
+    theme(panel.grid.major=element_line(color="gray"),
+          panel.grid.minor=element_line(color="lightgray")) +
+    scale_color_manual(name="Significant", values=c("grey", "red", "blue")) +
+    scale_shape_manual(name="Significant", values=c(1, 4, 3))
+
+ggsave("rate2bool_all.pdf", width=9, height=9)
+
+ggplot(dt.melt[method=="NormEnz" & enzyme%in%c("Dc_71F5", "Mt_78G1", "Rc_GT1")],
+    aes(rank(rate), rate, color=signif, shape=signif)) +
+    facet_grid(cols=vars(enzyme)) +
+    geom_point() +
+    theme_linedraw() +
+    theme(panel.grid.major=element_line(color="gray"),
+          panel.grid.minor=element_line(color="lightgray")) +
+    scale_color_manual(name="Significant", values=c("grey", "red", "blue")) +
+    scale_shape_manual(name="Significant", values=c(1, 4, 3))
+
+ggsave("rate2bool_3.pdf", width=9, height=2.8)
 
 
