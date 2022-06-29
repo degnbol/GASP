@@ -31,7 +31,8 @@ p = ggplot(toplot, aes(x=enzyme, y=experimental)) +
         ) +
   xlab("Enzyme") + ylab("Rate") + 
   # colors made with http://medialab.github.io/iwanthue/ selecting two colors with colorblind friendly and hard (force vector)
-  scale_color_manual(values=c("#4842b4", "#ff9559")) + 
+  # scale_color_manual(values=c("#4842b4", "#ff9559")) + 
+  scale_color_manual(values=c("#99a0cf", "red")) + 
   # scale_stroke_manual(values=c(1, 1.5)) + 
   scale_shape_manual(values=0:5) + 
   labs(color="GT-predict prediction", shape="Substrate")
