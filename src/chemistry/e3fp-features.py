@@ -13,6 +13,7 @@ def get_parser():
     parser.add_argument("infile", help="Filename for chemical fingerprints made with E3FP, e.g. ending in fpz.")
     parser.add_argument("-k", "--dimensions", default=2, type=int, help="Number of dimensions to reduce the fingerprint bitvectors to.")
     parser.add_argument("-c", "--conformers", action="store_true", help="Set distance to zero between multiple conformers made for the same id.")
+    parser.add_argument("-d", "--distances", help="Store pairwise distance matrix to this file.")
     return parser
 
 debug = False
@@ -24,6 +25,8 @@ def main(args):
     db = DB.load(expanduser(args.infile))
     names = np.asarray([n.rsplit('_', 1)[0] for n in db.fp_names])
     distances = np.asarray([[distance(fp1, fp2) for fp2 in db] for fp1 in db])
+    if args.distances != None:
+        np.savetxt(args.distances, distances)
 
     if args.conformers:
         # modify distances so chemicals with multiple fingerprints (multiple conformers) have zero distance between the different fingerprints
