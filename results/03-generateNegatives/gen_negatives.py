@@ -17,7 +17,7 @@ from src.utilities.io_utils import git_root
 
 # USAGE: Run the script ./gen_negatives.py or interactively. SMILES from positives must be present at the assumed path.
 
-os.chdir(git_root("results/3-generateNegatives"))
+os.chdir(git_root("results/03-generateNegatives"))
 try: os.mkdir("diagrams") # for output .pdfs, .svgs, .pngs
 except OSError: pass
 
