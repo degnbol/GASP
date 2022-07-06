@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 # install muscle with conda install muscle -c bioconda
+export PYTHONPATH="$PYTHONPATH:`git root`/tools/degnlib"
 
 ROOT=`git root`
 LIB=$ROOT/tools/degnlib/subfunctions
