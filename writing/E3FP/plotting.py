@@ -6,7 +6,8 @@ import plotly.express as px
 distances = np.loadtxt("E3FP.mat")
 projection = pd.read_table("MDS3.tsv")
 
-heatmap = px.imshow(distances)
+# yellow-green-blue color scale that fits with the other colors in the fig
+heatmap = px.imshow(distances, color_continuous_scale=px.colors.sequential.Viridis)
 heatmap.update_xaxes(showticklabels=False)
 heatmap.update_yaxes(showticklabels=False)
 heatmap.show()
