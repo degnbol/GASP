@@ -1,2 +1,3 @@
 #!/usr/bin/env zsh
-`git root`/src/chemistry/pymol_pngs.sh acceptors-props/{PDBs,PNGs}/
+# -H to hide hydrogens
+`git root`/src/chemistry/pymol_pngs.sh acceptors-props/{PDBs,PNGs}/ -H
