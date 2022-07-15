@@ -42,15 +42,15 @@ dt[,pHalfnormEnz:=phalfnorm(rate, theta=sd2theta(mean(rate)), lower.tail=F), by=
 dt[,qHalfnormEnz:=p.adjust(pHalfnormEnz), by=enzyme]
 dt[,pNormEnz:=pnorm(rate, sd=mean(rate), lower.tail=F), by=enzyme]
 dt[,qNormEnz:=p.adjust(pNormEnz), by=enzyme]
-dt[,pFdrtoolEnz:=fdrp(rate, "normal"), by=enzyme]
-dt[,qFdrtoolEnz:=fdrq(rate, "normal"), by=enzyme]
-dt[is.na(dt)] = 1
+# dt[,pFdrtoolEnz:=fdrp(rate, "normal"), by=enzyme]
+# dt[,qFdrtoolEnz:=fdrq(rate, "normal"), by=enzyme]
+# dt[is.na(dt)] = 1
 dt[(pHalfnormEnz < 0.05) & (qHalfnormEnz < 0.05), HalfnormEnz:=T]
 dt[(pHalfnormEnz > 0.05) & (qHalfnormEnz > 0.05), HalfnormEnz:=F]
 dt[(pNormEnz < 0.05) & (qNormEnz < 0.05), NormEnz:=T]
 dt[(pNormEnz > 0.05) & (qNormEnz > 0.05), NormEnz:=F]
-dt[(pFdrtoolEnz < 0.05) & (qFdrtoolEnz < 0.05), FdrtoolEnz:=T]
-dt[(pFdrtoolEnz > 0.05) & (qFdrtoolEnz > 0.05), FdrtoolEnz:=F]
+# dt[(pFdrtoolEnz < 0.05) & (qFdrtoolEnz < 0.05), FdrtoolEnz:=T]
+# dt[(pFdrtoolEnz > 0.05) & (qFdrtoolEnz > 0.05), FdrtoolEnz:=F]
 dt[is.na(dt)] = 0.5
 
 # try stringent vs non stringent (p and q) and discard unsure datapoints between the two thresholds
@@ -81,8 +81,8 @@ plot_rank("HalfnormEnz")
 ggsave("thres_HalfnormEnz.pdf", width=9, height=9)
 plot_rank("NormEnz")
 ggsave("thres_NormEnz.pdf", width=9, height=9)
-plot_rank("FdrtoolEnz")
-ggsave("thres_FdrtoolEnz.pdf", width=9, height=9)
+# plot_rank("FdrtoolEnz")
+# ggsave("thres_FdrtoolEnz.pdf", width=9, height=9)
 
 
 dt.melt[(method=="HalfnormEnz") & (signif==1), .N]
@@ -97,7 +97,7 @@ dt.melt[(method=="FdrtoolEnz") & (signif!=0), .N]
 
 ggplot(dt.melt[method=="NormEnz"],
     aes(rank(rate), rate, color=signif, shape=signif)) +
-    facet_wrap(~enzyme) +
+    facet_wrap(~enzyme, scales="free") +
     geom_point() +
     theme_linedraw() +
     theme(panel.grid.major=element_line(color="gray"),
@@ -109,7 +109,7 @@ ggsave("rate2bool_all.pdf", width=9, height=9)
 
 ggplot(dt.melt[method=="NormEnz" & enzyme%in%c("Dc_71F5", "Mt_78G1", "Rc_GT1")],
     aes(rank(rate), rate, color=signif, shape=signif)) +
-    facet_grid(cols=vars(enzyme)) +
+    facet_wrap(~enzyme, scales="free") +
     geom_point() +
     theme_linedraw() +
     theme(panel.grid.major=element_line(color="gray"),
