@@ -1,0 +1,7 @@
+Cleaned version of the raw table of similar name where Natalia curated some reactions.
+Cleaned off windows starting and ending space using
+sed -e "s/^M//"
+and windows linefeed with
+r -d '\r'
+and an alpha was converted to _ by excel, so it was edited. Maybe it was latin 
+instead of utf8 or something idk.

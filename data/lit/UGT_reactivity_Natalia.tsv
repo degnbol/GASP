@@ -1,0 +1,92 @@
+Protein	Accession	Acceptor	Reactive	KcatPerSec	KcatPerSecStd	Reference
+TwUGT2	MK035745	Quercetin	yes			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Pinocembrin	yes			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Genistein	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Liquiritigenin	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Kaempferol	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Phloretin	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Daidzein	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Luteolin	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	4-Methylumbelliferone	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Nodakenitin	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Arctigenin	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Rhapontigenin	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Triptolide	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Celastrol	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Triptophenolide	no			https://doi.org/10.1080/10286020.2019.1642330
+TwUGT2	MK035745	Neotriptophenolide	no			https://doi.org/10.1080/10286020.2019.1642330
+UGT73C11	AFN26667.1	Glycyrrhetinic acid 		0.091	0.001	https://doi.org/10.1021/acs.iecr.7b03391
+ApUFGT1	MH379334	Apigenin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Wogonin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Luteolin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Chrysin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Acacetin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Oroxylin A	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Kaempferol	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Naringenin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Daidzein	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Genistein	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Phloretin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	4-Methylumbelliferone	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	7-Amino-4-methylcoumarine	no			https://doi.org/10.1098/rsos.190150
+ApUFGT1	MH379334	Nodakenetin	no			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Apigenin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Wogonin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Luteolin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Chrysin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Acacetin	no			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Oroxylin A	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Kaempferol	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Naringenin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Daidzein	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Genistein	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Phloretin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	4-Methylumbelliferone	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	7-Amino-4-methylcoumarine	no			https://doi.org/10.1098/rsos.190150
+ApUFGT2	MH379339	Nodakenetin	no			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Apigenin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Wogonin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Luteolin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Chrysin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Acacetin	no			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Oroxylin A	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Kaempferol	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Naringenin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Daidzein	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Genistein	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Phloretin	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	4-Methylumbelliferone	yes			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	7-Amino-4-methylcoumarine	no			https://doi.org/10.1098/rsos.190150
+ApUFGT3	MH379336	Nodakenetin	no			https://doi.org/10.1098/rsos.190150
+UGT73A17	AB847095.1	Kaempferol		0.0045		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Quercetin		0.0088		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Myricetin		0.0023		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Apigenin		0.0023		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Luteolin		0.011		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Tricetin		0.0011		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Naringenin		0.0012		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Genistein		0.00022		https://doi.org/10.1371/journal.pone.0207212
+UGT73A17	AB847095.1	Epicatechin gallate		0.000079		https://doi.org/10.1371/journal.pone.0207212
+TwUGT1	MH414913	Triptophenolide		0.0705		https://doi.org/10.1016/j.phytochem.2019.112062
+UGT85K14	A0A0P0UT87	Furaneol		0.072		https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	Homofuraneol	yes			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	4-Nitrophenol	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	acetone cyanohydrin	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	4-coumaric acid	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	trans-cinnamic acid	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	naringenin	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	quercetin	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	kaempferol	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	cyanidin	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	trans-resveratrol	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	linalool	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	geraniol	no			https://doi.org/10.1093/jxb/erv335
+UGT85K14	A0A0P0UT87	trans-zeatin	no			https://doi.org/10.1093/jxb/erv335
+UGT74B6	XM_002280269.1	Furaneol	no			https://doi.org/10.1093/jxb/erv335
+UGT712E1	XM_002284319.2	Furaneol	no			https://doi.org/10.1093/jxb/erv335
+PpUGT85A2	Prupe.1G519600	Linalool		0.025	0.005	https://doi.org/10.1093/jxb/ery419
+PpUGT85A2	Prupe.1G519600	Eugenol		0.996	0.19	https://doi.org/10.1093/jxb/ery419
+PpUGT85A2	Prupe.1G519600	2-Phenylethanol		1.613	0.454	https://doi.org/10.1093/jxb/ery419
+PpUGT85A2	Prupe.1G519600	Benzyl alcohol		0.115	0.015	https://doi.org/10.1093/jxb/ery419
+PpUGT85A2	Prupe.1G519600	Geraniol		0.109	0.025	https://doi.org/10.1093/jxb/ery419
+PpUGT85A2	Prupe.1G519600	α-Terpineol	yes			https://doi.org/10.1093/jxb/ery419
