@@ -2,8 +2,8 @@
 ROOT=`git root`
 ids="enzyme acceptor source cid"
 
-echo 'cid' | cat - "$ROOT/data/inhouse/david/negatives.cid" |
-    mlr --tsv join -j cid -f $ROOT/results/*chemicalFeatures/acceptor_features.tsv > negatives_props.tsv
+mlr --tsv --from $ROOT/results/*-generateNegatives/negatives.tsv uniq -f cid then \
+    join -j cid -f $ROOT/results/*chemicalFeatures/acceptor_features.tsv > negatives_props.tsv
 
 mlr --tsv uniq -f enzyme,seq $ROOT/results/*features/rdkit-desc_muscle-ntern-hmm.tsv > train_seqs.tsv
 
