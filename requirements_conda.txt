@@ -43,3 +43,5 @@ wheel
 muscle
 hmmer
 
+# for excel table generation
+xlsxwriter
