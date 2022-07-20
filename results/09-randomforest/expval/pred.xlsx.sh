@@ -2,7 +2,7 @@
 ROOT=`git root`
 
 for file in pred*.gz; do
-    gzcat $file | mlr --tsv cut -f cid,enzyme,pred > $file:r
+    zcat $file | mlr --tsv cut -f cid,enzyme,pred > $file:r
 done
 
 grep '^seq' $ROOT/results/*features/selection/species_select.txt > speciesSeqSelect.tmp
