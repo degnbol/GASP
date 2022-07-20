@@ -37,7 +37,7 @@ for i, m in enumerate(mols):
     while m.GetNumConformers() == 0:
         sys.stderr.write(f"Retrying CID={df.loc[i, args.cid]} SMILES={df.loc[i, args.smiles]}\n")
         AllChem.EmbedMolecule(m)
-sys.stderr.write(f"Conformers embedded.")
+sys.stderr.write("Conformers embedded.\n")
 
 # more effecient to build dict then concat into dataframe in one op
 cols = {}
