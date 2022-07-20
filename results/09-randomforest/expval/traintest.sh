@@ -7,14 +7,17 @@ ROOT=`git root`
 TRAIN=`ls $ROOT/results/*features/rdkit-desc_muscle-ntern-hmm.tsv`
 
 CID="$ROOT/data/inhouse/david/20220215__forML.xlsx.cas.tsv"
-ENZ="$ROOT/data/inhouse/david/20220215__forML.xlsx.enzymes.AA.tsv"
+# ENZ="$ROOT/data/inhouse/david/20220215__forML.xlsx.enzymes.AA.tsv"
+# get enzyme ids that have been found by matching on AA.
+ENZ=`ls $ROOT/results/*experimentalValidation/experimentEnz.tsv`
 acceptors=`ls $ROOT/results/*chemicalFeatures/acceptor_features.tsv`
 alignment=`ls $ROOT/results/*align/muscle_qual05.hmm.nterm.tsv`
 
 # subtable of enzyme features for the new ones we want to test
 SEQS="seqs.tmp.tsv"
-mlr --tsv --from $ENZ cut -f ENA then rename ENA,enzyme then\
-    join -j enzyme -f $alignment > $SEQS
+# mlr --tsv --from $ENZ cut -f ENA then rename ENA,enzyme then\
+#     join -j enzyme -f $alignment > $SEQS
+mlr --tsv --from $ENZ cut -f enzyme then join -j enzyme -f $alignment > $SEQS
 
 # subtable of acceptor features for the new ones we want to test
 CHEMS="chems.tmp.tsv"
