@@ -25,17 +25,17 @@ mlr --tsv --from $CID cut -f cid then join -j cid -f $acceptors > $CHEMS
 
 ids="enzyme acceptor source cid reaction rate"
 
-aaEnc=$ROOT/data/NCBI/matchAmb.tsv
-# aaEnc=$ROOT/data/NCBI/blosum62Amb.tsv
+for aaEnc in $ROOT/data/NCBI/{match,blosum62}Amb.tsv; do
     
-# this one was heavy and needed to be done with the extra ram on the cluster
-# encode_features.py -i ${=ids} --aa seq --aa-encoding "$aaEnc" \
-# "$CHEMS" "$alignment" < $TRAIN |
-#     gzip > traintest_chem_${aaEnc:r:t}.tsv.gz
-
-# this one was small enough to do locally
-encode_features.py -i ${=ids} --aa seq --aa-encoding "$aaEnc" \
-"$acceptors" "$SEQS" < $TRAIN |
-    gzip > traintest_seqs_${aaEnc:r:t}.tsv.gz
+    # this one was small enough to do locally
+    encode_features.py -i ${=ids} --aa seq --aa-encoding "$aaEnc" \
+    "$acceptors" "$SEQS" < $TRAIN |
+        gzip > traintest_seqs_${aaEnc:r:t}.tsv.gz &
     
+    # this one was heavy and needed to be done with the extra ram on the cluster
+    encode_features.py -i ${=ids} --aa seq --aa-encoding "$aaEnc" \
+    "$CHEMS" "$alignment" < $TRAIN |
+        gzip > traintest_chem_${aaEnc:r:t}.tsv.gz &
+    
+done
 
