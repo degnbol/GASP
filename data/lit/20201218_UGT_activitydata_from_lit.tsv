@@ -1,0 +1,94 @@
+ProteinName	Accession	Acceptor	Reactive	KcatPerSec	KcatPerSecStd	Reference
+SpUGT71L2	MT525101	Salicyl-7-benzoate		27.74	7.99	https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Salicyl-2-benzoate	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Salicyl alcohol (2-hydroxybenzyl alcohol; saligenin)		5.16	0.08	https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Benzyl alcohol	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	3-hydroxybenzyl alcohol	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	4-Hydroxybenzyl alcohol	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Cinnamyl alcohol	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Salicylaldehyde	yes			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Salicylic acid	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Benzyl salicylate	yes			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Phenol	yes			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Catechol		4.82	0.74	https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	2-Ethylphenol	yes			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	2-Hydroxycinnamic acid		5.32	1.17	https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	3-Hydroxycinnamic acid	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	2-Hydroxyphenyl acetic acid	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Homogentisic acid	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	cis/trans 1,2-Dihydroxycyclohexane	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	2-Hydroxycylcohexane carboxylic acid	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Quercetin	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Luteolin	no			https://doi.org/10.1093/jxb/eraa562
+SpUGT71L2	MT525101	Isorhamnetin	no			https://doi.org/10.1093/jxb/eraa562
+NbUGT72AY1	Nbv6.1trP2283	α-Ionol		0.013		https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	α-Ionol		0.025		https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	α-Ionol		0.086		https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	α-Ionol	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		α-Ionol		0.019		https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		α-Ionol		0.002		https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	β-Ionol		0.007		https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	β-Ionol		0.024		https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	β-Ionol		0.208		https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	β-Ionol	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		β-Ionol		0.009		https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		β-Ionol		0.01		https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	3-Hydroxy-α-ionol				https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		3-Hydroxy-α-ionol				https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	4-Hydroxy-β-ionol				https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		4-Hydroxy-β-ionol				https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		3-Hydroxy-α-ionone	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		3-Hydroxy-α-ionone	no			https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	4-Hydroxy-β-ionone				https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	4-Hydroxy-β-ionone	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	4-Hydroxy-β-ionone	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	4-Hydroxy-β-ionone				https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		4-Hydroxy-β-ionone	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		4-Hydroxy-β-ionone				https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	3-Hydroxy-α-damascone				https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		3-Hydroxy-α-damascone	no			https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	4-Hydroxy-β-damascone	no			https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	4-Hydroxy-β-damascone	no			https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	4-Hydroxy-β-damascone				https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	4-Hydroxy-β-damascone	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		4-Hydroxy-β-damascone	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		4-Hydroxy-β-damascone	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT72AY1	Nbv6.1trP2283	3-Oxo-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A24	Nb6.1trP32845	3-Oxo-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT73A25	Nb6.1trP48287	3-Oxo-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+NbUGT85A73	Nb6.1trP20189	3-Oxo-α-ionol	no			https://doi.org/10.1104/pp.20.00953
+MpUGT86C10		3-Oxo-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
+MpUGT709C6		3-Oxo-α-ionol	no			https://doi.org/10.1104/pp.20.00953
+AtUGT74B1		phenylacetothiohydroximate		4.66666666666667	0.966666666666667	
+AtUGT74B1		phenylpropanothiohydroximate		5.43333333333333	1.58333333333333	
+AtUGT74B1 mut H22A		phenylacetothiohydroximate		0	0	
+AtUGT74B1 mut H22A		phenylpropanothiohydroximate		0	0	
+AtUGT74B1 mut D113A		phenylacetothiohydroximate		0.02	0.00166666666666667	
+AtUGT74B1 mut D113A		phenylpropanothiohydroximate		0.04	0.00166666666666667	
+AtUGT74B1		phenylacetohydroximate		0.065	0.0216666666666667	
+AtUGT74B1		phenylpropanohydroximate		0.0716666666666667	0.02	
+AtUGT74B1		thiophenol		0.181666666666667	0.025	
+AtUGT74B1		4-chlorothiophenol (4-CTP)		2.31666666666667	0.0933333333333333	
+AtUGT74B1		4-chlorophenol (4-CP)		0.01	0.00333333333333333	
+AtUGT74B1		2,3-dichlorophenol		0.0316666666666667	0.005	
+AtUGT74B1		2,4-dichlorophenol		0.0366666666666667	0.005	
+AtUGT74B1		2,5-dichlorophenol		0.07	0.00333333333333333	
+AtUGT74B1		2,4,6-trichlorophenol		0.241666666666667	0.0216666666666667	
+AtUGT74B1		2,3,4-trichlorophenol		0.11	0.015	
+AtUGT74B1		2,4,5-trichlorophenol		0.101666666666667	0.0183333333333333	
