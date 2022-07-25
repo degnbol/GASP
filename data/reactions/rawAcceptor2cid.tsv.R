@@ -20,10 +20,10 @@ subs = function(patterns, replacements, x, fixeds=F) {
 hts_ugt.raw = colnames(fread("Fatemeh_eval/all-experimental.tsv"))[-1]
 tmh.raw = unique(fread("inhouse/pTMH.tsv", select="acceptor")$acceptor)
 gtpred.raw = unique(fread("reactions/gtpred_reactions.tsv", select="acceptor")$acceptor)
-gtpred_ext.raw = unique(fread("GT-Predict/extensions.tsv"))
+gtpred_ext.raw = unique(fread("GT-Predict/extensions.tsv")$Acceptor)
 lit.raw = unique(fread("lit/lit.tsv")$Acceptor)
 
-accs.raw = unique(c(hts_ugt.raw, tmh.raw, gtpred.raw, lit.raw))
+accs.raw = unique(c(hts_ugt.raw, tmh.raw, gtpred.raw, gtpred_ext.raw, lit.raw))
 
 # manual effort
 raw2cid.manual = fread("reactions/rawAcceptor2cid_manual.tsv", drop=c("smiles", "comment"))
@@ -85,6 +85,9 @@ substitutions = rbind(
     c("hydroxy ", "hydroxy"),
     c("coumerin", "coumarin"),  # typo
     c("Zentin", "zeatin"),   # typo
+    c("oleanodmycin", "oleandomycin"), # typo
+    c("Carbencillin", "Carbenicillin"), # typo
+    c("spingosine", "sphingosine"), # typo
     c(" ([0-9])", "-\\1"),
     c("a-", "alpha-"),
     c("α", "alpha"),

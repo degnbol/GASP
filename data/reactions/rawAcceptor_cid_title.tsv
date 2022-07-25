@@ -1,9 +1,18 @@
 cid	raw	title
+66	2,5-dichlorophenol	2,5-Dichlorophenol
 72	3,4-dihydroxylbenzoic acid	3,4-Dihydroxybenzoic acid
+102	3-hydroxybenzyl alcohol	3-Hydroxybenzyl alcohol
+125	4-Hydroxybenzyl alcohol	4-Hydroxybenzyl alcohol
 135	4-hydroxyl-benzoic acid	4-Hydroxybenzoic acid
+244	Benzyl alcohol	Benzyl Alcohol
+289	Catechol	Catechol
+338	Salicylic acid	Salicylic acid
 681	Dopamine	Dopamine
+780	Homogentisic acid	Homogentisic acid
 801	Indole 3-acetate	Indole-3-acetate
-932	Naringenin	Naringenin
+932	Naringenin	5,7-Dihydroxy-2-(4-hydroxyphenyl)chroman-4-one
+980	4-Nitrophenol	4-Nitrophenol
+996	Phenol	Phenol
 1254	Menthol	Menthol
 1738	HomovanilAcid	Homovanillic acid
 1738	Homovanillic acid	Homovanillic acid
@@ -12,37 +21,59 @@ cid	raw	title
 3830	Kinetin	Kinetin
 4133	Methyl salicylate	Methyl salicylate
 4592	Olomoucine	Olomoucine
+4684	4-chlorophenol (4-CP)	4-Chlorophenol
 4788	Phloretin	Phloretin
+5146	Salicyl alcohol (2-hydroxybenzyl alcohol; saligenin)	Salicyl alcohol
 5793	Glucose	D-Glucose
 5959	Chloramphenicol	Chloramphenicol
 6047	Levodopa	Levodopa
-6288	Threonine	L-Threonine
+6054	2-Phenylethanol	2-Phenylethanol
+6288	Threonine	l-Threonine
+6406	acetone cyanohydrin	Acetone cyanohydrin
 6466	Gibberellin A3	Gibberellic acid
 6549	Linalool	Linalool
+6549	linalool	Linalool
+6914	2,4,6-trichlorophenol	2,4,6-Trichlorophenol
 6989	Thymol	Thymol
+6997	2-Ethylphenol	2-Ethylphenol
+6998	Salicylaldehyde	Salicylaldehyde
 7041	Syringol	2,6-Dimethoxyphenol
 7172	Synephrine	Synephrine
 7257	DCA	3,4-Dichloroaniline
 7257	3,4-dichloroaniline	3,4-Dichloroaniline
 7258	DCP	3,4-Dichlorophenol
+7271	2,4,5-trichlorophenol	2,4,5-Trichlorophenol
+7815	4-chlorothiophenol (4-CTP)	4-Chlorothiophenol
+7969	thiophenol	Benzenethiol
+8363	Benzyl salicylate	Benzyl salicylate
 8434	Ethylparaben	Ethylparaben
+8449	2,4-dichlorophenol	2,4-Dichlorophenol
 8629	UDPGlc	Uridine-5'-diphosphate-glucose
 8629	UDP5SGlc	Uridine-5'-diphosphate-glucose
 9064	Catechin	Cianidanol
 10154	Boldine	Boldine
 10742	Syringic acid	Syringic acid
 10819	Perillyl alcohol	Perillyl alcohol
+11334	2,3-dichlorophenol	2,3-Dichlorophenol
 11782	DiMeBenzAcid	2,3-Dimethylbenzoic acid
+11970	2-Hydroxyphenyl acetic acid	2-Hydroxyphenylacetic acid
+13601	cis/trans 1,2-Dihydroxycyclohexane	1,2-Cyclohexanediol
 15541	Spectinomycin	Spectinomycin
 16666	L-Menthol	l-Menthol
-17100	Terpineol	alpha-TERPINEOL
+17100	Terpineol	alpha-Terpineol
+17100	α-Terpineol	alpha-Terpineol
 18068	UDPGal	Galactose-uridine-5'-diphosphate
 19235	UDPXyl	UDP-xylose
+19309	Furaneol	Furaneol
 21648	Rasberry ketone	4-(4-Hydroxyphenyl)-2-butanone
+26305	Nodakenetin	Nodakenetin
+26305	Nodakenitin	Nodakenetin
 27582	TCP	2,3,4-Trichlorophenol
+27582	2,3,4-trichlorophenol	2,3,4-Trichlorophenol
 31211	Zingerone	Zingerone
 31553	Silibinin	Silibinin
-32021	DihydroZeatin	Dihydrozeatin
+32021	DihydroZeatin	2-methyl-4-(7H-purin-6-ylamino)butan-1-ol
+33931	Homofuraneol	2-Ethyl-4-hydroxy-5-methyl-3(2H)-furanone
 47936	Forskolin	Forskolin
 53232	Lovastatin	Lovastatin
 62389	BenzAdenine	6-Benzylaminopurine
@@ -52,6 +83,7 @@ cid	raw	title
 65090	Xanthotoxol	Xanthotoxol
 65126	Carnosic acid	Carnosic acid
 65243	Ginkgolide B	Ginkgolide B
+68071	Pinocembrin	Pinocembrin
 68289	Sesamol	Sesamol
 69867	1H-Indole-3-carboxylic acid	Indole-3-carboxylic acid
 72276	Epicatechin	(-)-Epicatechin
@@ -62,17 +94,26 @@ cid	raw	title
 79964	DCT	3,4-Dichlorothiophenol
 92109	Gibberellin A4	Gibberellin A4
 92180	N6-isopentenyladenine	N-(3-Methylbut-2-EN-1-YL)-9H-purin-6-amine
+92249	7-Amino-4-methylcoumarine	7-Amino-4-methylcoumarin
 99514	Isosteviol	Isosteviol
 107126	Dihydrojasmonic acid	Dihydrojasmonic acid
+107905	Epicatechin gallate	(-)-Epicatechin gallate
+107985	Triptolide	Triptolide
+114829	Liquiritigenin	Liquiritigenin
 114840	Higenamine	Higenamine
+122724	Celastrol	Celastrol
 122738	Procyanidin B2	Procyanidin B2
 124219	Mollugin	Mollugin
 128861	Cyanidin	Cyanidin
+128861	cyanidin	Cyanidin
+133766	Neotriptophenolide	Neotriptophenolide
 143754	FuranThiol	2-Furanthiol, 5-methyl-
 155240	Hydroxytyrosol acetate	Hydroxytyrosol Acetate
+173273	Triptophenolide	Triptophenolide
 174174	Atropine	Atropine
 188297	Santamarine	Santamarine
 227829	Guaiol	Guaiol
+271816	2-Hydroxycylcohexane carboxylic acid	2-Hydroxycyclohexanecarboxylic acid
 285033	Homoharringtonine	Omacetaxine mepesuccinate
 356759	Erianin	Erianin
 398789	Evodine	Evodine
@@ -85,17 +126,24 @@ cid	raw	title
 443210	dTDPGlc	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose
 444539	CinAcid	Cinnamic acid
 444539	Cinnamic acid	Cinnamic acid
+444539	trans-cinnamic acid	Cinnamic acid
 445154	Resveratrol	Resveratrol
+445154	trans-resveratrol	Resveratrol
 445675	UDPGlcNAc	Uridine-diphosphate-N-acetylglucosamine
 445858	4-hydroxy 3-methoxy cinnamic acid	Ferulic acid
 445858	Ferulic acid	Ferulic acid
 448873	UDPMan	Uridine-5'-diphosphate-mannose
 449093	trans-Zeatin	trans-Zeatin
 449093	Trans-Zentin-Glucose	trans-Zeatin
+449093	trans-zeatin	trans-Zeatin
 637540	2-hydroxy cinnamic acid	2-Hydroxycinnamic acid
+637540	2-Hydroxycinnamic acid	2-Hydroxycinnamic acid
 637541	3-hydroxy cinnamic acid	3-Hydroxycinnamic acid
+637541	3-Hydroxycinnamic acid	3-Hydroxycinnamic acid
 637542	4-hydroxy cinnamic acid	4-Hydroxycinnamic acid
+637542	4-coumaric acid	4-Hydroxycinnamic acid
 637566	Geraniol	Geraniol
+637566	geraniol	Geraniol
 637775	Sinapic acid	Sinapic acid
 689043	3,4-dihyroxy cinnamic acid	Caffeic acid
 854026	Huperzine A	Huperzine A
@@ -104,50 +152,76 @@ cid	raw	title
 1549095	Coniferyl alcohol	Coniferyl alcohol
 2733787	MUGlcNAc	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
 3001686	Gomisin J	Gomisin J
+3295299	phenylacetothiohydroximate	Phenylthioacetohydroximic acid
+4118131	phenylpropanohydroximate	N-hydroxy-3-phenylpropanamide
 5280343	Quercetin	Quercetin
+5280343	quercetin	Quercetin
 5280371	Bergaptol	Bergaptol
+5280442	Acacetin	Acacetin
+5280443	Apigenin	Apigenin
 5280445	Luteolin	Luteolin
 5280460	7-hydroxy 6-methoxy coumarin (Scopoletin)	Scopoletin
 5280460	Scopoletin	Scopoletin
 5280535	Coumaryl alcohol	p-Coumaryl alcohol
 5280567	2-Methyl-umbelliferone	Hymecromone
+5280567	4-Methylumbelliferone	Hymecromone
 5280863	Kaempferol	Kaempferol
-5280896	AbscisicAcid	Abscisic acid
-5280896	Abscisic acid	Abscisic acid
-5280896	()- cis, trans Abscisic acid	Abscisic acid
+5280863	kaempferol	Kaempferol
+5280896	AbscisicAcid	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+5280896	Abscisic acid	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+5280896	()- cis, trans Abscisic acid	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
 5280961	Genistein	Genistein
 5281166	()-Jasmonic acid	Jasmonic acid
 5281416	6,7-dihydroxy coumarin (Esculetin)	Esculetin
 5281426	Umbelliferone	Umbelliferone
 5281605	Baicalein	Baicalein
+5281607	Chrysin	Chrysin
 5281614	Fisetin	Fisetin
+5281654	Isorhamnetin	Isorhamnetin
+5281672	Myricetin	Myricetin
+5281701	Tricetin	Tricetin
+5281703	Wogonin	Wogonin
+5281708	Daidzein	Daidzein
 5281855	Ellagic acid	Ellagic acid
 5284507	Nerolidol	Nerolidol
 5315892	CinAlc	Cinnamyl alcohol
 5315892	Cinnamyl alcohol	Cinnamyl alcohol
 5318517	Andrographolide	Andrographolide
+5320315	Oroxylin A	Oroxylin A
+5320954	Rhapontigenin	Rhapontigenin
 5328791	a-cyano-4-hydroxyl-cinnamic acid	alpha-Cyano-4-hydroxycinnamic acid
 5337757	7-hydroxycoumerin 3-carboxylic acid	7-Hydroxycoumarin-3-carboxylic acid
 5338490	7-hydroxycoumerin 4-acetic acid	7-Hydroxycoumarin-4-acetic acid
+5363817	α-Ionol	alpha-Ionol
 5366264	Hotrienol	Hotrienol
+5370052	3-Oxo-α-ionol	3-Oxo-alpha-ionol
+5373729	β-Ionol	beta-Ionol
 5379033	Dehydrodiisoeugenol	Dehydrodiisoeugenol
-5460358	D-glycerate	D-Glycerate
+5460358	D-glycerate	D-glycerate
 5912039	HuperzineA	Fordine
 7009598	Ser-Phe	Ser-phe
 7015695	Ser-Leu	Ser-Leu
+10176665	4-Hydroxy-β-ionone	4-Hydroxy-beta-ionone
 10922465	Artemisinic acid	Artemisinic acid
 10955174	Patchouli alcohol	Patchouli alcohol
-11876195	Ilicic acid	Ilicic acid
+11344809	3-Hydroxy-α-ionone	3-Hydroxy-alpha-ionone
+11876195	Ilicic acid	2-((2R,4AR,8R,8aR)-8-hydroxy-4a,8-dimethyldecahydronaphthalen-2-yl)acrylic acid
 12310492	Hinokiol	Hinokiol
 12426239	Eucamalol	Eucamalol
+12731045	Salicyl-7-benzoate	2-Hydroxybenzyl benzoate
+12731046	Salicyl-2-benzoate	Benzoyl ester of saligenin
 14427423	Noricaritin	Noricaritin
+14565843	4-Hydroxy-β-ionol	4-Hydroxy-beta-ionol
 23581946	Ingenol-3-Angelate	Ingenol 3-angelate
 25056407	Corylifol A	Corylifol A
-49852346	dTDPRha	Dtdp-rhamnose
-49852436	UDPRha	UDP-rhamnose
-53377390	Pseudolaric acid B	Pseudolaric acid-B
-122707150	dTDPXyl	Dtdp-4-dehydro-alpha-D-xylose
+49852346	dTDPRha	dTDP-rhamnose
+49852436	UDPRha	[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate
+53377390	Pseudolaric acid B	Pseudolarix acid B
+91747288	3-Hydroxy-α-ionol	3-Hydroxy-alpha-ionol
+91749226	4-Hydroxy-β-damascone	4-Hydroxy-beta-damascone
+102334912	phenylpropanothiohydroximate	N-Hydroxy-3-phenylpropanethioamide
+122707150	dTDPXyl	dTDP-4-dehydro-alpha-D-xylose
 135398625	GDPGlc	GDP-glucose
 135398627	GDPMan	Guanosine diphosphate mannose
-135402013	GDPFuc	Guanosine diphosphate fucose
-135403798	Theaflavin	Theaflavin
+135402013	GDPFuc	GDP-fucose
+135403798	Theaflavin	Theaflavine

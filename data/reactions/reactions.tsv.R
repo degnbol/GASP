@@ -11,7 +11,8 @@ hts_ugt.rates$source = "HTS_UGT"
 tmh.rates = fread("inhouse/pTMH.tsv", drop=c("sequence", "species"))
 tmh.rates$source = "pTMH"
 rates = rbind(hts_ugt.rates, tmh.rates)
-# based on work in rate2bool results folder and discussion with David we decided to set the threshold for reactivity per enzyme 
+# based on work in rate2bool results folder and discussion with David we 
+# decided to set the threshold for reactivity per enzyme 
 # by fitting a normal distribution and looking for outliers.
 rates[,pNormEnz:=pnorm(rate, sd=mean(rate), lower.tail=F), by=enzyme]
 rates[,qNormEnz:=p.adjust(pNormEnz), by=enzyme]
@@ -27,18 +28,35 @@ setnames(rates, "NormEnz", "reaction")
 
 gtpred.reactions = fread("reactions/gtpred_reactions.tsv")
 gtpred.reactions$source = "GT-Predict"
-DT = merge(gtpred.reactions, rates, all=T, by=c("acceptor", "enzyme", "source", "reaction"))
+gtpred.reactions$rate = NA
 
-acc.raw2cid_title = fread("reactions/rawAcceptor_cid_title.tsv", sep='\t')
-DT = merge(DT, acc.raw2cid_title, by.x="acceptor", by.y="raw")
+gtpred.ext = fread("GT-Predict/extensions.AA.tsv", select=c("Acceptor", "Protein", "Reactive"),
+                   col.names=c("acceptor", "enzyme", "reaction"))
+gtpred.ext$source = "GT-Predict extensions"
+gtpred.ext$rate = NA
+
+# from lit we assume all reported rates means there is reactivity since there 
+# is too few observations to fit a distribution.
+lit = fread("lit/lit.tsv", select=c("Acceptor", "Protein", "Reactive", "KcatPerSec", "Reference"),
+            col.names=c("acceptor", "enzyme", "reaction", "rate", "source"))
+lit[!is.na(rate), reaction:="yes"]
+lit[,reaction:=fifelse(reaction == "yes", 1, 0)]
+
+DT = rbind(rates, gtpred.reactions, gtpred.ext, lit)
+
+# add CIDs
+raw2cid = fread("reactions/rawAcceptor_cid_title.tsv", sep='\t')
+DT = merge(DT, raw2cid, by.x="acceptor", by.y="raw")
 DT[, acceptor:=NULL]
 setnames(DT, "title", "acceptor")
 
 sebastian = fread("lit/reactions.tsv")
 sebastian$source = "sebastian"
-sebastian[!is.na(rate), reaction:=1]  # we define lit data where a rate is reported as reactive per discussion with David
-DT = rbind(DT, sebastian)
-DT[,cid:=as.integer(cid)] # removes spaces at ends and validates
+# we define lit data where a rate is reported as reactive per discussion with David
+sebastian[!is.na(rate), reaction:=1]
+
+# removes spaces at ends and validates
+DT[,cid:=as.integer(cid)]
 
 DT = unique(DT)
 

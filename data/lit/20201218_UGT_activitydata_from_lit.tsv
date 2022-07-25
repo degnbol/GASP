@@ -1,4 +1,4 @@
-ProteinName	Accession	Acceptor	Reactive	KcatPerSec	KcatPerSecStd	Reference
+Protein	Accession	Acceptor	Reactive	KcatPerSec	KcatPerSecStd	Reference
 SpUGT71L2	MT525101	Salicyl-7-benzoate		27.74	7.99	https://doi.org/10.1093/jxb/eraa562
 SpUGT71L2	MT525101	Salicyl-2-benzoate	no			https://doi.org/10.1093/jxb/eraa562
 SpUGT71L2	MT525101	Salicyl alcohol (2-hydroxybenzyl alcohol; saligenin)		5.16	0.08	https://doi.org/10.1093/jxb/eraa562
@@ -36,28 +36,16 @@ MpUGT709C6		β-Ionol		0.01		https://doi.org/10.1104/pp.20.00953
 NbUGT72AY1	Nbv6.1trP2283	3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
 NbUGT73A24	Nb6.1trP32845	3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
 NbUGT73A25	Nb6.1trP48287	3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
-NbUGT85A73	Nb6.1trP20189	3-Hydroxy-α-ionol				https://doi.org/10.1104/pp.20.00953
 MpUGT86C10		3-Hydroxy-α-ionol	yes			https://doi.org/10.1104/pp.20.00953
-MpUGT709C6		3-Hydroxy-α-ionol				https://doi.org/10.1104/pp.20.00953
 NbUGT72AY1	Nbv6.1trP2283	4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
 NbUGT73A24	Nb6.1trP32845	4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
 NbUGT73A25	Nb6.1trP48287	4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
-NbUGT85A73	Nb6.1trP20189	4-Hydroxy-β-ionol				https://doi.org/10.1104/pp.20.00953
 MpUGT86C10		4-Hydroxy-β-ionol	yes			https://doi.org/10.1104/pp.20.00953
-MpUGT709C6		4-Hydroxy-β-ionol				https://doi.org/10.1104/pp.20.00953
-NbUGT72AY1	Nbv6.1trP2283	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
-NbUGT73A24	Nb6.1trP32845	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
-NbUGT73A25	Nb6.1trP48287	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
-NbUGT85A73	Nb6.1trP20189	3-Hydroxy-α-ionone				https://doi.org/10.1104/pp.20.00953
 MpUGT86C10		3-Hydroxy-α-ionone	yes			https://doi.org/10.1104/pp.20.00953
 MpUGT709C6		3-Hydroxy-α-ionone	no			https://doi.org/10.1104/pp.20.00953
-NbUGT72AY1	Nbv6.1trP2283	4-Hydroxy-β-ionone				https://doi.org/10.1104/pp.20.00953
 NbUGT73A24	Nb6.1trP32845	4-Hydroxy-β-ionone	yes			https://doi.org/10.1104/pp.20.00953
 NbUGT73A25	Nb6.1trP48287	4-Hydroxy-β-ionone	yes			https://doi.org/10.1104/pp.20.00953
-NbUGT85A73	Nb6.1trP20189	4-Hydroxy-β-ionone				https://doi.org/10.1104/pp.20.00953
 MpUGT86C10		4-Hydroxy-β-ionone	yes			https://doi.org/10.1104/pp.20.00953
-MpUGT709C6		4-Hydroxy-β-ionone				https://doi.org/10.1104/pp.20.00953
-NbUGT72AY1	Nbv6.1trP2283	3-Hydroxy-α-damascone				https://doi.org/10.1104/pp.20.00953
 NbUGT73A24	Nb6.1trP32845	3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
 NbUGT73A25	Nb6.1trP48287	3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
 NbUGT85A73	Nb6.1trP20189	3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
@@ -65,7 +53,6 @@ MpUGT86C10		3-Hydroxy-α-damascone	yes			https://doi.org/10.1104/pp.20.00953
 MpUGT709C6		3-Hydroxy-α-damascone	no			https://doi.org/10.1104/pp.20.00953
 NbUGT72AY1	Nbv6.1trP2283	4-Hydroxy-β-damascone	no			https://doi.org/10.1104/pp.20.00953
 NbUGT73A24	Nb6.1trP32845	4-Hydroxy-β-damascone	no			https://doi.org/10.1104/pp.20.00953
-NbUGT73A25	Nb6.1trP48287	4-Hydroxy-β-damascone				https://doi.org/10.1104/pp.20.00953
 NbUGT85A73	Nb6.1trP20189	4-Hydroxy-β-damascone	yes			https://doi.org/10.1104/pp.20.00953
 MpUGT86C10		4-Hydroxy-β-damascone	yes			https://doi.org/10.1104/pp.20.00953
 MpUGT709C6		4-Hydroxy-β-damascone	yes			https://doi.org/10.1104/pp.20.00953
