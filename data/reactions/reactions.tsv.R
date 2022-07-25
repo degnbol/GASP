@@ -40,13 +40,14 @@ gtpred.ext$rate = NA
 lit = fread("lit/lit.tsv", select=c("Acceptor", "Protein", "Reactive", "KcatPerSec", "Reference"),
             col.names=c("acceptor", "enzyme", "reaction", "rate", "source"))
 lit[!is.na(rate), reaction:="yes"]
-lit[,reaction:=fifelse(reaction == "yes", 1, 0)]
 
 DT = rbind(rates, gtpred.reactions, gtpred.ext, lit)
 
 # add CIDs
+nNoCid = nrow(DT)
 raw2cid = fread("reactions/rawAcceptor_cid_title.tsv", sep='\t')
 DT = merge(DT, raw2cid, by.x="acceptor", by.y="raw")
+message("CID annotation of reactions: ", nNoCid, " -> ", nrow(DT))
 DT[, acceptor:=NULL]
 setnames(DT, "title", "acceptor")
 
@@ -54,10 +55,12 @@ sebastian = fread("lit/reactions.tsv")
 sebastian$source = "sebastian"
 # we define lit data where a rate is reported as reactive per discussion with David
 sebastian[!is.na(rate), reaction:=1]
+# make sure there are no spaces written around CIDs
+sebastian[, cid:=as.integer(cid)]
 
-# removes spaces at ends and validates
-DT[,cid:=as.integer(cid)]
-
+DT = rbind(DT, sebastian)
+DT[reaction=="yes", reaction:=1]
+DT[reaction=="no", reaction:=0]
 DT = unique(DT)
 
 # NOTE that the CIDs are not validated yet, i.e. may be for chemicals that contain CO-. See results/*validat*

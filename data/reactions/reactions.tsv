@@ -105,6 +105,26 @@ At_84B1		GT-Predict	0	5281166	Jasmonic acid
 At_84A2		GT-Predict	1	5281166	Jasmonic acid
 At_84A1		GT-Predict	1	5281166	Jasmonic acid
 At_75B1		GT-Predict	1	5281166	Jasmonic acid
+UGT71G1		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT78G1		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT72B10		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT74P1		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT73A10		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT74N1		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT75L2		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT85A20		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT73Q1		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT73A12		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT86A5		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT94E2		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT84C2		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT85B2		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT74H5		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT88C4		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT74H6		GT-Predict extensions	0	5281166	Jasmonic acid
+UGT75E3		GT-Predict extensions	0	5281166	Jasmonic acid
+OleD		GT-Predict extensions	0	5375199	Dormin
+OleD		GT-Predict extensions	0	12304694	(+/-)-Jasmonic acid
 Nt_UGT1	-0.000422277	pTMH	0	69867	Indole-3-carboxylic acid
 Pt_UGT1	-0.000923119	pTMH	0	69867	Indole-3-carboxylic acid
 At_72B1	-0.003417066	pTMH	0	69867	Indole-3-carboxylic acid
@@ -170,25 +190,25 @@ At_84B1		GT-Predict	0	3469	2,5-Dihydroxybenzoic acid
 At_84A2		GT-Predict	0	3469	2,5-Dihydroxybenzoic acid
 At_84A1		GT-Predict	0.5	3469	2,5-Dihydroxybenzoic acid
 At_75B1		GT-Predict	1	3469	2,5-Dihydroxybenzoic acid
-UGT71G1		GT-Predict extensions	yes	3469	2,5-Dihydroxybenzoic acid
-UGT78G1		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-OleD		GT-Predict extensions	yes	3469	2,5-Dihydroxybenzoic acid
-UGT72B10		GT-Predict extensions	yes	3469	2,5-Dihydroxybenzoic acid
-UGT74P1		GT-Predict extensions	yes	3469	2,5-Dihydroxybenzoic acid
-UGT73A10		GT-Predict extensions	yes	3469	2,5-Dihydroxybenzoic acid
-UGT74N1		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT75L2		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT85A20		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT73Q1		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT73A12		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT86A5		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT94E2		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT84C2		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT85B2		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT74H5		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT88C4		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT74H6		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
-UGT75E3		GT-Predict extensions	no	3469	2,5-Dihydroxybenzoic acid
+UGT71G1		GT-Predict extensions	1	3469	2,5-Dihydroxybenzoic acid
+UGT78G1		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+OleD		GT-Predict extensions	1	3469	2,5-Dihydroxybenzoic acid
+UGT72B10		GT-Predict extensions	1	3469	2,5-Dihydroxybenzoic acid
+UGT74P1		GT-Predict extensions	1	3469	2,5-Dihydroxybenzoic acid
+UGT73A10		GT-Predict extensions	1	3469	2,5-Dihydroxybenzoic acid
+UGT74N1		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT75L2		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT85A20		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT73Q1		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT73A12		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT86A5		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT94E2		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT84C2		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT85B2		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT74H5		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT88C4		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT74H6		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
+UGT75E3		GT-Predict extensions	0	3469	2,5-Dihydroxybenzoic acid
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	1	6997	2-Ethylphenol
 UGT71L2	5.32	https://doi.org/10.1093/jxb/eraa562	1	637540	2-Hydroxycinnamic acid
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	271816	2-Hydroxycyclohexanecarboxylic acid
@@ -300,25 +320,25 @@ At_84B1		GT-Predict	0	637540	2-Hydroxycinnamic acid
 At_84A2		GT-Predict	1	637540	2-Hydroxycinnamic acid
 At_84A1		GT-Predict	1	637540	2-Hydroxycinnamic acid
 At_75B1		GT-Predict	1	637540	2-Hydroxycinnamic acid
-UGT71G1		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT78G1		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-OleD		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT72B10		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT74P1		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT73A10		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT74N1		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT75L2		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT85A20		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT73Q1		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT73A12		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT86A5		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT94E2		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT84C2		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT85B2		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT74H5		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT88C4		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
-UGT74H6		GT-Predict extensions	yes	637540	2-Hydroxycinnamic acid
-UGT75E3		GT-Predict extensions	no	637540	2-Hydroxycinnamic acid
+UGT71G1		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT78G1		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+OleD		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT72B10		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT74P1		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT73A10		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT74N1		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT75L2		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT85A20		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT73Q1		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT73A12		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT86A5		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT94E2		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT84C2		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT85B2		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT74H5		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT88C4		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
+UGT74H6		GT-Predict extensions	1	637540	2-Hydroxycinnamic acid
+UGT75E3		GT-Predict extensions	0	637540	2-Hydroxycinnamic acid
 At_73C4		GT-Predict	0	7257	3,4-Dichloroaniline
 At_78D1		GT-Predict	0	7257	3,4-Dichloroaniline
 At_76E5		GT-Predict	0	7257	3,4-Dichloroaniline
@@ -372,25 +392,25 @@ At_84B1		GT-Predict	0	7257	3,4-Dichloroaniline
 At_84A2		GT-Predict	0	7257	3,4-Dichloroaniline
 At_84A1		GT-Predict	0	7257	3,4-Dichloroaniline
 At_75B1		GT-Predict	0	7257	3,4-Dichloroaniline
-UGT71G1		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT78G1		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-OleD		GT-Predict extensions	yes	7257	3,4-Dichloroaniline
-UGT72B10		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT74P1		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT73A10		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT74N1		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT75L2		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT85A20		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT73Q1		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT73A12		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT86A5		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT94E2		GT-Predict extensions	yes	7257	3,4-Dichloroaniline
-UGT84C2		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT85B2		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT74H5		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT88C4		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT74H6		GT-Predict extensions	no	7257	3,4-Dichloroaniline
-UGT75E3		GT-Predict extensions	no	7257	3,4-Dichloroaniline
+UGT71G1		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT78G1		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+OleD		GT-Predict extensions	1	7257	3,4-Dichloroaniline
+UGT72B10		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT74P1		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT73A10		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT74N1		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT75L2		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT85A20		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT73Q1		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT73A12		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT86A5		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT94E2		GT-Predict extensions	1	7257	3,4-Dichloroaniline
+UGT84C2		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT85B2		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT74H5		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT88C4		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT74H6		GT-Predict extensions	0	7257	3,4-Dichloroaniline
+UGT75E3		GT-Predict extensions	0	7257	3,4-Dichloroaniline
 At_73C4		GT-Predict	0	72	3,4-Dihydroxybenzoic acid
 At_78D1		GT-Predict	0	72	3,4-Dihydroxybenzoic acid
 At_76E5		GT-Predict	0	72	3,4-Dihydroxybenzoic acid
@@ -444,25 +464,25 @@ At_84B1		GT-Predict	0	72	3,4-Dihydroxybenzoic acid
 At_84A2		GT-Predict	0	72	3,4-Dihydroxybenzoic acid
 At_84A1		GT-Predict	1	72	3,4-Dihydroxybenzoic acid
 At_75B1		GT-Predict	1	72	3,4-Dihydroxybenzoic acid
-UGT71G1		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT78G1		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-OleD		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT72B10		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT74P1		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT73A10		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT74N1		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT75L2		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT85A20		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT73Q1		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT73A12		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT86A5		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT94E2		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT84C2		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT85B2		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT74H5		GT-Predict extensions	yes	72	3,4-Dihydroxybenzoic acid
-UGT88C4		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT74H6		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
-UGT75E3		GT-Predict extensions	no	72	3,4-Dihydroxybenzoic acid
+UGT71G1		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT78G1		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+OleD		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT72B10		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT74P1		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT73A10		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT74N1		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT75L2		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT85A20		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT73Q1		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT73A12		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT86A5		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT94E2		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT84C2		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT85B2		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT74H5		GT-Predict extensions	1	72	3,4-Dihydroxybenzoic acid
+UGT88C4		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT74H6		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
+UGT75E3		GT-Predict extensions	0	72	3,4-Dihydroxybenzoic acid
 At_73C4		GT-Predict	0	689043	Caffeic acid
 At_78D1		GT-Predict	0	689043	Caffeic acid
 At_76E5		GT-Predict	0	689043	Caffeic acid
@@ -516,32 +536,27 @@ At_84B1		GT-Predict	1	689043	Caffeic acid
 At_84A2		GT-Predict	1	689043	Caffeic acid
 At_84A1		GT-Predict	1	689043	Caffeic acid
 At_75B1		GT-Predict	1	689043	Caffeic acid
-UGT71G1		GT-Predict extensions	yes	689043	Caffeic acid
-UGT78G1		GT-Predict extensions	yes	689043	Caffeic acid
-UGT72B10		GT-Predict extensions	yes	689043	Caffeic acid
-UGT74P1		GT-Predict extensions	no	689043	Caffeic acid
-UGT73A10		GT-Predict extensions	yes	689043	Caffeic acid
-UGT74N1		GT-Predict extensions	no	689043	Caffeic acid
-UGT75L2		GT-Predict extensions	yes	689043	Caffeic acid
-UGT85A20		GT-Predict extensions	yes	689043	Caffeic acid
-UGT73Q1		GT-Predict extensions	no	689043	Caffeic acid
-UGT73A12		GT-Predict extensions	yes	689043	Caffeic acid
-UGT86A5		GT-Predict extensions	no	689043	Caffeic acid
-UGT94E2		GT-Predict extensions	no	689043	Caffeic acid
-UGT84C2		GT-Predict extensions	yes	689043	Caffeic acid
-UGT85B2		GT-Predict extensions	no	689043	Caffeic acid
-UGT74H5		GT-Predict extensions	yes	689043	Caffeic acid
-UGT88C4		GT-Predict extensions	no	689043	Caffeic acid
-UGT74H6		GT-Predict extensions	no	689043	Caffeic acid
-UGT75E3		GT-Predict extensions	yes	689043	Caffeic acid
+UGT71G1		GT-Predict extensions	1	689043	Caffeic acid
+UGT78G1		GT-Predict extensions	1	689043	Caffeic acid
+UGT72B10		GT-Predict extensions	1	689043	Caffeic acid
+UGT74P1		GT-Predict extensions	0	689043	Caffeic acid
+UGT73A10		GT-Predict extensions	1	689043	Caffeic acid
+UGT74N1		GT-Predict extensions	0	689043	Caffeic acid
+UGT75L2		GT-Predict extensions	1	689043	Caffeic acid
+UGT85A20		GT-Predict extensions	1	689043	Caffeic acid
+UGT73Q1		GT-Predict extensions	0	689043	Caffeic acid
+UGT73A12		GT-Predict extensions	1	689043	Caffeic acid
+UGT86A5		GT-Predict extensions	0	689043	Caffeic acid
+UGT94E2		GT-Predict extensions	0	689043	Caffeic acid
+UGT84C2		GT-Predict extensions	1	689043	Caffeic acid
+UGT85B2		GT-Predict extensions	0	689043	Caffeic acid
+UGT74H5		GT-Predict extensions	1	689043	Caffeic acid
+UGT88C4		GT-Predict extensions	0	689043	Caffeic acid
+UGT74H6		GT-Predict extensions	0	689043	Caffeic acid
+UGT75E3		GT-Predict extensions	1	689043	Caffeic acid
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	1	91747288	3-Hydroxy-alpha-ionol
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	91747288	3-Hydroxy-alpha-ionol
 UGT73A25		https://doi.org/10.1104/pp.20.00953	1	91747288	3-Hydroxy-alpha-ionol
-UGT85A73		https://doi.org/10.1104/pp.20.00953	0	91747288	3-Hydroxy-alpha-ionol
-UGT72AY1		https://doi.org/10.1104/pp.20.00953	0	11344809	3-Hydroxy-alpha-ionone
-UGT73A24		https://doi.org/10.1104/pp.20.00953	0	11344809	3-Hydroxy-alpha-ionone
-UGT73A25		https://doi.org/10.1104/pp.20.00953	0	11344809	3-Hydroxy-alpha-ionone
-UGT85A73		https://doi.org/10.1104/pp.20.00953	0	11344809	3-Hydroxy-alpha-ionone
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	637541	3-Hydroxycinnamic acid
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	1	5370052	3-Oxo-alpha-ionol
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	5370052	3-Oxo-alpha-ionol
@@ -600,38 +615,54 @@ At_84B1		GT-Predict	0	637541	3-Hydroxycinnamic acid
 At_84A2		GT-Predict	0	637541	3-Hydroxycinnamic acid
 At_84A1		GT-Predict	0	637541	3-Hydroxycinnamic acid
 At_75B1		GT-Predict	1	637541	3-Hydroxycinnamic acid
-UGT71G1		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT78G1		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT72B10		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT74P1		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT73A10		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT74N1		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT75L2		GT-Predict extensions	yes	637541	3-Hydroxycinnamic acid
-UGT85A20		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT73Q1		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT73A12		GT-Predict extensions	yes	637541	3-Hydroxycinnamic acid
-UGT86A5		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT94E2		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT84C2		GT-Predict extensions	yes	637541	3-Hydroxycinnamic acid
-UGT85B2		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT74H5		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT88C4		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT74H6		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
-UGT75E3		GT-Predict extensions	no	637541	3-Hydroxycinnamic acid
+UGT71G1		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT78G1		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT72B10		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT74P1		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT73A10		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT74N1		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT75L2		GT-Predict extensions	1	637541	3-Hydroxycinnamic acid
+UGT85A20		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT73Q1		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT73A12		GT-Predict extensions	1	637541	3-Hydroxycinnamic acid
+UGT86A5		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT94E2		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT84C2		GT-Predict extensions	1	637541	3-Hydroxycinnamic acid
+UGT85B2		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT74H5		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT88C4		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT74H6		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+UGT75E3		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	102	3-Hydroxybenzyl alcohol
+OleD		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
+OleD		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	0	91749226	4-Hydroxy-beta-damascone
 UGT73A24		https://doi.org/10.1104/pp.20.00953	0	91749226	4-Hydroxy-beta-damascone
-UGT73A25		https://doi.org/10.1104/pp.20.00953	0	91749226	4-Hydroxy-beta-damascone
 UGT85A73		https://doi.org/10.1104/pp.20.00953	1	91749226	4-Hydroxy-beta-damascone
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	1	14565843	4-Hydroxy-beta-ionol
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	14565843	4-Hydroxy-beta-ionol
 UGT73A25		https://doi.org/10.1104/pp.20.00953	1	14565843	4-Hydroxy-beta-ionol
-UGT85A73		https://doi.org/10.1104/pp.20.00953	0	14565843	4-Hydroxy-beta-ionol
-UGT72AY1		https://doi.org/10.1104/pp.20.00953	0	10176665	4-Hydroxy-beta-ionone
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	10176665	4-Hydroxy-beta-ionone
 UGT73A25		https://doi.org/10.1104/pp.20.00953	1	10176665	4-Hydroxy-beta-ionone
-UGT85A73		https://doi.org/10.1104/pp.20.00953	0	10176665	4-Hydroxy-beta-ionone
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	125	4-Hydroxybenzyl alcohol
+UGT71G1		GT-Predict extensions	0	5280567	Hymecromone
+UGT78G1		GT-Predict extensions	0	5280567	Hymecromone
+UGT72B10		GT-Predict extensions	0	5280567	Hymecromone
+UGT74P1		GT-Predict extensions	0	5280567	Hymecromone
+UGT73A10		GT-Predict extensions	0	5280567	Hymecromone
+UGT74N1		GT-Predict extensions	1	5280567	Hymecromone
+UGT75L2		GT-Predict extensions	0	5280567	Hymecromone
+UGT85A20		GT-Predict extensions	0	5280567	Hymecromone
+UGT73Q1		GT-Predict extensions	0	5280567	Hymecromone
+UGT73A12		GT-Predict extensions	0	5280567	Hymecromone
+UGT86A5		GT-Predict extensions	0	5280567	Hymecromone
+UGT94E2		GT-Predict extensions	0	5280567	Hymecromone
+UGT84C2		GT-Predict extensions	1	5280567	Hymecromone
+UGT85B2		GT-Predict extensions	0	5280567	Hymecromone
+UGT74H5		GT-Predict extensions	1	5280567	Hymecromone
+UGT88C4		GT-Predict extensions	1	5280567	Hymecromone
+UGT74H6		GT-Predict extensions	1	5280567	Hymecromone
+UGT75E3		GT-Predict extensions	1	5280567	Hymecromone
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	0	5280567	Hymecromone
 ApUFGT1		https://doi.org/10.1098/rsos.190150	1	5280567	Hymecromone
 ApUFGT2		https://doi.org/10.1098/rsos.190150	1	5280567	Hymecromone
@@ -693,24 +724,24 @@ At_84B1		GT-Predict	1	445858	Ferulic acid
 At_84A2		GT-Predict	1	445858	Ferulic acid
 At_84A1		GT-Predict	1	445858	Ferulic acid
 At_75B1		GT-Predict	1	445858	Ferulic acid
-UGT71G1		GT-Predict extensions	no	445858	Ferulic acid
-UGT78G1		GT-Predict extensions	no	445858	Ferulic acid
-UGT72B10		GT-Predict extensions	no	445858	Ferulic acid
-UGT74P1		GT-Predict extensions	no	445858	Ferulic acid
-UGT73A10		GT-Predict extensions	yes	445858	Ferulic acid
-UGT74N1		GT-Predict extensions	no	445858	Ferulic acid
-UGT75L2		GT-Predict extensions	yes	445858	Ferulic acid
-UGT85A20		GT-Predict extensions	no	445858	Ferulic acid
-UGT73Q1		GT-Predict extensions	no	445858	Ferulic acid
-UGT73A12		GT-Predict extensions	no	445858	Ferulic acid
-UGT86A5		GT-Predict extensions	no	445858	Ferulic acid
-UGT94E2		GT-Predict extensions	no	445858	Ferulic acid
-UGT84C2		GT-Predict extensions	yes	445858	Ferulic acid
-UGT85B2		GT-Predict extensions	no	445858	Ferulic acid
-UGT74H5		GT-Predict extensions	no	445858	Ferulic acid
-UGT88C4		GT-Predict extensions	no	445858	Ferulic acid
-UGT74H6		GT-Predict extensions	no	445858	Ferulic acid
-UGT75E3		GT-Predict extensions	yes	445858	Ferulic acid
+UGT71G1		GT-Predict extensions	0	445858	Ferulic acid
+UGT78G1		GT-Predict extensions	0	445858	Ferulic acid
+UGT72B10		GT-Predict extensions	0	445858	Ferulic acid
+UGT74P1		GT-Predict extensions	0	445858	Ferulic acid
+UGT73A10		GT-Predict extensions	1	445858	Ferulic acid
+UGT74N1		GT-Predict extensions	0	445858	Ferulic acid
+UGT75L2		GT-Predict extensions	1	445858	Ferulic acid
+UGT85A20		GT-Predict extensions	0	445858	Ferulic acid
+UGT73Q1		GT-Predict extensions	0	445858	Ferulic acid
+UGT73A12		GT-Predict extensions	0	445858	Ferulic acid
+UGT86A5		GT-Predict extensions	0	445858	Ferulic acid
+UGT94E2		GT-Predict extensions	0	445858	Ferulic acid
+UGT84C2		GT-Predict extensions	1	445858	Ferulic acid
+UGT85B2		GT-Predict extensions	0	445858	Ferulic acid
+UGT74H5		GT-Predict extensions	0	445858	Ferulic acid
+UGT88C4		GT-Predict extensions	0	445858	Ferulic acid
+UGT74H6		GT-Predict extensions	0	445858	Ferulic acid
+UGT75E3		GT-Predict extensions	1	445858	Ferulic acid
 At_73C4		GT-Predict	0	637542	4-Hydroxycinnamic acid
 At_78D1		GT-Predict	0	637542	4-Hydroxycinnamic acid
 At_76E5		GT-Predict	0	637542	4-Hydroxycinnamic acid
@@ -764,24 +795,27 @@ At_84B1		GT-Predict	1	637542	4-Hydroxycinnamic acid
 At_84A2		GT-Predict	1	637542	4-Hydroxycinnamic acid
 At_84A1		GT-Predict	1	637542	4-Hydroxycinnamic acid
 At_75B1		GT-Predict	1	637542	4-Hydroxycinnamic acid
-UGT71G1		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT78G1		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT72B10		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT74P1		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT73A10		GT-Predict extensions	yes	637542	4-Hydroxycinnamic acid
-UGT74N1		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT75L2		GT-Predict extensions	yes	637542	4-Hydroxycinnamic acid
-UGT85A20		GT-Predict extensions	yes	637542	4-Hydroxycinnamic acid
-UGT73Q1		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT73A12		GT-Predict extensions	yes	637542	4-Hydroxycinnamic acid
-UGT86A5		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT94E2		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT84C2		GT-Predict extensions	yes	637542	4-Hydroxycinnamic acid
-UGT85B2		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT74H5		GT-Predict extensions	yes	637542	4-Hydroxycinnamic acid
-UGT88C4		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT74H6		GT-Predict extensions	no	637542	4-Hydroxycinnamic acid
-UGT75E3		GT-Predict extensions	yes	637542	4-Hydroxycinnamic acid
+UGT71G1		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT78G1		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT72B10		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT74P1		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT73A10		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
+UGT74N1		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT75L2		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
+UGT85A20		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
+UGT73Q1		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT73A12		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
+UGT86A5		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT94E2		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT84C2		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
+UGT85B2		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT74H5		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
+UGT88C4		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT74H6		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
+UGT75E3		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
+OleD		GT-Predict extensions	0	445858	Ferulic acid
+OleD		GT-Predict extensions	1	135	4-Hydroxybenzoic acid
+OleD		GT-Predict extensions	1	637542	4-Hydroxycinnamic acid
 At_73C4		GT-Predict	0	135	4-Hydroxybenzoic acid
 At_78D1		GT-Predict	0	135	4-Hydroxybenzoic acid
 At_76E5		GT-Predict	0	135	4-Hydroxybenzoic acid
@@ -835,24 +869,25 @@ At_84B1		GT-Predict	0	135	4-Hydroxybenzoic acid
 At_84A2		GT-Predict	1	135	4-Hydroxybenzoic acid
 At_84A1		GT-Predict	1	135	4-Hydroxybenzoic acid
 At_75B1		GT-Predict	1	135	4-Hydroxybenzoic acid
-UGT71G1		GT-Predict extensions	yes	135	4-Hydroxybenzoic acid
-UGT78G1		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT72B10		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT74P1		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT73A10		GT-Predict extensions	yes	135	4-Hydroxybenzoic acid
-UGT74N1		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT75L2		GT-Predict extensions	yes	135	4-Hydroxybenzoic acid
-UGT85A20		GT-Predict extensions	yes	135	4-Hydroxybenzoic acid
-UGT73Q1		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT73A12		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT86A5		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT94E2		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT84C2		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT85B2		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT74H5		GT-Predict extensions	yes	135	4-Hydroxybenzoic acid
-UGT88C4		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT74H6		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
-UGT75E3		GT-Predict extensions	no	135	4-Hydroxybenzoic acid
+UGT71G1		GT-Predict extensions	1	135	4-Hydroxybenzoic acid
+UGT78G1		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT72B10		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT74P1		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT73A10		GT-Predict extensions	1	135	4-Hydroxybenzoic acid
+UGT74N1		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT75L2		GT-Predict extensions	1	135	4-Hydroxybenzoic acid
+UGT85A20		GT-Predict extensions	1	135	4-Hydroxybenzoic acid
+UGT73Q1		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT73A12		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT86A5		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT94E2		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT84C2		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT85B2		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT74H5		GT-Predict extensions	1	135	4-Hydroxybenzoic acid
+UGT88C4		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT74H6		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+UGT75E3		GT-Predict extensions	0	135	4-Hydroxybenzoic acid
+OleD		GT-Predict extensions	1	5280567	Hymecromone
 At_73C4		GT-Predict	0	5281416	Esculetin
 At_78D1		GT-Predict	0	5281416	Esculetin
 At_76E5		GT-Predict	0	5281416	Esculetin
@@ -906,24 +941,24 @@ At_84B1		GT-Predict	0.5	5281416	Esculetin
 At_84A2		GT-Predict	1	5281416	Esculetin
 At_84A1		GT-Predict	1	5281416	Esculetin
 At_75B1		GT-Predict	1	5281416	Esculetin
-UGT71G1		GT-Predict extensions	yes	5281416	Esculetin
-UGT78G1		GT-Predict extensions	yes	5281416	Esculetin
-UGT72B10		GT-Predict extensions	yes	5281416	Esculetin
-UGT74P1		GT-Predict extensions	yes	5281416	Esculetin
-UGT73A10		GT-Predict extensions	yes	5281416	Esculetin
-UGT74N1		GT-Predict extensions	yes	5281416	Esculetin
-UGT75L2		GT-Predict extensions	yes	5281416	Esculetin
-UGT85A20		GT-Predict extensions	yes	5281416	Esculetin
-UGT73Q1		GT-Predict extensions	yes	5281416	Esculetin
-UGT73A12		GT-Predict extensions	yes	5281416	Esculetin
-UGT86A5		GT-Predict extensions	no	5281416	Esculetin
-UGT94E2		GT-Predict extensions	yes	5281416	Esculetin
-UGT84C2		GT-Predict extensions	yes	5281416	Esculetin
-UGT85B2		GT-Predict extensions	no	5281416	Esculetin
-UGT74H5		GT-Predict extensions	yes	5281416	Esculetin
-UGT88C4		GT-Predict extensions	no	5281416	Esculetin
-UGT74H6		GT-Predict extensions	yes	5281416	Esculetin
-UGT75E3		GT-Predict extensions	no	5281416	Esculetin
+UGT71G1		GT-Predict extensions	1	5281416	Esculetin
+UGT78G1		GT-Predict extensions	1	5281416	Esculetin
+UGT72B10		GT-Predict extensions	1	5281416	Esculetin
+UGT74P1		GT-Predict extensions	1	5281416	Esculetin
+UGT73A10		GT-Predict extensions	1	5281416	Esculetin
+UGT74N1		GT-Predict extensions	1	5281416	Esculetin
+UGT75L2		GT-Predict extensions	1	5281416	Esculetin
+UGT85A20		GT-Predict extensions	1	5281416	Esculetin
+UGT73Q1		GT-Predict extensions	1	5281416	Esculetin
+UGT73A12		GT-Predict extensions	1	5281416	Esculetin
+UGT86A5		GT-Predict extensions	0	5281416	Esculetin
+UGT94E2		GT-Predict extensions	1	5281416	Esculetin
+UGT84C2		GT-Predict extensions	1	5281416	Esculetin
+UGT85B2		GT-Predict extensions	0	5281416	Esculetin
+UGT74H5		GT-Predict extensions	1	5281416	Esculetin
+UGT88C4		GT-Predict extensions	0	5281416	Esculetin
+UGT74H6		GT-Predict extensions	1	5281416	Esculetin
+UGT75E3		GT-Predict extensions	0	5281416	Esculetin
 Nt_UGT1	-0.003413238	pTMH	0	442793	Gingerol
 Pt_UGT1	-0.001077487	pTMH	0	442793	Gingerol
 At_72B1	-0.000879188	pTMH	0	442793	Gingerol
@@ -984,24 +1019,25 @@ At_84B1		GT-Predict	0	5280460	Scopoletin
 At_84A2		GT-Predict	1	5280460	Scopoletin
 At_84A1		GT-Predict	1	5280460	Scopoletin
 At_75B1		GT-Predict	0.5	5280460	Scopoletin
-UGT71G1		GT-Predict extensions	no	5280460	Scopoletin
-UGT78G1		GT-Predict extensions	no	5280460	Scopoletin
-UGT72B10		GT-Predict extensions	no	5280460	Scopoletin
-UGT74P1		GT-Predict extensions	no	5280460	Scopoletin
-UGT73A10		GT-Predict extensions	no	5280460	Scopoletin
-UGT74N1		GT-Predict extensions	no	5280460	Scopoletin
-UGT75L2		GT-Predict extensions	no	5280460	Scopoletin
-UGT85A20		GT-Predict extensions	no	5280460	Scopoletin
-UGT73Q1		GT-Predict extensions	yes	5280460	Scopoletin
-UGT73A12		GT-Predict extensions	yes	5280460	Scopoletin
-UGT86A5		GT-Predict extensions	no	5280460	Scopoletin
-UGT94E2		GT-Predict extensions	no	5280460	Scopoletin
-UGT84C2		GT-Predict extensions	no	5280460	Scopoletin
-UGT85B2		GT-Predict extensions	no	5280460	Scopoletin
-UGT74H5		GT-Predict extensions	yes	5280460	Scopoletin
-UGT88C4		GT-Predict extensions	no	5280460	Scopoletin
-UGT74H6		GT-Predict extensions	yes	5280460	Scopoletin
-UGT75E3		GT-Predict extensions	no	5280460	Scopoletin
+UGT71G1		GT-Predict extensions	0	5280460	Scopoletin
+UGT78G1		GT-Predict extensions	0	5280460	Scopoletin
+UGT72B10		GT-Predict extensions	0	5280460	Scopoletin
+UGT74P1		GT-Predict extensions	0	5280460	Scopoletin
+UGT73A10		GT-Predict extensions	0	5280460	Scopoletin
+UGT74N1		GT-Predict extensions	0	5280460	Scopoletin
+UGT75L2		GT-Predict extensions	0	5280460	Scopoletin
+UGT85A20		GT-Predict extensions	0	5280460	Scopoletin
+UGT73Q1		GT-Predict extensions	1	5280460	Scopoletin
+UGT73A12		GT-Predict extensions	1	5280460	Scopoletin
+UGT86A5		GT-Predict extensions	0	5280460	Scopoletin
+UGT94E2		GT-Predict extensions	0	5280460	Scopoletin
+UGT84C2		GT-Predict extensions	0	5280460	Scopoletin
+UGT85B2		GT-Predict extensions	0	5280460	Scopoletin
+UGT74H5		GT-Predict extensions	1	5280460	Scopoletin
+UGT88C4		GT-Predict extensions	0	5280460	Scopoletin
+UGT74H6		GT-Predict extensions	1	5280460	Scopoletin
+UGT75E3		GT-Predict extensions	0	5280460	Scopoletin
+OleD		GT-Predict extensions	1	5280460	Scopoletin
 At_73C4		GT-Predict	0	5337757	7-Hydroxycoumarin-3-carboxylic acid
 At_78D1		GT-Predict	0	5337757	7-Hydroxycoumarin-3-carboxylic acid
 At_76E5		GT-Predict	0	5337757	7-Hydroxycoumarin-3-carboxylic acid
@@ -1054,7 +1090,7 @@ At_84B1		GT-Predict	0	5337757	7-Hydroxycoumarin-3-carboxylic acid
 At_84A2		GT-Predict	1	5337757	7-Hydroxycoumarin-3-carboxylic acid
 At_84A1		GT-Predict	1	5337757	7-Hydroxycoumarin-3-carboxylic acid
 At_75B1		GT-Predict	1	5337757	7-Hydroxycoumarin-3-carboxylic acid
-OleD		GT-Predict extensions	yes	5337757	7-Hydroxycoumarin-3-carboxylic acid
+OleD		GT-Predict extensions	1	5337757	7-Hydroxycoumarin-3-carboxylic acid
 At_73C4		GT-Predict	0	5338490	7-Hydroxycoumarin-4-acetic acid
 At_78D1		GT-Predict	0	5338490	7-Hydroxycoumarin-4-acetic acid
 At_76E5		GT-Predict	0	5338490	7-Hydroxycoumarin-4-acetic acid
@@ -1107,7 +1143,7 @@ At_84B1		GT-Predict	0	5338490	7-Hydroxycoumarin-4-acetic acid
 At_84A2		GT-Predict	0	5338490	7-Hydroxycoumarin-4-acetic acid
 At_84A1		GT-Predict	0	5338490	7-Hydroxycoumarin-4-acetic acid
 At_75B1		GT-Predict	0	5338490	7-Hydroxycoumarin-4-acetic acid
-OleD		GT-Predict extensions	yes	5338490	7-Hydroxycoumarin-4-acetic acid
+OleD		GT-Predict extensions	1	5338490	7-Hydroxycoumarin-4-acetic acid
 Nt_UGT1	-0.000748709	pTMH	0	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
 Pt_UGT1	0.000615045	pTMH	0	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
 At_72B1	-0.001208135	pTMH	0	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
@@ -1235,24 +1271,24 @@ At_84B1		GT-Predict	0	5281605	Baicalein
 At_84A2		GT-Predict	1	5281605	Baicalein
 At_84A1		GT-Predict	1	5281605	Baicalein
 At_75B1		GT-Predict	1	5281605	Baicalein
-UGT71G1		GT-Predict extensions	yes	5281605	Baicalein
-UGT78G1		GT-Predict extensions	yes	5281605	Baicalein
-UGT72B10		GT-Predict extensions	yes	5281605	Baicalein
-UGT74P1		GT-Predict extensions	no	5281605	Baicalein
-UGT73A10		GT-Predict extensions	yes	5281605	Baicalein
-UGT74N1		GT-Predict extensions	no	5281605	Baicalein
-UGT75L2		GT-Predict extensions	yes	5281605	Baicalein
-UGT85A20		GT-Predict extensions	no	5281605	Baicalein
-UGT73Q1		GT-Predict extensions	no	5281605	Baicalein
-UGT73A12		GT-Predict extensions	yes	5281605	Baicalein
-UGT86A5		GT-Predict extensions	no	5281605	Baicalein
-UGT94E2		GT-Predict extensions	yes	5281605	Baicalein
-UGT84C2		GT-Predict extensions	yes	5281605	Baicalein
-UGT85B2		GT-Predict extensions	no	5281605	Baicalein
-UGT74H5		GT-Predict extensions	yes	5281605	Baicalein
-UGT88C4		GT-Predict extensions	no	5281605	Baicalein
-UGT74H6		GT-Predict extensions	no	5281605	Baicalein
-UGT75E3		GT-Predict extensions	yes	5281605	Baicalein
+UGT71G1		GT-Predict extensions	1	5281605	Baicalein
+UGT78G1		GT-Predict extensions	1	5281605	Baicalein
+UGT72B10		GT-Predict extensions	1	5281605	Baicalein
+UGT74P1		GT-Predict extensions	0	5281605	Baicalein
+UGT73A10		GT-Predict extensions	1	5281605	Baicalein
+UGT74N1		GT-Predict extensions	0	5281605	Baicalein
+UGT75L2		GT-Predict extensions	1	5281605	Baicalein
+UGT85A20		GT-Predict extensions	0	5281605	Baicalein
+UGT73Q1		GT-Predict extensions	0	5281605	Baicalein
+UGT73A12		GT-Predict extensions	1	5281605	Baicalein
+UGT86A5		GT-Predict extensions	0	5281605	Baicalein
+UGT94E2		GT-Predict extensions	1	5281605	Baicalein
+UGT84C2		GT-Predict extensions	1	5281605	Baicalein
+UGT85B2		GT-Predict extensions	0	5281605	Baicalein
+UGT74H5		GT-Predict extensions	1	5281605	Baicalein
+UGT88C4		GT-Predict extensions	0	5281605	Baicalein
+UGT74H6		GT-Predict extensions	0	5281605	Baicalein
+UGT75E3		GT-Predict extensions	1	5281605	Baicalein
 Fe_88J1	0.000260038205986815	HTS_UGT	0	62389	6-Benzylaminopurine
 Zm_15991	0.00222041960301751	HTS_UGT	0	62389	6-Benzylaminopurine
 Fe_72B19	-0.000761084082525609	HTS_UGT	0	62389	6-Benzylaminopurine
@@ -1292,12 +1328,31 @@ At_72B1	-0.001678765	pTMH	0	64685	Borneol
 At_72E2	-0.002287034	pTMH	0	64685	Borneol
 Mt_71G1	0.000468007	pTMH	0	64685	Borneol
 Mt_78G1	-3.48e-05	pTMH	0	64685	Borneol
+UGT71G1		GT-Predict extensions	0	107670	Chaps
+UGT78G1		GT-Predict extensions	0	107670	Chaps
+UGT72B10		GT-Predict extensions	0	107670	Chaps
+UGT74P1		GT-Predict extensions	0	107670	Chaps
+UGT73A10		GT-Predict extensions	0	107670	Chaps
+UGT74N1		GT-Predict extensions	0	107670	Chaps
+UGT75L2		GT-Predict extensions	0	107670	Chaps
+UGT85A20		GT-Predict extensions	0	107670	Chaps
+UGT73Q1		GT-Predict extensions	0	107670	Chaps
+UGT73A12		GT-Predict extensions	0	107670	Chaps
+UGT86A5		GT-Predict extensions	0	107670	Chaps
+UGT94E2		GT-Predict extensions	0	107670	Chaps
+UGT84C2		GT-Predict extensions	0	107670	Chaps
+UGT85B2		GT-Predict extensions	0	107670	Chaps
+UGT74H5		GT-Predict extensions	0	107670	Chaps
+UGT88C4		GT-Predict extensions	0	107670	Chaps
+UGT74H6		GT-Predict extensions	0	107670	Chaps
+UGT75E3		GT-Predict extensions	0	107670	Chaps
 Nt_UGT1	-0.002203771	pTMH	0	1548943	Capsaicin
 Pt_UGT1	-0.000728735	pTMH	0	1548943	Capsaicin
 At_72B1	-0.000110552	pTMH	0	1548943	Capsaicin
 At_72E2	-0.002693333	pTMH	0	1548943	Capsaicin
 Mt_71G1	0.00387229	pTMH	0	1548943	Capsaicin
 Mt_78G1	0.001211336	pTMH	0	1548943	Capsaicin
+OleD		GT-Predict extensions	0	20824	Carbenicillin
 Nt_UGT1	-0.003760623	pTMH	0	65126	Carnosic acid
 Pt_UGT1	-0.001179866	pTMH	0	65126	Carnosic acid
 At_72B1	-0.001787172	pTMH	0	65126	Carnosic acid
@@ -1356,24 +1411,24 @@ At_84B1		GT-Predict	1	9064	Cianidanol
 At_84A2		GT-Predict	1	9064	Cianidanol
 At_84A1		GT-Predict	1	9064	Cianidanol
 At_75B1		GT-Predict	0	9064	Cianidanol
-UGT71G1		GT-Predict extensions	yes	9064	Cianidanol
-UGT78G1		GT-Predict extensions	no	9064	Cianidanol
-UGT72B10		GT-Predict extensions	yes	9064	Cianidanol
-UGT74P1		GT-Predict extensions	no	9064	Cianidanol
-UGT73A10		GT-Predict extensions	yes	9064	Cianidanol
-UGT74N1		GT-Predict extensions	no	9064	Cianidanol
-UGT75L2		GT-Predict extensions	yes	9064	Cianidanol
-UGT85A20		GT-Predict extensions	yes	9064	Cianidanol
-UGT73Q1		GT-Predict extensions	yes	9064	Cianidanol
-UGT73A12		GT-Predict extensions	yes	9064	Cianidanol
-UGT86A5		GT-Predict extensions	no	9064	Cianidanol
-UGT94E2		GT-Predict extensions	yes	9064	Cianidanol
-UGT84C2		GT-Predict extensions	no	9064	Cianidanol
-UGT85B2		GT-Predict extensions	no	9064	Cianidanol
-UGT74H5		GT-Predict extensions	no	9064	Cianidanol
-UGT88C4		GT-Predict extensions	no	9064	Cianidanol
-UGT74H6		GT-Predict extensions	yes	9064	Cianidanol
-UGT75E3		GT-Predict extensions	yes	9064	Cianidanol
+UGT71G1		GT-Predict extensions	1	9064	Cianidanol
+UGT78G1		GT-Predict extensions	0	9064	Cianidanol
+UGT72B10		GT-Predict extensions	1	9064	Cianidanol
+UGT74P1		GT-Predict extensions	0	9064	Cianidanol
+UGT73A10		GT-Predict extensions	1	9064	Cianidanol
+UGT74N1		GT-Predict extensions	0	9064	Cianidanol
+UGT75L2		GT-Predict extensions	1	9064	Cianidanol
+UGT85A20		GT-Predict extensions	1	9064	Cianidanol
+UGT73Q1		GT-Predict extensions	1	9064	Cianidanol
+UGT73A12		GT-Predict extensions	1	9064	Cianidanol
+UGT86A5		GT-Predict extensions	0	9064	Cianidanol
+UGT94E2		GT-Predict extensions	1	9064	Cianidanol
+UGT84C2		GT-Predict extensions	0	9064	Cianidanol
+UGT85B2		GT-Predict extensions	0	9064	Cianidanol
+UGT74H5		GT-Predict extensions	0	9064	Cianidanol
+UGT88C4		GT-Predict extensions	0	9064	Cianidanol
+UGT74H6		GT-Predict extensions	1	9064	Cianidanol
+UGT75E3		GT-Predict extensions	1	9064	Cianidanol
 UGT71L2	4.82	https://doi.org/10.1093/jxb/eraa562	1	289	Catechol
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	0	122724	Celastrol
 At_73C4		GT-Predict	0	5959	Chloramphenicol
@@ -1425,7 +1480,7 @@ At_84B1		GT-Predict	0	5959	Chloramphenicol
 At_84A2		GT-Predict	0	5959	Chloramphenicol
 At_84A1		GT-Predict	0	5959	Chloramphenicol
 At_75B1		GT-Predict	0	5959	Chloramphenicol
-OleD		GT-Predict extensions	yes	5959	Chloramphenicol
+OleD		GT-Predict extensions	1	5959	Chloramphenicol
 ApUFGT1		https://doi.org/10.1098/rsos.190150	1	5281607	Chrysin
 ApUFGT2		https://doi.org/10.1098/rsos.190150	1	5281607	Chrysin
 ApUFGT3		https://doi.org/10.1098/rsos.190150	1	5281607	Chrysin
@@ -1524,24 +1579,24 @@ At_84B1		GT-Predict	1	444539	Cinnamic acid
 At_84A2		GT-Predict	1	444539	Cinnamic acid
 At_84A1		GT-Predict	1	444539	Cinnamic acid
 At_75B1		GT-Predict	1	444539	Cinnamic acid
-UGT71G1		GT-Predict extensions	no	444539	Cinnamic acid
-UGT78G1		GT-Predict extensions	no	444539	Cinnamic acid
-UGT72B10		GT-Predict extensions	no	444539	Cinnamic acid
-UGT74P1		GT-Predict extensions	no	444539	Cinnamic acid
-UGT73A10		GT-Predict extensions	no	444539	Cinnamic acid
-UGT74N1		GT-Predict extensions	no	444539	Cinnamic acid
-UGT75L2		GT-Predict extensions	no	444539	Cinnamic acid
-UGT85A20		GT-Predict extensions	no	444539	Cinnamic acid
-UGT73Q1		GT-Predict extensions	no	444539	Cinnamic acid
-UGT73A12		GT-Predict extensions	no	444539	Cinnamic acid
-UGT86A5		GT-Predict extensions	no	444539	Cinnamic acid
-UGT94E2		GT-Predict extensions	no	444539	Cinnamic acid
-UGT84C2		GT-Predict extensions	no	444539	Cinnamic acid
-UGT85B2		GT-Predict extensions	no	444539	Cinnamic acid
-UGT74H5		GT-Predict extensions	no	444539	Cinnamic acid
-UGT88C4		GT-Predict extensions	no	444539	Cinnamic acid
-UGT74H6		GT-Predict extensions	no	444539	Cinnamic acid
-UGT75E3		GT-Predict extensions	no	444539	Cinnamic acid
+UGT71G1		GT-Predict extensions	0	444539	Cinnamic acid
+UGT78G1		GT-Predict extensions	0	444539	Cinnamic acid
+UGT72B10		GT-Predict extensions	0	444539	Cinnamic acid
+UGT74P1		GT-Predict extensions	0	444539	Cinnamic acid
+UGT73A10		GT-Predict extensions	0	444539	Cinnamic acid
+UGT74N1		GT-Predict extensions	0	444539	Cinnamic acid
+UGT75L2		GT-Predict extensions	0	444539	Cinnamic acid
+UGT85A20		GT-Predict extensions	0	444539	Cinnamic acid
+UGT73Q1		GT-Predict extensions	0	444539	Cinnamic acid
+UGT73A12		GT-Predict extensions	0	444539	Cinnamic acid
+UGT86A5		GT-Predict extensions	0	444539	Cinnamic acid
+UGT94E2		GT-Predict extensions	0	444539	Cinnamic acid
+UGT84C2		GT-Predict extensions	0	444539	Cinnamic acid
+UGT85B2		GT-Predict extensions	0	444539	Cinnamic acid
+UGT74H5		GT-Predict extensions	0	444539	Cinnamic acid
+UGT88C4		GT-Predict extensions	0	444539	Cinnamic acid
+UGT74H6		GT-Predict extensions	0	444539	Cinnamic acid
+UGT75E3		GT-Predict extensions	0	444539	Cinnamic acid
 Nt_UGT1	0.015424723	pTMH	0	5315892	Cinnamyl alcohol
 Pt_UGT1	0.001937591	pTMH	0	5315892	Cinnamyl alcohol
 At_72B1	0.01455932	pTMH	0	5315892	Cinnamyl alcohol
@@ -1609,6 +1664,8 @@ At_72B1	0.019829391	pTMH	0	128861	Cyanidin
 At_72E2	0.022731844	pTMH	0	128861	Cyanidin
 Mt_71G1	0.032683899	pTMH	0.5	128861	Cyanidin
 Mt_78G1	0.018781101	pTMH	0	128861	Cyanidin
+OleD		GT-Predict extensions	0	68247	Cyanidin chloride
+OleD		GT-Predict extensions	0	5280335	Sphingosine
 At_73C4		GT-Predict	0	5460358	D-glycerate
 At_78D1		GT-Predict	0	5460358	D-glycerate
 At_73B2		GT-Predict	0	5460358	D-glycerate
@@ -1659,7 +1716,7 @@ At_84B1		GT-Predict	0	5460358	D-glycerate
 At_84A2		GT-Predict	0	5460358	D-glycerate
 At_84A1		GT-Predict	0	5460358	D-glycerate
 At_75B1		GT-Predict	0	5460358	D-glycerate
-OleD		GT-Predict extensions	yes	5460358	D-glycerate
+OleD		GT-Predict extensions	1	5460358	D-glycerate
 Fe_88J1	0.0173436914985034	HTS_UGT	0	7257	3,4-Dichloroaniline
 Zm_15991	0.0111855504879871	HTS_UGT	0	7257	3,4-Dichloroaniline
 Fe_72B19	1.51005001231039	HTS_UGT	1	7257	3,4-Dichloroaniline
@@ -1942,24 +1999,24 @@ At_84B1		GT-Predict	1	5281614	Fisetin
 At_84A2		GT-Predict	1	5281614	Fisetin
 At_84A1		GT-Predict	1	5281614	Fisetin
 At_75B1		GT-Predict	1	5281614	Fisetin
-UGT71G1		GT-Predict extensions	yes	5281614	Fisetin
-UGT78G1		GT-Predict extensions	yes	5281614	Fisetin
-UGT72B10		GT-Predict extensions	yes	5281614	Fisetin
-UGT74P1		GT-Predict extensions	yes	5281614	Fisetin
-UGT73A10		GT-Predict extensions	yes	5281614	Fisetin
-UGT74N1		GT-Predict extensions	yes	5281614	Fisetin
-UGT75L2		GT-Predict extensions	yes	5281614	Fisetin
-UGT85A20		GT-Predict extensions	yes	5281614	Fisetin
-UGT73Q1		GT-Predict extensions	yes	5281614	Fisetin
-UGT73A12		GT-Predict extensions	yes	5281614	Fisetin
-UGT86A5		GT-Predict extensions	yes	5281614	Fisetin
-UGT94E2		GT-Predict extensions	yes	5281614	Fisetin
-UGT84C2		GT-Predict extensions	yes	5281614	Fisetin
-UGT85B2		GT-Predict extensions	yes	5281614	Fisetin
-UGT74H5		GT-Predict extensions	no	5281614	Fisetin
-UGT88C4		GT-Predict extensions	no	5281614	Fisetin
-UGT74H6		GT-Predict extensions	no	5281614	Fisetin
-UGT75E3		GT-Predict extensions	no	5281614	Fisetin
+UGT71G1		GT-Predict extensions	1	5281614	Fisetin
+UGT78G1		GT-Predict extensions	1	5281614	Fisetin
+UGT72B10		GT-Predict extensions	1	5281614	Fisetin
+UGT74P1		GT-Predict extensions	1	5281614	Fisetin
+UGT73A10		GT-Predict extensions	1	5281614	Fisetin
+UGT74N1		GT-Predict extensions	1	5281614	Fisetin
+UGT75L2		GT-Predict extensions	1	5281614	Fisetin
+UGT85A20		GT-Predict extensions	1	5281614	Fisetin
+UGT73Q1		GT-Predict extensions	1	5281614	Fisetin
+UGT73A12		GT-Predict extensions	1	5281614	Fisetin
+UGT86A5		GT-Predict extensions	1	5281614	Fisetin
+UGT94E2		GT-Predict extensions	1	5281614	Fisetin
+UGT84C2		GT-Predict extensions	1	5281614	Fisetin
+UGT85B2		GT-Predict extensions	1	5281614	Fisetin
+UGT74H5		GT-Predict extensions	0	5281614	Fisetin
+UGT88C4		GT-Predict extensions	0	5281614	Fisetin
+UGT74H6		GT-Predict extensions	0	5281614	Fisetin
+UGT75E3		GT-Predict extensions	0	5281614	Fisetin
 Fe_88J1	0.000649078557429928	HTS_UGT	0	47936	Forskolin
 Zm_15991	0.00161487403577267	HTS_UGT	0	47936	Forskolin
 Fe_72B19	0.000654366486273134	HTS_UGT	0	47936	Forskolin
@@ -2231,24 +2288,24 @@ At_84B1		GT-Predict	0	5280961	Genistein
 At_84A2		GT-Predict	1	5280961	Genistein
 At_84A1		GT-Predict	1	5280961	Genistein
 At_75B1		GT-Predict	1	5280961	Genistein
-UGT71G1		GT-Predict extensions	yes	5280961	Genistein
-UGT78G1		GT-Predict extensions	yes	5280961	Genistein
-UGT72B10		GT-Predict extensions	yes	5280961	Genistein
-UGT74P1		GT-Predict extensions	yes	5280961	Genistein
-UGT73A10		GT-Predict extensions	yes	5280961	Genistein
-UGT74N1		GT-Predict extensions	yes	5280961	Genistein
-UGT75L2		GT-Predict extensions	yes	5280961	Genistein
-UGT85A20		GT-Predict extensions	yes	5280961	Genistein
-UGT73Q1		GT-Predict extensions	yes	5280961	Genistein
-UGT73A12		GT-Predict extensions	yes	5280961	Genistein
-UGT86A5		GT-Predict extensions	yes	5280961	Genistein
-UGT94E2		GT-Predict extensions	yes	5280961	Genistein
-UGT84C2		GT-Predict extensions	yes	5280961	Genistein
-UGT85B2		GT-Predict extensions	yes	5280961	Genistein
-UGT74H5		GT-Predict extensions	yes	5280961	Genistein
-UGT88C4		GT-Predict extensions	no	5280961	Genistein
-UGT74H6		GT-Predict extensions	no	5280961	Genistein
-UGT75E3		GT-Predict extensions	yes	5280961	Genistein
+UGT71G1		GT-Predict extensions	1	5280961	Genistein
+UGT78G1		GT-Predict extensions	1	5280961	Genistein
+UGT72B10		GT-Predict extensions	1	5280961	Genistein
+UGT74P1		GT-Predict extensions	1	5280961	Genistein
+UGT73A10		GT-Predict extensions	1	5280961	Genistein
+UGT74N1		GT-Predict extensions	1	5280961	Genistein
+UGT75L2		GT-Predict extensions	1	5280961	Genistein
+UGT85A20		GT-Predict extensions	1	5280961	Genistein
+UGT73Q1		GT-Predict extensions	1	5280961	Genistein
+UGT73A12		GT-Predict extensions	1	5280961	Genistein
+UGT86A5		GT-Predict extensions	1	5280961	Genistein
+UGT94E2		GT-Predict extensions	1	5280961	Genistein
+UGT84C2		GT-Predict extensions	1	5280961	Genistein
+UGT85B2		GT-Predict extensions	1	5280961	Genistein
+UGT74H5		GT-Predict extensions	1	5280961	Genistein
+UGT88C4		GT-Predict extensions	0	5280961	Genistein
+UGT74H6		GT-Predict extensions	0	5280961	Genistein
+UGT75E3		GT-Predict extensions	1	5280961	Genistein
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	0	5280961	Genistein
 ApUFGT1		https://doi.org/10.1098/rsos.190150	1	5280961	Genistein
 ApUFGT2		https://doi.org/10.1098/rsos.190150	1	5280961	Genistein
@@ -2332,24 +2389,24 @@ At_84B1		GT-Predict	0	6466	Gibberellic acid
 At_84A2		GT-Predict	0	6466	Gibberellic acid
 At_84A1		GT-Predict	0	6466	Gibberellic acid
 At_75B1		GT-Predict	0	6466	Gibberellic acid
-UGT71G1		GT-Predict extensions	no	6466	Gibberellic acid
-UGT78G1		GT-Predict extensions	no	6466	Gibberellic acid
-UGT72B10		GT-Predict extensions	no	6466	Gibberellic acid
-UGT74P1		GT-Predict extensions	no	6466	Gibberellic acid
-UGT73A10		GT-Predict extensions	no	6466	Gibberellic acid
-UGT74N1		GT-Predict extensions	no	6466	Gibberellic acid
-UGT75L2		GT-Predict extensions	no	6466	Gibberellic acid
-UGT85A20		GT-Predict extensions	no	6466	Gibberellic acid
-UGT73Q1		GT-Predict extensions	no	6466	Gibberellic acid
-UGT73A12		GT-Predict extensions	no	6466	Gibberellic acid
-UGT86A5		GT-Predict extensions	no	6466	Gibberellic acid
-UGT94E2		GT-Predict extensions	no	6466	Gibberellic acid
-UGT84C2		GT-Predict extensions	no	6466	Gibberellic acid
-UGT85B2		GT-Predict extensions	no	6466	Gibberellic acid
-UGT74H5		GT-Predict extensions	no	6466	Gibberellic acid
-UGT88C4		GT-Predict extensions	no	6466	Gibberellic acid
-UGT74H6		GT-Predict extensions	no	6466	Gibberellic acid
-UGT75E3		GT-Predict extensions	no	6466	Gibberellic acid
+UGT71G1		GT-Predict extensions	0	6466	Gibberellic acid
+UGT78G1		GT-Predict extensions	0	6466	Gibberellic acid
+UGT72B10		GT-Predict extensions	0	6466	Gibberellic acid
+UGT74P1		GT-Predict extensions	0	6466	Gibberellic acid
+UGT73A10		GT-Predict extensions	0	6466	Gibberellic acid
+UGT74N1		GT-Predict extensions	0	6466	Gibberellic acid
+UGT75L2		GT-Predict extensions	0	6466	Gibberellic acid
+UGT85A20		GT-Predict extensions	0	6466	Gibberellic acid
+UGT73Q1		GT-Predict extensions	0	6466	Gibberellic acid
+UGT73A12		GT-Predict extensions	0	6466	Gibberellic acid
+UGT86A5		GT-Predict extensions	0	6466	Gibberellic acid
+UGT94E2		GT-Predict extensions	0	6466	Gibberellic acid
+UGT84C2		GT-Predict extensions	0	6466	Gibberellic acid
+UGT85B2		GT-Predict extensions	0	6466	Gibberellic acid
+UGT74H5		GT-Predict extensions	0	6466	Gibberellic acid
+UGT88C4		GT-Predict extensions	0	6466	Gibberellic acid
+UGT74H6		GT-Predict extensions	0	6466	Gibberellic acid
+UGT75E3		GT-Predict extensions	0	6466	Gibberellic acid
 At_73C4		GT-Predict	0	92109	Gibberellin A4
 At_78D1		GT-Predict	0	92109	Gibberellin A4
 At_76E5		GT-Predict	0	92109	Gibberellin A4
@@ -2403,24 +2460,24 @@ At_84B1		GT-Predict	0	92109	Gibberellin A4
 At_84A2		GT-Predict	0	92109	Gibberellin A4
 At_84A1		GT-Predict	0	92109	Gibberellin A4
 At_75B1		GT-Predict	0	92109	Gibberellin A4
-UGT71G1		GT-Predict extensions	no	92109	Gibberellin A4
-UGT78G1		GT-Predict extensions	no	92109	Gibberellin A4
-UGT72B10		GT-Predict extensions	no	92109	Gibberellin A4
-UGT74P1		GT-Predict extensions	no	92109	Gibberellin A4
-UGT73A10		GT-Predict extensions	no	92109	Gibberellin A4
-UGT74N1		GT-Predict extensions	no	92109	Gibberellin A4
-UGT75L2		GT-Predict extensions	no	92109	Gibberellin A4
-UGT85A20		GT-Predict extensions	no	92109	Gibberellin A4
-UGT73Q1		GT-Predict extensions	no	92109	Gibberellin A4
-UGT73A12		GT-Predict extensions	no	92109	Gibberellin A4
-UGT86A5		GT-Predict extensions	no	92109	Gibberellin A4
-UGT94E2		GT-Predict extensions	no	92109	Gibberellin A4
-UGT84C2		GT-Predict extensions	no	92109	Gibberellin A4
-UGT85B2		GT-Predict extensions	no	92109	Gibberellin A4
-UGT74H5		GT-Predict extensions	no	92109	Gibberellin A4
-UGT88C4		GT-Predict extensions	no	92109	Gibberellin A4
-UGT74H6		GT-Predict extensions	no	92109	Gibberellin A4
-UGT75E3		GT-Predict extensions	no	92109	Gibberellin A4
+UGT71G1		GT-Predict extensions	0	92109	Gibberellin A4
+UGT78G1		GT-Predict extensions	0	92109	Gibberellin A4
+UGT72B10		GT-Predict extensions	0	92109	Gibberellin A4
+UGT74P1		GT-Predict extensions	0	92109	Gibberellin A4
+UGT73A10		GT-Predict extensions	0	92109	Gibberellin A4
+UGT74N1		GT-Predict extensions	0	92109	Gibberellin A4
+UGT75L2		GT-Predict extensions	0	92109	Gibberellin A4
+UGT85A20		GT-Predict extensions	0	92109	Gibberellin A4
+UGT73Q1		GT-Predict extensions	0	92109	Gibberellin A4
+UGT73A12		GT-Predict extensions	0	92109	Gibberellin A4
+UGT86A5		GT-Predict extensions	0	92109	Gibberellin A4
+UGT94E2		GT-Predict extensions	0	92109	Gibberellin A4
+UGT84C2		GT-Predict extensions	0	92109	Gibberellin A4
+UGT85B2		GT-Predict extensions	0	92109	Gibberellin A4
+UGT74H5		GT-Predict extensions	0	92109	Gibberellin A4
+UGT88C4		GT-Predict extensions	0	92109	Gibberellin A4
+UGT74H6		GT-Predict extensions	0	92109	Gibberellin A4
+UGT75E3		GT-Predict extensions	0	92109	Gibberellin A4
 Fe_88J1	0.00101853706693446	HTS_UGT	0	442793	Gingerol
 Zm_15991	0.00133970410198303	HTS_UGT	0	442793	Gingerol
 Fe_72B19	-0.00330803179220861	HTS_UGT	0	442793	Gingerol
@@ -2495,7 +2552,7 @@ At_84B1		GT-Predict	0	439174	N-Acetyl-D-Glucosamine
 At_84A2		GT-Predict	0	439174	N-Acetyl-D-Glucosamine
 At_84A1		GT-Predict	0	439174	N-Acetyl-D-Glucosamine
 At_75B1		GT-Predict	0	439174	N-Acetyl-D-Glucosamine
-OleD		GT-Predict extensions	no	439174	N-Acetyl-D-Glucosamine
+OleD		GT-Predict extensions	0	439174	N-Acetyl-D-Glucosamine
 At_73C4		GT-Predict	0	5793	D-Glucose
 At_78D1		GT-Predict	0	5793	D-Glucose
 At_73B2		GT-Predict	0	5793	D-Glucose
@@ -2703,24 +2760,24 @@ At_84B1		GT-Predict	1	801	Indole-3-acetate
 At_84A2		GT-Predict	1	801	Indole-3-acetate
 At_84A1		GT-Predict	1	801	Indole-3-acetate
 At_75B1		GT-Predict	1	801	Indole-3-acetate
-UGT71G1		GT-Predict extensions	no	801	Indole-3-acetate
-UGT78G1		GT-Predict extensions	no	801	Indole-3-acetate
-UGT72B10		GT-Predict extensions	no	801	Indole-3-acetate
-UGT74P1		GT-Predict extensions	no	801	Indole-3-acetate
-UGT73A10		GT-Predict extensions	no	801	Indole-3-acetate
-UGT74N1		GT-Predict extensions	no	801	Indole-3-acetate
-UGT75L2		GT-Predict extensions	yes	801	Indole-3-acetate
-UGT85A20		GT-Predict extensions	no	801	Indole-3-acetate
-UGT73Q1		GT-Predict extensions	no	801	Indole-3-acetate
-UGT73A12		GT-Predict extensions	no	801	Indole-3-acetate
-UGT86A5		GT-Predict extensions	no	801	Indole-3-acetate
-UGT94E2		GT-Predict extensions	no	801	Indole-3-acetate
-UGT84C2		GT-Predict extensions	no	801	Indole-3-acetate
-UGT85B2		GT-Predict extensions	no	801	Indole-3-acetate
-UGT74H5		GT-Predict extensions	no	801	Indole-3-acetate
-UGT88C4		GT-Predict extensions	no	801	Indole-3-acetate
-UGT74H6		GT-Predict extensions	no	801	Indole-3-acetate
-UGT75E3		GT-Predict extensions	no	801	Indole-3-acetate
+UGT71G1		GT-Predict extensions	0	801	Indole-3-acetate
+UGT78G1		GT-Predict extensions	0	801	Indole-3-acetate
+UGT72B10		GT-Predict extensions	0	801	Indole-3-acetate
+UGT74P1		GT-Predict extensions	0	801	Indole-3-acetate
+UGT73A10		GT-Predict extensions	0	801	Indole-3-acetate
+UGT74N1		GT-Predict extensions	0	801	Indole-3-acetate
+UGT75L2		GT-Predict extensions	1	801	Indole-3-acetate
+UGT85A20		GT-Predict extensions	0	801	Indole-3-acetate
+UGT73Q1		GT-Predict extensions	0	801	Indole-3-acetate
+UGT73A12		GT-Predict extensions	0	801	Indole-3-acetate
+UGT86A5		GT-Predict extensions	0	801	Indole-3-acetate
+UGT94E2		GT-Predict extensions	0	801	Indole-3-acetate
+UGT84C2		GT-Predict extensions	0	801	Indole-3-acetate
+UGT85B2		GT-Predict extensions	0	801	Indole-3-acetate
+UGT74H5		GT-Predict extensions	0	801	Indole-3-acetate
+UGT88C4		GT-Predict extensions	0	801	Indole-3-acetate
+UGT74H6		GT-Predict extensions	0	801	Indole-3-acetate
+UGT75E3		GT-Predict extensions	0	801	Indole-3-acetate
 Nt_UGT1	-0.001660214	pTMH	0	23581946	Ingenol 3-angelate
 Pt_UGT1	0.000314345	pTMH	0	23581946	Ingenol 3-angelate
 At_72B1	-0.000586835	pTMH	0	23581946	Ingenol 3-angelate
@@ -2787,29 +2844,30 @@ At_84B1		GT-Predict	1	5280863	Kaempferol
 At_84A2		GT-Predict	1	5280863	Kaempferol
 At_84A1		GT-Predict	1	5280863	Kaempferol
 At_75B1		GT-Predict	1	5280863	Kaempferol
-UGT71G1		GT-Predict extensions	yes	5280863	Kaempferol
-UGT78G1		GT-Predict extensions	yes	5280863	Kaempferol
-UGT72B10		GT-Predict extensions	yes	5280863	Kaempferol
-UGT74P1		GT-Predict extensions	yes	5280863	Kaempferol
-UGT73A10		GT-Predict extensions	yes	5280863	Kaempferol
-UGT74N1		GT-Predict extensions	yes	5280863	Kaempferol
-UGT75L2		GT-Predict extensions	yes	5280863	Kaempferol
-UGT85A20		GT-Predict extensions	yes	5280863	Kaempferol
-UGT73Q1		GT-Predict extensions	yes	5280863	Kaempferol
-UGT73A12		GT-Predict extensions	yes	5280863	Kaempferol
-UGT86A5		GT-Predict extensions	yes	5280863	Kaempferol
-UGT94E2		GT-Predict extensions	yes	5280863	Kaempferol
-UGT84C2		GT-Predict extensions	yes	5280863	Kaempferol
-UGT85B2		GT-Predict extensions	yes	5280863	Kaempferol
-UGT74H5		GT-Predict extensions	yes	5280863	Kaempferol
-UGT88C4		GT-Predict extensions	yes	5280863	Kaempferol
-UGT74H6		GT-Predict extensions	yes	5280863	Kaempferol
-UGT75E3		GT-Predict extensions	yes	5280863	Kaempferol
+UGT71G1		GT-Predict extensions	1	5280863	Kaempferol
+UGT78G1		GT-Predict extensions	1	5280863	Kaempferol
+UGT72B10		GT-Predict extensions	1	5280863	Kaempferol
+UGT74P1		GT-Predict extensions	1	5280863	Kaempferol
+UGT73A10		GT-Predict extensions	1	5280863	Kaempferol
+UGT74N1		GT-Predict extensions	1	5280863	Kaempferol
+UGT75L2		GT-Predict extensions	1	5280863	Kaempferol
+UGT85A20		GT-Predict extensions	1	5280863	Kaempferol
+UGT73Q1		GT-Predict extensions	1	5280863	Kaempferol
+UGT73A12		GT-Predict extensions	1	5280863	Kaempferol
+UGT86A5		GT-Predict extensions	1	5280863	Kaempferol
+UGT94E2		GT-Predict extensions	1	5280863	Kaempferol
+UGT84C2		GT-Predict extensions	1	5280863	Kaempferol
+UGT85B2		GT-Predict extensions	1	5280863	Kaempferol
+UGT74H5		GT-Predict extensions	1	5280863	Kaempferol
+UGT88C4		GT-Predict extensions	1	5280863	Kaempferol
+UGT74H6		GT-Predict extensions	1	5280863	Kaempferol
+UGT75E3		GT-Predict extensions	1	5280863	Kaempferol
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	0	5280863	Kaempferol
 ApUFGT1		https://doi.org/10.1098/rsos.190150	1	5280863	Kaempferol
 ApUFGT2		https://doi.org/10.1098/rsos.190150	1	5280863	Kaempferol
 ApUFGT3		https://doi.org/10.1098/rsos.190150	1	5280863	Kaempferol
 UGT73A17	0.0045	https://doi.org/10.1371/journal.pone.0207212	1	5280863	Kaempferol
+OleD		GT-Predict extensions	1	6032	Kanamycin
 At_73C4		GT-Predict	0	3830	Kinetin
 At_78D1		GT-Predict	0	3830	Kinetin
 At_76E5		GT-Predict	0	3830	Kinetin
@@ -2863,24 +2921,24 @@ At_84B1		GT-Predict	0	3830	Kinetin
 At_84A2		GT-Predict	0	3830	Kinetin
 At_84A1		GT-Predict	0	3830	Kinetin
 At_75B1		GT-Predict	0	3830	Kinetin
-UGT71G1		GT-Predict extensions	no	3830	Kinetin
-UGT78G1		GT-Predict extensions	no	3830	Kinetin
-UGT72B10		GT-Predict extensions	no	3830	Kinetin
-UGT74P1		GT-Predict extensions	yes	3830	Kinetin
-UGT73A10		GT-Predict extensions	yes	3830	Kinetin
-UGT74N1		GT-Predict extensions	no	3830	Kinetin
-UGT75L2		GT-Predict extensions	yes	3830	Kinetin
-UGT85A20		GT-Predict extensions	no	3830	Kinetin
-UGT73Q1		GT-Predict extensions	no	3830	Kinetin
-UGT73A12		GT-Predict extensions	yes	3830	Kinetin
-UGT86A5		GT-Predict extensions	no	3830	Kinetin
-UGT94E2		GT-Predict extensions	no	3830	Kinetin
-UGT84C2		GT-Predict extensions	no	3830	Kinetin
-UGT85B2		GT-Predict extensions	yes	3830	Kinetin
-UGT74H5		GT-Predict extensions	no	3830	Kinetin
-UGT88C4		GT-Predict extensions	no	3830	Kinetin
-UGT74H6		GT-Predict extensions	yes	3830	Kinetin
-UGT75E3		GT-Predict extensions	yes	3830	Kinetin
+UGT71G1		GT-Predict extensions	0	3830	Kinetin
+UGT78G1		GT-Predict extensions	0	3830	Kinetin
+UGT72B10		GT-Predict extensions	0	3830	Kinetin
+UGT74P1		GT-Predict extensions	1	3830	Kinetin
+UGT73A10		GT-Predict extensions	1	3830	Kinetin
+UGT74N1		GT-Predict extensions	0	3830	Kinetin
+UGT75L2		GT-Predict extensions	1	3830	Kinetin
+UGT85A20		GT-Predict extensions	0	3830	Kinetin
+UGT73Q1		GT-Predict extensions	0	3830	Kinetin
+UGT73A12		GT-Predict extensions	1	3830	Kinetin
+UGT86A5		GT-Predict extensions	0	3830	Kinetin
+UGT94E2		GT-Predict extensions	0	3830	Kinetin
+UGT84C2		GT-Predict extensions	0	3830	Kinetin
+UGT85B2		GT-Predict extensions	1	3830	Kinetin
+UGT74H5		GT-Predict extensions	0	3830	Kinetin
+UGT88C4		GT-Predict extensions	0	3830	Kinetin
+UGT74H6		GT-Predict extensions	1	3830	Kinetin
+UGT75E3		GT-Predict extensions	1	3830	Kinetin
 Nt_UGT1	-0.000844637	pTMH	0	16666	l-Menthol
 Pt_UGT1	-0.000542726	pTMH	0	16666	l-Menthol
 At_72B1	-0.001941209	pTMH	0	16666	l-Menthol
@@ -2989,24 +3047,24 @@ At_84B1		GT-Predict	1	5280445	Luteolin
 At_84A2		GT-Predict	1	5280445	Luteolin
 At_84A1		GT-Predict	1	5280445	Luteolin
 At_75B1		GT-Predict	1	5280445	Luteolin
-UGT71G1		GT-Predict extensions	yes	5280445	Luteolin
-UGT78G1		GT-Predict extensions	yes	5280445	Luteolin
-UGT72B10		GT-Predict extensions	yes	5280445	Luteolin
-UGT74P1		GT-Predict extensions	yes	5280445	Luteolin
-UGT73A10		GT-Predict extensions	yes	5280445	Luteolin
-UGT74N1		GT-Predict extensions	yes	5280445	Luteolin
-UGT75L2		GT-Predict extensions	yes	5280445	Luteolin
-UGT85A20		GT-Predict extensions	yes	5280445	Luteolin
-UGT73Q1		GT-Predict extensions	yes	5280445	Luteolin
-UGT73A12		GT-Predict extensions	yes	5280445	Luteolin
-UGT86A5		GT-Predict extensions	yes	5280445	Luteolin
-UGT94E2		GT-Predict extensions	yes	5280445	Luteolin
-UGT84C2		GT-Predict extensions	yes	5280445	Luteolin
-UGT85B2		GT-Predict extensions	yes	5280445	Luteolin
-UGT74H5		GT-Predict extensions	yes	5280445	Luteolin
-UGT88C4		GT-Predict extensions	yes	5280445	Luteolin
-UGT74H6		GT-Predict extensions	no	5280445	Luteolin
-UGT75E3		GT-Predict extensions	yes	5280445	Luteolin
+UGT71G1		GT-Predict extensions	1	5280445	Luteolin
+UGT78G1		GT-Predict extensions	1	5280445	Luteolin
+UGT72B10		GT-Predict extensions	1	5280445	Luteolin
+UGT74P1		GT-Predict extensions	1	5280445	Luteolin
+UGT73A10		GT-Predict extensions	1	5280445	Luteolin
+UGT74N1		GT-Predict extensions	1	5280445	Luteolin
+UGT75L2		GT-Predict extensions	1	5280445	Luteolin
+UGT85A20		GT-Predict extensions	1	5280445	Luteolin
+UGT73Q1		GT-Predict extensions	1	5280445	Luteolin
+UGT73A12		GT-Predict extensions	1	5280445	Luteolin
+UGT86A5		GT-Predict extensions	1	5280445	Luteolin
+UGT94E2		GT-Predict extensions	1	5280445	Luteolin
+UGT84C2		GT-Predict extensions	1	5280445	Luteolin
+UGT85B2		GT-Predict extensions	1	5280445	Luteolin
+UGT74H5		GT-Predict extensions	1	5280445	Luteolin
+UGT88C4		GT-Predict extensions	1	5280445	Luteolin
+UGT74H6		GT-Predict extensions	0	5280445	Luteolin
+UGT75E3		GT-Predict extensions	1	5280445	Luteolin
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	0	5280445	Luteolin
 ApUFGT1		https://doi.org/10.1098/rsos.190150	1	5280445	Luteolin
 ApUFGT2		https://doi.org/10.1098/rsos.190150	1	5280445	Luteolin
@@ -3062,13 +3120,14 @@ At_84B1		GT-Predict	0	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy
 At_84A2		GT-Predict	0	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
 At_84A1		GT-Predict	0	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
 At_75B1		GT-Predict	0	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
-OleD		GT-Predict extensions	no	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
+OleD		GT-Predict extensions	0	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
 Nt_UGT1	-0.000212429	pTMH	0	73412	Madecassic acid
 Pt_UGT1	-0.000758069	pTMH	0	73412	Madecassic acid
 At_72B1	-0.005186028	pTMH	0	73412	Madecassic acid
 At_72E2	0.002351768	pTMH	0	73412	Madecassic acid
 Mt_71G1	-1.06e-05	pTMH	0	73412	Madecassic acid
 Mt_78G1	0.029705506	pTMH	0.5	73412	Madecassic acid
+OleD		GT-Predict extensions	0	18950	D-Mannose
 Fe_88J1	0.0011606514734015	HTS_UGT	0	1254	Menthol
 Zm_15991	0.00267597394582198	HTS_UGT	0	1254	Menthol
 Fe_72B19	0.000337803716772534	HTS_UGT	0	1254	Menthol
@@ -3227,6 +3286,7 @@ At_72B1	0.026311099	pTMH	0	14427423	Noricaritin
 At_72E2	0.008404293	pTMH	0	14427423	Noricaritin
 Mt_71G1	0.027808178	pTMH	0	14427423	Noricaritin
 Mt_78G1	0.000821371	pTMH	0	14427423	Noricaritin
+OleD		GT-Predict extensions	0	54675769	Novobiocin
 At_73C4		GT-Predict	0	4592	Olomoucine
 At_78D1		GT-Predict	0	4592	Olomoucine
 At_76E5		GT-Predict	0	4592	Olomoucine
@@ -3277,24 +3337,24 @@ At_84B1		GT-Predict	0	4592	Olomoucine
 At_84A2		GT-Predict	0	4592	Olomoucine
 At_84A1		GT-Predict	0	4592	Olomoucine
 At_75B1		GT-Predict	0	4592	Olomoucine
-UGT71G1		GT-Predict extensions	no	4592	Olomoucine
-UGT78G1		GT-Predict extensions	no	4592	Olomoucine
-UGT72B10		GT-Predict extensions	no	4592	Olomoucine
-UGT74P1		GT-Predict extensions	no	4592	Olomoucine
-UGT73A10		GT-Predict extensions	no	4592	Olomoucine
-UGT74N1		GT-Predict extensions	no	4592	Olomoucine
-UGT75L2		GT-Predict extensions	no	4592	Olomoucine
-UGT85A20		GT-Predict extensions	no	4592	Olomoucine
-UGT73Q1		GT-Predict extensions	no	4592	Olomoucine
-UGT73A12		GT-Predict extensions	no	4592	Olomoucine
-UGT86A5		GT-Predict extensions	no	4592	Olomoucine
-UGT94E2		GT-Predict extensions	no	4592	Olomoucine
-UGT84C2		GT-Predict extensions	no	4592	Olomoucine
-UGT85B2		GT-Predict extensions	no	4592	Olomoucine
-UGT74H5		GT-Predict extensions	no	4592	Olomoucine
-UGT88C4		GT-Predict extensions	no	4592	Olomoucine
-UGT74H6		GT-Predict extensions	no	4592	Olomoucine
-UGT75E3		GT-Predict extensions	no	4592	Olomoucine
+UGT71G1		GT-Predict extensions	0	4592	Olomoucine
+UGT78G1		GT-Predict extensions	0	4592	Olomoucine
+UGT72B10		GT-Predict extensions	0	4592	Olomoucine
+UGT74P1		GT-Predict extensions	0	4592	Olomoucine
+UGT73A10		GT-Predict extensions	0	4592	Olomoucine
+UGT74N1		GT-Predict extensions	0	4592	Olomoucine
+UGT75L2		GT-Predict extensions	0	4592	Olomoucine
+UGT85A20		GT-Predict extensions	0	4592	Olomoucine
+UGT73Q1		GT-Predict extensions	0	4592	Olomoucine
+UGT73A12		GT-Predict extensions	0	4592	Olomoucine
+UGT86A5		GT-Predict extensions	0	4592	Olomoucine
+UGT94E2		GT-Predict extensions	0	4592	Olomoucine
+UGT84C2		GT-Predict extensions	0	4592	Olomoucine
+UGT85B2		GT-Predict extensions	0	4592	Olomoucine
+UGT74H5		GT-Predict extensions	0	4592	Olomoucine
+UGT88C4		GT-Predict extensions	0	4592	Olomoucine
+UGT74H6		GT-Predict extensions	0	4592	Olomoucine
+UGT75E3		GT-Predict extensions	0	4592	Olomoucine
 ApUFGT1		https://doi.org/10.1098/rsos.190150	1	5320315	Oroxylin A
 ApUFGT2		https://doi.org/10.1098/rsos.190150	1	5320315	Oroxylin A
 ApUFGT3		https://doi.org/10.1098/rsos.190150	1	5320315	Oroxylin A
@@ -3447,24 +3507,24 @@ At_84B1		GT-Predict	1	5280343	Quercetin
 At_84A2		GT-Predict	1	5280343	Quercetin
 At_84A1		GT-Predict	1	5280343	Quercetin
 At_75B1		GT-Predict	1	5280343	Quercetin
-UGT71G1		GT-Predict extensions	yes	5280343	Quercetin
-UGT78G1		GT-Predict extensions	yes	5280343	Quercetin
-UGT72B10		GT-Predict extensions	yes	5280343	Quercetin
-UGT74P1		GT-Predict extensions	yes	5280343	Quercetin
-UGT73A10		GT-Predict extensions	yes	5280343	Quercetin
-UGT74N1		GT-Predict extensions	yes	5280343	Quercetin
-UGT75L2		GT-Predict extensions	yes	5280343	Quercetin
-UGT85A20		GT-Predict extensions	yes	5280343	Quercetin
-UGT73Q1		GT-Predict extensions	yes	5280343	Quercetin
-UGT73A12		GT-Predict extensions	yes	5280343	Quercetin
-UGT86A5		GT-Predict extensions	yes	5280343	Quercetin
-UGT94E2		GT-Predict extensions	yes	5280343	Quercetin
-UGT84C2		GT-Predict extensions	yes	5280343	Quercetin
-UGT85B2		GT-Predict extensions	yes	5280343	Quercetin
-UGT74H5		GT-Predict extensions	yes	5280343	Quercetin
-UGT88C4		GT-Predict extensions	yes	5280343	Quercetin
-UGT74H6		GT-Predict extensions	yes	5280343	Quercetin
-UGT75E3		GT-Predict extensions	yes	5280343	Quercetin
+UGT71G1		GT-Predict extensions	1	5280343	Quercetin
+UGT78G1		GT-Predict extensions	1	5280343	Quercetin
+UGT72B10		GT-Predict extensions	1	5280343	Quercetin
+UGT74P1		GT-Predict extensions	1	5280343	Quercetin
+UGT73A10		GT-Predict extensions	1	5280343	Quercetin
+UGT74N1		GT-Predict extensions	1	5280343	Quercetin
+UGT75L2		GT-Predict extensions	1	5280343	Quercetin
+UGT85A20		GT-Predict extensions	1	5280343	Quercetin
+UGT73Q1		GT-Predict extensions	1	5280343	Quercetin
+UGT73A12		GT-Predict extensions	1	5280343	Quercetin
+UGT86A5		GT-Predict extensions	1	5280343	Quercetin
+UGT94E2		GT-Predict extensions	1	5280343	Quercetin
+UGT84C2		GT-Predict extensions	1	5280343	Quercetin
+UGT85B2		GT-Predict extensions	1	5280343	Quercetin
+UGT74H5		GT-Predict extensions	1	5280343	Quercetin
+UGT88C4		GT-Predict extensions	1	5280343	Quercetin
+UGT74H6		GT-Predict extensions	1	5280343	Quercetin
+UGT75E3		GT-Predict extensions	1	5280343	Quercetin
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	1	5280343	Quercetin
 UGT73A17	0.0088	https://doi.org/10.1371/journal.pone.0207212	1	5280343	Quercetin
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	5280343	Quercetin
@@ -3632,6 +3692,8 @@ At_84B1		GT-Predict	0	7009598	Ser-phe
 At_84A2		GT-Predict	0	7009598	Ser-phe
 At_84A1		GT-Predict	0	7009598	Ser-phe
 At_75B1		GT-Predict	0	7009598	Ser-phe
+OleD		GT-Predict extensions	0	7015695	Ser-Leu
+OleD		GT-Predict extensions	0	7009598	Ser-phe
 Fe_88J1	0.000663445787316396	HTS_UGT	0	68289	Sesamol
 Zm_15991	0.00255045181065796	HTS_UGT	0	68289	Sesamol
 Fe_72B19	0.0218624052481624	HTS_UGT	0	68289	Sesamol
@@ -3727,24 +3789,24 @@ At_84B1		GT-Predict	1	637775	Sinapic acid
 At_84A2		GT-Predict	1	637775	Sinapic acid
 At_84A1		GT-Predict	1	637775	Sinapic acid
 At_75B1		GT-Predict	1	637775	Sinapic acid
-UGT71G1		GT-Predict extensions	yes	637775	Sinapic acid
-UGT78G1		GT-Predict extensions	no	637775	Sinapic acid
-UGT72B10		GT-Predict extensions	no	637775	Sinapic acid
-UGT74P1		GT-Predict extensions	no	637775	Sinapic acid
-UGT73A10		GT-Predict extensions	yes	637775	Sinapic acid
-UGT74N1		GT-Predict extensions	no	637775	Sinapic acid
-UGT75L2		GT-Predict extensions	yes	637775	Sinapic acid
-UGT85A20		GT-Predict extensions	yes	637775	Sinapic acid
-UGT73Q1		GT-Predict extensions	no	637775	Sinapic acid
-UGT73A12		GT-Predict extensions	yes	637775	Sinapic acid
-UGT86A5		GT-Predict extensions	no	637775	Sinapic acid
-UGT94E2		GT-Predict extensions	no	637775	Sinapic acid
-UGT84C2		GT-Predict extensions	yes	637775	Sinapic acid
-UGT85B2		GT-Predict extensions	no	637775	Sinapic acid
-UGT74H5		GT-Predict extensions	no	637775	Sinapic acid
-UGT88C4		GT-Predict extensions	no	637775	Sinapic acid
-UGT74H6		GT-Predict extensions	yes	637775	Sinapic acid
-UGT75E3		GT-Predict extensions	no	637775	Sinapic acid
+UGT71G1		GT-Predict extensions	1	637775	Sinapic acid
+UGT78G1		GT-Predict extensions	0	637775	Sinapic acid
+UGT72B10		GT-Predict extensions	0	637775	Sinapic acid
+UGT74P1		GT-Predict extensions	0	637775	Sinapic acid
+UGT73A10		GT-Predict extensions	1	637775	Sinapic acid
+UGT74N1		GT-Predict extensions	0	637775	Sinapic acid
+UGT75L2		GT-Predict extensions	1	637775	Sinapic acid
+UGT85A20		GT-Predict extensions	1	637775	Sinapic acid
+UGT73Q1		GT-Predict extensions	0	637775	Sinapic acid
+UGT73A12		GT-Predict extensions	1	637775	Sinapic acid
+UGT86A5		GT-Predict extensions	0	637775	Sinapic acid
+UGT94E2		GT-Predict extensions	0	637775	Sinapic acid
+UGT84C2		GT-Predict extensions	1	637775	Sinapic acid
+UGT85B2		GT-Predict extensions	0	637775	Sinapic acid
+UGT74H5		GT-Predict extensions	0	637775	Sinapic acid
+UGT88C4		GT-Predict extensions	0	637775	Sinapic acid
+UGT74H6		GT-Predict extensions	1	637775	Sinapic acid
+UGT75E3		GT-Predict extensions	0	637775	Sinapic acid
 Nt_UGT1	-0.000195014	pTMH	0	72936	Sophoraflavanone G
 Pt_UGT1	0.004011932	pTMH	0	72936	Sophoraflavanone G
 At_72B1	0.013905512	pTMH	0	72936	Sophoraflavanone G
@@ -3974,6 +4036,7 @@ At_84B1		GT-Predict	0	449093	trans-Zeatin
 At_84A2		GT-Predict	0	449093	trans-Zeatin
 At_84A1		GT-Predict	0	449093	trans-Zeatin
 At_75B1		GT-Predict	0	449093	trans-Zeatin
+OleD		GT-Predict extensions	0	439533	Taxifolin
 At_73C4		GT-Predict	0	439533	Taxifolin
 At_78D1		GT-Predict	0	439533	Taxifolin
 At_76E5		GT-Predict	0.5	439533	Taxifolin
@@ -4026,24 +4089,24 @@ At_84B1		GT-Predict	1	439533	Taxifolin
 At_84A2		GT-Predict	1	439533	Taxifolin
 At_84A1		GT-Predict	1	439533	Taxifolin
 At_75B1		GT-Predict	1	439533	Taxifolin
-UGT71G1		GT-Predict extensions	yes	439533	Taxifolin
-UGT78G1		GT-Predict extensions	yes	439533	Taxifolin
-UGT72B10		GT-Predict extensions	no	439533	Taxifolin
-UGT74P1		GT-Predict extensions	no	439533	Taxifolin
-UGT73A10		GT-Predict extensions	yes	439533	Taxifolin
-UGT74N1		GT-Predict extensions	no	439533	Taxifolin
-UGT75L2		GT-Predict extensions	yes	439533	Taxifolin
-UGT85A20		GT-Predict extensions	no	439533	Taxifolin
-UGT73Q1		GT-Predict extensions	no	439533	Taxifolin
-UGT73A12		GT-Predict extensions	yes	439533	Taxifolin
-UGT86A5		GT-Predict extensions	no	439533	Taxifolin
-UGT94E2		GT-Predict extensions	no	439533	Taxifolin
-UGT84C2		GT-Predict extensions	yes	439533	Taxifolin
-UGT85B2		GT-Predict extensions	no	439533	Taxifolin
-UGT74H5		GT-Predict extensions	yes	439533	Taxifolin
-UGT88C4		GT-Predict extensions	no	439533	Taxifolin
-UGT74H6		GT-Predict extensions	no	439533	Taxifolin
-UGT75E3		GT-Predict extensions	yes	439533	Taxifolin
+UGT71G1		GT-Predict extensions	1	439533	Taxifolin
+UGT78G1		GT-Predict extensions	1	439533	Taxifolin
+UGT72B10		GT-Predict extensions	0	439533	Taxifolin
+UGT74P1		GT-Predict extensions	0	439533	Taxifolin
+UGT73A10		GT-Predict extensions	1	439533	Taxifolin
+UGT74N1		GT-Predict extensions	0	439533	Taxifolin
+UGT75L2		GT-Predict extensions	1	439533	Taxifolin
+UGT85A20		GT-Predict extensions	0	439533	Taxifolin
+UGT73Q1		GT-Predict extensions	0	439533	Taxifolin
+UGT73A12		GT-Predict extensions	1	439533	Taxifolin
+UGT86A5		GT-Predict extensions	0	439533	Taxifolin
+UGT94E2		GT-Predict extensions	0	439533	Taxifolin
+UGT84C2		GT-Predict extensions	1	439533	Taxifolin
+UGT85B2		GT-Predict extensions	0	439533	Taxifolin
+UGT74H5		GT-Predict extensions	1	439533	Taxifolin
+UGT88C4		GT-Predict extensions	0	439533	Taxifolin
+UGT74H6		GT-Predict extensions	0	439533	Taxifolin
+UGT75E3		GT-Predict extensions	1	439533	Taxifolin
 UGT73A17	0.0011	https://doi.org/10.1371/journal.pone.0207212	1	5281701	Tricetin
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	0	107985	Triptolide
 TwUGT2		https://doi.org/10.1080/10286020.2019.1642330	0	173273	Triptophenolide
@@ -4434,24 +4497,25 @@ At_84B1		GT-Predict	0	5281426	Umbelliferone
 At_84A2		GT-Predict	1	5281426	Umbelliferone
 At_84A1		GT-Predict	1	5281426	Umbelliferone
 At_75B1		GT-Predict	1	5281426	Umbelliferone
-UGT71G1		GT-Predict extensions	no	5281426	Umbelliferone
-UGT78G1		GT-Predict extensions	no	5281426	Umbelliferone
-UGT72B10		GT-Predict extensions	no	5281426	Umbelliferone
-UGT74P1		GT-Predict extensions	no	5281426	Umbelliferone
-UGT73A10		GT-Predict extensions	no	5281426	Umbelliferone
-UGT74N1		GT-Predict extensions	no	5281426	Umbelliferone
-UGT75L2		GT-Predict extensions	no	5281426	Umbelliferone
-UGT85A20		GT-Predict extensions	no	5281426	Umbelliferone
-UGT73Q1		GT-Predict extensions	no	5281426	Umbelliferone
-UGT73A12		GT-Predict extensions	no	5281426	Umbelliferone
-UGT86A5		GT-Predict extensions	no	5281426	Umbelliferone
-UGT94E2		GT-Predict extensions	no	5281426	Umbelliferone
-UGT84C2		GT-Predict extensions	yes	5281426	Umbelliferone
-UGT85B2		GT-Predict extensions	no	5281426	Umbelliferone
-UGT74H5		GT-Predict extensions	yes	5281426	Umbelliferone
-UGT88C4		GT-Predict extensions	no	5281426	Umbelliferone
-UGT74H6		GT-Predict extensions	yes	5281426	Umbelliferone
-UGT75E3		GT-Predict extensions	yes	5281426	Umbelliferone
+UGT71G1		GT-Predict extensions	0	5281426	Umbelliferone
+UGT78G1		GT-Predict extensions	0	5281426	Umbelliferone
+UGT72B10		GT-Predict extensions	0	5281426	Umbelliferone
+UGT74P1		GT-Predict extensions	0	5281426	Umbelliferone
+UGT73A10		GT-Predict extensions	0	5281426	Umbelliferone
+UGT74N1		GT-Predict extensions	0	5281426	Umbelliferone
+UGT75L2		GT-Predict extensions	0	5281426	Umbelliferone
+UGT85A20		GT-Predict extensions	0	5281426	Umbelliferone
+UGT73Q1		GT-Predict extensions	0	5281426	Umbelliferone
+UGT73A12		GT-Predict extensions	0	5281426	Umbelliferone
+UGT86A5		GT-Predict extensions	0	5281426	Umbelliferone
+UGT94E2		GT-Predict extensions	0	5281426	Umbelliferone
+UGT84C2		GT-Predict extensions	1	5281426	Umbelliferone
+UGT85B2		GT-Predict extensions	0	5281426	Umbelliferone
+UGT74H5		GT-Predict extensions	1	5281426	Umbelliferone
+UGT88C4		GT-Predict extensions	0	5281426	Umbelliferone
+UGT74H6		GT-Predict extensions	1	5281426	Umbelliferone
+UGT75E3		GT-Predict extensions	1	5281426	Umbelliferone
+OleD		GT-Predict extensions	0	14969	Vancomycin
 ApUFGT1		https://doi.org/10.1098/rsos.190150	1	5281703	Wogonin
 ApUFGT2		https://doi.org/10.1098/rsos.190150	1	5281703	Wogonin
 ApUFGT3		https://doi.org/10.1098/rsos.190150	1	5281703	Wogonin
@@ -4479,6 +4543,24 @@ At_72B1	0.047543467	pTMH	0	65090	Xanthotoxol
 At_72E2	0.193382432	pTMH	0	65090	Xanthotoxol
 Mt_71G1	0.38887638	pTMH	1	65090	Xanthotoxol
 Mt_78G1	0.017485431	pTMH	0	65090	Xanthotoxol
+UGT71G1		GT-Predict extensions	0	449093	trans-Zeatin
+UGT78G1		GT-Predict extensions	0	449093	trans-Zeatin
+UGT72B10		GT-Predict extensions	0	449093	trans-Zeatin
+UGT74P1		GT-Predict extensions	1	449093	trans-Zeatin
+UGT73A10		GT-Predict extensions	1	449093	trans-Zeatin
+UGT74N1		GT-Predict extensions	0	449093	trans-Zeatin
+UGT75L2		GT-Predict extensions	0	449093	trans-Zeatin
+UGT85A20		GT-Predict extensions	0	449093	trans-Zeatin
+UGT73Q1		GT-Predict extensions	0	449093	trans-Zeatin
+UGT73A12		GT-Predict extensions	1	449093	trans-Zeatin
+UGT86A5		GT-Predict extensions	0	449093	trans-Zeatin
+UGT94E2		GT-Predict extensions	0	449093	trans-Zeatin
+UGT84C2		GT-Predict extensions	0	449093	trans-Zeatin
+UGT85B2		GT-Predict extensions	1	449093	trans-Zeatin
+UGT74H5		GT-Predict extensions	0	449093	trans-Zeatin
+UGT88C4		GT-Predict extensions	0	449093	trans-Zeatin
+UGT74H6		GT-Predict extensions	1	449093	trans-Zeatin
+UGT75E3		GT-Predict extensions	1	449093	trans-Zeatin
 Fe_88J1	0.000450620375926166	HTS_UGT	0	31211	Zingerone
 Zm_15991	0.00215216372240514	HTS_UGT	0	31211	Zingerone
 Fe_72B19	0.00230137329716107	HTS_UGT	0	31211	Zingerone
@@ -4503,6 +4585,25 @@ At_72B1	-0.000500006	pTMH	0	31211	Zingerone
 At_72E2	0.50154014	pTMH	0.5	31211	Zingerone
 Mt_71G1	0.001077429	pTMH	0	31211	Zingerone
 Mt_78G1	0.001756293	pTMH	0	31211	Zingerone
+OleD		GT-Predict extensions	1	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT71G1		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT78G1		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT72B10		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT74P1		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT73A10		GT-Predict extensions	1	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT74N1		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT75L2		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT85A20		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT73Q1		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT73A12		GT-Predict extensions	1	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT86A5		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT94E2		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT84C2		GT-Predict extensions	1	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT85B2		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT74H5		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT88C4		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT74H6		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT75E3		GT-Predict extensions	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
 At_73C4		GT-Predict	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
 At_78D1		GT-Predict	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
 At_73B2		GT-Predict	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
@@ -4553,7 +4654,29 @@ At_84B1		GT-Predict	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
 At_84A2		GT-Predict	0	5328791	alpha-Cyano-4-hydroxycinnamic acid
 At_84A1		GT-Predict	0.5	5328791	alpha-Cyano-4-hydroxycinnamic acid
 At_75B1		GT-Predict	0.5	5328791	alpha-Cyano-4-hydroxycinnamic acid
+UGT71G1		GT-Predict extensions	0	19212	Ecdysone
+UGT78G1		GT-Predict extensions	0	19212	Ecdysone
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	6406	Acetone cyanohydrin
+UGT71G1		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT78G1		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT72B10		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT74P1		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT73A10		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT74N1		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT75L2		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT85A20		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT73Q1		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT73A12		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT86A5		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT94E2		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT84C2		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT85B2		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT74H5		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT88C4		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT74H6		GT-Predict extensions	0	222284	beta-Sitosterol
+UGT75E3		GT-Predict extensions	0	222284	beta-Sitosterol
+OleD		GT-Predict extensions	1	5281605	Baicalein
+OleD		GT-Predict extensions	0	444539	Cinnamic acid
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	13601	1,2-Cyclohexanediol
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	128861	Cyanidin
 At_78D1		GT-Predict	0	443210	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose
@@ -4706,10 +4829,37 @@ At_84B1		GT-Predict	0	122707150	dTDP-4-dehydro-alpha-D-xylose
 At_84A2		GT-Predict	1	122707150	dTDP-4-dehydro-alpha-D-xylose
 At_84A1		GT-Predict	0	122707150	dTDP-4-dehydro-alpha-D-xylose
 At_75B1		GT-Predict	0	122707150	dTDP-4-dehydro-alpha-D-xylose
+OleD		GT-Predict extensions	0	107126	Dihydrojasmonic acid
+OleD		GT-Predict extensions	1	5281416	Esculetin
+OleD		GT-Predict extensions	1	5281614	Fisetin
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	637566	Geraniol
-OleD		GT-Predict extensions	yes	5280863	Kaempferol
+OleD		GT-Predict extensions	0	6466	Gibberellic acid
+OleD		GT-Predict extensions	0	5793	D-Glucose
+OleD		GT-Predict extensions	0	801	Indole-3-acetate
+OleD		GT-Predict extensions	1	5280863	Kaempferol
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	5280863	Kaempferol
+OleD		GT-Predict extensions	0	3830	Kinetin
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	6549	Linalool
+OleD		GT-Predict extensions	1	5280445	Luteolin
+UGT71G1		GT-Predict extensions	0	54675769	Novobiocin
+UGT78G1		GT-Predict extensions	0	54675769	Novobiocin
+UGT72B10		GT-Predict extensions	0	54675769	Novobiocin
+UGT74P1		GT-Predict extensions	0	54675769	Novobiocin
+UGT73A10		GT-Predict extensions	0	54675769	Novobiocin
+UGT74N1		GT-Predict extensions	0	54675769	Novobiocin
+UGT75L2		GT-Predict extensions	0	54675769	Novobiocin
+UGT85A20		GT-Predict extensions	0	54675769	Novobiocin
+UGT73Q1		GT-Predict extensions	0	54675769	Novobiocin
+UGT73A12		GT-Predict extensions	0	54675769	Novobiocin
+UGT86A5		GT-Predict extensions	0	54675769	Novobiocin
+UGT94E2		GT-Predict extensions	0	54675769	Novobiocin
+UGT84C2		GT-Predict extensions	0	54675769	Novobiocin
+UGT85B2		GT-Predict extensions	0	54675769	Novobiocin
+UGT74H5		GT-Predict extensions	0	54675769	Novobiocin
+UGT88C4		GT-Predict extensions	1	54675769	Novobiocin
+UGT74H6		GT-Predict extensions	0	54675769	Novobiocin
+UGT75E3		GT-Predict extensions	0	54675769	Novobiocin
+UGT74B1	0.065	""	1	220184	N-Hydroxy-2-phenylacetamide
 UGT74B1	4.66666666666667	""	1	3295299	Phenylthioacetohydroximic acid
 UGT74B1 mut H22A	0	""	1	3295299	Phenylthioacetohydroximic acid
 UGT74B1 mut D113A	0.02	""	1	3295299	Phenylthioacetohydroximic acid
@@ -4717,9 +4867,47 @@ UGT74B1	0.0716666666666667	""	1	4118131	N-hydroxy-3-phenylpropanamide
 UGT74B1	5.43333333333333	""	1	102334912	N-Hydroxy-3-phenylpropanethioamide
 UGT74B1 mut H22A	0	""	1	102334912	N-Hydroxy-3-phenylpropanethioamide
 UGT74B1 mut D113A	0.04	""	1	102334912	N-Hydroxy-3-phenylpropanethioamide
-OleD		GT-Predict extensions	yes	5280343	Quercetin
+OleD		GT-Predict extensions	1	5280343	Quercetin
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	5280343	Quercetin
+OleD		GT-Predict extensions	1	637775	Sinapic acid
+UGT71G1		GT-Predict extensions	0	65727	Solanidine
+UGT78G1		GT-Predict extensions	0	65727	Solanidine
+UGT72B10		GT-Predict extensions	0	65727	Solanidine
+UGT74P1		GT-Predict extensions	0	65727	Solanidine
+UGT73A10		GT-Predict extensions	0	65727	Solanidine
+UGT74N1		GT-Predict extensions	0	65727	Solanidine
+UGT75L2		GT-Predict extensions	0	65727	Solanidine
+UGT85A20		GT-Predict extensions	0	65727	Solanidine
+UGT73Q1		GT-Predict extensions	0	65727	Solanidine
+UGT73A12		GT-Predict extensions	0	65727	Solanidine
+UGT86A5		GT-Predict extensions	0	65727	Solanidine
+UGT94E2		GT-Predict extensions	0	65727	Solanidine
+UGT84C2		GT-Predict extensions	0	65727	Solanidine
+UGT85B2		GT-Predict extensions	0	65727	Solanidine
+UGT74H5		GT-Predict extensions	0	65727	Solanidine
+UGT88C4		GT-Predict extensions	0	65727	Solanidine
+UGT74H6		GT-Predict extensions	0	65727	Solanidine
+UGT75E3		GT-Predict extensions	0	65727	Solanidine
+UGT71G1		GT-Predict extensions	0	15541	Spectinomycin
+UGT78G1		GT-Predict extensions	0	15541	Spectinomycin
+UGT72B10		GT-Predict extensions	0	15541	Spectinomycin
+UGT74P1		GT-Predict extensions	0	15541	Spectinomycin
+UGT73A10		GT-Predict extensions	0	15541	Spectinomycin
+UGT74N1		GT-Predict extensions	0	15541	Spectinomycin
+UGT75L2		GT-Predict extensions	0	15541	Spectinomycin
+UGT85A20		GT-Predict extensions	0	15541	Spectinomycin
+UGT73Q1		GT-Predict extensions	0	15541	Spectinomycin
+UGT73A12		GT-Predict extensions	0	15541	Spectinomycin
+UGT86A5		GT-Predict extensions	0	15541	Spectinomycin
+UGT94E2		GT-Predict extensions	0	15541	Spectinomycin
+UGT84C2		GT-Predict extensions	0	15541	Spectinomycin
+UGT85B2		GT-Predict extensions	0	15541	Spectinomycin
+UGT74H5		GT-Predict extensions	0	15541	Spectinomycin
+UGT88C4		GT-Predict extensions	0	15541	Spectinomycin
+UGT74H6		GT-Predict extensions	0	15541	Spectinomycin
+UGT75E3		GT-Predict extensions	0	15541	Spectinomycin
 UGT74B1	0.181666666666667	""	1	7969	Benzenethiol
+OleD		GT-Predict extensions	0	6288	l-Threonine
 At_85A5		GT-Predict	1	449093	trans-Zeatin
 At_72B1		GT-Predict	0	449093	trans-Zeatin
 At_73B1		GT-Predict	0	449093	trans-Zeatin
@@ -4729,8 +4917,9 @@ At_74F2		GT-Predict	0	449093	trans-Zeatin
 At_84A4		GT-Predict	0	449093	trans-Zeatin
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	444539	Cinnamic acid
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	445154	Resveratrol
-OleD		GT-Predict extensions	no	449093	trans-Zeatin
+OleD		GT-Predict extensions	0	449093	trans-Zeatin
 UGT85K14		https://doi.org/10.1093/jxb/erv335	0	449093	trans-Zeatin
+OleD		GT-Predict extensions	1	5281426	Umbelliferone
 UGT72AY1	0.013	https://doi.org/10.1104/pp.20.00953	1	5363817	alpha-Ionol
 UGT73A24	0.025	https://doi.org/10.1104/pp.20.00953	1	5363817	alpha-Ionol
 UGT73A25	0.086	https://doi.org/10.1104/pp.20.00953	1	5363817	alpha-Ionol
@@ -4740,3 +4929,114 @@ UGT72AY1	0.007	https://doi.org/10.1104/pp.20.00953	1	5373729	beta-Ionol
 UGT73A24	0.024	https://doi.org/10.1104/pp.20.00953	1	5373729	beta-Ionol
 UGT73A25	0.208	https://doi.org/10.1104/pp.20.00953	1	5373729	beta-Ionol
 UGT85A73		https://doi.org/10.1104/pp.20.00953	1	5373729	beta-Ionol
+UGT73B41	0.05935637268	sebastian	1	5484169	2-HADNT
+UGT73B41	0.06205438962	sebastian	1	5375469	4-HADNT
+UGT73C11	0.045282911988	sebastian	1	5484169	2-HADNT
+UGT73C11	0.117625125042	sebastian	1	5375469	4-HADNT
+OsCGT2,3	0.0553129697493001	sebastian	1	21932272	2-hydroxynaringenin
+OsCGT2,3	0.0230347130502001	sebastian	1	90657995	2-hydroxyeriodictyol
+OsCGT2,3	0.0290158295289001	sebastian	1	4788	phloretin
+OsCGT2,3	0.0188825330154	sebastian	1	21611827	2,5,7-trihydroxyflavanone
+OsCGT2,3	0.017300750145	sebastian	1	68146761	2',4',6'-trihydroxydihydrochalcone
+OsCGT2,3	0.00237267430560001	sebastian	1	77093	2,4,6-trihydroxybenzophenone
+ZmUGT/UGT708A64		sebastian	0	21932272	2-hydroxynaringenin
+FeCGTa/UGT708C15	1.79835305664	sebastian	1	21932272	2-hydroxynaringenin
+FeCGTa/UGT708C15	1.41551038912	sebastian	1	90657995	2-hydroxyeriodictyol
+FeCGTa/UGT708C15	1.72279200384	sebastian	1	42607887	2-hydroxypinocembrin
+FeCGTa/UGT708C15	0.26194498304	sebastian	1	4788	phloretin
+FeCGTa/UGT708C15	0.639750247040001	sebastian	1	689111	2-phenyl-2',4',6'-trihydroxyactophenone
+FeCGTa/UGT708C15	0.508777755520001	sebastian	1	68073	2',4',6'-trihydroxyacetophenone
+FeCGTa/UGT708C15	0.11082287744	sebastian	1	68099	2,4,6-trihydroxybenzaldehyde
+FeCGTa/UGT708C15	1.7882782496	sebastian	1	42607887	2-hydroxypinocembrin
+FeCGTa/UGT708C15	0.0906732633600001	sebastian	1	42607887	2-hydroxypinocembrin
+FeCGTb/UGT708C25	1.7399058837	sebastian	1	21932272	2-hydroxynaringenin
+FeCGTb/UGT708C25	1.20532610494	sebastian	1	90657995	2-hydroxyeriodictyol
+FeCGTb/UGT708C25	2.77880620846	sebastian	1	42607887	2-hydroxypinocembrin
+FeCGTb/UGT708C25	0.42362925864	sebastian	1	4788	phloretin
+FeCGTb/UGT708C25	2.269442457	sebastian	1	689111	2-phenyl-2',4',6'-trihydroxyactophenone
+FeCGTb/UGT708C25	0.630400682500001	sebastian	1	68073	2',4',6'-trihydroxyacetophenone
+FeCGTb/UGT708C25	0.1260801365	sebastian	1	68099	2,4,6-trihydroxybenzaldehyde
+FeCGTb/UGT708C25	1.29106059776	sebastian	1	42607887	2-hydroxypinocembrin
+FeCGTb/UGT708C25	0.03530243822	sebastian	1	42607887	2-hydroxypinocembrin
+GmCGT/UGT708D16		sebastian	0	21932272	2-hydroxynaringenin
+GtUF6CGT17	0.00619188983777001	sebastian	1	5280443	apigenin
+GtUF6CGT17	0.01331497140568	sebastian	1	5280445	luteolin
+MiCGT8		sebastian	1	68213	maclurin
+MiCGT8		sebastian	1	5281656	norathyriol
+MiCGTb9		sebastian	1	4788	phloretin
+FcCGT/UGT708G110	3.27209804128	sebastian	1	21932272	2-hydroxynaringenin
+FcCGT/UGT708G110	3.48886163392	sebastian	1	42607887	2-hydroxypinocembrin
+FcCGT/UGT708G110	1.76507496864	sebastian	1	4788	phloretin
+FcCGT/UGT708G110	1.95603337168	sebastian	1	689111	2-phenyl-2',4',6'-trihydroxyactophenone
+FcCGT/UGT708G110	0.04128830336	sebastian	1	68213	maclurin
+FcCGT/UGT708G110	0.28901812352	sebastian	1	68073	2',4',6'-trihydroxyacetophenone
+FcCGT/UGT708G110	0.09805972048	sebastian	1	68099	2,4,6-trihydroxybenzaldehyde
+FcCGT/UGT708G110	1.25929325248	sebastian	1	129320321	6-Cglucosyl-2-hydroxynaringenin
+FcCGT/UGT708G110	3.07597860032	sebastian	1	21722188	nothofagin (3'-C-glucosyl-phloretin
+FcCGT/UGT708G110	0.0031998435104	sebastian	1	6072	phloridzin
+FcCGT/UGT708G110		sebastian	1	21722188	nothofagin
+FcCGT/UGT708G110	2.09538139552	sebastian	1	21932272	2-hydroxynaringenin
+FcCGT/UGT708G110	0.55223105744	sebastian	1	21932272	2-hydroxynaringenin
+FcCGT/UGT708G110	0.048513756448	sebastian	1	21932272	2-hydroxynaringenin
+CuCGT/UGT708G210	1.09441695132	sebastian	1	21932272	2-hydroxynaringenin
+CuCGT/UGT708G210	1.3422094686	sebastian	1	42607887	2-hydroxypinocembrin
+CuCGT/UGT708G210	0.34071471126	sebastian	1	4788	phloretin
+CuCGT/UGT708G210	0.97568303679	sebastian	1	689111	2-phenyl-2',4',6'-trihydroxyactophenone
+CuCGT/UGT708G210	0.06711047343	sebastian	1	68213	maclurin
+CuCGT/UGT708G210	0.14970797919	sebastian	1	68073	2',4',6'-trihydroxyacetophenone
+CuCGT/UGT708G210	0.04646109699	sebastian	1	68099	2,4,6-trihydroxybenzaldehyde
+CuCGT/UGT708G210	0.64013066964	sebastian	1	129320321	6-C-glucosyl-2-hydroxynaringenin
+CuCGT/UGT708G210	1.14604039242	sebastian	1	21722188	nothofagin (3'-C-glucosyl-phloretin
+CuCGT/UGT708G210	0.0010840922631	sebastian	1	6072	phloridzin
+CuCGT/UGT708G210	0.78983864883	sebastian	1	21932272	2-hydroxynaringenin
+CuCGT/UGT708G210	0.29425361427	sebastian	1	21932272	2-hydroxynaringenin
+CuCGT/UGT708G210	0.012389625864	sebastian	1	21932272	2-hydroxynaringenin
+PlUGT4311		sebastian	0	5281708	daidzein
+PlUGT4311		sebastian	0	5280961	genistein
+TcCGT112		sebastian	1	5280443	apigenin
+TcCGT112		sebastian	1	5280445	luteolin
+WjGT1/UGT84A5713	0.0753427015410002	sebastian	1	5280443	apigenin
+WjGT1/UGT84A5713	0.0630527573180001	sebastian	1	5280445	luteolin
+WjGT1/UGT84A5713	0.0277859608520001	sebastian	1	4788	phloretin
+WjGT1/UGT84A5713	0.017633398233	sebastian	1	5280863	kaempferol
+WjGT1/UGT84A5713	0.0267172700500001	sebastian	1	5280343	quercetin
+WjGT1/UGT84A5713	0.0651901389220001	sebastian	1	932	naringenin
+GgCGT/UGT708B414		sebastian	1	21722188	nothofagin
+OsCGT2/UGT708A415		sebastian	0	4788	phloretin
+OsCGT2/UGT708A415		sebastian	0	21932272	2-hydroxynaringenin
+OsCGT3/UGT708A215		sebastian	0	4788	phloretin
+OsCGT6/UGT708A4015		sebastian	0	4788	phloretin
+TaCGT1-A/UGT708A1415		sebastian	0	4788	phloretin
+TaCGT1-A/UGT708A1415		sebastian	0	21932272	2-hydroxynaringenin
+TaCGT1-B/UGT708A5215		sebastian	0	4788	phloretin
+TaCGT1-D/UGT708A5315		sebastian	0	4788	phloretin
+TaCGT1-D/UGT708A5315		sebastian	0	21932272	2-hydroxynaringenin
+TaCGT2-A/UGT708A1515		sebastian	0	4788	phloretin
+TaCGT2-B/UGT708A5415		sebastian	0	4788	phloretin
+SbCGT1/UGT708A3615		sebastian	0	4788	phloretin
+SbCGT1/UGT708A3615		sebastian	0	21932272	2-hydroxynaringenin
+SbCGT2/UGT708A3515		sebastian	0	4788	phloretin
+SbCGT3/UGT708A3415		sebastian	0	4788	phloretin
+ZmCGT2/UGT708A515		sebastian	0	4788	phloretin
+ZmCGT3/UGT708A1115		sebastian	0	4788	phloretin
+ZmCGT4/UGT708A4115		sebastian	0	4788	phloretin
+ZmCGT5/UGT708A4215		sebastian	0	4788	phloretin
+SiCGT1/UGT708A3115		sebastian	0	4788	phloretin
+SiCGT1/UGT708A3115		sebastian	0	21932272	2-hydroxynaringenin
+SiCGT2/UGT708A3215		sebastian	0	4788	phloretin
+SiCGT3/UGT708A3315		sebastian	0	4788	phloretin
+BdCGT1/UGT708A715		sebastian	0	4788	phloretin
+BdCGT1/UGT708A715		sebastian	0	21932272	2-hydroxynaringenin
+BdCGT2/UGT708A815		sebastian	0	4788	phloretin
+PhCGT1/UGT708A4315		sebastian	0	4788	phloretin
+PhCGT1/UGT708A4315		sebastian	0	21932272	2-hydroxynaringenin
+PhCGT2/UGT708A4615		sebastian	0	4788	phloretin
+PgCGT1/UGT708A4415		sebastian	0	4788	phloretin
+PgCGT1/UGT708A4415		sebastian	0	21932272	2-hydroxynaringenin
+PpCGT1/UGT708A4515		sebastian	0	4788	phloretin
+IroB16		sebastian	1	34231	enterobactin
+IroB16		sebastian	1	5327038	MGE
+IroB16		sebastian	1	101763507	salmochelin S4
+UrdGT217,18		sebastian	0	53297394	UWM6
+DcUGT220		sebastian	0	9883304	flavokermesic acid
+DcUGT220		sebastian	0	11727234	kermesic acid
