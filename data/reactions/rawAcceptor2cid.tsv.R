@@ -120,6 +120,8 @@ queries = queries[! raw %in% raw.matched]
 raw2query.paren = raw2query[grep(" (", fixed=T, raw), .(raw, query=sub(".* \\((.*)\\)", "\\1", raw))]
 raw2query = rbind(raw2query, raw2query.paren)
 queries = rbind(queries, raw2query.paren)
+# again, skip queries for raw acceptor names that have already been curated.
+queries = raw2query[! raw %in% raw2cid$raw]
                   
 # in cases where there are multiple matches we can take the first match,
 # but only if we didn't manage to find a match with any of the variants 
