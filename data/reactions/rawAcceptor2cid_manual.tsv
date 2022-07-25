@@ -1,0 +1,60 @@
+raw	cid	smiles	comment
+Gingerol	442793		
+AbscisicAcid	5280896		
+Abscisic acid	5280896		
+Pinoresinol	73399		
+Borneol	64685		
+Eucamalol	12426239		
+Ginkgolide B	65243		
+Hinokiol	12310492		
+Homoharringtonine	285033		
+Huperzine A	854026		
+Ilicic acid	11876195		
+Ingenol-3-Angelate	23581946		
+Isosteviol	99514		
+Madecassic acid	73412		
+Naringenin	932		
+Nerolidol	5284507		
+Pseudolaric acid B	53377390		
+Theaflavin	135403798		
+DihydroZeatin	32021		
+GDPFuc	135402013		
+GDPMan	135398627		
+Gibberellin A4	92109		
+Indole 3-acetate	801		
+Gibberellin A3	6466		
+UDPGlc	8629		
+2-Methyl-umbelliferone	5280567		2-methyl doesn't seem to exist and it says 4-methyl in the GT Predict paper so it is a typo
+()- cis, trans Abscisic acid	5280896		looked in the GT Predict paper
+a-cyano-4-hydroxyl-cinnamic acid	5328791		a-cyano-4-hydroxyl-cinnamic acid
+Trans-Zentin-Glucose	449093		from GT-Predict. They only refer to Trans-Zeatin in paper.
+MUGlcNAc	2733787		or 118328, but they have the same canonical SMILES
+BocCysThrOMe			
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine			
+?-GlcOBn			
+a-ManOBn			
+a-ManOCH2Bn			
+a-ManOPh			
+a-ManOPMP			
+a-ManOBn(pNO2)			
+a-ManOPhF5			
+a-ManOBnF5			
+ManSTol			mannose-S-toluene ?
+UDP5SGlc	8629		I think based on looking at the GT-Predict paper that this is just UDP-glucose bound at a 5S location 
+dTDPXyl	122707150		best match but doesn't seem like a perfect match?
+UDPGlcNAc	445675		
+dTDPGlc	443210		
+GDPGlc	135398625		
+UDPMan	448873		
+UDPRha	49852436		
+dTDPRha	49852346		
+FuranThiol	143754		best match but not perfect
+Lovastatin,Terpineol			which or both
+cis/trans 1,2-Dihydroxycyclohexane	13601		
+2-Hydroxycylcohexane carboxylic acid	271816		misspell of '2-Hydroxycyclohexanecarboxylic acid'
+phenylpropanothiohydroximate	102334912		Found by drawing in https://molview.org/ using drawing from https://doi.org/10.1016/j.mcat.2019.110631
+phenylpropanohydroximate	4118131		Found by drawing in https://molview.org/ using drawing from https://doi.org/10.1016/j.mcat.2019.110631
+phenylacetohydroximate	220184		Found by drawing in https://molview.org/ using drawing from https://doi.org/10.1016/j.mcat.2019.110631
+3-Hydroxy-α-damascone		C/C=C/C(=O)C1C(=CC(O)CC1(C)C)C	Found by drawing in https://molview.org/ using drawing from https://doi.org/10.1021/jf00009a021
+Salicyl-7-benzoate	12731045		Drawing from https://doi.org/10.1093/jxb/eraa562 fig. 2 drawn in molview.org
+Salicyl-2-benzoate	12731046		Drawing from https://doi.org/10.1093/jxb/eraa562 fig. 2 drawn in molview.orgDrawing in doi: 10.1111/tpj.14615 drawn in molview.org

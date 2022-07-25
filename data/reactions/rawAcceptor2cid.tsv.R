@@ -4,12 +4,6 @@ suppressPackageStartupMessages(library(webchem))
 suppressPackageStartupMessages(library(here))
 setwd(paste0(here(), "/data"))
 
-# read
-hts_ugt.raw = colnames(fread("Fatemeh_eval/all-experimental.tsv"))[-1]
-tmh.raw = unique(fread("inhouse/pTMH.tsv", select="acceptor")$acceptor)
-gtpred.raw = unique(fread("reactions/gtpred_reactions.tsv", select="acceptor")$acceptor)
-
-
 # functions
 subs = function(patterns, replacements, x, fixeds=F) {
     n = length(patterns)
@@ -22,70 +16,32 @@ subs = function(patterns, replacements, x, fixeds=F) {
     o
 }
 
+# read files with raw names that needs converting to cid
+hts_ugt.raw = colnames(fread("Fatemeh_eval/all-experimental.tsv"))[-1]
+tmh.raw = unique(fread("inhouse/pTMH.tsv", select="acceptor")$acceptor)
+gtpred.raw = unique(fread("reactions/gtpred_reactions.tsv", select="acceptor")$acceptor)
+gtpred_ext.raw = unique(fread("GT-Predict/extensions.tsv"))
+lit.raw = unique(fread("lit/lit.tsv")$Acceptor)
 
-# manually found after doing the get_cid. Put up here before others to save time, since get_cid is a slow call.
-raw2cid = rbind(
-    c("Gingerol", 442793),
-    c("AbscisicAcid", 5280896),
-    c("Abscisic acid", 5280896),
-    c("Pinoresinol", 73399),
-    c("Borneol", 64685),
-    c("Eucamalol", 12426239),
-    c("Ginkgolide B", 65243),
-    c("Hinokiol", 12310492),
-    c("Homoharringtonine", 285033),
-    c("Huperzine A", 854026),
-    c("Ilicic acid", 11876195),
-    c("Ingenol-3-Angelate", 23581946),
-    c("Isosteviol", 99514),
-    c("Madecassic acid", 73412),
-    c("Naringenin", 932),
-    c("Nerolidol", 5284507),
-    c("Pseudolaric acid B", 53377390),
-    c("Theaflavin", 135403798),
-    c("DihydroZeatin", 32021),
-    c("GDPFuc", 135402013),
-    c("GDPMan", 135398627),
-    c("Gibberellin A4", 92109),
-    c("Indole 3-acetate", 801),
-    c("Gibberellin A3", 6466),
-    c("UDPGlc", 8629),
-    c("2-Methyl-umbelliferone", 5280567),  # 2-methyl doesn't seem to exist and it says 4-methyl in the GT Predict paper so it is a typo
-    c("()- cis, trans Abscisic acid", 5280896),  # looked in the GT Predict paper
-    c("a-cyano-4-hydroxyl-cinnamic acid", 5328791),
-    c("Trans-Zentin-Glucose", 449093), # from GT-Predict. They only refer to Trans-Zeatin in paper.
-    c("MUGlcNAc", 2733787), # or 118328, but they have the same canonical SMILES
-    c("BocCysThrOMe", NA),
-    c("1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine", NA),
-    c("?-GlcOBn", NA),
-    c("a-ManOBn", NA),
-    c("a-ManOCH2Bn", NA),
-    c("a-ManOPh", NA),
-    c("a-ManOPMP", NA),
-    c("a-ManOBn(pNO2)", NA),
-    c("a-ManOPhF5", NA),
-    c("a-ManOBnF5", NA),
-    c("ManSTol", NA), # mannose-S-toluene ?
-    c("UDP5SGlc", 8629),  # I think based on looking at the GT-Predict paper that this is just UDP-glucose bound at a 5S location 
-    c("dTDPXyl", 122707150), # best match but doesn't seem like a perfect match?
-    c("UDPGlcNAc", 445675),
-    c("dTDPGlc", 443210),
-    c("GDPGlc", 135398625),
-    c("UDPMan", 448873),
-    c("UDPRha", 49852436),
-    c("dTDPRha", 49852346),
-    c("FuranThiol", 143754), # best match but not perfect
-    c("Lovastatin,Terpineol", NA) # which or both
-)
-colnames(raw2cid) = c("raw", "cid")
+accs.raw = unique(c(hts_ugt.raw, tmh.raw, gtpred.raw, lit.raw))
 
+# manual effort
+raw2cid.manual = fread("reactions/rawAcceptor2cid_manual.tsv", drop=c("smiles", "comment"))
 
-# try to standardize names
+# save curation time by only running webchem for acceptors that haven't already been looked up.
+# Do this by reading the result from this script if present and skipping those entries in the lookup.
+if(file.exists("reactions/rawAcceptor2cid.tsv")) {
+    raw2cid = fread("reactions/rawAcceptor2cid.tsv")
+    raw2cid = rbind(raw2cid, raw2cid.manual)
+} else {
+    raw2cid = raw2cid.manual
+}
 
-accs.raw = unique(c(hts_ugt.raw, tmh.raw, gtpred.raw))
-acceptors = data.table(raw=accs.raw, processed=NA)
+# define alternative spellings etc for queries corresponding to each raw acceptor string.
 
-acceptors2 = data.table(rbind(
+raw2query = data.table(raw=accs.raw, query=NA)
+
+raw2query.manual = data.table(rbind(
     c("BenzAdenine", "Benzyladenine"),
     c("DiMeBenzAcid", "Dimethylbenzoic acid"),
     c("CinAcid", "Cinnamic acid"),
@@ -101,16 +57,17 @@ acceptors2 = data.table(rbind(
     c("4-hydroxy 3-methoxy cinnamic acid", "4-hydroxy-3-methoxycinnamic acid"),
     c("Coumaryl alcohol", "p-Coumaryl alcohol")
 ))
-colnames(acceptors2) = c("raw", "processed")
+colnames(raw2query.manual) = c("raw", "query")
 
-acceptors = rbind(
-    acceptors,
-    acceptors2,
-    acceptors[grep(" (", fixed=T, raw), .(raw, processed=sub(".* \\((.*)\\)", "\\1", raw))],
-    acceptors[grep(" (", fixed=T, raw), .(raw, processed=sub(" \\(.*", "", raw))],
-    acceptors[, .(raw, processed=subs(c("^ ", "?-", "(?)-", "()-"), "", fixed=c(F,T,T,T), raw))],
-    acceptors[grep("[a-z][A-Z]$", raw), .(raw, processed=sub("A$", " A", raw))],
-    acceptors[grep("^GDP[A-Z]", raw), .(raw, processed=sub("^GDP", "GDP-", raw))]
+# for each raw acceptor string we get multiple acceptor queries that can be fed to pubchem,
+# e.g. "a (b)" means both a and b are search strings.
+raw2query = rbind(
+    raw2query,
+    raw2query.manual,
+    raw2query[grep(" (", fixed=T, raw), .(raw, query=sub(" \\(.*", "", raw))],
+    raw2query[, .(raw, query=subs(c("^ ", "?-", "(?)-", "()-"), "", fixed=c(F,T,T,T), raw))],
+    raw2query[grep("[a-z][A-Z]$", raw), .(raw, query=sub("A$", " A", raw))],
+    raw2query[grep("^GDP[A-Z]", raw), .(raw, query=sub("^GDP", "GDP-", raw))]
 )
 
 substitutions = rbind(
@@ -129,26 +86,63 @@ substitutions = rbind(
     c("coumerin", "coumarin"),  # typo
     c("Zentin", "zeatin"),   # typo
     c(" ([0-9])", "-\\1"),
-    c("a-", "alpha-")
+    c("a-", "alpha-"),
+    c("α", "alpha"),
+    c("β", "beta"),
+    c("hydroximate$", "hydroximic acid"), # conjugate acid
+    c("benzoate$", "benzoic acid") # conjugate acid
 )
 
-acceptors = rbind(acceptors, acceptors[, .(raw, processed=subs(substitutions[,1], substitutions[,2], processed))])
-acceptors[, processed:=sub("--", "-", processed)]
-acceptors[, processed:=sub("-$", "", processed)]
-acceptors = acceptors[!processed%in%c("DCA")]
-acceptors = unique(na.omit(acceptors))
+raw2query = rbind(raw2query, raw2query[, .(raw, query=subs(substitutions[,1], substitutions[,2], query))])
+raw2query[, query:=sub("--", "-", query)]
+raw2query[, query:=sub("-$", "", query)]
+raw2query = raw2query[!query%in%c("DCA")]
+raw2query = unique(na.omit(raw2query))
 
-cids = get_cid(acceptors[!raw%in%raw2cid[,"raw"], processed], match="na")
-setnames(cids, "query", "processed")
+# skip queries for raw acceptor names that have already been curated.
+queries = raw2query[! raw %in% raw2cid$raw]
 
-acceptors = unique(merge(acceptors, na.omit(cids))[, cid, by=raw])
-# remove any raw2cid mapping that has ambiguity
-acceptors = acceptors[!raw%in%acceptors[,.N, by=raw][N>1, raw]]
+nRawLeft = length(unique(queries$raw))
+message("Running ", nrow(queries), " get_cid queries from ", nRawLeft, " raw chemical names...")
+# match="na" means we don't get a match if there are multiple returned by 
+# pubchemwe don't get a match if there are multiple returned by pubchem.
+cids = get_cid(queries$query, match="na")
+cids = na.omit(cids)
+raw.matched = unique(merge(cids, queries, all.x=T))$raw
+message(length(raw.matched), "/", nRawLeft, " matched raw acceptor names.")
+queries = queries[! raw %in% raw.matched]
 
-# add anything else manually to be sure it's OK, i.e. anything not found or found with multiple CIDs. 
-accs.raw[!accs.raw%in%acceptors$raw]
+# second round of matching is more flexible, in cases where there was no match for the more strict search.
+# Here, add the contents of parenthesis in raw string:
+raw2query.paren = raw2query[grep(" (", fixed=T, raw), .(raw, query=sub(".* \\((.*)\\)", "\\1", raw))]
+raw2query = rbind(raw2query, raw2query.paren)
+queries = rbind(queries, raw2query.paren)
+                  
+# in cases where there are multiple matches we can take the first match,
+# but only if we didn't manage to find a match with any of the variants 
+# ("query") that describes a given raw string.
+nRawLeft = length(unique(queries$raw))
+message("Running ", nrow(queries), " get_cid flexible queries from ", nRawLeft, " raw chemical names...")
+cids.flex = get_cid(queries$query, match="first")
+cids.flex = na.omit(cids.flex)
+raw.matched = unique(merge(cids.flex, queries, all.x=T))$raw
+message(length(raw.matched), "/", nRawLeft, " matched raw acceptor names.")
+queries = queries[! raw %in% raw.matched]
 
-acceptors = na.omit(unique(rbind(acceptors, raw2cid)))
+# remaining names have to be added manually
+lacking = unique(queries$raw)
+message(length(lacking), " raw strings not matched:")
+message(paste(lacking, collapse='\n'))
 
-fwrite(acceptors, "reactions/rawAcceptor2cid.tsv", sep='\t')
+cids = merge(cids, raw2query, by="query")
+raw2cid.new = unique(data.table(merge(cids, raw2query))[, cid, by=raw])
+# multiple matches:
+multiMatch = raw2cid.new[raw%in%raw2cid.new[,.N, by=raw][N>1, raw]]
+nMultiMatch = length(unique(multiMatch$raw))
+if(nMultiMatch > 0) message(nMultiMatch, " raw strings with multiple matches.")
+# remove them
+raw2cid.new = raw2cid.new[!raw%in%raw2cid.new[,.N, by=raw][N>1, raw]]
+
+raw2cid = na.omit(unique(rbind(raw2cid, raw2cid.new)))
+fwrite(raw2cid, "reactions/rawAcceptor2cid.tsv", sep='\t')
 
