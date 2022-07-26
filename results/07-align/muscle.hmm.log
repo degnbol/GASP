@@ -10,6 +10,6 @@
 
 # idx name                  nseq  alen  mlen eff_nseq re/pos description
 #---- -------------------- ----- ----- ----- -------- ------ -----------
-1     muscle                 159  1140   464     4.12  0.590 
+1     muscle                 197  1230   470     4.39  0.590 
 
-# CPU time: 0.22u 0.00s 00:00:00.22 Elapsed: 00:00:00.23
+# CPU time: 0.24u 0.00s 00:00:00.24 Elapsed: 00:00:00.25
