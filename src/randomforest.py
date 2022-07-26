@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+from argparse import RawTextHelpFormatter
 import sys
 import math
 import numpy as np
@@ -11,30 +12,47 @@ import logging as log
 
 
 def get_parser():
-    parser = argparse.ArgumentParser(
-        description="Train a Random Forest classifier with a train and test set and make prediction on the test set. "
-                    "Optionally use CV to split infile into train and test. "
-                    "Reads a tab-separated table header from stdin and writes prediction table to stdout. "
-                    "Columns: id, features, set, and class. Class is 1 for a positive and 0 for a negative. set indicates train or test. Create infile with encode_features.py.")
+    parser = argparse.ArgumentParser(description="""
+    Train and/or test a Random Forest classifier. 
+    Reads a tab-separated table with header from stdin and writes prediction table to stdout, 
+    if testing. Infile columns:
+        (-c) A class column where 1 is for a positive and 0 for a negative observation. 
+        (-s) An optional set column that indicates train or test.
+             Default is all data is testset if (-m) otherwise trainset.
+        (-F) Feature columns, either here on using -a/--annotate.
+        (-i) Optionally id column(s) that can map to features from (-a).
+    Amino acids can be encoded with encode_features.py. 
+    Optionally use CV to split infile into train and test. """, formatter_class=RawTextHelpFormatter) # RawTextHelpFormatter to keep newlines.
 
-    parser.add_argument("-i", "--id", dest="ids", nargs="+", help="Name of columns that are neither feature nor class so should be identifier columns. They are simply copied to output for identification.")
-    parser.add_argument("-F", "--features", nargs="+", help="Name of columns that are features to be used.")
-    parser.add_argument("-t", "--identity", dest="threshold", type=float, default=1., help="Threshold for train vs test identity.")
+    parser.add_argument("-i", "--id", dest="ids", nargs="+",
+        help="Name of columns that are neither feature nor class so should be identifier\ncolumns. They are simply copied to output for identification.")
+    parser.add_argument("-F", "--features", nargs="+",
+        help="Name of columns that are features to be used.")
+    parser.add_argument("-t", "--identity", dest="threshold", type=float, default=1.,
+        help="Threshold for train vs test identity.")
     parser.add_argument("-o", "--out",
-                        help="The model can be saved to this file (e.g. randomforest.joblib). By default the model is not saved.")
+        help="The model can be saved to this file (e.g. randomforest.joblib).\nBy default the model is not saved.")
     parser.add_argument("-m", "--model",
-                        help="Read model (e.g. randomforest.joblib) from this arg and test instead of train from stdin.")
-    parser.add_argument("-n", "--estimators", dest="n_estimators", type=int, default=100, help="Number of trees in the forest.")
-    parser.add_argument("--crit", dest="criterion", default="gini", help="Randomforest criterion for split quality.", choices=["gini", "entropy"])
+        help="Read model (e.g. randomforest.joblib) from this arg and test instead of\ntrain from stdin.")
+    parser.add_argument("-n", "--estimators", dest="n_estimators", type=int, default=100,
+        help="Number of trees in the forest.")
+    parser.add_argument("--crit", dest="criterion", default="gini",
+        help="Randomforest criterion for split quality.", choices=["gini", "entropy"])
     # uppercase Class since class is a reserved word
-    parser.add_argument("-c", "--class", dest="Class", help="Name of column with class labels in training data. Default=class.", default="class")
+    parser.add_argument("-c", "--class", dest="Class",
+        help="Name of column with class labels in training data. Default=class.", default="class")
     parser.add_argument("-e", "--eval", default="class",
-                        help="Name of column with evaluation value in test data. Can be class like infile but floats are also supported. Default=class.")
-    parser.add_argument("--eval-thres", dest="eval_threshold", type=float, help="Set this threshold to also turn a float eval from test set into two classes.")
-    parser.add_argument("--log", help="Logging is sent to stderr. Set this flag to a filename to also write it to a file.")
-    parser.add_argument("--importance", help="Write feature importance and stddev to this file.")
-    parser.add_argument("--cv", type=int, help="Do k-fold cross-validation, provide k.")
-    parser.add_argument("-s", "--set", help="Name of column with set indication. Can have comma separated values. The test set is each unique name found. Default=\"set\".", default="set")
+        help="Name of column with evaluation value in test data. Can be class like infile\nbut floats are also supported. Default=class.")
+    parser.add_argument("--eval-thres", dest="eval_threshold", type=float,
+        help="Set this threshold to also turn a float eval from test set into two classes.")
+    parser.add_argument("--log",
+        help="Logging is sent to stderr. Set flag to a filename to also write to file.")
+    parser.add_argument("--importance",
+        help="Write feature importance and stddev to this file.")
+    parser.add_argument("--cv", type=int,
+        help="Do k-fold cross-validation, provide k.")
+    parser.add_argument("-s", "--set",
+        help="Name of column with set indication. Can have comma separated values.\nThe test set is each unique name found. Default=\"set\".", default="set")
 
     return parser
 

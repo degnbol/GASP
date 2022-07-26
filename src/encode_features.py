@@ -18,7 +18,7 @@ def get_parser():
     parser.add_argument("--dna", nargs="+", help="Names of columns that should be encoded with alphabet ACGT. Not implemented.")
     parser.add_argument("--rna", nargs="+", help="Names of columns that should be encoded with alphabet ACGU. Not implemented.")
     parser.add_argument("--aa", nargs="+", help="Names of columns that should be encoded with a standard amino acid alphabet.")
-    parser.add_argument("--aa-encoding", help="Path to encoding matrix for AAs, e.g. BLOSUM. Default is one-hot (sparse).")
+    parser.add_argument("--aa-encoding", help="Path to encoding matrix for AAs, e.g. data/NCBI/blosum62Amb.tsv.")
     parser.add_argument("--cv", type=int, help="Do k-fold cross-validation, provide k. This will add a column \"set\" with integers in range [0;k-1].")
     parser.add_argument("-k", "--keep-redundant", action="store_true", help="Keep redundant features, i.e. features that never vary.")
 
