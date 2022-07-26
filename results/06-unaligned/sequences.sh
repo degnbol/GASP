@@ -22,8 +22,6 @@ mlr -t uniq -f Protein,AA "$DATA/lit/lit.tsv" | sed 1d >> sequences.tsv
 mlr -t --from $DATA/inhouse/david/20220215__forML.xlsx.enzymes.AA.tsv cut -f ENA,AA | sed 1d >> sequences.tsv
 
 mlr -t -I uniq -a sequences.tsv
-# muscle in the alignment process step only takes the first word, so we can't have spaces.
-tr ' ' '-' < sequences.tsv > temp && mv temp sequences.tsv
 
 # the following code returns nothing when there are no duplicate entries, which is best.
 # Duplicates just means a bit of wasted effort in alignment, potentially.
