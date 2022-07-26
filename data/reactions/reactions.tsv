@@ -557,11 +557,6 @@ UGT75E3		GT-Predict extensions	1	689043	Caffeic acid
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	1	91747288	3-Hydroxy-alpha-ionol
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	91747288	3-Hydroxy-alpha-ionol
 UGT73A25		https://doi.org/10.1104/pp.20.00953	1	91747288	3-Hydroxy-alpha-ionol
-UGT85A73		https://doi.org/10.1104/pp.20.00953	""	91747288	3-Hydroxy-alpha-ionol
-UGT72AY1		https://doi.org/10.1104/pp.20.00953	""	11344809	3-Hydroxy-alpha-ionone
-UGT73A24		https://doi.org/10.1104/pp.20.00953	""	11344809	3-Hydroxy-alpha-ionone
-UGT73A25		https://doi.org/10.1104/pp.20.00953	""	11344809	3-Hydroxy-alpha-ionone
-UGT85A73		https://doi.org/10.1104/pp.20.00953	""	11344809	3-Hydroxy-alpha-ionone
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	637541	3-Hydroxycinnamic acid
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	1	5370052	3-Oxo-alpha-ionol
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	5370052	3-Oxo-alpha-ionol
@@ -643,16 +638,12 @@ OleD		GT-Predict extensions	0	637541	3-Hydroxycinnamic acid
 OleD		GT-Predict extensions	0	637542	4-Hydroxycinnamic acid
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	0	91749226	4-Hydroxy-beta-damascone
 UGT73A24		https://doi.org/10.1104/pp.20.00953	0	91749226	4-Hydroxy-beta-damascone
-UGT73A25		https://doi.org/10.1104/pp.20.00953	""	91749226	4-Hydroxy-beta-damascone
 UGT85A73		https://doi.org/10.1104/pp.20.00953	1	91749226	4-Hydroxy-beta-damascone
 UGT72AY1		https://doi.org/10.1104/pp.20.00953	1	14565843	4-Hydroxy-beta-ionol
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	14565843	4-Hydroxy-beta-ionol
 UGT73A25		https://doi.org/10.1104/pp.20.00953	1	14565843	4-Hydroxy-beta-ionol
-UGT85A73		https://doi.org/10.1104/pp.20.00953	""	14565843	4-Hydroxy-beta-ionol
-UGT72AY1		https://doi.org/10.1104/pp.20.00953	""	10176665	4-Hydroxy-beta-ionone
 UGT73A24		https://doi.org/10.1104/pp.20.00953	1	10176665	4-Hydroxy-beta-ionone
 UGT73A25		https://doi.org/10.1104/pp.20.00953	1	10176665	4-Hydroxy-beta-ionone
-UGT85A73		https://doi.org/10.1104/pp.20.00953	""	10176665	4-Hydroxy-beta-ionone
 UGT71L2		https://doi.org/10.1093/jxb/eraa562	0	125	4-Hydroxybenzyl alcohol
 UGT71G1		GT-Predict extensions	0	5280567	Hymecromone
 UGT78G1		GT-Predict extensions	0	5280567	Hymecromone
