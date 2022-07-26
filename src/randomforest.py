@@ -23,9 +23,11 @@ def get_parser():
         (-i) Optionally id column(s) that can map to features from (-a).
     Amino acids can be encoded with encode_features.py. 
     Optionally use CV to split infile into train and test. """, formatter_class=RawTextHelpFormatter) # RawTextHelpFormatter to keep newlines.
-
+    
     parser.add_argument("-i", "--id", dest="ids", nargs="+",
         help="Name of columns that are neither feature nor class so should be identifier\ncolumns. They are simply copied to output for identification.")
+    parser.add_argument("-a", "--annotate", nargs="+",
+        help="Filename(s) for providing features, that will annotate the infile by matching on overlapping ids given by -i/--id.")
     parser.add_argument("-F", "--features", nargs="+",
         help="Name of columns that are features to be used.")
     parser.add_argument("-t", "--identity", dest="threshold", type=float, default=1.,
@@ -41,8 +43,8 @@ def get_parser():
     # uppercase Class since class is a reserved word
     parser.add_argument("-c", "--class", dest="Class",
         help="Name of column with class labels in training data. Default=class.", default="class")
-    parser.add_argument("-e", "--eval", default="class",
-        help="Name of column with evaluation value in test data. Can be class like infile\nbut floats are also supported. Default=class.")
+    parser.add_argument("-e", "--eval", default=None,
+        help="Name of column with evaluation value in test data. Can be class like infile\nbut floats are also supported. Default=-c/--class value.")
     parser.add_argument("--eval-thres", dest="eval_threshold", type=float,
         help="Set this threshold to also turn a float eval from test set into two classes.")
     parser.add_argument("--log",
@@ -53,7 +55,7 @@ def get_parser():
         help="Do k-fold cross-validation, provide k.")
     parser.add_argument("-s", "--set",
         help="Name of column with set indication. Can have comma separated values.\nThe test set is each unique name found. Default=\"set\".", default="set")
-
+    
     return parser
 
 
@@ -93,7 +95,7 @@ def remove_redundant(*dfs, ignore=None):
 def feature_prep(train, test, threshold=1.0, ignore=None):
     """
     Prepare features for random forest. This means we make sure to have less similarity between train and test than a threshold,
-    we encode AA sequences with a given aa_encoding matrix, we drop redundant features that never vary.
+    and drop redundant features that never vary.
     :param train: pd dataframe
     :param test: pd dataframe
     :param threshold: threshold that identity must be lower than
@@ -116,7 +118,7 @@ def feature_prep(train, test, threshold=1.0, ignore=None):
     test_feature_dtypes = test[test_feature_names].dtypes
     train_nonum = train_feature_names[(train_feature_dtypes != int) & (train_feature_dtypes != float)]
     test_nonum = test_feature_names[(test_feature_dtypes != int) & (test_feature_dtypes != float)]
-    assert np.all(train_nonum == test_nonum)
+    if len(test) > 0: assert np.all(train_nonum == test_nonum)
     if len(train_nonum) > 0:
         log.info("Dropping non-number feature(s): " + ','.join(train_nonum))
         train.drop(columns=train_nonum, inplace=True)
@@ -148,10 +150,16 @@ def testing(clf, test, ignore):
 
 
 def traintest(train, test, Class, threshold, n_estimators, criterion, ignore=None):
-    if ignore is None: ignore = []
-    elif type(ignore) is not list: ignore = [ignore]
+    if ignore is None: ignore = set()
+    elif np.isscalar(ignore): ignore = {ignore}
+    else: ignore = set(ignore)
+    ignore = ignore - {Class} # obviously don't ignore the class
     train = train.drop(columns=ignore, errors='ignore')
-    train, test = feature_prep(train, test, threshold, [Class] + ignore)
+    train, test = feature_prep(train, test, threshold, ignore.union({Class}))
+    if train.isna().any().any():
+        nBefore = len(train)
+        train.dropna(inplace=True)
+        log.warning(f"NaN records removed for training: {nBefore} -> {len(train)}")
     log.info("Train random forest model.")
     clf = training(train, Class, n_estimators, criterion)
     if len(test) == 0: return None, clf
@@ -212,51 +220,80 @@ def main(args):
     if args.log is None: handlers = None
     else: handlers = [log.StreamHandler(), log.FileHandler(args.log)]
     log.basicConfig(format="%(message)s", level=log.INFO, handlers=handlers)
-
+    
     if args.set != "set":
-        log.info("Using column {} as set".format(args.set))
-
+        log.info(f"Using column {args.set} as set")
+    if args.eval is None: args.eval = args.Class
+    
     # reading
-
+    
     infile = pd.read_table(args.infile)
-    if infile.isna().any().any():
-        log.warning("NA found in infile in column(s): " + ",".join(infile.columns[infile.isna().any()]))
+    log.info(f"shape = {infile.shape}")
+    
+    if args.annotate:
+        for infname in args.annotate:
+            log.info(f"Annotating from {infname}")
+            right = pd.read_table(infname)
+            # merge on keys overlapping between the two, and that are given as ids, if ids are given.
+            onKeys = np.intersect1d(infile.columns, right.columns)
+            if args.ids: onKeys = np.intersect1d(onKeys, args.ids)
+            log.info(f"Matching on {','.join(onKeys)}")
+            # merge where the annotation file annotates, i.e. left join with added info from right file.
+            infile = infile.merge(right, on=list(onKeys), how="left", suffixes=('', ' new'))
+            # Multiple annotation files can in combination describe the entries in infile, so we replace nans in columns named the same.
+            for colname in infile.columns:
+                if colname.endswith(" new"):
+                    colname_old = colname.removesuffix(" new")
+                    log.debug(f"Annotation replacement on {colname_old}")
+                    old = infile[colname_old]
+                    new = infile[colname]
+                    rowIdx = ~new.isna()
+                    modIdx = ~(old[rowIdx].isna() | (old[rowIdx] == new[rowIdx]))
+                    if np.any(modIdx):
+                        log.warning(str(modIdx.sum()) + f" modifications on '{colname_old}'.")
+                    old.update(new)
+                    infile.drop(columns=colname, inplace=True)
+            log.info(f"shape = {infile.shape}")
+    
     if args.features is not None:
         args.features = list(set(args.features) - set(args.ids).union({args.Class, args.eval, args.set}))
         # remove columns that are not feature, id, eval or class
         infile = infile[[k for k in args.features + args.ids + [args.Class, args.eval, args.set] if k in infile]]
         log.info("{}/{} given features found in infile.".format(np.sum(np.in1d(args.features, infile.columns)), len(args.features)))
-
-    # train/test or only test?
+    
+    if infile.isna().any().any():
+        log.warning(f"NA found in infile in column(s): {join(infile.columns[infile.isna().any()])}")
+    
+    # train, train+test, or test?
     if args.model is None:
         # do the feature prep, training and testing
         if args.cv is not None:
             if args.set in infile:
                 log.info("Ignoring set column, using CV.")
                 infile.drop(columns=args.set, inplace=True)
-
+    
             tests, clfs = [], []
             for train, test in cv_samples(infile, args.cv):
                 test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.ids + [args.eval])
                 tests.append(test)
                 clfs.append(clf)
             test = pd.concat(tests)
-
+    
         elif args.set not in infile:
                 log.info(f"CV and set missing, using all {len(infile)} data points for training.")
                 test, clf = traintest(infile, pd.DataFrame({c:[] for c in infile.columns}), args.Class, args.threshold, args.n_estimators, args.criterion, args.ids + [args.eval])
                 clfs = [clf]
-
+    
         else:
             sets = set(s for ss in infile[args.set] for s in ss.split(",") if len(s) > 0)
             if sets == {'train', 'test'}:
                 train = infile.loc[infile[args.set] == 'train', :].drop(columns=args.set)
                 test = infile.loc[infile[args.set] == 'test', :].drop(columns=args.set)
                 log.info("Found train and test set in infile with {} and {} datapoints".format(len(train), len(test)))
-
+    
                 test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.ids + [args.eval])
                 clfs = [clf]
-
+    
             else:
                 assert len(sets) > 1, f"Only {len(sets)} sets found in infile"
                 log.info("Found {} sets in infile".format(len(sets)))
@@ -271,31 +308,34 @@ def main(args):
                     tests.append(test)
                     clfs.append(clf)
                 test = pd.concat(tests)
-
+    
         if args.out:
-            for i, clf in enumerate(clfs):
-                joblib.dump(clf, args.out + str(i))
-
+            if len(clfs) == 1:
+                joblib.dump(clf, args.out)
+            else:
+                for i, clf in enumerate(clfs):
+                    joblib.dump(clf, args.out + str(i))
+    
         if test is None: return
-
+    
     else:
         # testing only
         log.info("Read trained model.")
         clf = joblib.load(args.model)
         log.info("Make prediction on the test set.")
         test = testing(clf, infile, args.ids + [args.Class])
-
+    
     pred_cols = args.ids + [args.Class, args.eval, "pred"]
     pred_cols = np.intersect1d(pred_cols, test.columns)
     test[pred_cols].to_csv(sys.stdout, sep="\t", index=False)
-
+    
     if args.importance is not None:
         features = np.setdiff1d(test.columns, args.ids + [args.Class, args.eval, "pred"])
         importance = np.vstack([clf.feature_importances_ for clf in clfs]).mean(axis=0)
         stds = np.std([t.feature_importances_ for clf in clfs for t in clf.estimators_], axis=0)
         importance_table = pd.DataFrame({"feature": features, "importance": importance, "std": stds})
         importance_table.to_csv(args.importance, sep='\t', index=False)
-
+    
     print_performance(test, args.Class, args.eval, "pred", args.eval_threshold)
 
 
@@ -307,6 +347,6 @@ if __name__ == '__main__':
 
 debug = False
 if debug:
-    args = get_parser().parse_args('-i enzyme acceptor source cid -c reaction -e rate'.split(' '))
-    args.infile = '/Users/degnbol/biosustain/gt/randomforest/rdkit-desc_muscle-ntern-hmm_median_gtpred_selected/traintest.tsv'
+    args = get_parser().parse_args('-i enzyme cid -c reaction -a /Users/cdmadsen/GT/results/05-chemicalFeatures/20220215_features.tsv /Users/cdmadsen/GT/results/05-chemicalFeatures/acceptor_features.tsv /Users/cdmadsen/GT/results/08-features/matchAmb.tsv.gz'.split(' '))
+    args.infile = '/Users/cdmadsen/GT/results/08-features/train.tsv'
 
