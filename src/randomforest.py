@@ -33,7 +33,7 @@ def get_parser():
     parser.add_argument("-t", "--identity", dest="threshold", type=float, default=1.,
         help="Threshold for train vs test identity.")
     parser.add_argument("-o", "--out",
-        help="The model can be saved to this file (e.g. randomforest.joblib).\nBy default the model is not saved.")
+        help="The model can be saved to this file (e.g. randomforest.joblib.gz).\nBy default the model is not saved.")
     parser.add_argument("-m", "--model",
         help="Read model (e.g. randomforest.joblib) from this arg and test instead of\ntrain from stdin.")
     parser.add_argument("-n", "--estimators", dest="n_estimators", type=int, default=100,
@@ -142,11 +142,11 @@ def training(train, Class, n_estimators, criterion):
     return clf
 
 
-def testing(clf, test, ignore):
-    predictions = clf.predict_proba(test.drop(columns=ignore, errors='ignore'))[:, clf.classes_ == 1].squeeze()
+def testing(clf, df):
+    predictions = clf.predict_proba(df[clf.feature_names_in_])[:, clf.classes_ == 1].squeeze()
     # explicitly call copy since you get a view otherwise and the assignment after fails
-    test["pred"] = predictions
-    return test
+    df["pred"] = predictions
+    return df
 
 
 def traintest(train, test, Class, threshold, n_estimators, criterion, ignore=None):
@@ -164,7 +164,7 @@ def traintest(train, test, Class, threshold, n_estimators, criterion, ignore=Non
     clf = training(train, Class, n_estimators, criterion)
     if len(test) == 0: return None, clf
     log.info("Make prediction on the test set.")
-    test = testing(clf, test, ignore + [Class])
+    test = testing(clf, test)
     return test, clf
 
 
@@ -190,19 +190,20 @@ def print_performance(df, class_name, eval_name, pred_name, eval_threshold=None)
     Class = df.get(class_name)
     Eval = df.get(eval_name)
     Pred = df.get(pred_name)
-
+    
     if Class is not None:
         log.info("PCC={:.3f} to {}".format(PCC(Pred, Class), class_name))
         class_auc = AUC(Class, Pred)
         log.info("AUC={:.3f} for {}/{} {} values".format(class_auc, sum(Class), len(Class), class_name))
-
-
+    
     if Eval is not None:
         Pred, Eval = Pred[~np.isnan(Eval)], Eval[~np.isnan(Eval)]
-
+        
         log.info("PCC={:.3f} to {}".format(PCC(Pred, Eval), eval_name))
-
-        if Eval.dtype == float:
+        
+        if len(Eval.unique()) == 2:
+            log.info("AUC={:.3f}".format(AUC(Eval, Pred)))
+        else:
             response = Pred > 0.5  # majority vote
             resp_auc = AUC(response, Eval)
             log.info("AUC={:.3f} for {}/{} positive responses".format(resp_auc, sum(response), len(response)))
@@ -210,10 +211,6 @@ def print_performance(df, class_name, eval_name, pred_name, eval_threshold=None)
                 thres_eval = Eval > eval_threshold
                 thres_auc = AUC(thres_eval, Pred)
                 log.info("AUC={:.3f} for {}/{} {} values > {}".format(thres_auc, sum(thres_eval), len(thres_eval), eval_name, eval_threshold))
-        else:
-            log.info("AUC={:.3f}".format(AUC(Eval, Pred)))
-
-
 
 
 def main(args):
@@ -230,12 +227,14 @@ def main(args):
     infile = pd.read_table(args.infile)
     log.info(f"shape = {infile.shape}")
     
+    # the original keys, before any potential annotations are added
+    infileKeys = infile.columns
     if args.annotate:
         for infname in args.annotate:
             log.info(f"Annotating from {infname}")
             right = pd.read_table(infname)
             # merge on keys overlapping between the two, and that are given as ids, if ids are given.
-            onKeys = np.intersect1d(infile.columns, right.columns)
+            onKeys = np.intersect1d(infileKeys, right.columns)
             if args.ids: onKeys = np.intersect1d(onKeys, args.ids)
             log.info(f"Matching on {','.join(onKeys)}")
             # merge where the annotation file annotates, i.e. left join with added info from right file.
@@ -262,7 +261,8 @@ def main(args):
         log.info("{}/{} given features found in infile.".format(np.sum(np.in1d(args.features, infile.columns)), len(args.features)))
     
     if infile.isna().any().any():
-        log.warning(f"NA found in infile in column(s): {join(infile.columns[infile.isna().any()])}")
+        # not using ','.join(...) since it becomes long, e.g. if all seq features are involved.
+        log.warning(f"NA found in infile in column(s): {infile.columns[infile.isna().any()]}")
     
     # train, train+test, or test?
     if args.model is None:
@@ -322,18 +322,17 @@ def main(args):
         # testing only
         log.info("Read trained model.")
         clf = joblib.load(args.model)
+        clfs = [clf] # in case of writing feature importance below.
         log.info("Make prediction on the test set.")
-        test = testing(clf, infile, args.ids + [args.Class])
+        test = testing(clf, infile)
     
-    pred_cols = args.ids + [args.Class, args.eval, "pred"]
-    pred_cols = np.intersect1d(pred_cols, test.columns)
-    test[pred_cols].to_csv(sys.stdout, sep="\t", index=False)
+    # write columns out that were given in infile, i.e. if annotations were made, they are discarded here.
+    test[list(infileKeys) + ["pred"]].to_csv(sys.stdout, sep="\t", index=False)
     
     if args.importance is not None:
-        features = np.setdiff1d(test.columns, args.ids + [args.Class, args.eval, "pred"])
         importance = np.vstack([clf.feature_importances_ for clf in clfs]).mean(axis=0)
         stds = np.std([t.feature_importances_ for clf in clfs for t in clf.estimators_], axis=0)
-        importance_table = pd.DataFrame({"feature": features, "importance": importance, "std": stds})
+        importance_table = pd.DataFrame({"feature": clf.feature_names_in_, "importance": importance, "std": stds})
         importance_table.to_csv(args.importance, sep='\t', index=False)
     
     print_performance(test, args.Class, args.eval, "pred", args.eval_threshold)
@@ -347,6 +346,8 @@ if __name__ == '__main__':
 
 debug = False
 if debug:
-    args = get_parser().parse_args('-i enzyme cid -c reaction -a /Users/cdmadsen/GT/results/05-chemicalFeatures/20220215_features.tsv /Users/cdmadsen/GT/results/05-chemicalFeatures/acceptor_features.tsv /Users/cdmadsen/GT/results/08-features/matchAmb.tsv.gz'.split(' '))
-    args.infile = '/Users/cdmadsen/GT/results/08-features/train.tsv'
+    # args = get_parser().parse_args('-i enzyme cid -c reaction -a /Users/cdmadsen/GT/results/05-chemicalFeatures/20220215_features.tsv /Users/cdmadsen/GT/results/05-chemicalFeatures/acceptor_features.tsv /Users/cdmadsen/GT/results/08-features/matchAmb.tsv.gz'.split(' '))
+    # args.infile = '/Users/cdmadsen/GT/results/08-features/train.tsv'
+    args = get_parser().parse_args('-m /Users/cdmadsen/GT/results/09-randomforest/normfit_negatives/matchAmb.rf.joblib -a /Users/cdmadsen/GT/results/05-chemicalFeatures/20220215_features.tsv /Users/cdmadsen/GT/results/05-chemicalFeatures/acceptor_features.tsv /Users/cdmadsen/GT/results/08-features/matchAmb.tsv.gz'.split(' '))
+    args.infile = '/Users/cdmadsen/GT/results/10-experimentalValidation/experimentYield.tsv'
 
