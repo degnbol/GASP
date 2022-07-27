@@ -20,4 +20,11 @@ cat $INFILE $CAZY | hmmalign --trim --amino --outformat A2M muscle.hmm - > muscl
 $LIB/fasta_delete_lower.py muscle.hmm.a2m > muscle.hmm.faa
 
 # remove low quality alignments
-$LIB/fasta_filter_quality.py -t 0.8 muscle.hmm.faa muscle_qual.hmm.faa
+$LIB/fasta_filter_quality.py -t 0.75 muscle.hmm.faa muscle_qual.hmm.faa
+
+mlr --hi join --np --ul -j 1 -f <(grep '>' muscle.faa) <(grep '>' muscle_qual.hmm.faa) | sed 1d | cut -c2- > discarded.enz
+if [ -s discarded.enz ]; then
+    echo "The following enzymes were discarded due to gappy alignment (excluding bulk CAZy curated enzymes):"
+    cat discarded.enz
+fi
+
