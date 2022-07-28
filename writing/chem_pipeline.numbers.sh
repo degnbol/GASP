@@ -1,6 +1,7 @@
 #!/usr/bin/env zsh
 # print some numbers to put in figure.
-infile=`git root`/data/reactions/reactions.tsv
+ROOT=`git root`
+infile=$ROOT/data/reactions/reactions.tsv
 
 gtpredFilt='$source == "GT-Predict" || $source == "GT-Predict extensions"'
 litFilt='$source != "GT-Predict" && $source != "GT-Predict extensions" && $source != "pTMH" && $source != "HTS_UGT"'
@@ -37,3 +38,10 @@ mlr -t --from $infile filter $litFilt + uniq -f cid + count | sed 1d
 echo -n "  enzymes   = "
 mlr -t --from $infile filter $litFilt + uniq -f enzyme + count | sed 1d
 
+echo -n "\n1) -> "
+mlr -t --from $ROOT/results/*-validateAcceptors/acceptors.tsv uniq -f smiles + count | sed 1d | tr -d '\n'
+echo " SMILES"
+
+echo -n "\n3) -> "
+mlr -t --from $ROOT/results/*-chemicalFeatures/acceptor_features.tsv uniq -f smiles + count | sed 1d | tr -d '\n'
+echo " SMILES"
