@@ -33,7 +33,11 @@ ids = df[args.id]
 
 def progress(s, n):
     fps = fprints_from_smiles(s, n)
-    print(n)
+    # for some reason the starmap subprogress stuff means stdout can only be used if not piping, 
+    # which means in order to use the progress.sh script and measure progress 
+    # as percentage after pipe we have to print to stderr, then repipe back to 
+    # stdout then pipe into progress.sh
+    print(n, file=sys.stderr)
     return fps
 
 with mp.Pool(args.threads) as pool:

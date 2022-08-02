@@ -1,11 +1,22 @@
 #!/usr/bin/env zsh
-# Generate a lot of features of chemicals given their pubchem id (CID).
-# USAGE: pipeline.sh INFILE OUTFILE.tsv
+# Generate a lot of features for chemicals given their pubchem id (CID).
+# USAGE: pipeline.sh INFILE.cid OUTFILE.tsv [PREVIOUS]
+# INFILE contains a CID on each line.
+# OUTFILE.tsv is the generated features.
+# PREVIOUS is an optional name for a previous job, i.e. the name used as INFILE earlier.
+# It is important to supply this if new chemicals are added to a previous run,
+# so the MDS projected points are in the same space.
 # A folder with intermediate files are also generated named INFILE-props
 INFILE="$1"
 OUTFILE="$2"
+PREVIOUS="$3"
 
-WORK="${INFILE:r}-props" # remove extension
+WORK="${INFILE:r}-props" # :r = remove extension
+if [ -n "$PREVIOUS" ]; then
+    # set to the path of the fingerprints generated in the previous run
+    PREVIOUS="${PREVIOUS:r}-props/E3FP.fpz"
+fi
+
 mkdir -p "$WORK"
 {
 	echo '#!/usr/bin/env zsh'
@@ -34,16 +45,18 @@ echo '# make volumes from PDBs'
 $SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv"
 
 echo '# make E3FP fingerprints using SMILES'
-$SRC/e3fp-fprints.py "$WORK/E3FP.fpz" < "$WORK/pubchem.tsv"
+# because of python subprocess weirdness we had to print to stderr,
+# then redirect pipe to stdout with 2>&1 in order to use progress.sh
+$SRC/e3fp-fprints.py "$WORK/E3FP.fpz" -c < "$WORK/pubchem.tsv" 2>&1 | $SRC/../progress.sh $N
 
-echo '# use the compressed fingerprints to generate 12 MDS features'
-$SRC/e3fp-features.py "$WORK/E3FP.fpz" -ck 12 | mlr --tsv rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
+echo '# use the chemical fingerprints to generate 12 MDS features'
+$SRC/E3FP_features.jl -ck 12 $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
 
 # RDKit and ProteinVolume both generate a Van Der Waals Volume.
 # We keep the version from ProteinVolume to have consistency between different volume calculations.
 # This is done by having it earlier in the list, since miller takes priority to earlier files in the join.
 echo '# join intermediate files'
-mlr --tsv   --from "$WORK/volumes.tsv" \
+mlr -t      --from "$WORK/volumes.tsv" \
     join -j cid -f "$WORK/RDKitDescriptors.tsv" then \
     join -j cid -f "$WORK/areas.tsv" then \
     join -j cid -f "$WORK/E3FP_MDS.tsv" then \
