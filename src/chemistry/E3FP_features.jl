@@ -104,5 +104,5 @@ decimals = length(string(args.dimensions))
 colNames = "MDS_" .* lpad.(1:args.dimensions, decimals, '0')
 colNames = ["id"; colNames]
 println(join(colNames, '\t'))
-writedlm(stdout, features')
+writedlm(stdout, [uNames features'])
 
