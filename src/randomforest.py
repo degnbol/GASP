@@ -143,9 +143,12 @@ def training(train, Class, n_estimators, criterion):
 
 
 def testing(clf, df):
-    predictions = clf.predict_proba(df[clf.feature_names_in_])[:, clf.classes_ == 1].squeeze()
-    # explicitly call copy since you get a view otherwise and the assignment after fails
-    df["pred"] = predictions
+    testset = df[clf.feature_names_in_]
+    # predict on records with NA and write NA as pred for those entries so the output file will not change shape.
+    noNaRows = ~testset.isna().any(axis=1)
+    if noNaRows.any(): log.warning(f"NaN records removed for testing: {len(noNaRows)} -> {sum(noNaRows)}")
+    predictions = clf.predict_proba(testset[noNaRows])[:, clf.classes_ == 1].squeeze()
+    df.loc[noNaRows, "pred"] = predictions
     return df
 
 
@@ -158,7 +161,7 @@ def traintest(train, test, Class, threshold, n_estimators, criterion, ignore=Non
     train, test = feature_prep(train, test, threshold, ignore.union({Class}))
     if train.isna().any().any():
         nBefore = len(train)
-        train.dropna(inplace=True)
+        train = train.dropna()
         log.warning(f"NaN records removed for training: {nBefore} -> {len(train)}")
     log.info("Train random forest model.")
     clf = training(train, Class, n_estimators, criterion)
@@ -295,7 +298,7 @@ def main(args):
                 clfs = [clf]
     
             else:
-                assert len(sets) > 1, f"Only {len(sets)} sets found in infile"
+                assert len(sets) > 1, f"Only {len(sets)} set(s) found in infile"
                 log.info("Found {} sets in infile".format(len(sets)))
                 infile[args.set] = [[s for s in ss.split(",") if len(s) > 0] for ss in infile[args.set]]
                 tests, clfs = [], []
