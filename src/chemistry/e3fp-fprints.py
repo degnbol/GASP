@@ -16,6 +16,7 @@ def get_parser():
     parser.add_argument("-s", "--smiles", default="smiles", help="Name of column with SMILES. Default=\"smiles\".")
     parser.add_argument("-i", "--id", default="cid", help="Name of column with molecule identifiers. Default=\"cid\".")
     parser.add_argument("-t", "--threads", type=int, default=mp.cpu_count(), help="Number of threads for multiprocess. Default=all.")
+    parser.add_argument("-c", "--conformers", action="store_true", help="Write all conformers for each id. Default=write only one.")
     return parser
 
 debug = False
@@ -38,10 +39,14 @@ def progress(s, n):
 with mp.Pool(args.threads) as pool:
     fprints = pool.starmap(progress, zip(smiles, ids))
 
+if args.conformers:
+    fingerprints = [fp for fps in fprints for fp in fps]
+else:
+    fingerprints = [fps[0] for fps in fprints]
+
 # level is number of iterations performed before stopping generation of fingerprints. Just have to match.
 # Default is 5. -1 means until termination.
 db = FingerprintDatabase(name="acceptors", level=5)
-# NOTE: only adding one conformer
-db.add_fingerprints([fs[0] for fs in fprints])
+db.add_fingerprints(fingerprints)
 db.savez(args.outfile)
 
