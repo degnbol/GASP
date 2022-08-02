@@ -1,0 +1,3 @@
+cid	MolecularWeight	smiles	TPSA	Complexity	Charge	HBondDonorCount	HBondAcceptorCount	RotatableBondCount	HeavyAtomCount	AtomStereoCount	BondStereoCount
+40024	296.31	CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO	99.5	558	0	3	6	1	21	7	0
+135449343	388.3	C1C(N=C(C=C1C=CN2C(CC3=CC(=C(C=C32)O)O)C(=O)O)C(=O)O)C(=O)O	168	774	0	5	10	5	28	2	1

@@ -1,0 +1,9 @@
+PV Version: 1.3
+Date: 2022-08-01 06:28:15 pm
+Protein directory: DON+betanidin-props/PDBs
+Volume probe radius: 0.080A -> 0.020A
+Surface probe minimum distance: 0.1A
+
+Protein               Total Volume (A3)      Void Volume       VDW Volume  Packing Density  Time Taken (ms)
+135449343                       340.127           21.996          318.131            0.935  1911
+40024                           271.856           17.840          254.016            0.934  1428
