@@ -5,7 +5,7 @@ import math
 import numpy as np
 import pandas as pd
 import logging as log
-
+from degnutil import input_output as io
 
 def get_parser():
     parser = argparse.ArgumentParser(description="Encode features for ML, e.g. convert sequences to numeric encoding, remove redundant features, indicate train vs test set. Read train set from stdin, pipe /dev/null to use no train set.")
@@ -139,9 +139,12 @@ def main(args):
     if args.aa is not None:
         if args.aa_encoding is None: raise NotImplementedError("Provide encoding matrix.")
         aa_encoding = pd.read_table(args.aa_encoding).select_dtypes(np.number)
-
-    try: df = encode_AAs(pd.read_table(args.infile), aa_encoding, args.aa)
-    except pd.errors.EmptyDataError: df = None
+    
+    if args.infile is None:
+        df = None
+    else:
+        try: df = encode_AAs(pd.read_table(args.infile), aa_encoding, args.aa)
+        except pd.errors.EmptyDataError: df = None
 
     if len(args.test) > 0:
         if args.cv is not None: raise NotImplementedError("Test file not used with CV.")
@@ -184,7 +187,7 @@ def main(args):
 
 if __name__ == '__main__':
     args = get_parser().parse_args()
-    args.infile = sys.stdin
+    args.infile = sys.stdin if io.is_reading_from_pipe() else None
     main(args)
 
 debug = False
