@@ -16,11 +16,6 @@ def get_parser():
     parser.add_argument("-d", "--distances", help="Store pairwise distance matrix to this file.")
     return parser
 
-debug = False
-if debug:
-    args = get_parser().parse_args("~/biosustain/gt/acceptors/acceptors.fpz -ck 12".split(' '))
-    main(args)
-
 def main(args):
     db = DB.load(expanduser(args.infile))
     names = np.asarray([n.rsplit('_', 1)[0] for n in db.fp_names])
