@@ -4,9 +4,12 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 ## REQUIREMENTS
 - unix shell with zsh
 - R
-- java runtime, e.g. with homebrew on mac: `brew install adoptopenjdk8`
+- java runtime for some chemical feature generation.
+  E.g. install with homebrew on Mac: `brew install adoptopenjdk8`
 - pip
 - miniconda for python 3, e.g. use `./install_conda.sh`
+- julia for adding new chemicals to an already established E3FP MDS (chemical 
+  features).
 
 ## INSTALL
 - Modify `$PATH` and `$PYTHONPATH` to easily access code. Assuming zsh this is done by running `./PATHS.sh >> ~/.zshrc` or by copy-pasting the output of `./PATHS.sh` to somewhere in `~/.zshrc`.
