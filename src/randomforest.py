@@ -146,7 +146,7 @@ def testing(clf, df):
     testset = df[clf.feature_names_in_]
     # predict on records with NA and write NA as pred for those entries so the output file will not change shape.
     noNaRows = ~testset.isna().any(axis=1)
-    if noNaRows.any(): log.warning(f"NaN records removed for testing: {len(noNaRows)} -> {sum(noNaRows)}")
+    if not noNaRows.all(): log.warning(f"NaN records removed for testing: {len(noNaRows)} -> {sum(noNaRows)}")
     predictions = clf.predict_proba(testset[noNaRows])[:, clf.classes_ == 1].squeeze()
     df.loc[noNaRows, "pred"] = predictions
     return df
