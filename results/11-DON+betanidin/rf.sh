@@ -12,7 +12,7 @@ matchAmb=$FEAT/matchAmb.tsv.gz
 # test
 randomforest.py -m blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < DON-testset.tsv > DON-pred.tsv
 randomforest.py -m blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < betanin-testset.tsv |
-    mlr -t filter '$pred != ""' > betaninCazy-pred.tsv
+    mlr -t filter '$pred != ""' + remove-empty-columns > betaninCazy-pred.tsv
 randomforest.py -m blosum62Amb.rf.joblib.gz -a ${=chemFeat} betanin_blosum62Amb.tsv.gz < betanin-testset.tsv |
     mlr -t filter '$pred != ""' > betanin-pred.tsv
 
