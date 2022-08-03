@@ -10,9 +10,9 @@ export PYTHONPATH="$PYTHONPATH:$ROOT/tools/degnlib"
 # align all sequences to the HMM
 hmmalign --trim --amino --outformat A2M $ROOT/results/*-align/muscle.hmm - > muscle.hmm.a2m
 # remove non-consensus
-$LIB/fasta_delete_lower.py muscle.hmm.a2m > muscle.hmm.faa
+$LIB/fasta_delete_lower.py muscle.hmm.{a2m,faa}
 # remove low quality alignments
-$LIB/fasta_filter_quality.py -t 0.75 muscle.hmm.faa muscle_qual.hmm.faa
+$LIB/fasta_filter_quality.py -t 0.75 muscle{,_qual}.hmm.faa
 
 # use only N-term (discard last half of alignments)
 length=$($LIB/fasta_length.py muscle_qual.hmm.faa | sort -u)
