@@ -8,4 +8,6 @@ testset=indoxyl-testset.tsv
 model=`ls $ROOT/results/*-DON+betanidin/blosum62Amb.rf.joblib.gz`
 
 randomforest.py -m $model -a $chemFeat $blosum62Amb < $testset > blosum62Amb-pred.tsv
+# sort
+mlr -I -t --from blosum62Amb-pred.tsv sort -nr pred
 
