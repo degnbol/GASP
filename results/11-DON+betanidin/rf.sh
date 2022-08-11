@@ -4,10 +4,9 @@ chemFeat=`ls $ROOT/results/*-chemicalFeatures/{acceptors2,DON+betanidin}_feature
 # sequence features
 FEAT=`ls -d $ROOT/results/*-features`
 blosum62Amb=$FEAT/blosum62Amb.tsv.gz
-matchAmb=$FEAT/matchAmb.tsv.gz
 
 # train
-# randomforest.py -i enzyme cid -c reaction -n 10000 -o blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < DON+betanidin-trainset.tsv
+randomforest.py -i enzyme cid -c reaction -n 10000 -o blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < DON+betanidin-trainset.tsv
 
 # test
 randomforest.py -m blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < DON-testset.tsv > DON-pred.tsv
