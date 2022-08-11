@@ -1,4 +1,51 @@
 cid	enzyme	Yield
+5320954	At_78D2	3
+5280961	At_78D2	10
+5280443	At_78D2	48
+5280445	At_78D2	12
+5281647	At_78D2	0
+5280441	At_78D2	0
+70775	At_78D2	1
+83651	At_78D2	0
+780	At_78D2	0
+5281343	At_78D2	8
+54679630	At_78D2	12
+12820	At_78D2	3
+5319502	At_78D2	24
+5354284	At_78D2	71
+689075	At_78D2	3
+238398	At_78D2	3
+155240	At_78D2	0
+4947	At_78D2	38
+220295	At_78D2	4
+91469	At_78D2	5
+6255462	At_78D2	25
+45382232	At_78D2	2
+5413034	At_78D2	27
+5398649	At_78D2	26
+5318650	At_78D2	5
+5284649	At_78D2	36
+5281222	At_78D2	3
+5280448	At_78D2	15
+5320315	At_78D2	43
+5281787	At_78D2	17
+73571	At_78D2	0
+440735	At_78D2	3
+122850	At_78D2	8
+5281628	At_78D2	16
+5281811	At_78D2	5
+6293081	At_78D2	5
+4534	At_78D2	3
+13846689	At_78D2	1
+176096	At_78D2	2
+5317284	At_78D2	27
+5320053	At_78D2	53
+5321775	At_78D2	17
+155011	At_78D2	21
+5379096	At_78D2	33
+5280633	At_78D2	0
+5464170	At_78D2	14
+5281718	At_78D2	0
 5320954	QCD86231.1	1
 5280961	QCD86231.1	17
 5280443	QCD86231.1	88
@@ -281,3 +328,50 @@ cid	enzyme	Yield
 5280633	AHX56914.1	0
 5464170	AHX56914.1	7
 5281718	AHX56914.1	15
+5320954	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	2
+5280961	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	16
+5280443	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	47
+5280445	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	3
+5281647	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+5280441	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+70775	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	24
+83651	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+780	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+5281343	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	7
+54679630	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+12820	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	1
+5319502	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+5354284	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+689075	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	4
+238398	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	2
+155240	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+4947	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	2
+220295	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	2
+91469	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+6255462	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	3
+45382232	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	2
+5413034	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+5398649	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+5318650	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	1
+5284649	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	3
+5281222	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	8
+5280448	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	3
+5320315	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	46
+5281787	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	14
+73571	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	1
+440735	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	16
+122850	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	14
+5281628	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	51
+5281811	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	15
+6293081	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	19
+4534	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+13846689	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+176096	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	2
+5317284	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	30
+5320053	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	4
+5321775	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	16
+155011	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	53
+5379096	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	53
+5280633	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
+5464170	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	22
+5281718	BAK55736.1 UDP-glucose glucosyltransferase [Gardenia jasminoides]	0
