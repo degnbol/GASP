@@ -1,4 +1,7 @@
 #!/usr/bin/env zsh
 ROOT=`git root`
-mlr --tsv uniq -f cid $ROOT/results/*-generateNegatives/reactions.tsv |
+mlr -t uniq -f cid $ROOT/results/*-generateNegatives/reactions.tsv |
     sed 1d | sort -u > acceptors.cid
+mlr -t uniq -f cid $ROOT/data/acceptorsOfInterest/acceptors-of-interest.tsv |
+    sed 1d >> acceptors.cid
+
