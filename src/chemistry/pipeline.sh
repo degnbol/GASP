@@ -47,7 +47,8 @@ $SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv"
 echo '# make E3FP fingerprints using SMILES'
 # because of python subprocess weirdness we had to print to stderr,
 # then redirect pipe to stdout with 2>&1 in order to use progress.sh
-$SRC/e3fp-fprints.py "$WORK/E3FP.fpz" -c < "$WORK/pubchem.tsv" 2>&1 | $SRC/../progress.sh $N
+# grep for numbers since there can be other stderr warnings. Note that these are silenced by the progress reporting.
+$SRC/e3fp-fprints.py "$WORK/E3FP.fpz" -c < "$WORK/pubchem.tsv" 2>&1 | grep -E '^[0-9]+$' | $SRC/../progress.sh $N
 
 echo '# use the chemical fingerprints to generate 12 MDS features'
 $SRC/E3FP_features.jl -ck 12 $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
