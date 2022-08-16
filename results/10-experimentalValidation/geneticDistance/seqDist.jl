@@ -27,11 +27,13 @@ trainseqs = @chain trainseqs cat(; dims=3) permutedims((1, 3, 2))
 nMatches = @chain testseqs .== trainseqs sum(; dims=1) dropdims(;dims=1)
 
 seqLen = size(testseqs, 1)
+N = sum(trainset[!, :N])
 distances = (seqLen .- nMatches) ./ seqLen
 
 testset[!, :minDist] .= minimum(distances; dims=2)
 testset[!, :meanDist] .= mean(distances; dims=2)
 testset[!, :medianDist] .= median(distances; dims=2)
+testset[!, :weightedMeanDist] .= sum(distances .* trainset[!, :N]'; dims=2) ./ N
 
 rename!(testset,
         :Yield_thres_50_pred_AUC => :auc,
@@ -43,7 +45,7 @@ testset2 = dropmissing(testset)
 Statistics.cor(X::DataFrame, Y::DataFrame) = cor(Matrix(X), Matrix(Y))
 Statistics.cor(X::Vector, Y::DataFrame) = cor(X, Matrix(Y))
 
-distNames = [:minDist, :meanDist, :medianDist]
+distNames = [:minDist, :meanDist, :medianDist, :weightedMeanDist]
 cor(testset[!, [:acc, :cor]], testset[!, distNames])
 cor(testset2[!, :auc], testset2[!, distNames])
 
@@ -53,17 +55,20 @@ scatter(testset[!, :minDist], testset[!, :acc]; ylab="acc",
         xlim=[0,1], ylim=[0,1], xlab="dist", label="min", legend=:outertopright)
 scatter!(testset[!, :meanDist], testset[!, :acc]; label="mean")
 scatter!(testset[!, :medianDist], testset[!, :acc]; label="median")
+scatter!(testset[!, :weightedMeanDist], testset[!, :acc]; label="weighted mean")
 savefig("acc.pdf")
 
 scatter(testset[!, :minDist], testset[!, :cor]; ylab="cor",
         xlim=[0,1], ylim=[0,1], xlab="dist", label="min", legend=:outertopright)
 scatter!(testset[!, :meanDist], testset[!, :cor]; label="mean")
 scatter!(testset[!, :medianDist], testset[!, :cor]; label="median")
+scatter!(testset[!, :weightedMeanDist], testset[!, :cor]; label="weighted mean")
 savefig("cor.pdf")
 
 scatter(testset2[!, :minDist], testset2[!, :auc]; ylab="auc",
         xlim=[0,1], ylim=[0,1], xlab="dist", label="min", legend=:outertopright)
 scatter!(testset2[!, :meanDist], testset2[!, :auc]; label="mean")
 scatter!(testset2[!, :medianDist], testset2[!, :auc]; label="median")
+scatter!(testset2[!, :weightedMeanDist], testset2[!, :auc]; label="weighted mean")
 savefig("auc.pdf")
 
