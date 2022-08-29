@@ -2,7 +2,12 @@
 # use conda env 
 using Pkg
 
-Pkg.add(["MultivariateStats", "ArgParse", "DelimitedFiles"])
+Pkg.add(["ArgParse", "DelimitedFiles"])
+# for MDS
+Pkg.add("MultivariateStats")
+# for traintest.jl
+Pkg.add(["DataFrames", "CSV", "Random", "MLJ", "Glob"])
+Pkg.add(url="https://github.com/diegozea/ROC.jl")
 
 ENV["PYTHON"] = expanduser("~/miniconda3/envs/gt/bin/python")
 Pkg.add("PyCall")
