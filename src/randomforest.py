@@ -40,6 +40,8 @@ def get_parser():
         help="Number of trees in the forest.")
     parser.add_argument("--crit", dest="criterion", default="gini",
         help="Randomforest criterion for split quality.", choices=["gini", "entropy"])
+    parser.add_argument("--class-weight",
+        help="Randomforest class weight. Default=equal weight to each datapoint.", choices=["balanced", "balanced_subsample"])
     # uppercase Class since class is a reserved word
     parser.add_argument("-c", "--class", dest="Class",
         help="Name of column with class labels in training data. Default=class.", default="class")
@@ -128,16 +130,17 @@ def feature_prep(train, test, threshold=1.0, ignore=None):
     return train, test
 
 
-def training(train, Class, n_estimators, criterion):
+def training(train, Class, n_estimators, criterion, class_weight):
     """
     Perform training of random forest classifier with proper features given.
     :param train: training features.
     :param Class: name of column with class label.
     :param n_estimators:
     :param criterion:
+    :param class_weight:
     :return: trained RandomForestClassifier
     """
-    clf = RandomForestClassifier(n_estimators=n_estimators, n_jobs=-1, criterion=criterion)
+    clf = RandomForestClassifier(n_estimators=n_estimators, n_jobs=-1, criterion=criterion, class_weight=class_weight)
     clf.fit(train.drop(columns=Class), train[Class])
     return clf
 
@@ -152,7 +155,7 @@ def testing(clf, df):
     return df
 
 
-def traintest(train, test, Class, threshold, n_estimators, criterion, ignore=None):
+def traintest(train, test, Class, threshold, n_estimators, criterion, class_weight, ignore=None):
     if ignore is None: ignore = set()
     elif np.isscalar(ignore): ignore = {ignore}
     else: ignore = set(ignore)
@@ -164,7 +167,7 @@ def traintest(train, test, Class, threshold, n_estimators, criterion, ignore=Non
         train = train.dropna()
         log.warning(f"NaN records removed for training: {nBefore} -> {len(train)}")
     log.info("Train random forest model.")
-    clf = training(train, Class, n_estimators, criterion)
+    clf = training(train, Class, n_estimators, criterion, class_weight)
     if len(test) == 0: return None, clf
     log.info("Make prediction on the test set.")
     test = testing(clf, test)
@@ -277,14 +280,14 @@ def main(args):
     
             tests, clfs = [], []
             for train, test in cv_samples(infile, args.cv):
-                test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.ids + [args.eval])
+                test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.class_weight, args.ids + [args.eval])
                 tests.append(test)
                 clfs.append(clf)
             test = pd.concat(tests)
     
         elif args.set not in infile:
                 log.info(f"CV and set missing, using all {len(infile)} data points for training.")
-                test, clf = traintest(infile, pd.DataFrame({c:[] for c in infile.columns}), args.Class, args.threshold, args.n_estimators, args.criterion, args.ids + [args.eval])
+                test, clf = traintest(infile, pd.DataFrame({c:[] for c in infile.columns}), args.Class, args.threshold, args.n_estimators, args.criterion, args.class_weight, args.ids + [args.eval])
                 clfs = [clf]
     
         else:
@@ -294,7 +297,7 @@ def main(args):
                 test = infile.loc[infile[args.set] == 'test', :].drop(columns=args.set)
                 log.info("Found train and test set in infile with {} and {} datapoints".format(len(train), len(test)))
     
-                test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.ids + [args.eval])
+                test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.class_weight, args.ids + [args.eval])
                 clfs = [clf]
     
             else:
@@ -307,7 +310,7 @@ def main(args):
                     log.info("Leaving out {} with {} datapoints".format(s, testidx.sum()))
                     train = infile.loc[~testidx, :].drop(columns=args.set)
                     test = infile.loc[testidx, :].drop(columns=args.set)
-                    test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.ids + [args.eval])
+                    test, clf = traintest(train, test, args.Class, args.threshold, args.n_estimators, args.criterion, args.class_weight, args.ids + [args.eval])
                     tests.append(test)
                     clfs.append(clf)
                 test = pd.concat(tests)
