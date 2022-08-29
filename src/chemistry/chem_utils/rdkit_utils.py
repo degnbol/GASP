@@ -72,6 +72,18 @@ def smiles2molecules(smiles, names=None):
     if names is not None: set_names(molecules, names)
     return np.asarray(molecules)
 
+
+def canonical(molecules):
+    """
+    Convert smiles within molecules to canonical SMILES.
+    """
+    out = [Molecule(Chem.MolFromSmiles(Chem.MolToSmiles(m))) for m in molecules]
+    try: names = get_names(molecules)
+    except KeyError: pass
+    else: set_names(out, names)
+    return np.asarray(out)
+    
+
 def identifier2molecules(queries, names=None):
     """
     Convert CAS or other identifiers to molecules using CIRpy (Chemical Identifier Resolver).
@@ -169,6 +181,12 @@ def replace_random(molecule, query, replacement):
     return Chem.RemoveAllHs(np.random.choice(Chem.ReplaceSubstructs(molecule, query, replacement)))
 
 def replace_any_random(molecule, queries, replacement):
+    """
+    Replace one of the instances among queries in a molecule.
+    If non of the queries are found in the molecule it will be returned unchanged.
+    """
+    queries = [q for q in queries if molecule.HasSubstructMatch(q)]
+    if len(queries) == 0: return molecule
     choices = [c for q in queries for c in Chem.ReplaceSubstructs(molecule, q, replacement)]
     return Chem.RemoveAllHs(np.random.choice(choices))
 
