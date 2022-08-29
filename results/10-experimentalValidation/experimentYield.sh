@@ -20,6 +20,7 @@ cat $trainEnz $CAZY | $LIB/fasta_table.py -i enzyme -s AA |
 cat $trainEnz $CAZY | $LIB/fasta_table.py -i enzyme -s AA |
     mlr --tsv join -j AA -f $expEnz --np --ul > experimentEnz-unmatched.tsv
 
+# can join on Accession, or ID, it was checked that they produce identical tables (after mlr reorder).
 mlr --tsv --from experimentEnz.tsv cut -x -f AA then\
     join -j Accession -f $expYield > experimentYield.tsv
 
