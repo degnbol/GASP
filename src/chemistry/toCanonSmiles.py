@@ -10,7 +10,7 @@ def get_args():
     parser.add_argument("-H", "--header", action="store_true", help="Does infile have a header? Default is an id on each line.")
     parser.add_argument("-i", "--col", default="smiles", help="Name of column with input used if -H/--header.")
     parser.add_argument("-d", "--sep", default='\t', help="Delimiter if input is a table.")
-    parser.add_argument("-o", "--newcol", help="Print infile with the result in a new column. Default is only printing the result.")
+    parser.add_argument("-o", "--newcol", help="Print infile with the result in a new column named by this arg. Default is only printing the result.")
     return parser.parse_args()
 
 args = get_args()
