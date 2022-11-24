@@ -142,7 +142,7 @@ def traintest(train, test, Class, n_estimators, criterion, ignore=None, selected
 
     if selected is None: selected = set()
     if rev:
-        to_consider = np.asarray(list(feature_names - set(selected)) # consider these for removal
+        to_consider = np.asarray(list(feature_names - set(selected))) # consider these for removal
         selected = feature_names
 
     if type(threshold) == dict:
@@ -250,7 +250,7 @@ def traintest(train, test, Class, n_estimators, criterion, ignore=None, selected
             log.info("Nothing was an improvement. Trying again.")
             return
         log.info("Adding " + ', '.join(consider))
-        selected consider
+        selected = consider
         best_last = best
 
     _consider = _consider_remove if rev else _consider_add
