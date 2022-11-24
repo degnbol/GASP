@@ -23,4 +23,5 @@ p = plot(df, x=:pred, y=:weight, color=:class, Geom.point, Geom.hair,
          Scale.color_discrete_manual("lightgray", "lime"));
 
 p |> PDF("custom_metric.pdf", 10cm, 8cm)
+p |> PNG("custom_metric.png", 10cm, 8cm, dpi=300)
 
