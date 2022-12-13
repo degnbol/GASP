@@ -17,7 +17,7 @@ testsetChem=testsetNovelChems.tsv
 # randomforest.py -i enzyme cid -c reaction -n 1000 --class-weight balanced -o balance_matchAmb.rf.joblib.gz -a ${=chemFeat} $matchAmb < $train
 # randomforest.py -i enzyme cid -c reaction -n 1000 --class-weight balanced -o balance_blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < $train
 # randomforest.py -i enzyme cid -c reaction -n 1000 -o smpl_matchAmb.rf.joblib.gz -a ${=chemFeat} $matchAmb < $trainSmpl
-# randomforest.py -i enzyme cid -c reaction -n 1000 -o smpl_blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < $trainSmpl
+randomforest.py -i enzyme cid -c reaction -n 10000 -o smpl_blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < $trainSmpl
 # randomforest.py -i enzyme cid -c reaction -n 1000 --class-weight balanced -o smpl_balance_matchAmb.rf.joblib.gz -a ${=chemFeat} $matchAmb < $trainSmpl
 # randomforest.py -i enzyme cid -c reaction -n 1000 --class-weight balanced -o smpl_balance_blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < $trainSmpl
 
@@ -50,5 +50,5 @@ testsetChem=testsetNovelChems.tsv
 # randomforest.py -m smpl_matchAmb.rf.joblib.gz -a ${=chemFeat} $matchAmb < $testsetAll > smpl_matchAmb-pred.tsv
 # auc smpl_matchAmb-pred.tsv -c Yield -t 50 -p pred -n -a
 
-randomforest.py -m smpl_blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < $testsetAll > smpl_blosum62Amb-pred.tsv
-auc smpl_blosum62Amb-pred.tsv -c Yield -t 50 -p pred -n -a
+# randomforest.py -m smpl_blosum62Amb.rf.joblib.gz -a ${=chemFeat} $blosum62Amb < $testsetAll > smpl_blosum62Amb-pred.tsv
+# auc smpl_blosum62Amb-pred.tsv -c Yield -t 50 -p pred -n -a
