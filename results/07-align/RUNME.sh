@@ -25,3 +25,9 @@ if [ -s discarded.enz ]; then
     cat discarded.enz
 fi
 
+# make a table that has both aligned and unaligned sequences.
+# Used in results/13-aloesone/
+cat $INFILE $CAZY | $ROOT/tools/degnlib/subfunctions/fasta_table.py -i enzyme -s seq_unaligned |
+    mlr -t join -j enzyme -f muscle_qual.hmm.nterm.tsv.gz |
+    gzip -c > muscle_qual_wUnalign.hmm.nterm.tsv.gz
+

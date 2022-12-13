@@ -73,7 +73,7 @@ else
     CHEM = glob("$ROOT/results/*-chemicalFeatures") |> only
     pTrain = glob("$ROOT/results/*-features/train.tsv") |> only
     pChems = @chain eglob("$CHEM/{acceptors,20220215}_features.tsv") join(' ')
-    pSeqs = glob("$ROOT/results/*-align/muscle_qual.hmm.nterm.tsv") |> only
+    pSeqs = glob("$ROOT/results/*-align/muscle_qual.hmm.nterm.tsv.gz") |> only
     pTestset = glob("$ROOT/results/*-experimentalValidation/experimentYield.tsv") |> only
     sArgs = "$pTrain $pChems $pSeqs -j cid enzyme -t $pTestset -c reaction Yield -s seq matchAmb -o hej"
     args = split(sArgs, ' ')
@@ -229,13 +229,13 @@ using ScikitLearn: @sk_import
 @sk_import ensemble: GradientBoostingClassifier
 
 classifiers = [
-    KNeighborsClassifier(2),
+    KNeighborsClassifier(2), # AUC = 0.47
     SVC(kernel="linear", C=0.025),
     SVC(gamma=2, C=1),
     GaussianProcessClassifier(1. * RBF(1.)),
     DecisionTreeClassifier(pruning_purity_threshold=0.8),
-    RandomForestClassifier(n_trees=1000),
-    AdaBoostStumpClassifier(n_iterations=3),
+    RandomForestClassifier(n_trees=1000), # AUC = 0.50
+    AdaBoostStumpClassifier(n_iterations=3), # AUC = 0.59 (high score)
     GaussianNB(),
     GradientBoostingClassifier(n_estimators=10),
 ]
@@ -252,6 +252,7 @@ for clf in classifiers
     
     try 
         for class_test in intersect(args.class, names(df_test))
+            println(clf)
             println("cor = ", cor(pred .== 1, df_test[!, class_test]))
             println("AUC = ", AUC(df_test[!, class_test], pred .== 1))
         end
@@ -259,12 +260,11 @@ for clf in classifiers
     end
     
     for class_test in intersect(args.class, names(df_test))
+        println(clf)
         println("cor = ", cor(pred, df_test[!, class_test]))
         println("AUC = ", AUC(pred, df_test[!, class_test] .> 50))
     end
 end
-
-
 
 
 
