@@ -18,6 +18,7 @@ end
 
 dists = pairwise(Euclidean(), mat; dims=1)
 
-ordering = hclust(dists).order
+ordering = hclust(dists; linkage=:ward, branchorder=:optimal).order
 out = DataFrame(acceptor=df_mat.acceptor, order=ordering)
 CSV.write("acceptor_hclust.tsv", out; delim='\t')
+
