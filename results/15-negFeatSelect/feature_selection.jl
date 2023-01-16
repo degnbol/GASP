@@ -114,8 +114,8 @@ for (colname, consider_idx) in [(:cid, .!isSeqFeat), (:enzyme, isSeqFeat)]
         Xtrain, ytrain = X[.!testidx, :], y[.!testidx]
         Xtest, ytest = X[testidx, :], y[testidx]
 
-        @time metrics = bmap(1:size(X,2)) do i
-            clf = RandomForestClassifier(n_trees=100)
+        @time metrics = tmap(1:size(X,2)) do i
+            clf = RandomForestClassifier(n_trees=10)
             fit!(clf, view(Xtrain, :, Not(i)), ytrain)
             pred = predict_proba(clf, view(Xtest, :, Not(i)))[:, 2]
             topP_metric(pred, ytest)
