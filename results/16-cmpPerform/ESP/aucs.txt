@@ -1,0 +1,4 @@
+AUC on dataset 1 predicting with ESP:
+reaction_pred_ESP_AUC=0.42459890887047885
+When filtering by nMetabInESP>0:
+reaction_pred_ESP_AUC=0.3473063751317176
