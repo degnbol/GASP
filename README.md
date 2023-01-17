@@ -8,8 +8,10 @@ Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
   E.g. install with homebrew on Mac: `brew install adoptopenjdk8`
 - pip
 - miniconda for python 3, e.g. use `./install_conda.sh`
-- julia for adding new chemicals to an already established E3FP MDS (chemical 
-  features).
+- julia for
+  - adding new chemicals to an already established E3FP MDS (chemical 
+    features).
+  - Feature selection (v1.8.5 used)
 
 ## INSTALL
 - Modify `$PATH` and `$PYTHONPATH` to easily access code. Assuming zsh this is 
