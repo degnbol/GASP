@@ -1,6 +1,6 @@
 [submodule "tools/degnlib"]
 	path = tools/degnlib
 	url = https://bitbucket.org/Degnbol/degnlib
-[submodule "tools/SubFinder"]
-	path = tools/SubFinder
-	url = https://github.com/AlexanderKroll/SubFinder
+[submodule "tools/ESP"]
+	path = tools/ESP
+	url = https://github.com/AlexanderKroll/ESP
