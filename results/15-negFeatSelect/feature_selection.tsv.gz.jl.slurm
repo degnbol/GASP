@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --job-name=featSel
-#SBATCH --partition=physical
-#SBATCH -c 128
-#SBATCH --mem=128G
+#SBATCH --partition=mig
+#SBATCH -c 72
+#SBATCH --mem=256G
 #SBATCH --time=20-00:00:00
 #SBATCH -o feature_selection.out
 #SBATCH -e feature_selection.err
 #SBATCH --mail-user=cdmadsen@student.unimelb.edu.au
-#SBATCH --mail-type=END,FAIL,TIME_LIMIT_80
+#SBATCH --mail-type=BEGIN,END,FAIL,TIME_LIMIT_80
 
 if [ -z "$SLURM_JOB_ID" ]; then
     me=`basename $0`
@@ -15,6 +15,6 @@ if [ -z "$SLURM_JOB_ID" ]; then
     exit 1
 fi
 
-julia -t 128 ./feature_selection.tsv.gz.jl
+julia -t 72 ./feature_selection.tsv.gz.jl
 
 my-job-stats -a -n -s
