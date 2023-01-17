@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=featSel
-#SBATCH --partition=mig
+#SBATCH --partition=physical
 #SBATCH -c 128
-#SBATCH --mem=64G
-#SBATCH --time=12-00:00:00
+#SBATCH --mem=128G
+#SBATCH --time=20-00:00:00
 #SBATCH -o feature_selection.out
 #SBATCH -e feature_selection.err
 
