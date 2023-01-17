@@ -127,6 +127,7 @@ for (colname, consider_idx, n_trees) in [(:cid, .!isSeqFeat, 100), (:enzyme, isS
         best = argmax(metrics)
         df_feats.iteration[df_feats.name .== consider[best]] .= it
         println("Selected: ", consider[best])
+        flush(stdout)
         deleteat!(consider, best)
         X = X[:, Not(best)]
     end
