@@ -94,12 +94,13 @@ ignore = String[]
 for row in eachrow(df_feats_cor[df_feats_cor.maxcor .== 1, [:name, :maxcor_names]])
     row.name in ignore || append!(ignore, split(row.maxcor_names, ' '))
 end
+unique!(ignore)
 println("Ignoring $(length(ignore)) perfectly correlated features.")
 setdiff!(feat_names, ignore)
 
 isSeqFeat = startswith.(feat_names, "seq_")
 
-for (colname, consider_idx) in [(:cid, .!isSeqFeat), (:enzyme, isSeqFeat)]
+for (colname, consider_idx, n_trees) in [(:cid, .!isSeqFeat, 100), (:enzyme, isSeqFeat, 20)]
     consider = feat_names[consider_idx]
 
     uCol = unique(df[!, colname])
@@ -115,7 +116,7 @@ for (colname, consider_idx) in [(:cid, .!isSeqFeat), (:enzyme, isSeqFeat)]
         Xtest, ytest = X[testidx, :], y[testidx]
 
         @time metrics = tmap(1:size(X,2)) do i
-            clf = RandomForestClassifier(n_trees=10)
+            clf = RandomForestClassifier(n_trees=n_trees)
             fit!(clf, view(Xtrain, :, Not(i)), ytrain)
             pred = predict_proba(clf, view(Xtest, :, Not(i)))[:, 2]
             topP_metric(pred, ytest)
