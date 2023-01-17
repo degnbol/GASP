@@ -1,11 +1,11 @@
 #!/bin/bash
-#BATCH --job-name=featSel
-#BATCH --partition=mig
-#BATCH -c 128
-#BATCH --mem=64G
-#BATCH --time=12-00:00:00
-#BATCH -o feature_selection.out
-#BATCH -e feature_selection.err
+#SBATCH --job-name=featSel
+#SBATCH --partition=mig
+#SBATCH -c 128
+#SBATCH --mem=64G
+#SBATCH --time=12-00:00:00
+#SBATCH -o feature_selection.out
+#SBATCH -e feature_selection.err
 
 if [ -z "$SLURM_JOB_ID" ]; then
     me=`basename $0`
