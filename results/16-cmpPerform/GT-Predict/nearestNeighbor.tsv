@@ -1,0 +1,323 @@
+enzyme	raw	Neighbor	Length	Matches	Gaps	Score	Identity	rank	GTpred	cid	title	rate	source	reaction	acceptor
+At_72B1	()- cis, trans Abscisic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid		GT-Predict	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_71C1	()- cis, trans Abscisic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid		GT-Predict	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_72E2	()- cis, trans Abscisic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid		GT-Predict	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_72B1	()-Jasmonic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5281166	Jasmonic acid		GT-Predict	false	Jasmonic acid
+At_71C1	()-Jasmonic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5281166	Jasmonic acid		GT-Predict	false	Jasmonic acid
+At_72E2	()-Jasmonic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5281166	Jasmonic acid		GT-Predict	false	Jasmonic acid
+At_72B1	2,5-dihydroxylbenzoic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	3469	2,5-Dihydroxybenzoic acid		GT-Predict	true	2,5-Dihydroxybenzoic acid
+At_72B1	2-Methyl-umbelliferone	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	5280567	Hymecromone		GT-Predict	true	Hymecromone
+At_71C1	2-Methyl-umbelliferone	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5280567	Hymecromone		GT-Predict	false	Hymecromone
+At_72E2	2-Methyl-umbelliferone	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280567	Hymecromone		GT-Predict	false	Hymecromone
+At_72B1	2-hydroxy cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	637540	2-Hydroxycinnamic acid		GT-Predict	false	2-Hydroxycinnamic acid
+At_71C1	2-hydroxy cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	637540	2-Hydroxycinnamic acid		GT-Predict	true	2-Hydroxycinnamic acid
+At_72E2	2-hydroxy cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	637540	2-Hydroxycinnamic acid		GT-Predict	true	2-Hydroxycinnamic acid
+At_72B1	3,4-dichloroaniline	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	7257	3,4-Dichloroaniline		GT-Predict	true	3,4-Dichloroaniline
+At_71C1	3,4-dichloroaniline	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	7257	3,4-Dichloroaniline		GT-Predict	false	3,4-Dichloroaniline
+At_72E2	3,4-dichloroaniline	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	7257	3,4-Dichloroaniline		GT-Predict	true	3,4-Dichloroaniline
+At_72B1	3,4-dihydroxylbenzoic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	72	3,4-Dihydroxybenzoic acid		GT-Predict	true	3,4-Dihydroxybenzoic acid
+At_71C1	3,4-dihydroxylbenzoic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	72	3,4-Dihydroxybenzoic acid		GT-Predict	true	3,4-Dihydroxybenzoic acid
+At_72B1	3,4-dihyroxy cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	689043	Caffeic acid		GT-Predict	false	Caffeic acid
+At_71C1	3,4-dihyroxy cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	689043	Caffeic acid		GT-Predict	true	Caffeic acid
+At_72E2	3,4-dihyroxy cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	689043	Caffeic acid		GT-Predict	true	Caffeic acid
+At_72B1	3-hydroxy cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	637541	3-Hydroxycinnamic acid		GT-Predict	false	3-Hydroxycinnamic acid
+At_71C1	3-hydroxy cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	637541	3-Hydroxycinnamic acid		GT-Predict	false	3-Hydroxycinnamic acid
+At_72E2	3-hydroxy cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	637541	3-Hydroxycinnamic acid		GT-Predict	true	3-Hydroxycinnamic acid
+At_72B1	4-hydroxy 3-methoxy cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	445858	Ferulic acid		GT-Predict	false	Ferulic acid
+At_71C1	4-hydroxy 3-methoxy cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	445858	Ferulic acid		GT-Predict	false	Ferulic acid
+At_72E2	4-hydroxy 3-methoxy cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	445858	Ferulic acid		GT-Predict	true	Ferulic acid
+At_72B1	4-hydroxy cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	637542	4-Hydroxycinnamic acid		GT-Predict	false	4-Hydroxycinnamic acid
+At_71C1	4-hydroxy cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	637542	4-Hydroxycinnamic acid		GT-Predict	true	4-Hydroxycinnamic acid
+At_72E2	4-hydroxy cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	637542	4-Hydroxycinnamic acid		GT-Predict	true	4-Hydroxycinnamic acid
+At_72B1	4-hydroxyl-benzoic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	135	4-Hydroxybenzoic acid		GT-Predict	false	4-Hydroxybenzoic acid
+At_71C1	4-hydroxyl-benzoic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	135	4-Hydroxybenzoic acid		GT-Predict	false	4-Hydroxybenzoic acid
+At_72E2	4-hydroxyl-benzoic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	135	4-Hydroxybenzoic acid		GT-Predict	false	4-Hydroxybenzoic acid
+At_72B1	6,7-dihydroxy coumarin (Esculetin)	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	5281416	Esculetin		GT-Predict	true	Esculetin
+At_72E2	6,7-dihydroxy coumarin (Esculetin)	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	5281416	Esculetin		GT-Predict	true	Esculetin
+At_72B1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	5280460	Scopoletin		GT-Predict	true	Scopoletin
+At_71C1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280460	Scopoletin		GT-Predict	true	Scopoletin
+At_72E2	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	5280460	Scopoletin		GT-Predict	true	Scopoletin
+At_71C1	7-hydroxycoumerin 3-carboxylic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5337757	7-Hydroxycoumarin-3-carboxylic acid		GT-Predict	false	7-Hydroxycoumarin-3-carboxylic acid
+At_72E2	7-hydroxycoumerin 3-carboxylic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5337757	7-Hydroxycoumarin-3-carboxylic acid		GT-Predict	false	7-Hydroxycoumarin-3-carboxylic acid
+At_71C1	7-hydroxycoumerin 4-acetic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5338490	7-Hydroxycoumarin-4-acetic acid		GT-Predict	false	7-Hydroxycoumarin-4-acetic acid
+At_72E2	7-hydroxycoumerin 4-acetic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5338490	7-Hydroxycoumarin-4-acetic acid		GT-Predict	false	7-Hydroxycoumarin-4-acetic acid
+Nt_UGT1	()- cis, trans Abscisic acid	At_72B1	229	134	4	942.0	0.5851528384279476	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	-0.000748709	pTMH	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Pt_UGT1	()- cis, trans Abscisic acid	At_72B1	226	136	6	888.0	0.6017699115044248	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.000615045	pTMH	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_72B1	()- cis, trans Abscisic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	-0.001208135	pTMH	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_72E2	()- cis, trans Abscisic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	-0.003484676	pTMH	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Mt_71G1	()- cis, trans Abscisic acid	At_71C4	244	102	20	577.0	0.4180327868852459	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	6.96e-5	pTMH	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Mt_78G1	()- cis, trans Abscisic acid	At_78D2	229	115	12	721.0	0.5021834061135371	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.000689795	pTMH	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Fe_88J1	()- cis, trans Abscisic acid	At_88A1	226	83	7	503.0	0.3672566371681416	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.000901370576219076	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Zm_15991	()- cis, trans Abscisic acid	At_88A1	226	71	10	401.0	0.3141592920353982	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.0020726606463708	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Fe_72B19	()- cis, trans Abscisic acid	At_72B1	223	132	9	845.0	0.5919282511210763	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.000331606659721369	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Ct_71E5	()- cis, trans Abscisic acid	At_71B5	231	98	13	476.0	0.42424242424242425	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.000856732452735219	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Zm_51683	()- cis, trans Abscisic acid	At_88A1	227	89	11	565.0	0.3920704845814978	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00114752401256817	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Os_88C1	()- cis, trans Abscisic acid	At_88A1	224	89	12	543.0	0.39732142857142855	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00218371468983885	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Zm_43295	()- cis, trans Abscisic acid	At_88A1	229	74	8	451.0	0.3231441048034934	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00140126317921478	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Dc_71F5	()- cis, trans Abscisic acid	At_71B6	229	82	14	411.0	0.35807860262008734	1	true	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	-2.0529635637455e-5	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Rc_GT1	()- cis, trans Abscisic acid	At_88A1	226	93	12	532.0	0.41150442477876104	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00378439107820552	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Sl_GT5	()- cis, trans Abscisic acid	At_72B1	227	137	6	934.0	0.6035242290748899	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00118709970104636	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Fi_88A10	()- cis, trans Abscisic acid	At_88A1	226	105	7	656.0	0.4646017699115044	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.000515317347543313	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_71D1	()- cis, trans Abscisic acid	At_71C1	236	95	16	549.0	0.4025423728813559	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00120811187258098	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_71C1	()- cis, trans Abscisic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00130198031727675	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Zm_62783	()- cis, trans Abscisic acid	At_72B1	230	71	14	281.0	0.30869565217391304	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00357738357865176	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Zm_85854	()- cis, trans Abscisic acid	At_72B3	225	108	2	727.0	0.48	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	-0.000145804903114551	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Gm_88E3	()- cis, trans Abscisic acid	At_88A1	230	89	8	502.0	0.3869565217391304	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	-0.0019060376528072	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Zm_72068	()- cis, trans Abscisic acid	At_72B3	225	104	3	630.0	0.4622222222222222	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00413543150823559	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+Lc_72B10	()- cis, trans Abscisic acid	At_72B1	227	142	4	966.0	0.6255506607929515	1	false	5280896	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid	0.00316022297867013	HTS_UGT	false	(2Z,4E)-5-[(1S)-1-hydroxy-2,6,6-trimethyl-4-oxocyclohex-2-en-1-yl]-3-methylpenta-2,4-dienoic acid
+At_72B1	Baicalein	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5281605	Baicalein		GT-Predict	false	Baicalein
+At_71C1	Baicalein	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5281605	Baicalein		GT-Predict	false	Baicalein
+At_72E2	Baicalein	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5281605	Baicalein		GT-Predict	false	Baicalein
+Fe_88J1	N6-Benzyladenine	At_88A1	226	83	7	503.0	0.3672566371681416	1	false	62389	6-Benzylaminopurine	0.000260038205986815	HTS_UGT	false	6-Benzylaminopurine
+Zm_15991	N6-Benzyladenine	At_88A1	226	71	10	401.0	0.3141592920353982	1	false	62389	6-Benzylaminopurine	0.00222041960301751	HTS_UGT	false	6-Benzylaminopurine
+Fe_72B19	N6-Benzyladenine	At_72B3	225	132	8	843.0	0.5866666666666667	2	false	62389	6-Benzylaminopurine	-0.000761084082525609	HTS_UGT	false	6-Benzylaminopurine
+Ct_71E5	N6-Benzyladenine	At_71B5	231	98	13	476.0	0.42424242424242425	1	false	62389	6-Benzylaminopurine	0.00139066234059438	HTS_UGT	false	6-Benzylaminopurine
+Zm_51683	N6-Benzyladenine	At_88A1	227	89	11	565.0	0.3920704845814978	1	false	62389	6-Benzylaminopurine	0.00195090953893404	HTS_UGT	false	6-Benzylaminopurine
+Os_88C1	N6-Benzyladenine	At_88A1	224	89	12	543.0	0.39732142857142855	1	false	62389	6-Benzylaminopurine	-0.00131249394510136	HTS_UGT	false	6-Benzylaminopurine
+Zm_43295	N6-Benzyladenine	At_88A1	229	74	8	451.0	0.3231441048034934	1	false	62389	6-Benzylaminopurine	0.00140959125521391	HTS_UGT	false	6-Benzylaminopurine
+Rc_GT1	N6-Benzyladenine	At_88A1	226	93	12	532.0	0.41150442477876104	1	false	62389	6-Benzylaminopurine	0.00327830938324662	HTS_UGT	false	6-Benzylaminopurine
+Sl_GT5	N6-Benzyladenine	At_72B3	225	132	2	899.0	0.5866666666666667	2	false	62389	6-Benzylaminopurine	-0.000804164313612086	HTS_UGT	false	6-Benzylaminopurine
+Fi_88A10	N6-Benzyladenine	At_88A1	226	105	7	656.0	0.4646017699115044	1	false	62389	6-Benzylaminopurine	0.000947241539424738	HTS_UGT	false	6-Benzylaminopurine
+At_71D1	N6-Benzyladenine	At_71C1	236	95	16	549.0	0.4025423728813559	1	false	62389	6-Benzylaminopurine	0.00261734527217604	HTS_UGT	false	6-Benzylaminopurine
+At_71C1	N6-Benzyladenine	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	62389	6-Benzylaminopurine	0.00292304496519888	HTS_UGT	false	6-Benzylaminopurine
+Zm_62783	N6-Benzyladenine	At_72E1	219	56	8	273.0	0.2557077625570776	2	false	62389	6-Benzylaminopurine	0.00395403829057391	HTS_UGT	false	6-Benzylaminopurine
+Zm_85854	N6-Benzyladenine	At_72B3	225	108	2	727.0	0.48	1	false	62389	6-Benzylaminopurine	-0.00273779949390229	HTS_UGT	false	6-Benzylaminopurine
+Gm_88E3	N6-Benzyladenine	At_88A1	230	89	8	502.0	0.3869565217391304	1	false	62389	6-Benzylaminopurine	0.00660940254861427	HTS_UGT	false	6-Benzylaminopurine
+Zm_72068	N6-Benzyladenine	At_72B3	225	104	3	630.0	0.4622222222222222	1	false	62389	6-Benzylaminopurine	0.00297366138750378	HTS_UGT	false	6-Benzylaminopurine
+Lc_72B10	N6-Benzyladenine	At_72B3	226	139	2	946.0	0.6150442477876106	2	false	62389	6-Benzylaminopurine	-0.0144870236164366	HTS_UGT	false	6-Benzylaminopurine
+At_72E2	Catechin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	9064	Cianidanol		GT-Predict	false	Cianidanol
+At_71C1	Chloramphenicol	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5959	Chloramphenicol		GT-Predict	false	Chloramphenicol
+At_72E2	Chloramphenicol	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5959	Chloramphenicol		GT-Predict	false	Chloramphenicol
+Fe_88J1	Cinnamic acid	At_88A1	226	83	7	503.0	0.3672566371681416	1	false	444539	Cinnamic acid	0.00086099519825489	HTS_UGT	false	Cinnamic acid
+Zm_15991	Cinnamic acid	At_88A1	226	71	10	401.0	0.3141592920353982	1	false	444539	Cinnamic acid	0.00229408444020675	HTS_UGT	false	Cinnamic acid
+Fe_72B19	Cinnamic acid	At_72B1	223	132	9	845.0	0.5919282511210763	1	false	444539	Cinnamic acid	0.000979647873969797	HTS_UGT	false	Cinnamic acid
+Ct_71E5	Cinnamic acid	At_71B5	231	98	13	476.0	0.42424242424242425	1	false	444539	Cinnamic acid	0.00489114480798345	HTS_UGT	false	Cinnamic acid
+Zm_51683	Cinnamic acid	At_88A1	227	89	11	565.0	0.3920704845814978	1	false	444539	Cinnamic acid	0.00219712977502608	HTS_UGT	false	Cinnamic acid
+Os_88C1	Cinnamic acid	At_88A1	224	89	12	543.0	0.39732142857142855	1	false	444539	Cinnamic acid	0.00206819299874109	HTS_UGT	false	Cinnamic acid
+Zm_43295	Cinnamic acid	At_88A1	229	74	8	451.0	0.3231441048034934	1	false	444539	Cinnamic acid	0.000308653950694098	HTS_UGT	false	Cinnamic acid
+Dc_71F5	Cinnamic acid	At_71B6	229	82	14	411.0	0.35807860262008734	1	false	444539	Cinnamic acid	-0.000406108207260783	HTS_UGT	false	Cinnamic acid
+Rc_GT1	Cinnamic acid	At_88A1	226	93	12	532.0	0.41150442477876104	1	false	444539	Cinnamic acid	-0.01308156142866	HTS_UGT	false	Cinnamic acid
+Sl_GT5	Cinnamic acid	At_72B1	227	137	6	934.0	0.6035242290748899	1	false	444539	Cinnamic acid	0.00415694313156232	HTS_UGT	false	Cinnamic acid
+Fi_88A10	Cinnamic acid	At_88A1	226	105	7	656.0	0.4646017699115044	1	false	444539	Cinnamic acid	0.00375755348919908	HTS_UGT	false	Cinnamic acid
+At_71D1	Cinnamic acid	At_71C1	236	95	16	549.0	0.4025423728813559	1	false	444539	Cinnamic acid	0.00105513381109622	HTS_UGT	false	Cinnamic acid
+At_71C1	Cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	444539	Cinnamic acid	0.00300523076319403	HTS_UGT	false	Cinnamic acid
+Zm_62783	Cinnamic acid	At_72B1	230	71	14	281.0	0.30869565217391304	1	false	444539	Cinnamic acid	0.00107291776351191	HTS_UGT	false	Cinnamic acid
+Zm_85854	Cinnamic acid	At_72B3	225	108	2	727.0	0.48	1	false	444539	Cinnamic acid	0.0024221601990181	HTS_UGT	false	Cinnamic acid
+Gm_88E3	Cinnamic acid	At_88A1	230	89	8	502.0	0.3869565217391304	1	false	444539	Cinnamic acid	0.00245754527766628	HTS_UGT	false	Cinnamic acid
+Zm_72068	Cinnamic acid	At_72B3	225	104	3	630.0	0.4622222222222222	1	false	444539	Cinnamic acid	0.00320394972596637	HTS_UGT	false	Cinnamic acid
+Lc_72B10	Cinnamic acid	At_72B1	227	142	4	966.0	0.6255506607929515	1	false	444539	Cinnamic acid	0.00415706932751861	HTS_UGT	false	Cinnamic acid
+Nt_UGT1	Cinnamic acid	At_72B1	229	134	4	942.0	0.5851528384279476	1	false	444539	Cinnamic acid	0.001842947	pTMH	false	Cinnamic acid
+Pt_UGT1	Cinnamic acid	At_72B1	226	136	6	888.0	0.6017699115044248	1	false	444539	Cinnamic acid	-0.001084426	pTMH	false	Cinnamic acid
+At_72B1	Cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	444539	Cinnamic acid	0.009208374	pTMH	false	Cinnamic acid
+At_72E2	Cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	444539	Cinnamic acid	0.003390125	pTMH	false	Cinnamic acid
+Mt_71G1	Cinnamic acid	At_71C4	244	102	20	577.0	0.4180327868852459	1	false	444539	Cinnamic acid	0.001952088	pTMH	false	Cinnamic acid
+Mt_78G1	Cinnamic acid	At_78D2	229	115	12	721.0	0.5021834061135371	1	false	444539	Cinnamic acid	0.004501588	pTMH	false	Cinnamic acid
+At_72B1	Cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	444539	Cinnamic acid		GT-Predict	false	Cinnamic acid
+At_71C1	Cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	444539	Cinnamic acid		GT-Predict	false	Cinnamic acid
+At_72E2	Cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	444539	Cinnamic acid		GT-Predict	false	Cinnamic acid
+Fe_88J1	3,4-dichloroaniline	At_88A1	226	83	7	503.0	0.3672566371681416	1	false	7257	3,4-Dichloroaniline	0.0173436914985034	HTS_UGT	false	3,4-Dichloroaniline
+Zm_15991	3,4-dichloroaniline	At_88A1	226	71	10	401.0	0.3141592920353982	1	false	7257	3,4-Dichloroaniline	0.0111855504879871	HTS_UGT	false	3,4-Dichloroaniline
+Fe_72B19	3,4-dichloroaniline	At_72B1	223	132	9	845.0	0.5919282511210763	1	true	7257	3,4-Dichloroaniline	1.51005001231039	HTS_UGT	true	3,4-Dichloroaniline
+Ct_71E5	3,4-dichloroaniline	At_71B5	231	98	13	476.0	0.42424242424242425	1	false	7257	3,4-Dichloroaniline	0.0836840228357556	HTS_UGT	false	3,4-Dichloroaniline
+Zm_51683	3,4-dichloroaniline	At_88A1	227	89	11	565.0	0.3920704845814978	1	false	7257	3,4-Dichloroaniline	0.017740868444089	HTS_UGT	true	3,4-Dichloroaniline
+Os_88C1	3,4-dichloroaniline	At_88A1	224	89	12	543.0	0.39732142857142855	1	false	7257	3,4-Dichloroaniline	0.0409669491552813	HTS_UGT	false	3,4-Dichloroaniline
+Zm_43295	3,4-dichloroaniline	At_88A1	229	74	8	451.0	0.3231441048034934	1	false	7257	3,4-Dichloroaniline	0.00736055962362898	HTS_UGT	false	3,4-Dichloroaniline
+Dc_71F5	3,4-dichloroaniline	At_71B8	232	83	20	381.0	0.3577586206896552	2	false	7257	3,4-Dichloroaniline	0.0464631743269367	HTS_UGT	true	3,4-Dichloroaniline
+Rc_GT1	3,4-dichloroaniline	At_88A1	226	93	12	532.0	0.41150442477876104	1	false	7257	3,4-Dichloroaniline	0.0106437744609542	HTS_UGT	false	3,4-Dichloroaniline
+Sl_GT5	3,4-dichloroaniline	At_72B1	227	137	6	934.0	0.6035242290748899	1	true	7257	3,4-Dichloroaniline	0.0654800280266648	HTS_UGT	false	3,4-Dichloroaniline
+Fi_88A10	3,4-dichloroaniline	At_88A1	226	105	7	656.0	0.4646017699115044	1	false	7257	3,4-Dichloroaniline	0.181016730960792	HTS_UGT	true	3,4-Dichloroaniline
+At_71D1	3,4-dichloroaniline	At_71C1	236	95	16	549.0	0.4025423728813559	1	false	7257	3,4-Dichloroaniline	0.00196357460842678	HTS_UGT	false	3,4-Dichloroaniline
+At_71C1	3,4-dichloroaniline	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	7257	3,4-Dichloroaniline	0.0119174535691848	HTS_UGT	false	3,4-Dichloroaniline
+Zm_62783	3,4-dichloroaniline	At_72B1	230	71	14	281.0	0.30869565217391304	1	true	7257	3,4-Dichloroaniline	0.00265470031666352	HTS_UGT	false	3,4-Dichloroaniline
+Zm_85854	3,4-dichloroaniline	At_72B3	225	108	2	727.0	0.48	1	true	7257	3,4-Dichloroaniline	0.0970746528702897	HTS_UGT	false	3,4-Dichloroaniline
+Gm_88E3	3,4-dichloroaniline	At_88A1	230	89	8	502.0	0.3869565217391304	1	false	7257	3,4-Dichloroaniline	0.00564411475167317	HTS_UGT	false	3,4-Dichloroaniline
+Lc_72B10	3,4-dichloroaniline	At_72B1	227	142	4	966.0	0.6255506607929515	1	true	7257	3,4-Dichloroaniline	2.28252903122024	HTS_UGT	true	3,4-Dichloroaniline
+Nt_UGT1	3,4-dichloroaniline	At_72B1	229	134	4	942.0	0.5851528384279476	1	true	7257	3,4-Dichloroaniline	1.621212458	pTMH	true	3,4-Dichloroaniline
+Pt_UGT1	3,4-dichloroaniline	At_72B1	226	136	6	888.0	0.6017699115044248	1	true	7257	3,4-Dichloroaniline	0.298936055	pTMH	true	3,4-Dichloroaniline
+At_72B1	3,4-dichloroaniline	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	7257	3,4-Dichloroaniline	1.977219	pTMH	true	3,4-Dichloroaniline
+At_72E2	3,4-dichloroaniline	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	7257	3,4-Dichloroaniline	0.0	pTMH	false	3,4-Dichloroaniline
+Mt_71G1	3,4-dichloroaniline	At_71C4	244	102	20	577.0	0.4180327868852459	1	false	7257	3,4-Dichloroaniline	-0.001791736	pTMH	false	3,4-Dichloroaniline
+Mt_78G1	3,4-dichloroaniline	At_78D2	229	115	12	721.0	0.5021834061135371	1	false	7257	3,4-Dichloroaniline	0.0	pTMH	false	3,4-Dichloroaniline
+At_71C1	DihydroZeatin	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	32021	2-methyl-4-(7H-purin-6-ylamino)butan-1-ol		GT-Predict	false	2-methyl-4-(7H-purin-6-ylamino)butan-1-ol
+At_72E2	DihydroZeatin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	32021	2-methyl-4-(7H-purin-6-ylamino)butan-1-ol		GT-Predict	false	2-methyl-4-(7H-purin-6-ylamino)butan-1-ol
+At_71C1	Dihydrojasmonic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	107126	Dihydrojasmonic acid		GT-Predict	false	Dihydrojasmonic acid
+At_72E2	Dihydrojasmonic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	107126	Dihydrojasmonic acid		GT-Predict	false	Dihydrojasmonic acid
+Nt_UGT1	4-hydroxy 3-methoxy cinnamic acid	At_72B1	229	134	4	942.0	0.5851528384279476	1	false	445858	Ferulic acid	0.000441214	pTMH	false	Ferulic acid
+Pt_UGT1	4-hydroxy 3-methoxy cinnamic acid	At_72B1	226	136	6	888.0	0.6017699115044248	1	false	445858	Ferulic acid	0.00085237	pTMH	false	Ferulic acid
+At_72B1	4-hydroxy 3-methoxy cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	445858	Ferulic acid	-0.000922391	pTMH	false	Ferulic acid
+Mt_71G1	4-hydroxy 3-methoxy cinnamic acid	At_71C4	244	102	20	577.0	0.4180327868852459	1	false	445858	Ferulic acid	0.000953613	pTMH	false	Ferulic acid
+Mt_78G1	4-hydroxy 3-methoxy cinnamic acid	At_78D2	229	115	12	721.0	0.5021834061135371	1	false	445858	Ferulic acid	0.001197246	pTMH	false	Ferulic acid
+At_72B1	Fisetin	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5281614	Fisetin		GT-Predict	false	Fisetin
+At_71C1	Fisetin	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5281614	Fisetin		GT-Predict	true	Fisetin
+At_72E2	Fisetin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5281614	Fisetin		GT-Predict	false	Fisetin
+At_72B1	GDPFuc	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	135402013	GDP-fucose		GT-Predict	false	GDP-fucose
+At_71C1	GDPFuc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	135402013	GDP-fucose		GT-Predict	false	GDP-fucose
+At_72E2	GDPFuc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	135402013	GDP-fucose		GT-Predict	false	GDP-fucose
+At_72B1	GDPGlc	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	135398625	GDP-glucose		GT-Predict	false	GDP-glucose
+At_71C1	GDPGlc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	135398625	GDP-glucose		GT-Predict	false	GDP-glucose
+At_72E2	GDPGlc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	135398625	GDP-glucose		GT-Predict	false	GDP-glucose
+At_72B1	GDPMan	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	135398627	Guanosine diphosphate mannose		GT-Predict	false	Guanosine diphosphate mannose
+At_71C1	GDPMan	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	135398627	Guanosine diphosphate mannose		GT-Predict	false	Guanosine diphosphate mannose
+At_72E2	GDPMan	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	135398627	Guanosine diphosphate mannose		GT-Predict	false	Guanosine diphosphate mannose
+Fe_88J1	Genistein	At_88A1	226	83	7	503.0	0.3672566371681416	1	true	5280961	Genistein	0.220951219300217	HTS_UGT	true	Genistein
+Zm_15991	Genistein	At_88A1	226	71	10	401.0	0.3141592920353982	1	true	5280961	Genistein	0.00841693742872999	HTS_UGT	false	Genistein
+Fe_72B19	Genistein	At_72B3	225	132	8	843.0	0.5866666666666667	2	false	5280961	Genistein	0.0103931912262333	HTS_UGT	false	Genistein
+Ct_71E5	Genistein	At_71B5	231	98	13	476.0	0.42424242424242425	1	true	5280961	Genistein	0.155169998938424	HTS_UGT	false	Genistein
+Zm_51683	Genistein	At_88A1	227	89	11	565.0	0.3920704845814978	1	true	5280961	Genistein	-0.00276213042478977	HTS_UGT	false	Genistein
+Os_88C1	Genistein	At_88A1	224	89	12	543.0	0.39732142857142855	1	true	5280961	Genistein	-0.000404133596381647	HTS_UGT	false	Genistein
+Zm_43295	Genistein	At_88A1	229	74	8	451.0	0.3231441048034934	1	true	5280961	Genistein	0.0140067935533014	HTS_UGT	false	Genistein
+Dc_71F5	Genistein	At_71B6	229	82	14	411.0	0.35807860262008734	1	false	5280961	Genistein	-0.00491947341278572	HTS_UGT	false	Genistein
+Rc_GT1	Genistein	At_88A1	226	93	12	532.0	0.41150442477876104	1	true	5280961	Genistein	0.113180747463379	HTS_UGT	true	Genistein
+Sl_GT5	Genistein	At_72B3	225	132	2	899.0	0.5866666666666667	2	false	5280961	Genistein	0.013198235677514	HTS_UGT	false	Genistein
+Fi_88A10	Genistein	At_88A1	226	105	7	656.0	0.4646017699115044	1	true	5280961	Genistein	-0.000591658679664625	HTS_UGT	false	Genistein
+At_71C1	Genistein	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280961	Genistein	0.010425586876197	HTS_UGT	false	Genistein
+Zm_62783	Genistein	At_72E1	219	56	8	273.0	0.2557077625570776	2	false	5280961	Genistein	0.0258296496810036	HTS_UGT	true	Genistein
+Zm_85854	Genistein	At_72B3	225	108	2	727.0	0.48	1	false	5280961	Genistein	-0.029476568457963	HTS_UGT	false	Genistein
+Gm_88E3	Genistein	At_88A1	230	89	8	502.0	0.3869565217391304	1	true	5280961	Genistein	0.384492027341864	HTS_UGT	true	Genistein
+Zm_72068	Genistein	At_72B3	225	104	3	630.0	0.4622222222222222	1	false	5280961	Genistein	0.0399030062663481	HTS_UGT	true	Genistein
+Lc_72B10	Genistein	At_72B3	226	139	2	946.0	0.6150442477876106	2	false	5280961	Genistein	-0.010912330380548	HTS_UGT	false	Genistein
+Nt_UGT1	Genistein	At_72B3	230	134	3	917.0	0.5826086956521739	2	false	5280961	Genistein	-0.003674544	pTMH	false	Genistein
+Pt_UGT1	Genistein	At_72B3	225	133	4	886.0	0.5911111111111111	2	false	5280961	Genistein	0.001758251	pTMH	false	Genistein
+At_72B1	Genistein	At_72B3	232	170	2	1173.0	0.7327586206896551	2	false	5280961	Genistein	-0.002511602	pTMH	false	Genistein
+At_72E2	Genistein	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280961	Genistein	-0.001071565	pTMH	false	Genistein
+Mt_71G1	Genistein	At_71C4	244	102	20	577.0	0.4180327868852459	1	false	5280961	Genistein	0.030338345	pTMH	false	Genistein
+At_71C1	Genistein	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280961	Genistein		GT-Predict	true	Genistein
+At_72E2	Genistein	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280961	Genistein		GT-Predict	false	Genistein
+At_72B1	Gibberellin A3	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	6466	Gibberellic acid		GT-Predict	false	Gibberellic acid
+At_71C1	Gibberellin A3	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	6466	Gibberellic acid		GT-Predict	false	Gibberellic acid
+At_72E2	Gibberellin A3	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	6466	Gibberellic acid		GT-Predict	false	Gibberellic acid
+At_72B1	Gibberellin A4	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	92109	Gibberellin A4		GT-Predict	false	Gibberellin A4
+At_71C1	Gibberellin A4	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	92109	Gibberellin A4		GT-Predict	false	Gibberellin A4
+At_72E2	Gibberellin A4	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	92109	Gibberellin A4		GT-Predict	false	Gibberellin A4
+At_72B1	GlcNAc	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	439174	N-Acetyl-D-Glucosamine		GT-Predict	false	N-Acetyl-D-Glucosamine
+At_71C1	GlcNAc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	439174	N-Acetyl-D-Glucosamine		GT-Predict	false	N-Acetyl-D-Glucosamine
+At_72E2	GlcNAc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	439174	N-Acetyl-D-Glucosamine		GT-Predict	false	N-Acetyl-D-Glucosamine
+At_72B1	Glucose	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5793	D-Glucose		GT-Predict	false	D-Glucose
+At_71C1	Glucose	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5793	D-Glucose		GT-Predict	false	D-Glucose
+At_72E2	Glucose	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5793	D-Glucose		GT-Predict	false	D-Glucose
+At_72B1	Kaempferol	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5280863	Kaempferol		GT-Predict	false	Kaempferol
+At_71C1	Kaempferol	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280863	Kaempferol		GT-Predict	true	Kaempferol
+At_72E2	Kaempferol	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280863	Kaempferol		GT-Predict	false	Kaempferol
+At_72B1	Kinetin	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	3830	Kinetin		GT-Predict	false	Kinetin
+At_71C1	Kinetin	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	3830	Kinetin		GT-Predict	false	Kinetin
+At_72E2	Kinetin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	3830	Kinetin		GT-Predict	false	Kinetin
+Nt_UGT1	Luteolin	At_72B1	229	134	4	942.0	0.5851528384279476	1	false	5280445	Luteolin	-0.005445323	pTMH	false	Luteolin
+Pt_UGT1	Luteolin	At_72B1	226	136	6	888.0	0.6017699115044248	1	false	5280445	Luteolin	0.008665696	pTMH	false	Luteolin
+At_72B1	Luteolin	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5280445	Luteolin	-0.007377716	pTMH	false	Luteolin
+At_72E2	Luteolin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280445	Luteolin	0.00286988	pTMH	false	Luteolin
+Mt_71G1	Luteolin	At_71C4	244	102	20	577.0	0.4180327868852459	1	true	5280445	Luteolin	0.010201182	pTMH	false	Luteolin
+Mt_78G1	Luteolin	At_78D2	229	115	12	721.0	0.5021834061135371	1	true	5280445	Luteolin	-0.000486317	pTMH	false	Luteolin
+At_72B1	Luteolin	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5280445	Luteolin		GT-Predict	false	Luteolin
+At_71C1	Luteolin	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280445	Luteolin		GT-Predict	true	Luteolin
+At_72E2	Luteolin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280445	Luteolin		GT-Predict	false	Luteolin
+At_71C1	MUGlcNAc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-		GT-Predict	false	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
+At_72E2	MUGlcNAc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	2733787	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-		GT-Predict	false	2H-1-Benzopyran-2-one, 7-[[2-(acetylamino)-2-deoxy-beta-D-glucopyranosyl]oxy]-4-methyl-
+At_71C1	N6-Benzyladenine	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	62389	6-Benzylaminopurine		GT-Predict	false	6-Benzylaminopurine
+At_72E2	N6-Benzyladenine	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	62389	6-Benzylaminopurine		GT-Predict	false	6-Benzylaminopurine
+At_71C1	N6-isopentenyladenine	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	92180	N-(3-Methylbut-2-EN-1-YL)-9H-purin-6-amine		GT-Predict	false	N-(3-Methylbut-2-EN-1-YL)-9H-purin-6-amine
+At_72E2	N6-isopentenyladenine	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	92180	N-(3-Methylbut-2-EN-1-YL)-9H-purin-6-amine		GT-Predict	false	N-(3-Methylbut-2-EN-1-YL)-9H-purin-6-amine
+At_71C1	Olomoucine	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	4592	Olomoucine		GT-Predict	false	Olomoucine
+At_72E2	Olomoucine	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	4592	Olomoucine		GT-Predict	false	Olomoucine
+Fe_88J1	Quercetin	At_88A1	226	83	7	503.0	0.3672566371681416	1	true	5280343	Quercetin	0.00618067843765415	HTS_UGT	false	Quercetin
+Zm_15991	Quercetin	At_88A1	226	71	10	401.0	0.3141592920353982	1	true	5280343	Quercetin	0.00960270090940731	HTS_UGT	false	Quercetin
+Fe_72B19	Quercetin	At_72B1	223	132	9	845.0	0.5919282511210763	1	false	5280343	Quercetin	0.012631867401367	HTS_UGT	false	Quercetin
+Ct_71E5	Quercetin	At_71B5	231	98	13	476.0	0.42424242424242425	1	true	5280343	Quercetin	0.173796833428309	HTS_UGT	false	Quercetin
+Zm_51683	Quercetin	At_88A1	227	89	11	565.0	0.3920704845814978	1	true	5280343	Quercetin	0.0	HTS_UGT	false	Quercetin
+Os_88C1	Quercetin	At_88A1	224	89	12	543.0	0.39732142857142855	1	true	5280343	Quercetin	0.00408445893322637	HTS_UGT	false	Quercetin
+Zm_43295	Quercetin	At_88A1	229	74	8	451.0	0.3231441048034934	1	true	5280343	Quercetin	0.0333038900645616	HTS_UGT	false	Quercetin
+Dc_71F5	Quercetin	At_71B6	229	82	14	411.0	0.35807860262008734	1	true	5280343	Quercetin	0.000676684942173546	HTS_UGT	false	Quercetin
+Rc_GT1	Quercetin	At_88A1	226	93	12	532.0	0.41150442477876104	1	true	5280343	Quercetin	0.00351245901142715	HTS_UGT	false	Quercetin
+Sl_GT5	Quercetin	At_72B1	227	137	6	934.0	0.6035242290748899	1	false	5280343	Quercetin	0.0358928825976616	HTS_UGT	false	Quercetin
+Fi_88A10	Quercetin	At_88A1	226	105	7	656.0	0.4646017699115044	1	true	5280343	Quercetin	0.00644942685722918	HTS_UGT	false	Quercetin
+At_71C1	Quercetin	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280343	Quercetin	0.735304247428589	HTS_UGT	true	Quercetin
+Zm_62783	Quercetin	At_72B1	230	71	14	281.0	0.30869565217391304	1	false	5280343	Quercetin	0.0108192997541551	HTS_UGT	false	Quercetin
+Gm_88E3	Quercetin	At_88A1	230	89	8	502.0	0.3869565217391304	1	true	5280343	Quercetin	0.258875651549527	HTS_UGT	true	Quercetin
+Zm_72068	Quercetin	At_72B3	225	104	3	630.0	0.4622222222222222	1	true	5280343	Quercetin	0.0305327648232486	HTS_UGT	true	Quercetin
+Lc_72B10	Quercetin	At_72B1	227	142	4	966.0	0.6255506607929515	1	false	5280343	Quercetin	-0.0145238996118901	HTS_UGT	false	Quercetin
+Nt_UGT1	Quercetin	At_72B1	229	134	4	942.0	0.5851528384279476	1	false	5280343	Quercetin	0.015250379	pTMH	false	Quercetin
+Pt_UGT1	Quercetin	At_72B1	226	136	6	888.0	0.6017699115044248	1	false	5280343	Quercetin	0.018052905	pTMH	false	Quercetin
+At_72B1	Quercetin	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5280343	Quercetin	0.005479992	pTMH	false	Quercetin
+At_72E2	Quercetin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280343	Quercetin	0.005424632	pTMH	false	Quercetin
+Mt_71G1	Quercetin	At_71C4	244	102	20	577.0	0.4180327868852459	1	true	5280343	Quercetin	0.024746012	pTMH	false	Quercetin
+Mt_78G1	Quercetin	At_78D2	229	115	12	721.0	0.5021834061135371	1	true	5280343	Quercetin	0.852157205	pTMH	true	Quercetin
+At_72B1	Quercetin	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5280343	Quercetin		GT-Predict	false	Quercetin
+At_71C1	Quercetin	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280343	Quercetin		GT-Predict	true	Quercetin
+At_72E2	Quercetin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5280343	Quercetin		GT-Predict	false	Quercetin
+Fe_88J1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	226	83	7	503.0	0.3672566371681416	1	true	5280460	Scopoletin	0.000739068480769887	HTS_UGT	false	Scopoletin
+Zm_15991	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	226	71	10	401.0	0.3141592920353982	1	true	5280460	Scopoletin	0.00338969864460326	HTS_UGT	false	Scopoletin
+Fe_72B19	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	223	132	9	845.0	0.5919282511210763	1	true	5280460	Scopoletin	0.0160307181331179	HTS_UGT	false	Scopoletin
+Ct_71E5	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71B5	231	98	13	476.0	0.42424242424242425	1	true	5280460	Scopoletin	0.189112864832133	HTS_UGT	false	Scopoletin
+Zm_51683	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	227	89	11	565.0	0.3920704845814978	1	true	5280460	Scopoletin	0.00276725902372846	HTS_UGT	false	Scopoletin
+Os_88C1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	224	89	12	543.0	0.39732142857142855	1	true	5280460	Scopoletin	0.00281778047197894	HTS_UGT	false	Scopoletin
+Zm_43295	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	229	74	8	451.0	0.3231441048034934	1	true	5280460	Scopoletin	0.0428604860583855	HTS_UGT	false	Scopoletin
+Rc_GT1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	226	93	12	532.0	0.41150442477876104	1	true	5280460	Scopoletin	0.0109016143901399	HTS_UGT	false	Scopoletin
+Sl_GT5	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	227	137	6	934.0	0.6035242290748899	1	true	5280460	Scopoletin	0.0588132932358989	HTS_UGT	false	Scopoletin
+Fi_88A10	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	226	105	7	656.0	0.4646017699115044	1	true	5280460	Scopoletin	0.0676957430369658	HTS_UGT	false	Scopoletin
+At_71D1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C1	236	95	16	549.0	0.4025423728813559	1	true	5280460	Scopoletin	0.014806189715894	HTS_UGT	false	Scopoletin
+At_71C1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	5280460	Scopoletin	1.8217712561978	HTS_UGT	true	Scopoletin
+Zm_62783	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	230	71	14	281.0	0.30869565217391304	1	true	5280460	Scopoletin	0.00631337962124841	HTS_UGT	false	Scopoletin
+Zm_85854	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B3	225	108	2	727.0	0.48	1	true	5280460	Scopoletin	0.252981879441699	HTS_UGT	true	Scopoletin
+Gm_88E3	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	230	89	8	502.0	0.3869565217391304	1	true	5280460	Scopoletin	0.0234168469910211	HTS_UGT	false	Scopoletin
+Zm_72068	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B3	225	104	3	630.0	0.4622222222222222	1	true	5280460	Scopoletin	0.0435305505654075	HTS_UGT	true	Scopoletin
+Lc_72B10	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	227	142	4	966.0	0.6255506607929515	1	true	5280460	Scopoletin	0.0157401049837008	HTS_UGT	false	Scopoletin
+Nt_UGT1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	229	134	4	942.0	0.5851528384279476	1	true	5280460	Scopoletin	0.016093042	pTMH	false	Scopoletin
+Pt_UGT1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	226	136	6	888.0	0.6017699115044248	1	true	5280460	Scopoletin	0.001885757	pTMH	false	Scopoletin
+At_72B1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	5280460	Scopoletin	0.020755475	pTMH	false	Scopoletin
+At_72E2	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	5280460	Scopoletin	0.163778422	pTMH	false	Scopoletin
+Mt_71G1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C4	244	102	20	577.0	0.4180327868852459	1	true	5280460	Scopoletin	0.002271007	pTMH	false	Scopoletin
+Mt_78G1	7-hydroxy 6-methoxy coumarin (Scopoletin)	At_78D2	229	115	12	721.0	0.5021834061135371	1	true	5280460	Scopoletin	0.005241734	pTMH	false	Scopoletin
+At_71C1	Ser-Leu	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	7015695	Ser-Leu		GT-Predict	false	Ser-Leu
+At_72E2	Ser-Leu	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	7015695	Ser-Leu		GT-Predict	false	Ser-Leu
+At_71C1	Ser-Phe	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	7009598	Ser-phe		GT-Predict	false	Ser-phe
+At_72E2	Ser-Phe	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	7009598	Ser-phe		GT-Predict	false	Ser-phe
+At_72B1	Sinapic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	637775	Sinapic acid		GT-Predict	false	Sinapic acid
+At_71C1	Sinapic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	637775	Sinapic acid		GT-Predict	true	Sinapic acid
+At_72E2	Sinapic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	637775	Sinapic acid		GT-Predict	true	Sinapic acid
+At_72E2	Spectinomycin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	15541	Spectinomycin		GT-Predict	false	Spectinomycin
+At_71C1	Threonine	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	6288	l-Threonine		GT-Predict	false	l-Threonine
+At_72E2	Threonine	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	6288	l-Threonine		GT-Predict	false	l-Threonine
+At_71C1	trans-Zeatin	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	449093	trans-Zeatin		GT-Predict	false	trans-Zeatin
+At_71C1	Trans-Zentin-Glucose	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	449093	trans-Zeatin		GT-Predict	false	trans-Zeatin
+At_72E2	trans-Zeatin	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	449093	trans-Zeatin		GT-Predict	false	trans-Zeatin
+At_72E2	Trans-Zentin-Glucose	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	449093	trans-Zeatin		GT-Predict	false	trans-Zeatin
+At_71C1	Trans-dihydroquercetin (DHQ)	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	439533	Taxifolin		GT-Predict	true	Taxifolin
+At_72E2	Trans-dihydroquercetin (DHQ)	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	439533	Taxifolin		GT-Predict	false	Taxifolin
+At_72B1	UDPGlc	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	8629	Uridine-5'-diphosphate-glucose		GT-Predict	true	Uridine-5'-diphosphate-glucose
+At_72B1	UDP5SGlc	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	8629	Uridine-5'-diphosphate-glucose		GT-Predict	true	Uridine-5'-diphosphate-glucose
+At_71C1	UDPGlc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	8629	Uridine-5'-diphosphate-glucose		GT-Predict	false	Uridine-5'-diphosphate-glucose
+At_71C1	UDP5SGlc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	8629	Uridine-5'-diphosphate-glucose		GT-Predict	false	Uridine-5'-diphosphate-glucose
+At_72E2	UDPGlc	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	8629	Uridine-5'-diphosphate-glucose		GT-Predict	false	Uridine-5'-diphosphate-glucose
+At_72E2	UDP5SGlc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	8629	Uridine-5'-diphosphate-glucose		GT-Predict	false	Uridine-5'-diphosphate-glucose
+At_72B1	UDPGal	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	18068	Galactose-uridine-5'-diphosphate		GT-Predict	false	Galactose-uridine-5'-diphosphate
+At_71C1	UDPGal	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	18068	Galactose-uridine-5'-diphosphate		GT-Predict	false	Galactose-uridine-5'-diphosphate
+At_72E2	UDPGal	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	18068	Galactose-uridine-5'-diphosphate		GT-Predict	false	Galactose-uridine-5'-diphosphate
+At_71C1	UDPGlc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	true	8629	Uridine-5'-diphosphate-glucose		GT-Predict	true	Uridine-5'-diphosphate-glucose
+At_71C1	UDP5SGlc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	8629	Uridine-5'-diphosphate-glucose		GT-Predict	true	Uridine-5'-diphosphate-glucose
+At_72E2	UDPGlc	At_72E2	222	220	1	1448.0	0.990990990990991	1	true	8629	Uridine-5'-diphosphate-glucose		GT-Predict	true	Uridine-5'-diphosphate-glucose
+At_72E2	UDP5SGlc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	8629	Uridine-5'-diphosphate-glucose		GT-Predict	true	Uridine-5'-diphosphate-glucose
+At_72B1	UDPGlcNAc	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	445675	Uridine-diphosphate-N-acetylglucosamine		GT-Predict	false	Uridine-diphosphate-N-acetylglucosamine
+At_71C1	UDPGlcNAc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	445675	Uridine-diphosphate-N-acetylglucosamine		GT-Predict	false	Uridine-diphosphate-N-acetylglucosamine
+At_72E2	UDPGlcNAc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	445675	Uridine-diphosphate-N-acetylglucosamine		GT-Predict	false	Uridine-diphosphate-N-acetylglucosamine
+At_72B1	UDPMan	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	448873	Uridine-5'-diphosphate-mannose		GT-Predict	false	Uridine-5'-diphosphate-mannose
+At_71C1	UDPMan	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	448873	Uridine-5'-diphosphate-mannose		GT-Predict	false	Uridine-5'-diphosphate-mannose
+At_72E2	UDPMan	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	448873	Uridine-5'-diphosphate-mannose		GT-Predict	false	Uridine-5'-diphosphate-mannose
+At_72B1	UDPRha	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	49852436	[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate		GT-Predict	false	[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate
+At_71C1	UDPRha	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	49852436	[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate		GT-Predict	false	[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate
+At_72E2	UDPRha	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	49852436	[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate		GT-Predict	false	[[(2R,3S,4R,5R)-5-(2,4-dioxopyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] (3,4,5-trihydroxy-6-methyloxan-2-yl) hydrogen phosphate
+At_72B1	UDPXyl	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	19235	UDP-xylose		GT-Predict	false	UDP-xylose
+At_72B1	Umbelliferone	At_72B1	232	230	2	1503.0	0.9913793103448276	1	true	5281426	Umbelliferone		GT-Predict	true	Umbelliferone
+At_71C1	Umbelliferone	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5281426	Umbelliferone		GT-Predict	false	Umbelliferone
+At_72E2	Umbelliferone	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5281426	Umbelliferone		GT-Predict	false	Umbelliferone
+At_72B1	a-cyano-4-hydroxyl-cinnamic acid	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	5328791	alpha-Cyano-4-hydroxycinnamic acid		GT-Predict	false	alpha-Cyano-4-hydroxycinnamic acid
+At_71C1	a-cyano-4-hydroxyl-cinnamic acid	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	5328791	alpha-Cyano-4-hydroxycinnamic acid		GT-Predict	false	alpha-Cyano-4-hydroxycinnamic acid
+At_72E2	a-cyano-4-hydroxyl-cinnamic acid	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	5328791	alpha-Cyano-4-hydroxycinnamic acid		GT-Predict	false	alpha-Cyano-4-hydroxycinnamic acid
+At_72B1	dTDPGlc	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	443210	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose		GT-Predict	false	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose
+At_71C1	dTDPGlc	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	443210	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose		GT-Predict	false	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose
+At_72E2	dTDPGlc	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	443210	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose		GT-Predict	false	2'Deoxy-thymidine-5'-diphospho-alpha-D-glucose
+At_72B1	dTDPRha	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	49852346	dTDP-rhamnose		GT-Predict	false	dTDP-rhamnose
+At_71C1	dTDPRha	At_71C1	247	231	16	1411.0	0.9352226720647774	1	false	49852346	dTDP-rhamnose		GT-Predict	false	dTDP-rhamnose
+At_72E2	dTDPRha	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	49852346	dTDP-rhamnose		GT-Predict	false	dTDP-rhamnose
+At_72B1	dTDPXyl	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	122707150	dTDP-4-dehydro-alpha-D-xylose		GT-Predict	false	dTDP-4-dehydro-alpha-D-xylose
+At_72E2	dTDPXyl	At_72E2	222	220	1	1448.0	0.990990990990991	1	false	122707150	dTDP-4-dehydro-alpha-D-xylose		GT-Predict	false	dTDP-4-dehydro-alpha-D-xylose
+At_72B1	trans-Zeatin	At_72B1	232	230	2	1503.0	0.9913793103448276	1	false	449093	trans-Zeatin		GT-Predict	false	trans-Zeatin
+At_72B1	Trans-Zentin-Glucose	At_72B3	232	170	2	1173.0	0.7327586206896551	2	false	449093	trans-Zeatin		GT-Predict	false	trans-Zeatin
