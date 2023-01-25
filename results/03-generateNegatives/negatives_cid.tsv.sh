@@ -11,9 +11,9 @@ mlr -t uniq -f cid negatives_cid.tsv | sed 1d | $SRC/pubchem_props.R |
 
 mlr -t filter '$smiles != $pubchemSmiles' negatives_cid_pubchemSmiles.tsv > negatives_cid_pubchemSmiles-diff.tsv
 echo "Printing any entries with differences:"
-cat negatives_cid_pubchemSmiles.tsv
+cat negatives_cid_pubchemSmiles-diff.tsv
 
-if [[ `wc -l negatives_cid_pubchemSmiles-diff.tsv` -eq 0 ]]; then
+if [[ `cat negatives_cid_pubchemSmiles-diff.tsv | wc -l | xargs` = 0 ]]; then
     rm negatives_cid_pubchemSmiles{,-diff}.tsv
 fi
 
