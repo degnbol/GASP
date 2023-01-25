@@ -1,0 +1,4348 @@
+acceptor	enzyme	reaction
+Oleandomycin	At_71C1	0
+Oleandomycin	At_71C2	0
+Oleandomycin	At_71C3	0
+Oleandomycin	At_71C4	0
+Oleandomycin	At_71C5	0
+Oleandomycin	At_71B8	0
+Oleandomycin	At_71B6	0
+Oleandomycin	At_71B5	0
+Oleandomycin	At_71B1	0
+Oleandomycin	At_88A1	0
+Oleandomycin	At_72E2	0
+Oleandomycin	At_72E3	0
+Oleandomycin	At_72E1	0
+Oleandomycin	At_72D1	0
+Oleandomycin	At_72C1	0
+Oleandomycin	At_72B3	0
+Oleandomycin	At_72B1	0
+Oleandomycin	At_73C3	0
+Oleandomycin	At_73C4	0
+Oleandomycin	At_73C5	0
+Oleandomycin	At_73C6	0
+Oleandomycin	At_73C1	0
+Oleandomycin	At_73B2	0
+Oleandomycin	At_73B3	0
+Oleandomycin	At_73B4	0
+Oleandomycin	At_73B5	0
+Oleandomycin	At_73B1	0
+Oleandomycin	At_89B1	0
+Oleandomycin	At_89C1	0
+Oleandomycin	At_84A3	0
+Oleandomycin	At_84A4	0
+Oleandomycin	At_84A2	0
+Oleandomycin	At_84A1	0
+Oleandomycin	At_84B1	0
+Oleandomycin	At_84B2	0
+Oleandomycin	At_75B1	0
+Oleandomycin	At_75D1	0
+Oleandomycin	At_74F1	0
+Oleandomycin	At_74F2	0
+Oleandomycin	At_74B1	0
+Oleandomycin	At_76E4	0
+Oleandomycin	At_76E1	0
+Oleandomycin	At_76E2	0
+Oleandomycin	At_76E12	0
+Oleandomycin	At_76E11	0
+Oleandomycin	At_85A5	0
+Oleandomycin	At_85A4	0
+Oleandomycin	At_78D2	0
+Oleandomycin	At_78D1	0
+Oleandomycin	VVGT1	0
+Baicalein	At_71C1	0
+Baicalein	At_71C2	0
+Baicalein	At_71C3	1
+Baicalein	At_71C4	0.5
+Baicalein	At_71C5	0.5
+Baicalein	At_71B8	1
+Baicalein	At_71B6	1
+Baicalein	At_71B5	1
+Baicalein	At_71B1	1
+Baicalein	At_88A1	1
+Baicalein	At_72E2	0
+Baicalein	At_72E3	0
+Baicalein	At_72E1	0
+Baicalein	At_72D1	0
+Baicalein	At_72C1	0
+Baicalein	At_72B3	0
+Baicalein	At_72B1	0
+Baicalein	At_73C3	1
+Baicalein	At_73C4	0
+Baicalein	At_73C5	1
+Baicalein	At_73C6	1
+Baicalein	At_73C1	1
+Baicalein	At_73C7	0
+Baicalein	At_73B2	0.5
+Baicalein	At_73B3	1
+Baicalein	At_73B4	1
+Baicalein	At_73B5	1
+Baicalein	At_73B1	1
+Baicalein	At_89B1	0
+Baicalein	At_89C1	0
+Baicalein	At_84A3	1
+Baicalein	At_84A4	1
+Baicalein	At_84A2	1
+Baicalein	At_84A1	1
+Baicalein	At_84B1	0
+Baicalein	At_84B2	0
+Baicalein	At_75B1	1
+Baicalein	At_75D1	0
+Baicalein	At_74F1	0
+Baicalein	At_74F2	1
+Baicalein	At_74B1	0
+Baicalein	At_76E5	0
+Baicalein	At_76E4	1
+Baicalein	At_76E1	1
+Baicalein	At_76E2	1
+Baicalein	At_76E12	1
+Baicalein	At_76E11	0
+Baicalein	At_76C4	1
+Baicalein	At_85A5	1
+Baicalein	At_85A4	1
+Baicalein	At_78D2	1
+Baicalein	At_78D1	0
+Baicalein	VVGT1	1
+Umbelliferone	At_71C1	0
+Umbelliferone	At_71C2	0
+Umbelliferone	At_71C3	0
+Umbelliferone	At_71C4	0.5
+Umbelliferone	At_71C5	0
+Umbelliferone	At_71B8	0
+Umbelliferone	At_71B6	0.5
+Umbelliferone	At_71B5	0
+Umbelliferone	At_71B1	1
+Umbelliferone	At_88A1	0
+Umbelliferone	At_72E2	0
+Umbelliferone	At_72E3	0
+Umbelliferone	At_72E1	0
+Umbelliferone	At_72D1	0
+Umbelliferone	At_72C1	0
+Umbelliferone	At_72B3	0
+Umbelliferone	At_72B1	1
+Umbelliferone	At_73C3	0
+Umbelliferone	At_73C4	0
+Umbelliferone	At_73C5	0.5
+Umbelliferone	At_73C6	1
+Umbelliferone	At_73C1	0
+Umbelliferone	At_73C7	0
+Umbelliferone	At_73B2	0
+Umbelliferone	At_73B3	0
+Umbelliferone	At_73B4	0
+Umbelliferone	At_73B5	0
+Umbelliferone	At_73B1	1
+Umbelliferone	At_89B1	0
+Umbelliferone	At_89C1	0
+Umbelliferone	At_84A3	0.5
+Umbelliferone	At_84A4	0
+Umbelliferone	At_84A2	1
+Umbelliferone	At_84A1	1
+Umbelliferone	At_84B1	0
+Umbelliferone	At_84B2	0.5
+Umbelliferone	At_75B1	1
+Umbelliferone	At_75D1	0
+Umbelliferone	At_74F1	0
+Umbelliferone	At_74F2	1
+Umbelliferone	At_74B1	0.5
+Umbelliferone	At_76E5	0
+Umbelliferone	At_76E4	0
+Umbelliferone	At_76E1	0
+Umbelliferone	At_76E2	0
+Umbelliferone	At_76E12	0.5
+Umbelliferone	At_76E11	1
+Umbelliferone	At_76C4	0.5
+Umbelliferone	At_85A5	0
+Umbelliferone	At_85A4	0
+Umbelliferone	At_78D2	0.5
+Umbelliferone	At_78D1	0
+Umbelliferone	VVGT1	1
+4-Methyl-umbelliferone	At_71C1	0
+4-Methyl-umbelliferone	At_71C2	0.5
+4-Methyl-umbelliferone	At_71C3	0
+4-Methyl-umbelliferone	At_71C4	0
+4-Methyl-umbelliferone	At_71C5	1
+4-Methyl-umbelliferone	At_71B8	0
+4-Methyl-umbelliferone	At_71B6	0.5
+4-Methyl-umbelliferone	At_71B5	0
+4-Methyl-umbelliferone	At_71B1	1
+4-Methyl-umbelliferone	At_88A1	1
+4-Methyl-umbelliferone	At_72E2	0
+4-Methyl-umbelliferone	At_72E3	0
+4-Methyl-umbelliferone	At_72E1	0
+4-Methyl-umbelliferone	At_72D1	1
+4-Methyl-umbelliferone	At_72C1	0
+4-Methyl-umbelliferone	At_72B3	1
+4-Methyl-umbelliferone	At_72B1	1
+4-Methyl-umbelliferone	At_73C3	1
+4-Methyl-umbelliferone	At_73C4	0
+4-Methyl-umbelliferone	At_73C5	1
+4-Methyl-umbelliferone	At_73C6	1
+4-Methyl-umbelliferone	At_73C1	1
+4-Methyl-umbelliferone	At_73C7	0
+4-Methyl-umbelliferone	At_73B2	0
+4-Methyl-umbelliferone	At_73B3	1
+4-Methyl-umbelliferone	At_73B4	1
+4-Methyl-umbelliferone	At_73B5	0
+4-Methyl-umbelliferone	At_73B1	1
+4-Methyl-umbelliferone	At_89B1	0
+4-Methyl-umbelliferone	At_89C1	0
+4-Methyl-umbelliferone	At_84A3	1
+4-Methyl-umbelliferone	At_84A4	0
+4-Methyl-umbelliferone	At_84A2	1
+4-Methyl-umbelliferone	At_84A1	1
+4-Methyl-umbelliferone	At_84B1	1
+4-Methyl-umbelliferone	At_84B2	0
+4-Methyl-umbelliferone	At_75B1	1
+4-Methyl-umbelliferone	At_75D1	0
+4-Methyl-umbelliferone	At_74F1	0
+4-Methyl-umbelliferone	At_74F2	1
+4-Methyl-umbelliferone	At_74B1	0.5
+4-Methyl-umbelliferone	At_76E5	0
+4-Methyl-umbelliferone	At_76E4	0
+4-Methyl-umbelliferone	At_76E1	0
+4-Methyl-umbelliferone	At_76E2	0.5
+4-Methyl-umbelliferone	At_76E12	1
+4-Methyl-umbelliferone	At_76E11	1
+4-Methyl-umbelliferone	At_76C4	0
+4-Methyl-umbelliferone	At_85A5	0
+4-Methyl-umbelliferone	At_85A4	0
+4-Methyl-umbelliferone	At_78D2	1
+4-Methyl-umbelliferone	At_78D1	0
+4-Methyl-umbelliferone	VVGT1	1
+Sinapic acid	At_71C1	1
+Sinapic acid	At_71C2	1
+Sinapic acid	At_71C3	0
+Sinapic acid	At_71C4	0
+Sinapic acid	At_71C5	0
+Sinapic acid	At_71B8	0
+Sinapic acid	At_71B6	0
+Sinapic acid	At_71B5	0
+Sinapic acid	At_71B1	0
+Sinapic acid	At_88A1	0
+Sinapic acid	At_72E2	1
+Sinapic acid	At_72E3	1
+Sinapic acid	At_72E1	0
+Sinapic acid	At_72D1	0
+Sinapic acid	At_72C1	0
+Sinapic acid	At_72B3	0
+Sinapic acid	At_72B1	0
+Sinapic acid	At_73C3	0
+Sinapic acid	At_73C4	0
+Sinapic acid	At_73C5	0
+Sinapic acid	At_73C6	0
+Sinapic acid	At_73C1	0
+Sinapic acid	At_73C7	0
+Sinapic acid	At_73B2	0
+Sinapic acid	At_73B3	1
+Sinapic acid	At_73B4	0
+Sinapic acid	At_73B5	0
+Sinapic acid	At_73B1	1
+Sinapic acid	At_89B1	0
+Sinapic acid	At_89C1	0
+Sinapic acid	At_84A3	1
+Sinapic acid	At_84A4	1
+Sinapic acid	At_84A2	1
+Sinapic acid	At_84A1	1
+Sinapic acid	At_84B1	1
+Sinapic acid	At_84B2	0.5
+Sinapic acid	At_75B1	1
+Sinapic acid	At_75D1	0
+Sinapic acid	At_74F1	0
+Sinapic acid	At_74F2	0
+Sinapic acid	At_74B1	0
+Sinapic acid	At_76E5	0
+Sinapic acid	At_76E4	0
+Sinapic acid	At_76E1	0
+Sinapic acid	At_76E2	0
+Sinapic acid	At_76E12	0
+Sinapic acid	At_76E11	0
+Sinapic acid	At_76C4	0
+Sinapic acid	At_85A5	0
+Sinapic acid	At_85A4	0
+Sinapic acid	At_78D2	0.5
+Sinapic acid	At_78D1	0
+Sinapic acid	VVGT1	0
+4-hydroxyl-benzoic acid	At_71C1	0
+4-hydroxyl-benzoic acid	At_71C2	0
+4-hydroxyl-benzoic acid	At_71C3	1
+4-hydroxyl-benzoic acid	At_71C4	1
+4-hydroxyl-benzoic acid	At_71C5	0
+4-hydroxyl-benzoic acid	At_71B8	0
+4-hydroxyl-benzoic acid	At_71B6	0.5
+4-hydroxyl-benzoic acid	At_71B5	0
+4-hydroxyl-benzoic acid	At_71B1	1
+4-hydroxyl-benzoic acid	At_88A1	0.5
+4-hydroxyl-benzoic acid	At_72E2	0
+4-hydroxyl-benzoic acid	At_72E3	0
+4-hydroxyl-benzoic acid	At_72E1	0
+4-hydroxyl-benzoic acid	At_72D1	0.5
+4-hydroxyl-benzoic acid	At_72C1	0
+4-hydroxyl-benzoic acid	At_72B3	0
+4-hydroxyl-benzoic acid	At_72B1	0
+4-hydroxyl-benzoic acid	At_73C3	0
+4-hydroxyl-benzoic acid	At_73C4	0
+4-hydroxyl-benzoic acid	At_73C5	0
+4-hydroxyl-benzoic acid	At_73C6	0
+4-hydroxyl-benzoic acid	At_73C1	0
+4-hydroxyl-benzoic acid	At_73C7	0
+4-hydroxyl-benzoic acid	At_73B2	0
+4-hydroxyl-benzoic acid	At_73B3	1
+4-hydroxyl-benzoic acid	At_73B4	1
+4-hydroxyl-benzoic acid	At_73B5	0
+4-hydroxyl-benzoic acid	At_73B1	0
+4-hydroxyl-benzoic acid	At_89B1	1
+4-hydroxyl-benzoic acid	At_89C1	0
+4-hydroxyl-benzoic acid	At_84A3	0
+4-hydroxyl-benzoic acid	At_84A4	1
+4-hydroxyl-benzoic acid	At_84A2	1
+4-hydroxyl-benzoic acid	At_84A1	1
+4-hydroxyl-benzoic acid	At_84B1	0
+4-hydroxyl-benzoic acid	At_84B2	0
+4-hydroxyl-benzoic acid	At_75B1	1
+4-hydroxyl-benzoic acid	At_75D1	0
+4-hydroxyl-benzoic acid	At_74F1	0.5
+4-hydroxyl-benzoic acid	At_74F2	1
+4-hydroxyl-benzoic acid	At_74B1	0
+4-hydroxyl-benzoic acid	At_76E5	0
+4-hydroxyl-benzoic acid	At_76E4	0
+4-hydroxyl-benzoic acid	At_76E1	0
+4-hydroxyl-benzoic acid	At_76E2	0
+4-hydroxyl-benzoic acid	At_76E12	0
+4-hydroxyl-benzoic acid	At_76E11	0
+4-hydroxyl-benzoic acid	At_76C4	0
+4-hydroxyl-benzoic acid	At_85A5	0
+4-hydroxyl-benzoic acid	At_85A4	0
+4-hydroxyl-benzoic acid	At_78D2	1
+4-hydroxyl-benzoic acid	At_78D1	0
+4-hydroxyl-benzoic acid	VVGT1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71C1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71C2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71C3	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71C4	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71C5	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71B8	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71B6	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71B5	0
+a-cyano-4-hydroxyl-cinnamic acid	At_71B1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_88A1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_72E2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_72E3	0
+a-cyano-4-hydroxyl-cinnamic acid	At_72E1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_72D1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_72C1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_72B3	0
+a-cyano-4-hydroxyl-cinnamic acid	At_72B1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73C3	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73C4	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73C5	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73C6	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73C1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73B2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73B3	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73B4	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73B5	0
+a-cyano-4-hydroxyl-cinnamic acid	At_73B1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_89B1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_89C1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_84A3	0
+a-cyano-4-hydroxyl-cinnamic acid	At_84A4	0
+a-cyano-4-hydroxyl-cinnamic acid	At_84A2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_84A1	0.5
+a-cyano-4-hydroxyl-cinnamic acid	At_84B1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_84B2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_75B1	0.5
+a-cyano-4-hydroxyl-cinnamic acid	At_75D1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_74F1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_74F2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_74B1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_76E4	0
+a-cyano-4-hydroxyl-cinnamic acid	At_76E1	0
+a-cyano-4-hydroxyl-cinnamic acid	At_76E2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_76E12	0
+a-cyano-4-hydroxyl-cinnamic acid	At_76E11	0
+a-cyano-4-hydroxyl-cinnamic acid	At_85A5	0
+a-cyano-4-hydroxyl-cinnamic acid	At_85A4	0
+a-cyano-4-hydroxyl-cinnamic acid	At_78D2	0
+a-cyano-4-hydroxyl-cinnamic acid	At_78D1	0
+a-cyano-4-hydroxyl-cinnamic acid	VVGT1	0
+3,4-dichloroaniline	At_71C1	0
+3,4-dichloroaniline	At_71C2	0
+3,4-dichloroaniline	At_71C3	0
+3,4-dichloroaniline	At_71C4	0
+3,4-dichloroaniline	At_71C5	0
+3,4-dichloroaniline	At_71B8	0
+3,4-dichloroaniline	At_71B6	0.5
+3,4-dichloroaniline	At_71B5	0
+3,4-dichloroaniline	At_71B1	0
+3,4-dichloroaniline	At_88A1	0
+3,4-dichloroaniline	At_72E2	1
+3,4-dichloroaniline	At_72E3	0
+3,4-dichloroaniline	At_72E1	0
+3,4-dichloroaniline	At_72D1	0
+3,4-dichloroaniline	At_72C1	0
+3,4-dichloroaniline	At_72B3	1
+3,4-dichloroaniline	At_72B1	1
+3,4-dichloroaniline	At_73C3	0
+3,4-dichloroaniline	At_73C4	0
+3,4-dichloroaniline	At_73C5	0
+3,4-dichloroaniline	At_73C6	0
+3,4-dichloroaniline	At_73C1	0
+3,4-dichloroaniline	At_73C7	0
+3,4-dichloroaniline	At_73B2	0
+3,4-dichloroaniline	At_73B3	0
+3,4-dichloroaniline	At_73B4	0
+3,4-dichloroaniline	At_73B5	0
+3,4-dichloroaniline	At_73B1	0
+3,4-dichloroaniline	At_89B1	0
+3,4-dichloroaniline	At_89C1	0
+3,4-dichloroaniline	At_84A3	0
+3,4-dichloroaniline	At_84A4	0
+3,4-dichloroaniline	At_84A2	0
+3,4-dichloroaniline	At_84A1	0
+3,4-dichloroaniline	At_84B1	0
+3,4-dichloroaniline	At_84B2	0
+3,4-dichloroaniline	At_75B1	0
+3,4-dichloroaniline	At_75D1	0
+3,4-dichloroaniline	At_74F1	0
+3,4-dichloroaniline	At_74F2	0
+3,4-dichloroaniline	At_74B1	0
+3,4-dichloroaniline	At_76E5	0
+3,4-dichloroaniline	At_76E4	0
+3,4-dichloroaniline	At_76E1	0
+3,4-dichloroaniline	At_76E2	0
+3,4-dichloroaniline	At_76E12	0
+3,4-dichloroaniline	At_76E11	0
+3,4-dichloroaniline	At_76C4	0
+3,4-dichloroaniline	At_85A5	0
+3,4-dichloroaniline	At_85A4	1
+3,4-dichloroaniline	At_78D2	0
+3,4-dichloroaniline	At_78D1	0
+3,4-dichloroaniline	VVGT1	0
+3,4-dihydroxylbenzoic acid	At_71C1	1
+3,4-dihydroxylbenzoic acid	At_71C2	0.5
+3,4-dihydroxylbenzoic acid	At_71C3	1
+3,4-dihydroxylbenzoic acid	At_71C4	1
+3,4-dihydroxylbenzoic acid	At_71C5	0.5
+3,4-dihydroxylbenzoic acid	At_71B8	0
+3,4-dihydroxylbenzoic acid	At_71B6	0
+3,4-dihydroxylbenzoic acid	At_71B5	0
+3,4-dihydroxylbenzoic acid	At_71B1	1
+3,4-dihydroxylbenzoic acid	At_88A1	0
+3,4-dihydroxylbenzoic acid	At_72E2	0.5
+3,4-dihydroxylbenzoic acid	At_72E3	0.5
+3,4-dihydroxylbenzoic acid	At_72E1	0.5
+3,4-dihydroxylbenzoic acid	At_72D1	1
+3,4-dihydroxylbenzoic acid	At_72C1	0
+3,4-dihydroxylbenzoic acid	At_72B3	0.5
+3,4-dihydroxylbenzoic acid	At_72B1	1
+3,4-dihydroxylbenzoic acid	At_73C3	0
+3,4-dihydroxylbenzoic acid	At_73C4	0
+3,4-dihydroxylbenzoic acid	At_73C5	0
+3,4-dihydroxylbenzoic acid	At_73C6	0
+3,4-dihydroxylbenzoic acid	At_73C1	0.5
+3,4-dihydroxylbenzoic acid	At_73C7	0
+3,4-dihydroxylbenzoic acid	At_73B2	0
+3,4-dihydroxylbenzoic acid	At_73B3	1
+3,4-dihydroxylbenzoic acid	At_73B4	1
+3,4-dihydroxylbenzoic acid	At_73B5	0
+3,4-dihydroxylbenzoic acid	At_73B1	0
+3,4-dihydroxylbenzoic acid	At_89B1	1
+3,4-dihydroxylbenzoic acid	At_89C1	0
+3,4-dihydroxylbenzoic acid	At_84A3	0
+3,4-dihydroxylbenzoic acid	At_84A4	0
+3,4-dihydroxylbenzoic acid	At_84A2	0
+3,4-dihydroxylbenzoic acid	At_84A1	1
+3,4-dihydroxylbenzoic acid	At_84B1	0
+3,4-dihydroxylbenzoic acid	At_84B2	0.5
+3,4-dihydroxylbenzoic acid	At_75B1	1
+3,4-dihydroxylbenzoic acid	At_75D1	0
+3,4-dihydroxylbenzoic acid	At_74F1	0.5
+3,4-dihydroxylbenzoic acid	At_74F2	1
+3,4-dihydroxylbenzoic acid	At_74B1	0
+3,4-dihydroxylbenzoic acid	At_76E5	0
+3,4-dihydroxylbenzoic acid	At_76E4	0
+3,4-dihydroxylbenzoic acid	At_76E1	0.5
+3,4-dihydroxylbenzoic acid	At_76E2	0
+3,4-dihydroxylbenzoic acid	At_76E12	0
+3,4-dihydroxylbenzoic acid	At_76E11	0
+3,4-dihydroxylbenzoic acid	At_76C4	0
+3,4-dihydroxylbenzoic acid	At_85A5	0.5
+3,4-dihydroxylbenzoic acid	At_85A4	0
+3,4-dihydroxylbenzoic acid	At_78D2	1
+3,4-dihydroxylbenzoic acid	At_78D1	0
+3,4-dihydroxylbenzoic acid	VVGT1	0.5
+2,5-dihydroxylbenzoic acid	At_71C1	0.5
+2,5-dihydroxylbenzoic acid	At_71C2	0.5
+2,5-dihydroxylbenzoic acid	At_71C3	1
+2,5-dihydroxylbenzoic acid	At_71C4	1
+2,5-dihydroxylbenzoic acid	At_71C5	0.5
+2,5-dihydroxylbenzoic acid	At_71B8	0
+2,5-dihydroxylbenzoic acid	At_71B6	0
+2,5-dihydroxylbenzoic acid	At_71B5	0
+2,5-dihydroxylbenzoic acid	At_71B1	1
+2,5-dihydroxylbenzoic acid	At_88A1	0
+2,5-dihydroxylbenzoic acid	At_72E2	0.5
+2,5-dihydroxylbenzoic acid	At_72E3	0.5
+2,5-dihydroxylbenzoic acid	At_72E1	0
+2,5-dihydroxylbenzoic acid	At_72D1	1
+2,5-dihydroxylbenzoic acid	At_72C1	0
+2,5-dihydroxylbenzoic acid	At_72B3	0.5
+2,5-dihydroxylbenzoic acid	At_72B1	1
+2,5-dihydroxylbenzoic acid	At_73C3	0
+2,5-dihydroxylbenzoic acid	At_73C4	0
+2,5-dihydroxylbenzoic acid	At_73C5	0
+2,5-dihydroxylbenzoic acid	At_73C6	0
+2,5-dihydroxylbenzoic acid	At_73C1	0.5
+2,5-dihydroxylbenzoic acid	At_73C7	0
+2,5-dihydroxylbenzoic acid	At_73B2	0
+2,5-dihydroxylbenzoic acid	At_73B3	1
+2,5-dihydroxylbenzoic acid	At_73B4	1
+2,5-dihydroxylbenzoic acid	At_73B5	0
+2,5-dihydroxylbenzoic acid	At_73B1	0
+2,5-dihydroxylbenzoic acid	At_89B1	1
+2,5-dihydroxylbenzoic acid	At_89C1	0
+2,5-dihydroxylbenzoic acid	At_84A3	0
+2,5-dihydroxylbenzoic acid	At_84A4	0
+2,5-dihydroxylbenzoic acid	At_84A2	0
+2,5-dihydroxylbenzoic acid	At_84A1	0.5
+2,5-dihydroxylbenzoic acid	At_84B1	0
+2,5-dihydroxylbenzoic acid	At_84B2	0
+2,5-dihydroxylbenzoic acid	At_75B1	1
+2,5-dihydroxylbenzoic acid	At_75D1	0
+2,5-dihydroxylbenzoic acid	At_74F1	0.5
+2,5-dihydroxylbenzoic acid	At_74F2	0
+2,5-dihydroxylbenzoic acid	At_74B1	0
+2,5-dihydroxylbenzoic acid	At_76E5	0
+2,5-dihydroxylbenzoic acid	At_76E4	0.5
+2,5-dihydroxylbenzoic acid	At_76E1	0
+2,5-dihydroxylbenzoic acid	At_76E2	0
+2,5-dihydroxylbenzoic acid	At_76E12	0
+2,5-dihydroxylbenzoic acid	At_76E11	0
+2,5-dihydroxylbenzoic acid	At_76C4	0
+2,5-dihydroxylbenzoic acid	At_85A5	0.5
+2,5-dihydroxylbenzoic acid	At_85A4	0
+2,5-dihydroxylbenzoic acid	At_78D2	0
+2,5-dihydroxylbenzoic acid	At_78D1	0
+2,5-dihydroxylbenzoic acid	VVGT1	0
+D-glycerate	At_71C1	0
+D-glycerate	At_71C2	0
+D-glycerate	At_71C3	0
+D-glycerate	At_71C4	0
+D-glycerate	At_71C5	0
+D-glycerate	At_71B8	0
+D-glycerate	At_71B6	0
+D-glycerate	At_71B5	0
+D-glycerate	At_71B1	0
+D-glycerate	At_88A1	0
+D-glycerate	At_72E2	0
+D-glycerate	At_72E3	0
+D-glycerate	At_72E1	0
+D-glycerate	At_72D1	0
+D-glycerate	At_72C1	0
+D-glycerate	At_72B3	0
+D-glycerate	At_72B1	0
+D-glycerate	At_73C3	0
+D-glycerate	At_73C4	0
+D-glycerate	At_73C5	0
+D-glycerate	At_73C6	0
+D-glycerate	At_73C1	0
+D-glycerate	At_73B2	0
+D-glycerate	At_73B3	0
+D-glycerate	At_73B4	0
+D-glycerate	At_73B5	0
+D-glycerate	At_73B1	0
+D-glycerate	At_89B1	0
+D-glycerate	At_89C1	0
+D-glycerate	At_84A3	0
+D-glycerate	At_84A4	0
+D-glycerate	At_84A2	0
+D-glycerate	At_84A1	0
+D-glycerate	At_84B1	0
+D-glycerate	At_84B2	0
+D-glycerate	At_75B1	0
+D-glycerate	At_75D1	0
+D-glycerate	At_74F1	0
+D-glycerate	At_74F2	0
+D-glycerate	At_74B1	0
+D-glycerate	At_76E4	0
+D-glycerate	At_76E1	0
+D-glycerate	At_76E2	0
+D-glycerate	At_76E12	0
+D-glycerate	At_76E11	0
+D-glycerate	At_85A5	0
+D-glycerate	At_85A4	0
+D-glycerate	At_78D2	0
+D-glycerate	At_78D1	0
+D-glycerate	VVGT1	0
+GlcNAc	At_71C1	0
+GlcNAc	At_71C2	0
+GlcNAc	At_71C3	0
+GlcNAc	At_71C4	0
+GlcNAc	At_71C5	0
+GlcNAc	At_71B8	0
+GlcNAc	At_71B6	0
+GlcNAc	At_71B5	0
+GlcNAc	At_71B1	0
+GlcNAc	At_88A1	0
+GlcNAc	At_72E2	0
+GlcNAc	At_72E3	0
+GlcNAc	At_72E1	0
+GlcNAc	At_72D1	0
+GlcNAc	At_72C1	0
+GlcNAc	At_72B3	0
+GlcNAc	At_72B1	0
+GlcNAc	At_73C3	0
+GlcNAc	At_73C4	0
+GlcNAc	At_73C5	0
+GlcNAc	At_73C6	0
+GlcNAc	At_73C1	0
+GlcNAc	At_73B2	0
+GlcNAc	At_73B3	0
+GlcNAc	At_73B4	0
+GlcNAc	At_73B5	0
+GlcNAc	At_73B1	0
+GlcNAc	At_89B1	0
+GlcNAc	At_89C1	0
+GlcNAc	At_84A3	0
+GlcNAc	At_84A4	0
+GlcNAc	At_84A2	0
+GlcNAc	At_84A1	0
+GlcNAc	At_84B1	0
+GlcNAc	At_84B2	0
+GlcNAc	At_75B1	0
+GlcNAc	At_75D1	0
+GlcNAc	At_74F1	0
+GlcNAc	At_74F2	0
+GlcNAc	At_74B1	0
+GlcNAc	At_76E4	0
+GlcNAc	At_76E1	0
+GlcNAc	At_76E2	0
+GlcNAc	At_76E12	0
+GlcNAc	At_76E11	0
+GlcNAc	At_85A5	0
+GlcNAc	At_85A4	0
+GlcNAc	At_78D2	0
+GlcNAc	At_78D1	0
+GlcNAc	VVGT1	0
+Indole 3-acetate	At_71C1	0
+Indole 3-acetate	At_71C2	0
+Indole 3-acetate	At_71C3	0
+Indole 3-acetate	At_71C4	0
+Indole 3-acetate	At_71C5	0
+Indole 3-acetate	At_71B8	0
+Indole 3-acetate	At_71B6	0
+Indole 3-acetate	At_71B5	0
+Indole 3-acetate	At_71B1	0
+Indole 3-acetate	At_88A1	0
+Indole 3-acetate	At_72E2	0
+Indole 3-acetate	At_72E3	0
+Indole 3-acetate	At_72E1	0
+Indole 3-acetate	At_72D1	0
+Indole 3-acetate	At_72C1	0
+Indole 3-acetate	At_72B3	0
+Indole 3-acetate	At_72B1	0
+Indole 3-acetate	At_73C3	0
+Indole 3-acetate	At_73C4	0
+Indole 3-acetate	At_73C5	0
+Indole 3-acetate	At_73C6	0
+Indole 3-acetate	At_73C1	0
+Indole 3-acetate	At_73C7	0
+Indole 3-acetate	At_73B2	0
+Indole 3-acetate	At_73B3	0
+Indole 3-acetate	At_73B4	0
+Indole 3-acetate	At_73B5	0
+Indole 3-acetate	At_73B1	0
+Indole 3-acetate	At_89B1	0.5
+Indole 3-acetate	At_89C1	0
+Indole 3-acetate	At_84A3	0
+Indole 3-acetate	At_84A4	0
+Indole 3-acetate	At_84A2	1
+Indole 3-acetate	At_84A1	1
+Indole 3-acetate	At_84B1	1
+Indole 3-acetate	At_84B2	1
+Indole 3-acetate	At_75B1	1
+Indole 3-acetate	At_75D1	0
+Indole 3-acetate	At_74F1	0
+Indole 3-acetate	At_74F2	1
+Indole 3-acetate	At_74B1	0
+Indole 3-acetate	At_76E5	0
+Indole 3-acetate	At_76E4	0
+Indole 3-acetate	At_76E1	0.5
+Indole 3-acetate	At_76E2	0
+Indole 3-acetate	At_76E12	0
+Indole 3-acetate	At_76E11	0
+Indole 3-acetate	At_76C4	0
+Indole 3-acetate	At_85A5	0
+Indole 3-acetate	At_85A4	0
+Indole 3-acetate	At_78D2	0
+Indole 3-acetate	At_78D1	0
+Indole 3-acetate	VVGT1	0
+Gibberellin A3	At_71C1	0
+Gibberellin A3	At_71C2	0
+Gibberellin A3	At_71C3	0
+Gibberellin A3	At_71C4	0
+Gibberellin A3	At_71C5	0
+Gibberellin A3	At_71B8	0
+Gibberellin A3	At_71B6	0
+Gibberellin A3	At_71B5	0
+Gibberellin A3	At_71B1	0
+Gibberellin A3	At_88A1	0
+Gibberellin A3	At_72E2	0
+Gibberellin A3	At_72E3	0
+Gibberellin A3	At_72E1	0
+Gibberellin A3	At_72D1	0
+Gibberellin A3	At_72C1	0
+Gibberellin A3	At_72B3	0
+Gibberellin A3	At_72B1	0
+Gibberellin A3	At_73C3	0
+Gibberellin A3	At_73C4	0
+Gibberellin A3	At_73C5	0
+Gibberellin A3	At_73C6	0
+Gibberellin A3	At_73C1	0
+Gibberellin A3	At_73C7	0
+Gibberellin A3	At_73B2	0
+Gibberellin A3	At_73B3	0
+Gibberellin A3	At_73B4	0
+Gibberellin A3	At_73B5	0
+Gibberellin A3	At_73B1	0
+Gibberellin A3	At_89B1	0
+Gibberellin A3	At_89C1	0
+Gibberellin A3	At_84A3	0
+Gibberellin A3	At_84A4	0
+Gibberellin A3	At_84A2	0
+Gibberellin A3	At_84A1	0
+Gibberellin A3	At_84B1	0
+Gibberellin A3	At_84B2	0
+Gibberellin A3	At_75B1	0
+Gibberellin A3	At_75D1	0
+Gibberellin A3	At_74F1	0
+Gibberellin A3	At_74F2	0
+Gibberellin A3	At_74B1	0
+Gibberellin A3	At_76E5	0
+Gibberellin A3	At_76E4	0
+Gibberellin A3	At_76E1	0
+Gibberellin A3	At_76E2	0
+Gibberellin A3	At_76E12	0
+Gibberellin A3	At_76E11	0
+Gibberellin A3	At_76C4	0
+Gibberellin A3	At_85A5	0
+Gibberellin A3	At_85A4	0
+Gibberellin A3	At_78D2	0
+Gibberellin A3	At_78D1	0
+Gibberellin A3	VVGT1	0
+Gibberellin A4	At_71C1	0
+Gibberellin A4	At_71C2	0
+Gibberellin A4	At_71C3	0
+Gibberellin A4	At_71C4	0
+Gibberellin A4	At_71C5	0
+Gibberellin A4	At_71B8	0
+Gibberellin A4	At_71B6	0
+Gibberellin A4	At_71B5	0
+Gibberellin A4	At_71B1	0
+Gibberellin A4	At_88A1	0
+Gibberellin A4	At_72E2	0
+Gibberellin A4	At_72E3	0
+Gibberellin A4	At_72E1	0
+Gibberellin A4	At_72D1	0
+Gibberellin A4	At_72C1	0
+Gibberellin A4	At_72B3	0
+Gibberellin A4	At_72B1	0
+Gibberellin A4	At_73C3	0
+Gibberellin A4	At_73C4	0
+Gibberellin A4	At_73C5	0
+Gibberellin A4	At_73C6	0
+Gibberellin A4	At_73C1	0
+Gibberellin A4	At_73C7	0
+Gibberellin A4	At_73B2	0
+Gibberellin A4	At_73B3	0
+Gibberellin A4	At_73B4	0
+Gibberellin A4	At_73B5	0.5
+Gibberellin A4	At_73B1	0
+Gibberellin A4	At_89B1	0
+Gibberellin A4	At_89C1	0
+Gibberellin A4	At_84A3	0
+Gibberellin A4	At_84A4	0
+Gibberellin A4	At_84A2	0
+Gibberellin A4	At_84A1	0
+Gibberellin A4	At_84B1	0
+Gibberellin A4	At_84B2	0
+Gibberellin A4	At_75B1	0
+Gibberellin A4	At_75D1	0
+Gibberellin A4	At_74F1	0
+Gibberellin A4	At_74F2	0
+Gibberellin A4	At_74B1	0
+Gibberellin A4	At_76E5	0
+Gibberellin A4	At_76E4	0
+Gibberellin A4	At_76E1	0
+Gibberellin A4	At_76E2	0
+Gibberellin A4	At_76E12	0
+Gibberellin A4	At_76E11	0
+Gibberellin A4	At_76C4	0
+Gibberellin A4	At_85A5	0
+Gibberellin A4	At_85A4	0
+Gibberellin A4	At_78D2	0
+Gibberellin A4	At_78D1	0
+Gibberellin A4	VVGT1	0
+(±)-Jasmonic acid	At_71C1	0
+(±)-Jasmonic acid	At_71C2	0
+(±)-Jasmonic acid	At_71C3	0
+(±)-Jasmonic acid	At_71C4	0
+(±)-Jasmonic acid	At_71C5	0
+(±)-Jasmonic acid	At_71B8	0
+(±)-Jasmonic acid	At_71B6	0
+(±)-Jasmonic acid	At_71B5	0
+(±)-Jasmonic acid	At_71B1	0
+(±)-Jasmonic acid	At_88A1	0
+(±)-Jasmonic acid	At_72E2	0
+(±)-Jasmonic acid	At_72E3	0
+(±)-Jasmonic acid	At_72E1	0
+(±)-Jasmonic acid	At_72D1	0
+(±)-Jasmonic acid	At_72C1	0
+(±)-Jasmonic acid	At_72B3	0
+(±)-Jasmonic acid	At_72B1	0
+(±)-Jasmonic acid	At_73C3	0
+(±)-Jasmonic acid	At_73C4	0
+(±)-Jasmonic acid	At_73C5	0
+(±)-Jasmonic acid	At_73C6	0
+(±)-Jasmonic acid	At_73C1	0
+(±)-Jasmonic acid	At_73C7	0
+(±)-Jasmonic acid	At_73B2	0
+(±)-Jasmonic acid	At_73B3	0
+(±)-Jasmonic acid	At_73B4	0
+(±)-Jasmonic acid	At_73B5	0
+(±)-Jasmonic acid	At_73B1	0
+(±)-Jasmonic acid	At_89B1	0
+(±)-Jasmonic acid	At_89C1	0
+(±)-Jasmonic acid	At_84A3	0
+(±)-Jasmonic acid	At_84A4	0
+(±)-Jasmonic acid	At_84A2	1
+(±)-Jasmonic acid	At_84A1	1
+(±)-Jasmonic acid	At_84B1	0
+(±)-Jasmonic acid	At_84B2	0
+(±)-Jasmonic acid	At_75B1	1
+(±)-Jasmonic acid	At_75D1	0
+(±)-Jasmonic acid	At_74F1	0
+(±)-Jasmonic acid	At_74F2	0
+(±)-Jasmonic acid	At_74B1	0
+(±)-Jasmonic acid	At_76E5	0
+(±)-Jasmonic acid	At_76E4	0
+(±)-Jasmonic acid	At_76E1	0
+(±)-Jasmonic acid	At_76E2	0
+(±)-Jasmonic acid	At_76E12	0
+(±)-Jasmonic acid	At_76E11	0
+(±)-Jasmonic acid	At_76C4	0
+(±)-Jasmonic acid	At_85A5	0
+(±)-Jasmonic acid	At_85A4	0
+(±)-Jasmonic acid	At_78D2	0
+(±)-Jasmonic acid	At_78D1	0
+(±)-Jasmonic acid	VVGT1	0
+(±)- cis, trans Abscisic acid	At_71C1	0
+(±)- cis, trans Abscisic acid	At_71C2	0
+(±)- cis, trans Abscisic acid	At_71C3	0
+(±)- cis, trans Abscisic acid	At_71C4	0
+(±)- cis, trans Abscisic acid	At_71C5	0
+(±)- cis, trans Abscisic acid	At_71B8	0
+(±)- cis, trans Abscisic acid	At_71B6	1
+(±)- cis, trans Abscisic acid	At_71B5	0
+(±)- cis, trans Abscisic acid	At_71B1	0
+(±)- cis, trans Abscisic acid	At_88A1	0
+(±)- cis, trans Abscisic acid	At_72E2	0
+(±)- cis, trans Abscisic acid	At_72E3	0
+(±)- cis, trans Abscisic acid	At_72E1	0
+(±)- cis, trans Abscisic acid	At_72D1	0
+(±)- cis, trans Abscisic acid	At_72C1	0
+(±)- cis, trans Abscisic acid	At_72B3	0
+(±)- cis, trans Abscisic acid	At_72B1	0
+(±)- cis, trans Abscisic acid	At_73C3	0
+(±)- cis, trans Abscisic acid	At_73C4	0
+(±)- cis, trans Abscisic acid	At_73C5	0
+(±)- cis, trans Abscisic acid	At_73C6	0
+(±)- cis, trans Abscisic acid	At_73C1	0
+(±)- cis, trans Abscisic acid	At_73C7	0
+(±)- cis, trans Abscisic acid	At_73B2	0
+(±)- cis, trans Abscisic acid	At_73B3	0
+(±)- cis, trans Abscisic acid	At_73B4	0
+(±)- cis, trans Abscisic acid	At_73B5	0
+(±)- cis, trans Abscisic acid	At_73B1	1
+(±)- cis, trans Abscisic acid	At_89B1	0
+(±)- cis, trans Abscisic acid	At_89C1	0
+(±)- cis, trans Abscisic acid	At_84A3	0
+(±)- cis, trans Abscisic acid	At_84A4	0
+(±)- cis, trans Abscisic acid	At_84A2	1
+(±)- cis, trans Abscisic acid	At_84A1	1
+(±)- cis, trans Abscisic acid	At_84B1	1
+(±)- cis, trans Abscisic acid	At_84B2	1
+(±)- cis, trans Abscisic acid	At_75B1	1
+(±)- cis, trans Abscisic acid	At_75D1	0
+(±)- cis, trans Abscisic acid	At_74F1	0
+(±)- cis, trans Abscisic acid	At_74F2	0
+(±)- cis, trans Abscisic acid	At_74B1	0
+(±)- cis, trans Abscisic acid	At_76E5	0
+(±)- cis, trans Abscisic acid	At_76E4	0
+(±)- cis, trans Abscisic acid	At_76E1	0
+(±)- cis, trans Abscisic acid	At_76E2	0
+(±)- cis, trans Abscisic acid	At_76E12	0
+(±)- cis, trans Abscisic acid	At_76E11	0
+(±)- cis, trans Abscisic acid	At_76C4	0
+(±)- cis, trans Abscisic acid	At_85A5	0
+(±)- cis, trans Abscisic acid	At_85A4	0
+(±)- cis, trans Abscisic acid	At_78D2	0
+(±)- cis, trans Abscisic acid	At_78D1	0
+(±)- cis, trans Abscisic acid	VVGT1	0
+Kinetin	At_71C1	0
+Kinetin	At_71C2	0
+Kinetin	At_71C3	0
+Kinetin	At_71C4	0
+Kinetin	At_71C5	0
+Kinetin	At_71B8	0
+Kinetin	At_71B6	0
+Kinetin	At_71B5	0
+Kinetin	At_71B1	0
+Kinetin	At_88A1	0
+Kinetin	At_72E2	0
+Kinetin	At_72E3	0
+Kinetin	At_72E1	0
+Kinetin	At_72D1	0
+Kinetin	At_72C1	0
+Kinetin	At_72B3	0
+Kinetin	At_72B1	0
+Kinetin	At_73C3	0
+Kinetin	At_73C4	0
+Kinetin	At_73C5	0
+Kinetin	At_73C6	0
+Kinetin	At_73C1	0
+Kinetin	At_73C7	0
+Kinetin	At_73B2	0
+Kinetin	At_73B3	0
+Kinetin	At_73B4	0
+Kinetin	At_73B5	0
+Kinetin	At_73B1	0
+Kinetin	At_89B1	0
+Kinetin	At_89C1	0
+Kinetin	At_84A3	0
+Kinetin	At_84A4	0
+Kinetin	At_84A2	0
+Kinetin	At_84A1	0
+Kinetin	At_84B1	0
+Kinetin	At_84B2	0
+Kinetin	At_75B1	0
+Kinetin	At_75D1	0
+Kinetin	At_74F1	0
+Kinetin	At_74F2	0
+Kinetin	At_74B1	0
+Kinetin	At_76E5	0
+Kinetin	At_76E4	0
+Kinetin	At_76E1	0
+Kinetin	At_76E2	0
+Kinetin	At_76E12	0
+Kinetin	At_76E11	0
+Kinetin	At_76C4	0
+Kinetin	At_85A5	0
+Kinetin	At_85A4	0
+Kinetin	At_78D2	0
+Kinetin	At_78D1	0
+Kinetin	VVGT1	0
+trans-Zeatin	At_71C1	0
+trans-Zeatin	At_71C2	0
+trans-Zeatin	At_71C3	0
+trans-Zeatin	At_71C4	0
+trans-Zeatin	At_71C5	0
+trans-Zeatin	At_71B8	0
+trans-Zeatin	At_71B6	0
+trans-Zeatin	At_71B5	0
+trans-Zeatin	At_71B1	0
+trans-Zeatin	At_88A1	0
+trans-Zeatin	At_72E2	0
+trans-Zeatin	At_72E3	0
+trans-Zeatin	At_72E1	0
+trans-Zeatin	At_72D1	0
+trans-Zeatin	At_72C1	0
+trans-Zeatin	At_72B3	0
+trans-Zeatin	At_72B1	0
+trans-Zeatin	At_73C3	0
+trans-Zeatin	At_73C4	0
+trans-Zeatin	At_73C5	1
+trans-Zeatin	At_73C6	0
+trans-Zeatin	At_73C1	1
+trans-Zeatin	At_73C7	0
+trans-Zeatin	At_73B2	0
+trans-Zeatin	At_73B3	0
+trans-Zeatin	At_73B4	0
+trans-Zeatin	At_73B5	0
+trans-Zeatin	At_73B1	0
+trans-Zeatin	At_89B1	0
+trans-Zeatin	At_89C1	0
+trans-Zeatin	At_84A3	0
+trans-Zeatin	At_84A4	0
+trans-Zeatin	At_84A2	0
+trans-Zeatin	At_84A1	0
+trans-Zeatin	At_84B1	0
+trans-Zeatin	At_84B2	0
+trans-Zeatin	At_75B1	0
+trans-Zeatin	At_75D1	0
+trans-Zeatin	At_74F1	0
+trans-Zeatin	At_74F2	0
+trans-Zeatin	At_74B1	0
+trans-Zeatin	At_76E5	0
+trans-Zeatin	At_76E4	0
+trans-Zeatin	At_76E1	0
+trans-Zeatin	At_76E2	0
+trans-Zeatin	At_76E12	0
+trans-Zeatin	At_76E11	0
+trans-Zeatin	At_76C4	0
+trans-Zeatin	At_85A5	1
+trans-Zeatin	At_85A4	0
+trans-Zeatin	At_78D2	0
+trans-Zeatin	At_78D1	0
+trans-Zeatin	VVGT1	0
+Luteolin	At_71C1	1
+Luteolin	At_71C2	1
+Luteolin	At_71C3	1
+Luteolin	At_71C4	1
+Luteolin	At_71C5	0.5
+Luteolin	At_71B8	1
+Luteolin	At_71B6	1
+Luteolin	At_71B5	1
+Luteolin	At_71B1	1
+Luteolin	At_88A1	1
+Luteolin	At_72E2	0
+Luteolin	At_72E3	0
+Luteolin	At_72E1	0.5
+Luteolin	At_72D1	1
+Luteolin	At_72C1	0
+Luteolin	At_72B3	0
+Luteolin	At_72B1	0
+Luteolin	At_73C3	1
+Luteolin	At_73C4	0
+Luteolin	At_73C5	1
+Luteolin	At_73C6	1
+Luteolin	At_73C1	1
+Luteolin	At_73C7	1
+Luteolin	At_73B2	1
+Luteolin	At_73B3	1
+Luteolin	At_73B4	1
+Luteolin	At_73B5	1
+Luteolin	At_73B1	1
+Luteolin	At_89B1	0.5
+Luteolin	At_89C1	0
+Luteolin	At_84A3	1
+Luteolin	At_84A4	1
+Luteolin	At_84A2	1
+Luteolin	At_84A1	1
+Luteolin	At_84B1	1
+Luteolin	At_84B2	1
+Luteolin	At_75B1	1
+Luteolin	At_75D1	1
+Luteolin	At_74F1	1
+Luteolin	At_74F2	1
+Luteolin	At_74B1	1
+Luteolin	At_76E5	0.5
+Luteolin	At_76E4	0
+Luteolin	At_76E1	1
+Luteolin	At_76E2	0
+Luteolin	At_76E12	1
+Luteolin	At_76E11	0
+Luteolin	At_76C4	1
+Luteolin	At_85A5	1
+Luteolin	At_85A4	1
+Luteolin	At_78D2	1
+Luteolin	At_78D1	0
+Luteolin	VVGT1	1
+Quercetin	At_71C1	1
+Quercetin	At_71C2	0.5
+Quercetin	At_71C3	1
+Quercetin	At_71C4	1
+Quercetin	At_71C5	1
+Quercetin	At_71B8	1
+Quercetin	At_71B6	1
+Quercetin	At_71B5	1
+Quercetin	At_71B1	1
+Quercetin	At_88A1	1
+Quercetin	At_72E2	0
+Quercetin	At_72E3	0
+Quercetin	At_72E1	1
+Quercetin	At_72D1	1
+Quercetin	At_72C1	0
+Quercetin	At_72B3	1
+Quercetin	At_72B1	0
+Quercetin	At_73C3	1
+Quercetin	At_73C4	1
+Quercetin	At_73C5	1
+Quercetin	At_73C6	1
+Quercetin	At_73C1	1
+Quercetin	At_73C7	1
+Quercetin	At_73B2	1
+Quercetin	At_73B3	1
+Quercetin	At_73B4	1
+Quercetin	At_73B5	1
+Quercetin	At_73B1	1
+Quercetin	At_89B1	0
+Quercetin	At_89C1	1
+Quercetin	At_84A3	1
+Quercetin	At_84A4	1
+Quercetin	At_84A2	1
+Quercetin	At_84A1	1
+Quercetin	At_84B1	1
+Quercetin	At_84B2	0
+Quercetin	At_75B1	1
+Quercetin	At_75D1	0
+Quercetin	At_74F1	0
+Quercetin	At_74F2	1
+Quercetin	At_74B1	1
+Quercetin	At_76E5	1
+Quercetin	At_76E4	0
+Quercetin	At_76E1	0
+Quercetin	At_76E2	0
+Quercetin	At_76E12	1
+Quercetin	At_76E11	1
+Quercetin	At_76C4	1
+Quercetin	At_85A5	1
+Quercetin	At_85A4	0
+Quercetin	At_78D2	1
+Quercetin	At_78D1	1
+Quercetin	VVGT1	1
+Fisetin	At_71C1	1
+Fisetin	At_71C2	1
+Fisetin	At_71C3	1
+Fisetin	At_71C4	1
+Fisetin	At_71C5	1
+Fisetin	At_71B8	1
+Fisetin	At_71B6	1
+Fisetin	At_71B5	1
+Fisetin	At_71B1	1
+Fisetin	At_88A1	1
+Fisetin	At_72E2	0
+Fisetin	At_72E3	0
+Fisetin	At_72E1	1
+Fisetin	At_72D1	1
+Fisetin	At_72C1	0
+Fisetin	At_72B3	1
+Fisetin	At_72B1	0
+Fisetin	At_73C3	1
+Fisetin	At_73C4	1
+Fisetin	At_73C5	1
+Fisetin	At_73C6	1
+Fisetin	At_73C1	1
+Fisetin	At_73C7	1
+Fisetin	At_73B2	1
+Fisetin	At_73B3	1
+Fisetin	At_73B4	1
+Fisetin	At_73B5	1
+Fisetin	At_73B1	1
+Fisetin	At_89B1	1
+Fisetin	At_89C1	1
+Fisetin	At_84A3	1
+Fisetin	At_84A4	0
+Fisetin	At_84A2	1
+Fisetin	At_84A1	1
+Fisetin	At_84B1	1
+Fisetin	At_84B2	0
+Fisetin	At_75B1	1
+Fisetin	At_75D1	0
+Fisetin	At_74F1	1
+Fisetin	At_74F2	1
+Fisetin	At_74B1	1
+Fisetin	At_76E5	0
+Fisetin	At_76E4	1
+Fisetin	At_76E1	1
+Fisetin	At_76E2	1
+Fisetin	At_76E12	1
+Fisetin	At_76E11	1
+Fisetin	At_76C4	1
+Fisetin	At_85A5	1
+Fisetin	At_85A4	1
+Fisetin	At_78D2	1
+Fisetin	At_78D1	1
+Fisetin	VVGT1	1
+Kaempferol	At_71C1	1
+Kaempferol	At_71C2	1
+Kaempferol	At_71C3	1
+Kaempferol	At_71C4	1
+Kaempferol	At_71C5	1
+Kaempferol	At_71B8	1
+Kaempferol	At_71B6	1
+Kaempferol	At_71B5	1
+Kaempferol	At_71B1	1
+Kaempferol	At_88A1	1
+Kaempferol	At_72E2	0
+Kaempferol	At_72E3	0
+Kaempferol	At_72E1	1
+Kaempferol	At_72D1	1
+Kaempferol	At_72C1	0
+Kaempferol	At_72B3	1
+Kaempferol	At_72B1	0
+Kaempferol	At_73C3	1
+Kaempferol	At_73C4	1
+Kaempferol	At_73C5	1
+Kaempferol	At_73C6	1
+Kaempferol	At_73C1	1
+Kaempferol	At_73C7	1
+Kaempferol	At_73B2	1
+Kaempferol	At_73B3	1
+Kaempferol	At_73B4	1
+Kaempferol	At_73B5	1
+Kaempferol	At_73B1	1
+Kaempferol	At_89B1	1
+Kaempferol	At_89C1	1
+Kaempferol	At_84A3	1
+Kaempferol	At_84A4	1
+Kaempferol	At_84A2	1
+Kaempferol	At_84A1	1
+Kaempferol	At_84B1	1
+Kaempferol	At_84B2	1
+Kaempferol	At_75B1	1
+Kaempferol	At_75D1	1
+Kaempferol	At_74F1	1
+Kaempferol	At_74F2	1
+Kaempferol	At_74B1	1
+Kaempferol	At_76E5	1
+Kaempferol	At_76E4	1
+Kaempferol	At_76E1	1
+Kaempferol	At_76E2	1
+Kaempferol	At_76E12	1
+Kaempferol	At_76E11	1
+Kaempferol	At_76C4	1
+Kaempferol	At_85A5	1
+Kaempferol	At_85A4	1
+Kaempferol	At_78D2	1
+Kaempferol	At_78D1	1
+Kaempferol	VVGT1	1
+Cinnamic acid	At_71C1	0
+Cinnamic acid	At_71C2	0
+Cinnamic acid	At_71C3	0
+Cinnamic acid	At_71C4	0
+Cinnamic acid	At_71C5	0
+Cinnamic acid	At_71B8	0
+Cinnamic acid	At_71B6	0
+Cinnamic acid	At_71B5	0
+Cinnamic acid	At_71B1	0
+Cinnamic acid	At_88A1	0
+Cinnamic acid	At_72E2	0
+Cinnamic acid	At_72E3	0
+Cinnamic acid	At_72E1	0
+Cinnamic acid	At_72D1	0
+Cinnamic acid	At_72C1	0
+Cinnamic acid	At_72B3	0
+Cinnamic acid	At_72B1	0
+Cinnamic acid	At_73C3	0
+Cinnamic acid	At_73C4	0
+Cinnamic acid	At_73C5	0
+Cinnamic acid	At_73C6	0
+Cinnamic acid	At_73C1	0
+Cinnamic acid	At_73C7	0
+Cinnamic acid	At_73B2	0
+Cinnamic acid	At_73B3	0
+Cinnamic acid	At_73B4	0
+Cinnamic acid	At_73B5	0
+Cinnamic acid	At_73B1	0
+Cinnamic acid	At_89B1	0
+Cinnamic acid	At_89C1	0.5
+Cinnamic acid	At_84A3	1
+Cinnamic acid	At_84A4	1
+Cinnamic acid	At_84A2	1
+Cinnamic acid	At_84A1	1
+Cinnamic acid	At_84B1	1
+Cinnamic acid	At_84B2	0
+Cinnamic acid	At_75B1	1
+Cinnamic acid	At_75D1	0
+Cinnamic acid	At_74F1	0
+Cinnamic acid	At_74F2	0
+Cinnamic acid	At_74B1	0
+Cinnamic acid	At_76E5	0
+Cinnamic acid	At_76E4	0
+Cinnamic acid	At_76E1	0
+Cinnamic acid	At_76E2	0
+Cinnamic acid	At_76E12	0
+Cinnamic acid	At_76E11	0
+Cinnamic acid	At_76C4	0
+Cinnamic acid	At_85A5	0
+Cinnamic acid	At_85A4	0
+Cinnamic acid	At_78D2	0
+Cinnamic acid	At_78D1	0
+Cinnamic acid	VVGT1	0
+4-hydroxy cinnamic acid	At_71C1	1
+4-hydroxy cinnamic acid	At_71C2	1
+4-hydroxy cinnamic acid	At_71C3	0
+4-hydroxy cinnamic acid	At_71C4	0
+4-hydroxy cinnamic acid	At_71C5	0
+4-hydroxy cinnamic acid	At_71B8	0
+4-hydroxy cinnamic acid	At_71B6	0
+4-hydroxy cinnamic acid	At_71B5	0
+4-hydroxy cinnamic acid	At_71B1	0
+4-hydroxy cinnamic acid	At_88A1	0
+4-hydroxy cinnamic acid	At_72E2	1
+4-hydroxy cinnamic acid	At_72E3	0.5
+4-hydroxy cinnamic acid	At_72E1	0
+4-hydroxy cinnamic acid	At_72D1	0.5
+4-hydroxy cinnamic acid	At_72C1	0
+4-hydroxy cinnamic acid	At_72B3	0
+4-hydroxy cinnamic acid	At_72B1	0
+4-hydroxy cinnamic acid	At_73C3	0
+4-hydroxy cinnamic acid	At_73C4	0
+4-hydroxy cinnamic acid	At_73C5	0
+4-hydroxy cinnamic acid	At_73C6	0
+4-hydroxy cinnamic acid	At_73C1	0
+4-hydroxy cinnamic acid	At_73C7	0
+4-hydroxy cinnamic acid	At_73B2	0
+4-hydroxy cinnamic acid	At_73B3	1
+4-hydroxy cinnamic acid	At_73B4	0
+4-hydroxy cinnamic acid	At_73B5	0
+4-hydroxy cinnamic acid	At_73B1	0
+4-hydroxy cinnamic acid	At_89B1	0.5
+4-hydroxy cinnamic acid	At_89C1	0
+4-hydroxy cinnamic acid	At_84A3	1
+4-hydroxy cinnamic acid	At_84A4	1
+4-hydroxy cinnamic acid	At_84A2	1
+4-hydroxy cinnamic acid	At_84A1	1
+4-hydroxy cinnamic acid	At_84B1	1
+4-hydroxy cinnamic acid	At_84B2	0
+4-hydroxy cinnamic acid	At_75B1	1
+4-hydroxy cinnamic acid	At_75D1	0.5
+4-hydroxy cinnamic acid	At_74F1	0.5
+4-hydroxy cinnamic acid	At_74F2	0
+4-hydroxy cinnamic acid	At_74B1	0.5
+4-hydroxy cinnamic acid	At_76E5	0
+4-hydroxy cinnamic acid	At_76E4	0.5
+4-hydroxy cinnamic acid	At_76E1	0.5
+4-hydroxy cinnamic acid	At_76E2	0
+4-hydroxy cinnamic acid	At_76E12	0
+4-hydroxy cinnamic acid	At_76E11	0
+4-hydroxy cinnamic acid	At_76C4	0
+4-hydroxy cinnamic acid	At_85A5	0
+4-hydroxy cinnamic acid	At_85A4	0
+4-hydroxy cinnamic acid	At_78D2	0
+4-hydroxy cinnamic acid	At_78D1	0
+4-hydroxy cinnamic acid	VVGT1	0
+3,4-dihyroxy cinnamic acid	At_71C1	1
+3,4-dihyroxy cinnamic acid	At_71C2	1
+3,4-dihyroxy cinnamic acid	At_71C3	1
+3,4-dihyroxy cinnamic acid	At_71C4	1
+3,4-dihyroxy cinnamic acid	At_71C5	0
+3,4-dihyroxy cinnamic acid	At_71B8	1
+3,4-dihyroxy cinnamic acid	At_71B6	0
+3,4-dihyroxy cinnamic acid	At_71B5	0
+3,4-dihyroxy cinnamic acid	At_71B1	1
+3,4-dihyroxy cinnamic acid	At_88A1	0
+3,4-dihyroxy cinnamic acid	At_72E2	1
+3,4-dihyroxy cinnamic acid	At_72E3	1
+3,4-dihyroxy cinnamic acid	At_72E1	0
+3,4-dihyroxy cinnamic acid	At_72D1	0
+3,4-dihyroxy cinnamic acid	At_72C1	0
+3,4-dihyroxy cinnamic acid	At_72B3	0
+3,4-dihyroxy cinnamic acid	At_72B1	0
+3,4-dihyroxy cinnamic acid	At_73C3	0
+3,4-dihyroxy cinnamic acid	At_73C4	0
+3,4-dihyroxy cinnamic acid	At_73C5	0
+3,4-dihyroxy cinnamic acid	At_73C6	0
+3,4-dihyroxy cinnamic acid	At_73C1	0.5
+3,4-dihyroxy cinnamic acid	At_73C7	0
+3,4-dihyroxy cinnamic acid	At_73B2	0
+3,4-dihyroxy cinnamic acid	At_73B3	1
+3,4-dihyroxy cinnamic acid	At_73B4	0
+3,4-dihyroxy cinnamic acid	At_73B5	1
+3,4-dihyroxy cinnamic acid	At_73B1	0
+3,4-dihyroxy cinnamic acid	At_89B1	1
+3,4-dihyroxy cinnamic acid	At_89C1	0
+3,4-dihyroxy cinnamic acid	At_84A3	1
+3,4-dihyroxy cinnamic acid	At_84A4	1
+3,4-dihyroxy cinnamic acid	At_84A2	1
+3,4-dihyroxy cinnamic acid	At_84A1	1
+3,4-dihyroxy cinnamic acid	At_84B1	1
+3,4-dihyroxy cinnamic acid	At_84B2	0
+3,4-dihyroxy cinnamic acid	At_75B1	1
+3,4-dihyroxy cinnamic acid	At_75D1	0
+3,4-dihyroxy cinnamic acid	At_74F1	0.5
+3,4-dihyroxy cinnamic acid	At_74F2	0
+3,4-dihyroxy cinnamic acid	At_74B1	0
+3,4-dihyroxy cinnamic acid	At_76E5	0
+3,4-dihyroxy cinnamic acid	At_76E4	0
+3,4-dihyroxy cinnamic acid	At_76E1	0
+3,4-dihyroxy cinnamic acid	At_76E2	0
+3,4-dihyroxy cinnamic acid	At_76E12	1
+3,4-dihyroxy cinnamic acid	At_76E11	0
+3,4-dihyroxy cinnamic acid	At_76C4	0
+3,4-dihyroxy cinnamic acid	At_85A5	0
+3,4-dihyroxy cinnamic acid	At_85A4	0
+3,4-dihyroxy cinnamic acid	At_78D2	1
+3,4-dihyroxy cinnamic acid	At_78D1	0
+3,4-dihyroxy cinnamic acid	VVGT1	1
+4-hydroxy 3-methoxy cinnamic acid	At_71C1	0
+4-hydroxy 3-methoxy cinnamic acid	At_71C2	0
+4-hydroxy 3-methoxy cinnamic acid	At_71C3	0
+4-hydroxy 3-methoxy cinnamic acid	At_71C4	0
+4-hydroxy 3-methoxy cinnamic acid	At_71C5	0
+4-hydroxy 3-methoxy cinnamic acid	At_71B8	0
+4-hydroxy 3-methoxy cinnamic acid	At_71B6	0
+4-hydroxy 3-methoxy cinnamic acid	At_71B5	0
+4-hydroxy 3-methoxy cinnamic acid	At_71B1	0
+4-hydroxy 3-methoxy cinnamic acid	At_88A1	0
+4-hydroxy 3-methoxy cinnamic acid	At_72E2	1
+4-hydroxy 3-methoxy cinnamic acid	At_72E3	1
+4-hydroxy 3-methoxy cinnamic acid	At_72E1	0
+4-hydroxy 3-methoxy cinnamic acid	At_72D1	0
+4-hydroxy 3-methoxy cinnamic acid	At_72C1	0
+4-hydroxy 3-methoxy cinnamic acid	At_72B3	0
+4-hydroxy 3-methoxy cinnamic acid	At_72B1	0
+4-hydroxy 3-methoxy cinnamic acid	At_73C3	0
+4-hydroxy 3-methoxy cinnamic acid	At_73C4	0
+4-hydroxy 3-methoxy cinnamic acid	At_73C5	0
+4-hydroxy 3-methoxy cinnamic acid	At_73C6	0
+4-hydroxy 3-methoxy cinnamic acid	At_73C1	0
+4-hydroxy 3-methoxy cinnamic acid	At_73C7	0
+4-hydroxy 3-methoxy cinnamic acid	At_73B2	0
+4-hydroxy 3-methoxy cinnamic acid	At_73B3	1
+4-hydroxy 3-methoxy cinnamic acid	At_73B4	0
+4-hydroxy 3-methoxy cinnamic acid	At_73B5	0.5
+4-hydroxy 3-methoxy cinnamic acid	At_73B1	0
+4-hydroxy 3-methoxy cinnamic acid	At_89B1	0
+4-hydroxy 3-methoxy cinnamic acid	At_89C1	0.5
+4-hydroxy 3-methoxy cinnamic acid	At_84A3	1
+4-hydroxy 3-methoxy cinnamic acid	At_84A4	1
+4-hydroxy 3-methoxy cinnamic acid	At_84A2	1
+4-hydroxy 3-methoxy cinnamic acid	At_84A1	1
+4-hydroxy 3-methoxy cinnamic acid	At_84B1	1
+4-hydroxy 3-methoxy cinnamic acid	At_84B2	0
+4-hydroxy 3-methoxy cinnamic acid	At_75B1	1
+4-hydroxy 3-methoxy cinnamic acid	At_75D1	0.5
+4-hydroxy 3-methoxy cinnamic acid	At_74F1	0
+4-hydroxy 3-methoxy cinnamic acid	At_74F2	0
+4-hydroxy 3-methoxy cinnamic acid	At_74B1	0
+4-hydroxy 3-methoxy cinnamic acid	At_76E5	0
+4-hydroxy 3-methoxy cinnamic acid	At_76E4	0
+4-hydroxy 3-methoxy cinnamic acid	At_76E1	0
+4-hydroxy 3-methoxy cinnamic acid	At_76E2	0
+4-hydroxy 3-methoxy cinnamic acid	At_76E12	0
+4-hydroxy 3-methoxy cinnamic acid	At_76E11	0
+4-hydroxy 3-methoxy cinnamic acid	At_76C4	0
+4-hydroxy 3-methoxy cinnamic acid	At_85A5	0
+4-hydroxy 3-methoxy cinnamic acid	At_85A4	0
+4-hydroxy 3-methoxy cinnamic acid	At_78D2	0
+4-hydroxy 3-methoxy cinnamic acid	At_78D1	0
+4-hydroxy 3-methoxy cinnamic acid	VVGT1	0
+2-hydroxy cinnamic acid	At_71C1	1
+2-hydroxy cinnamic acid	At_71C2	1
+2-hydroxy cinnamic acid	At_71C3	1
+2-hydroxy cinnamic acid	At_71C4	1
+2-hydroxy cinnamic acid	At_71C5	0
+2-hydroxy cinnamic acid	At_71B8	1
+2-hydroxy cinnamic acid	At_71B6	0
+2-hydroxy cinnamic acid	At_71B5	0
+2-hydroxy cinnamic acid	At_71B1	1
+2-hydroxy cinnamic acid	At_88A1	0
+2-hydroxy cinnamic acid	At_72E2	1
+2-hydroxy cinnamic acid	At_72E3	0.5
+2-hydroxy cinnamic acid	At_72E1	0.5
+2-hydroxy cinnamic acid	At_72D1	0.5
+2-hydroxy cinnamic acid	At_72C1	0
+2-hydroxy cinnamic acid	At_72B3	0
+2-hydroxy cinnamic acid	At_72B1	0
+2-hydroxy cinnamic acid	At_73C3	0
+2-hydroxy cinnamic acid	At_73C4	0
+2-hydroxy cinnamic acid	At_73C5	0
+2-hydroxy cinnamic acid	At_73C6	0
+2-hydroxy cinnamic acid	At_73C1	0
+2-hydroxy cinnamic acid	At_73C7	0
+2-hydroxy cinnamic acid	At_73B2	0
+2-hydroxy cinnamic acid	At_73B3	0
+2-hydroxy cinnamic acid	At_73B4	0
+2-hydroxy cinnamic acid	At_73B5	0
+2-hydroxy cinnamic acid	At_73B1	0
+2-hydroxy cinnamic acid	At_89B1	0.5
+2-hydroxy cinnamic acid	At_89C1	0
+2-hydroxy cinnamic acid	At_84A3	0
+2-hydroxy cinnamic acid	At_84A4	0.5
+2-hydroxy cinnamic acid	At_84A2	1
+2-hydroxy cinnamic acid	At_84A1	1
+2-hydroxy cinnamic acid	At_84B1	0
+2-hydroxy cinnamic acid	At_84B2	0
+2-hydroxy cinnamic acid	At_75B1	1
+2-hydroxy cinnamic acid	At_75D1	0.5
+2-hydroxy cinnamic acid	At_74F1	0.5
+2-hydroxy cinnamic acid	At_74F2	0.5
+2-hydroxy cinnamic acid	At_74B1	0.5
+2-hydroxy cinnamic acid	At_76E5	0
+2-hydroxy cinnamic acid	At_76E4	0.5
+2-hydroxy cinnamic acid	At_76E1	0.5
+2-hydroxy cinnamic acid	At_76E2	0
+2-hydroxy cinnamic acid	At_76E12	0
+2-hydroxy cinnamic acid	At_76E11	0
+2-hydroxy cinnamic acid	At_76C4	0
+2-hydroxy cinnamic acid	At_85A5	0
+2-hydroxy cinnamic acid	At_85A4	0
+2-hydroxy cinnamic acid	At_78D2	0
+2-hydroxy cinnamic acid	At_78D1	0
+2-hydroxy cinnamic acid	VVGT1	0
+3-hydroxy cinnamic acid	At_71C1	0
+3-hydroxy cinnamic acid	At_71C2	0
+3-hydroxy cinnamic acid	At_71C3	0
+3-hydroxy cinnamic acid	At_71C4	0.5
+3-hydroxy cinnamic acid	At_71C5	0
+3-hydroxy cinnamic acid	At_71B8	0.5
+3-hydroxy cinnamic acid	At_71B6	0
+3-hydroxy cinnamic acid	At_71B5	0
+3-hydroxy cinnamic acid	At_71B1	0
+3-hydroxy cinnamic acid	At_88A1	0
+3-hydroxy cinnamic acid	At_72E2	1
+3-hydroxy cinnamic acid	At_72E3	0.5
+3-hydroxy cinnamic acid	At_72E1	0.5
+3-hydroxy cinnamic acid	At_72D1	0.5
+3-hydroxy cinnamic acid	At_72C1	0
+3-hydroxy cinnamic acid	At_72B3	0
+3-hydroxy cinnamic acid	At_72B1	0
+3-hydroxy cinnamic acid	At_73C3	0
+3-hydroxy cinnamic acid	At_73C4	0
+3-hydroxy cinnamic acid	At_73C5	0
+3-hydroxy cinnamic acid	At_73C6	0
+3-hydroxy cinnamic acid	At_73C1	0
+3-hydroxy cinnamic acid	At_73C7	0
+3-hydroxy cinnamic acid	At_73B2	0
+3-hydroxy cinnamic acid	At_73B3	0
+3-hydroxy cinnamic acid	At_73B4	0
+3-hydroxy cinnamic acid	At_73B5	0
+3-hydroxy cinnamic acid	At_73B1	0
+3-hydroxy cinnamic acid	At_89B1	0.5
+3-hydroxy cinnamic acid	At_89C1	0
+3-hydroxy cinnamic acid	At_84A3	0
+3-hydroxy cinnamic acid	At_84A4	0
+3-hydroxy cinnamic acid	At_84A2	0
+3-hydroxy cinnamic acid	At_84A1	0
+3-hydroxy cinnamic acid	At_84B1	0
+3-hydroxy cinnamic acid	At_84B2	0
+3-hydroxy cinnamic acid	At_75B1	1
+3-hydroxy cinnamic acid	At_75D1	0.5
+3-hydroxy cinnamic acid	At_74F1	0.5
+3-hydroxy cinnamic acid	At_74F2	0
+3-hydroxy cinnamic acid	At_74B1	0
+3-hydroxy cinnamic acid	At_76E5	0
+3-hydroxy cinnamic acid	At_76E4	0.5
+3-hydroxy cinnamic acid	At_76E1	0.5
+3-hydroxy cinnamic acid	At_76E2	0
+3-hydroxy cinnamic acid	At_76E12	0
+3-hydroxy cinnamic acid	At_76E11	0
+3-hydroxy cinnamic acid	At_76C4	0
+3-hydroxy cinnamic acid	At_85A5	0
+3-hydroxy cinnamic acid	At_85A4	0
+3-hydroxy cinnamic acid	At_78D2	0
+3-hydroxy cinnamic acid	At_78D1	0
+3-hydroxy cinnamic acid	VVGT1	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C2	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C3	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C4	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71C5	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71D1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71B8	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71B6	0.5
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71B5	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_71B1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_88A1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72E2	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72E3	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72E1	0.5
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72D1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72C1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B3	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_72B1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73C3	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73C4	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73C5	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73C6	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73C1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73C7	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73B3	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73B4	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73B5	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_73B1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_89B1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_89C1	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_84A3	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_84A4	0.5
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_84A2	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_84A1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_84B1	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_84B2	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_75B1	0.5
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_75D1	0.5
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_74F1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_74F2	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_74B1	0.5
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_76E5	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_76E4	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_76E1	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_76E2	0.5
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_76E12	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_76E11	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_76C4	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_85A5	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_85A4	0
+7-hydroxy 6-methoxy coumarin (Scopoletin)	At_78D2	1
+7-hydroxy 6-methoxy coumarin (Scopoletin)	VVGT1	1
+6,7-dihydroxy coumarin (Esculetin)	At_71C1	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_71C2	1
+6,7-dihydroxy coumarin (Esculetin)	At_71C3	1
+6,7-dihydroxy coumarin (Esculetin)	At_71C4	1
+6,7-dihydroxy coumarin (Esculetin)	At_71C5	1
+6,7-dihydroxy coumarin (Esculetin)	At_71B8	1
+6,7-dihydroxy coumarin (Esculetin)	At_71B6	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_71B5	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_71B1	1
+6,7-dihydroxy coumarin (Esculetin)	At_88A1	1
+6,7-dihydroxy coumarin (Esculetin)	At_72E2	1
+6,7-dihydroxy coumarin (Esculetin)	At_72E3	1
+6,7-dihydroxy coumarin (Esculetin)	At_72E1	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_72D1	1
+6,7-dihydroxy coumarin (Esculetin)	At_72C1	1
+6,7-dihydroxy coumarin (Esculetin)	At_72B3	1
+6,7-dihydroxy coumarin (Esculetin)	At_72B1	1
+6,7-dihydroxy coumarin (Esculetin)	At_73C3	1
+6,7-dihydroxy coumarin (Esculetin)	At_73C4	0
+6,7-dihydroxy coumarin (Esculetin)	At_73C5	1
+6,7-dihydroxy coumarin (Esculetin)	At_73C6	1
+6,7-dihydroxy coumarin (Esculetin)	At_73C1	1
+6,7-dihydroxy coumarin (Esculetin)	At_73C7	1
+6,7-dihydroxy coumarin (Esculetin)	At_73B2	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_73B3	1
+6,7-dihydroxy coumarin (Esculetin)	At_73B4	1
+6,7-dihydroxy coumarin (Esculetin)	At_73B5	1
+6,7-dihydroxy coumarin (Esculetin)	At_73B1	1
+6,7-dihydroxy coumarin (Esculetin)	At_89B1	1
+6,7-dihydroxy coumarin (Esculetin)	At_89C1	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_84A3	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_84A4	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_84A2	1
+6,7-dihydroxy coumarin (Esculetin)	At_84A1	1
+6,7-dihydroxy coumarin (Esculetin)	At_84B1	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_84B2	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_75B1	1
+6,7-dihydroxy coumarin (Esculetin)	At_75D1	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_74F1	1
+6,7-dihydroxy coumarin (Esculetin)	At_74F2	1
+6,7-dihydroxy coumarin (Esculetin)	At_74B1	1
+6,7-dihydroxy coumarin (Esculetin)	At_76E5	0
+6,7-dihydroxy coumarin (Esculetin)	At_76E4	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_76E1	1
+6,7-dihydroxy coumarin (Esculetin)	At_76E2	0.5
+6,7-dihydroxy coumarin (Esculetin)	At_76E12	1
+6,7-dihydroxy coumarin (Esculetin)	At_76E11	1
+6,7-dihydroxy coumarin (Esculetin)	At_76C4	1
+6,7-dihydroxy coumarin (Esculetin)	At_85A5	0
+6,7-dihydroxy coumarin (Esculetin)	At_85A4	0
+6,7-dihydroxy coumarin (Esculetin)	At_78D2	1
+6,7-dihydroxy coumarin (Esculetin)	At_78D1	0
+6,7-dihydroxy coumarin (Esculetin)	VVGT1	1
+Threonine	At_71C1	0
+Threonine	At_71C2	0
+Threonine	At_71C3	0
+Threonine	At_71C4	0
+Threonine	At_71C5	0
+Threonine	At_71B8	0
+Threonine	At_71B6	0
+Threonine	At_71B5	0
+Threonine	At_71B1	0
+Threonine	At_88A1	0
+Threonine	At_72E2	0
+Threonine	At_72E3	0
+Threonine	At_72E1	0
+Threonine	At_72D1	0
+Threonine	At_72C1	0
+Threonine	At_72B3	0
+Threonine	At_72B1	0.5
+Threonine	At_73C3	0
+Threonine	At_73C4	0
+Threonine	At_73C5	0
+Threonine	At_73C6	0
+Threonine	At_73C1	0
+Threonine	At_73B2	0
+Threonine	At_73B3	0
+Threonine	At_73B4	0
+Threonine	At_73B5	0
+Threonine	At_73B1	0
+Threonine	At_89B1	0
+Threonine	At_89C1	0
+Threonine	At_84A3	0
+Threonine	At_84A4	0
+Threonine	At_84A2	0
+Threonine	At_84A1	0
+Threonine	At_84B1	0
+Threonine	At_84B2	0
+Threonine	At_75B1	0
+Threonine	At_75D1	0
+Threonine	At_74F1	0
+Threonine	At_74F2	0
+Threonine	At_74B1	0
+Threonine	At_76E4	0
+Threonine	At_76E1	0
+Threonine	At_76E2	0
+Threonine	At_76E12	0
+Threonine	At_76E11	0
+Threonine	At_85A5	0
+Threonine	At_85A4	0
+Threonine	At_78D2	0
+Threonine	At_78D1	0
+Threonine	VVGT1	0
+Glucose	At_71C1	0
+Glucose	At_71C2	0
+Glucose	At_71C3	0
+Glucose	At_71C4	0
+Glucose	At_71C5	0
+Glucose	At_71B8	0
+Glucose	At_71B6	0
+Glucose	At_71B5	0
+Glucose	At_71B1	0
+Glucose	At_88A1	0
+Glucose	At_72E2	0
+Glucose	At_72E3	0
+Glucose	At_72E1	0
+Glucose	At_72D1	0
+Glucose	At_72C1	0
+Glucose	At_72B3	0
+Glucose	At_72B1	0
+Glucose	At_73C3	0
+Glucose	At_73C4	0
+Glucose	At_73C5	0
+Glucose	At_73C6	0
+Glucose	At_73C1	0
+Glucose	At_73B2	0
+Glucose	At_73B3	0
+Glucose	At_73B4	0
+Glucose	At_73B5	0
+Glucose	At_73B1	0
+Glucose	At_89B1	0
+Glucose	At_89C1	0
+Glucose	At_84A3	0
+Glucose	At_84A4	0
+Glucose	At_84A2	0
+Glucose	At_84A1	0
+Glucose	At_84B1	0
+Glucose	At_84B2	0
+Glucose	At_75B1	0
+Glucose	At_75D1	0
+Glucose	At_74F1	0
+Glucose	At_74F2	0
+Glucose	At_74B1	0
+Glucose	At_76E4	0
+Glucose	At_76E1	0
+Glucose	At_76E2	0
+Glucose	At_76E12	0
+Glucose	At_76E11	0
+Glucose	At_85A5	0
+Glucose	At_85A4	0
+Glucose	At_78D2	0
+Glucose	At_78D1	0
+Glucose	VVGT1	0
+Dihydrojasmonic acid	At_71C1	0
+Dihydrojasmonic acid	At_71C2	0
+Dihydrojasmonic acid	At_71C3	0
+Dihydrojasmonic acid	At_71C4	0
+Dihydrojasmonic acid	At_71C5	0
+Dihydrojasmonic acid	At_71B8	0
+Dihydrojasmonic acid	At_71B6	0.5
+Dihydrojasmonic acid	At_71B5	0
+Dihydrojasmonic acid	At_71B1	0
+Dihydrojasmonic acid	At_88A1	0
+Dihydrojasmonic acid	At_72E2	0
+Dihydrojasmonic acid	At_72E3	0
+Dihydrojasmonic acid	At_72E1	0
+Dihydrojasmonic acid	At_72D1	0
+Dihydrojasmonic acid	At_72C1	0
+Dihydrojasmonic acid	At_72B3	0
+Dihydrojasmonic acid	At_72B1	0.5
+Dihydrojasmonic acid	At_73C3	0
+Dihydrojasmonic acid	At_73C4	0
+Dihydrojasmonic acid	At_73C5	0
+Dihydrojasmonic acid	At_73C6	0
+Dihydrojasmonic acid	At_73C1	0
+Dihydrojasmonic acid	At_73C7	0
+Dihydrojasmonic acid	At_73B2	0
+Dihydrojasmonic acid	At_73B3	0
+Dihydrojasmonic acid	At_73B4	0
+Dihydrojasmonic acid	At_73B5	0
+Dihydrojasmonic acid	At_73B1	0
+Dihydrojasmonic acid	At_89B1	0
+Dihydrojasmonic acid	At_89C1	0.5
+Dihydrojasmonic acid	At_84A3	0
+Dihydrojasmonic acid	At_84A4	0
+Dihydrojasmonic acid	At_84A2	1
+Dihydrojasmonic acid	At_84A1	1
+Dihydrojasmonic acid	At_84B1	0
+Dihydrojasmonic acid	At_84B2	0
+Dihydrojasmonic acid	At_75B1	1
+Dihydrojasmonic acid	At_75D1	0
+Dihydrojasmonic acid	At_74F1	0.5
+Dihydrojasmonic acid	At_74F2	0
+Dihydrojasmonic acid	At_74B1	0
+Dihydrojasmonic acid	At_76E5	0
+Dihydrojasmonic acid	At_76E4	0
+Dihydrojasmonic acid	At_76E1	0
+Dihydrojasmonic acid	At_76E2	0
+Dihydrojasmonic acid	At_76E12	0
+Dihydrojasmonic acid	At_76E11	0
+Dihydrojasmonic acid	At_76C4	0
+Dihydrojasmonic acid	At_85A5	0
+Dihydrojasmonic acid	At_85A4	0
+Dihydrojasmonic acid	At_78D2	0
+Dihydrojasmonic acid	At_78D1	0
+Dihydrojasmonic acid	VVGT1	0
+Ser-Phe	At_71C1	0
+Ser-Phe	At_71C2	0
+Ser-Phe	At_71C3	0
+Ser-Phe	At_71C4	0
+Ser-Phe	At_71C5	0
+Ser-Phe	At_71B8	0
+Ser-Phe	At_71B6	0
+Ser-Phe	At_71B5	0
+Ser-Phe	At_71B1	0
+Ser-Phe	At_88A1	0
+Ser-Phe	At_72E2	0
+Ser-Phe	At_72E3	0
+Ser-Phe	At_72E1	0
+Ser-Phe	At_72D1	0
+Ser-Phe	At_72C1	0
+Ser-Phe	At_72B3	0
+Ser-Phe	At_73C3	0
+Ser-Phe	At_73C4	0
+Ser-Phe	At_73C5	0
+Ser-Phe	At_73C6	0.5
+Ser-Phe	At_73C1	0
+Ser-Phe	At_73B2	0
+Ser-Phe	At_73B3	0
+Ser-Phe	At_73B4	0
+Ser-Phe	At_73B5	0
+Ser-Phe	At_73B1	0
+Ser-Phe	At_89B1	0
+Ser-Phe	At_89C1	0
+Ser-Phe	At_84A3	0
+Ser-Phe	At_84A4	0
+Ser-Phe	At_84A2	0
+Ser-Phe	At_84A1	0
+Ser-Phe	At_84B1	0
+Ser-Phe	At_84B2	0
+Ser-Phe	At_75B1	0
+Ser-Phe	At_75D1	0
+Ser-Phe	At_74F1	0
+Ser-Phe	At_74F2	0
+Ser-Phe	At_74B1	0
+Ser-Phe	At_76E4	0
+Ser-Phe	At_76E1	0
+Ser-Phe	At_76E2	0
+Ser-Phe	At_76E12	0
+Ser-Phe	At_76E11	0
+Ser-Phe	At_85A5	0
+Ser-Phe	At_85A4	0
+Ser-Phe	At_78D2	0
+Ser-Phe	At_78D1	0
+Ser-Phe	VVGT1	0
+Ser-Leu	At_71C1	0
+Ser-Leu	At_71C2	0
+Ser-Leu	At_71C3	0
+Ser-Leu	At_71C4	0
+Ser-Leu	At_71C5	0
+Ser-Leu	At_71B8	0
+Ser-Leu	At_71B6	0
+Ser-Leu	At_71B5	0
+Ser-Leu	At_71B1	0
+Ser-Leu	At_88A1	0
+Ser-Leu	At_72E2	0
+Ser-Leu	At_72E3	0
+Ser-Leu	At_72E1	0
+Ser-Leu	At_72D1	0
+Ser-Leu	At_72C1	0
+Ser-Leu	At_72B3	0
+Ser-Leu	At_73C3	0
+Ser-Leu	At_73C4	0
+Ser-Leu	At_73C5	0
+Ser-Leu	At_73C6	0
+Ser-Leu	At_73C1	0
+Ser-Leu	At_73B2	0
+Ser-Leu	At_73B3	0
+Ser-Leu	At_73B4	0
+Ser-Leu	At_73B5	0
+Ser-Leu	At_73B1	0
+Ser-Leu	At_89B1	0
+Ser-Leu	At_89C1	0
+Ser-Leu	At_84A3	0
+Ser-Leu	At_84A4	0
+Ser-Leu	At_84A2	0
+Ser-Leu	At_84A1	0
+Ser-Leu	At_84B1	0
+Ser-Leu	At_84B2	0
+Ser-Leu	At_75B1	0
+Ser-Leu	At_75D1	0
+Ser-Leu	At_74F1	0
+Ser-Leu	At_74F2	0
+Ser-Leu	At_74B1	0
+Ser-Leu	At_76E4	0
+Ser-Leu	At_76E1	0
+Ser-Leu	At_76E2	0
+Ser-Leu	At_76E12	0
+Ser-Leu	At_76E11	0
+Ser-Leu	At_85A5	0
+Ser-Leu	At_85A4	0
+Ser-Leu	At_78D2	0
+Ser-Leu	At_78D1	0
+Ser-Leu	VVGT1	0
+BocCysThrOMe	At_71C1	0
+BocCysThrOMe	At_71C2	0
+BocCysThrOMe	At_71C3	0
+BocCysThrOMe	At_71C4	0
+BocCysThrOMe	At_71C5	0
+BocCysThrOMe	At_71B8	0
+BocCysThrOMe	At_71B6	0
+BocCysThrOMe	At_71B5	0
+BocCysThrOMe	At_71B1	0
+BocCysThrOMe	At_88A1	0
+BocCysThrOMe	At_72E2	0
+BocCysThrOMe	At_72E3	0
+BocCysThrOMe	At_72E1	0
+BocCysThrOMe	At_72D1	0
+BocCysThrOMe	At_72C1	0
+BocCysThrOMe	At_72B3	0
+BocCysThrOMe	At_73C3	0
+BocCysThrOMe	At_73C4	0
+BocCysThrOMe	At_73C5	0
+BocCysThrOMe	At_73C6	0
+BocCysThrOMe	At_73C1	0
+BocCysThrOMe	At_73B2	0
+BocCysThrOMe	At_73B3	0
+BocCysThrOMe	At_73B4	0
+BocCysThrOMe	At_73B5	0
+BocCysThrOMe	At_73B1	0
+BocCysThrOMe	At_89B1	0
+BocCysThrOMe	At_89C1	0
+BocCysThrOMe	At_84A3	0
+BocCysThrOMe	At_84A4	0
+BocCysThrOMe	At_84A2	0
+BocCysThrOMe	At_84A1	0
+BocCysThrOMe	At_84B1	0
+BocCysThrOMe	At_84B2	0
+BocCysThrOMe	At_75B1	0
+BocCysThrOMe	At_75D1	0
+BocCysThrOMe	At_74F1	0
+BocCysThrOMe	At_74F2	0
+BocCysThrOMe	At_74B1	0
+BocCysThrOMe	At_76E4	0
+BocCysThrOMe	At_76E1	0
+BocCysThrOMe	At_76E2	0
+BocCysThrOMe	At_76E12	0
+BocCysThrOMe	At_76E11	0
+BocCysThrOMe	At_85A5	0
+BocCysThrOMe	At_85A4	0
+BocCysThrOMe	At_78D2	0
+BocCysThrOMe	At_78D1	0
+BocCysThrOMe	VVGT1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71C2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71C3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71C4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71C5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71B8	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71B6	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71B5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_71B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_88A1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_72E2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_72E3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_72E1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_72D1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_72C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_72B3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73C3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73C4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73C5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73C6	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73B2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73B3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73B4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73B5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_73B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_89B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_89C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_84A3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_84A4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_84A2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_84A1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_84B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_84B2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_75B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_75D1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_74F1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_74F2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_74B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_76E4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_76E1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_76E2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_76E12	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_76E11	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_85A5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_85A4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_78D2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	At_78D1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine	VVGT1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71C1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71C2	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71C3	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71C4	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71C5	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71B8	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71B6	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71B5	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_71B1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_88A1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_72E2	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_72E3	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_72E1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_72D1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_72C1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_72B3	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73C3	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73C4	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73C5	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73C6	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73C1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73B2	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73B3	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73B4	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73B5	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_73B1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_89B1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_89C1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_84A3	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_84A4	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_84A2	1
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_84A1	1
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_84B1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_84B2	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_75B1	1
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_75D1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_74F1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_74F2	1
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_74B1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_76E4	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_76E1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_76E2	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_76E12	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_76E11	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_85A5	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_85A4	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_78D2	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	At_78D1	0
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine	VVGT1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71C2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71C3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71C4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71C5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71B8	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71B6	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71B5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_71B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_88A1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_72E2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_72E3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_72E1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_72D1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_72C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_72B3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73C3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73C4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73C5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73C6	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73B2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73B3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73B4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73B5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_73B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_89B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_89C1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_84A3	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_84A4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_84A2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_84A1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_84B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_84B2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_75B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_75D1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_74F1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_74F2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_74B1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_76E4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_76E1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_76E2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_76E12	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_76E11	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_85A5	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_85A4	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_78D2	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	At_78D1	0
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine 	VVGT1	0
+MUGlcNAc	At_71C1	0
+MUGlcNAc	At_71C2	0
+MUGlcNAc	At_71C3	0
+MUGlcNAc	At_71C4	0
+MUGlcNAc	At_71C5	0
+MUGlcNAc	At_71B8	0
+MUGlcNAc	At_71B6	0
+MUGlcNAc	At_71B5	0
+MUGlcNAc	At_71B1	0
+MUGlcNAc	At_88A1	0
+MUGlcNAc	At_72E2	0
+MUGlcNAc	At_72E3	0
+MUGlcNAc	At_72E1	0
+MUGlcNAc	At_72D1	0
+MUGlcNAc	At_72C1	0
+MUGlcNAc	At_72B3	0
+MUGlcNAc	At_73C3	0
+MUGlcNAc	At_73C4	0
+MUGlcNAc	At_73C5	0
+MUGlcNAc	At_73C6	0
+MUGlcNAc	At_73C1	0
+MUGlcNAc	At_73B2	0.5
+MUGlcNAc	At_73B3	0
+MUGlcNAc	At_73B4	0
+MUGlcNAc	At_73B5	0
+MUGlcNAc	At_73B1	0
+MUGlcNAc	At_89B1	0
+MUGlcNAc	At_89C1	0
+MUGlcNAc	At_84A3	0
+MUGlcNAc	At_84A4	0
+MUGlcNAc	At_84A2	0
+MUGlcNAc	At_84A1	0
+MUGlcNAc	At_84B1	0
+MUGlcNAc	At_84B2	0
+MUGlcNAc	At_75B1	0
+MUGlcNAc	At_75D1	0
+MUGlcNAc	At_74F1	0
+MUGlcNAc	At_74F2	0
+MUGlcNAc	At_74B1	0
+MUGlcNAc	At_76E4	0
+MUGlcNAc	At_76E1	0
+MUGlcNAc	At_76E2	0
+MUGlcNAc	At_76E12	0
+MUGlcNAc	At_76E11	0
+MUGlcNAc	At_85A5	0
+MUGlcNAc	At_85A4	0
+MUGlcNAc	At_78D2	0
+MUGlcNAc	At_78D1	0
+MUGlcNAc	VVGT1	0
+Trans-dihydroquercetin (DHQ)	At_71C1	1
+Trans-dihydroquercetin (DHQ)	At_71C2	0
+Trans-dihydroquercetin (DHQ)	At_71C3	1
+Trans-dihydroquercetin (DHQ)	At_71C4	1
+Trans-dihydroquercetin (DHQ)	At_71C5	0
+Trans-dihydroquercetin (DHQ)	At_71B8	0
+Trans-dihydroquercetin (DHQ)	At_71B6	1
+Trans-dihydroquercetin (DHQ)	At_71B5	1
+Trans-dihydroquercetin (DHQ)	At_71B1	1
+Trans-dihydroquercetin (DHQ)	At_88A1	1
+Trans-dihydroquercetin (DHQ)	At_72E2	0
+Trans-dihydroquercetin (DHQ)	At_72E3	0
+Trans-dihydroquercetin (DHQ)	At_72E1	0
+Trans-dihydroquercetin (DHQ)	At_72D1	1
+Trans-dihydroquercetin (DHQ)	At_72C1	0
+Trans-dihydroquercetin (DHQ)	At_72B3	0
+Trans-dihydroquercetin (DHQ)	At_73C3	1
+Trans-dihydroquercetin (DHQ)	At_73C4	0
+Trans-dihydroquercetin (DHQ)	At_73C5	1
+Trans-dihydroquercetin (DHQ)	At_73C6	1
+Trans-dihydroquercetin (DHQ)	At_73C1	1
+Trans-dihydroquercetin (DHQ)	At_73C7	0
+Trans-dihydroquercetin (DHQ)	At_73B2	0
+Trans-dihydroquercetin (DHQ)	At_73B3	1
+Trans-dihydroquercetin (DHQ)	At_73B4	1
+Trans-dihydroquercetin (DHQ)	At_73B5	1
+Trans-dihydroquercetin (DHQ)	At_73B1	1
+Trans-dihydroquercetin (DHQ)	At_89B1	0
+Trans-dihydroquercetin (DHQ)	At_89C1	0
+Trans-dihydroquercetin (DHQ)	At_84A3	0
+Trans-dihydroquercetin (DHQ)	At_84A4	1
+Trans-dihydroquercetin (DHQ)	At_84A2	1
+Trans-dihydroquercetin (DHQ)	At_84A1	1
+Trans-dihydroquercetin (DHQ)	At_84B1	1
+Trans-dihydroquercetin (DHQ)	At_84B2	0
+Trans-dihydroquercetin (DHQ)	At_75B1	1
+Trans-dihydroquercetin (DHQ)	At_75D1	0
+Trans-dihydroquercetin (DHQ)	At_74F1	0
+Trans-dihydroquercetin (DHQ)	At_74F2	0
+Trans-dihydroquercetin (DHQ)	At_74B1	1
+Trans-dihydroquercetin (DHQ)	At_76E5	0.5
+Trans-dihydroquercetin (DHQ)	At_76E4	0
+Trans-dihydroquercetin (DHQ)	At_76E1	0
+Trans-dihydroquercetin (DHQ)	At_76E2	0
+Trans-dihydroquercetin (DHQ)	At_76E12	0.5
+Trans-dihydroquercetin (DHQ)	At_76E11	0
+Trans-dihydroquercetin (DHQ)	At_76C4	0
+Trans-dihydroquercetin (DHQ)	At_85A5	0
+Trans-dihydroquercetin (DHQ)	At_85A4	0
+Trans-dihydroquercetin (DHQ)	At_78D2	1
+Trans-dihydroquercetin (DHQ)	At_78D1	0
+Trans-dihydroquercetin (DHQ)	VVGT1	1
+Cyanidin chloride (CYN)	VVGT1	1
+Vancomycin	At_71C1	0
+Vancomycin	At_71C2	0
+Vancomycin	At_71C3	0
+Vancomycin	At_71C4	0
+Vancomycin	At_71C5	0
+Vancomycin	At_71B8	0
+Vancomycin	At_71B6	0
+Vancomycin	At_71B5	0
+Vancomycin	At_71B1	0
+Vancomycin	At_88A1	0
+Vancomycin	At_72E2	0
+Vancomycin	At_72E3	0
+Vancomycin	At_72E1	0
+Vancomycin	At_72D1	0
+Vancomycin	At_72C1	0
+Vancomycin	At_72B3	0
+Vancomycin	At_73C3	0
+Vancomycin	At_73C4	0
+Vancomycin	At_73C5	0
+Vancomycin	At_73C6	0
+Vancomycin	At_73C1	0
+Vancomycin	At_73B2	0
+Vancomycin	At_73B3	0
+Vancomycin	At_73B4	0
+Vancomycin	At_73B5	0
+Vancomycin	At_73B1	0
+Vancomycin	At_89B1	0
+Vancomycin	At_89C1	0
+Vancomycin	At_84A3	0
+Vancomycin	At_84A4	0
+Vancomycin	At_84A2	0
+Vancomycin	At_84A1	0
+Vancomycin	At_84B1	0
+Vancomycin	At_84B2	0
+Vancomycin	At_75B1	0
+Vancomycin	At_75D1	0
+Vancomycin	At_74F1	0
+Vancomycin	At_74F2	0
+Vancomycin	At_74B1	0
+Vancomycin	At_76E4	0
+Vancomycin	At_76E1	0
+Vancomycin	At_76E2	0
+Vancomycin	At_76E12	0
+Vancomycin	At_76E11	0
+Vancomycin	At_85A5	0
+Vancomycin	At_85A4	0
+Vancomycin	At_78D2	0
+Vancomycin	At_78D1	0
+Vancomycin	VVGT1	0
+Novobiocin	At_71C1	0
+Novobiocin	At_71C2	0
+Novobiocin	At_71C3	0.5
+Novobiocin	At_71C4	0
+Novobiocin	At_71C5	0
+Novobiocin	At_71B8	1
+Novobiocin	At_71B6	0.5
+Novobiocin	At_71B5	0
+Novobiocin	At_71B1	1
+Novobiocin	At_88A1	1
+Novobiocin	At_72E2	0
+Novobiocin	At_72E3	0
+Novobiocin	At_72E1	0
+Novobiocin	At_72D1	0.5
+Novobiocin	At_72C1	0
+Novobiocin	At_72B3	0
+Novobiocin	At_73C3	1
+Novobiocin	At_73C4	0
+Novobiocin	At_73C5	1
+Novobiocin	At_73C6	1
+Novobiocin	At_73C1	1
+Novobiocin	At_73C7	0
+Novobiocin	At_73B2	0
+Novobiocin	At_73B3	1
+Novobiocin	At_73B4	1
+Novobiocin	At_73B5	0.5
+Novobiocin	At_73B1	0
+Novobiocin	At_89B1	1
+Novobiocin	At_89C1	0
+Novobiocin	At_84A3	0
+Novobiocin	At_84A4	0
+Novobiocin	At_84A2	0
+Novobiocin	At_84A1	0
+Novobiocin	At_84B1	0
+Novobiocin	At_84B2	0.5
+Novobiocin	At_75B1	0
+Novobiocin	At_75D1	0
+Novobiocin	At_74F1	0
+Novobiocin	At_74F2	0
+Novobiocin	At_74B1	0
+Novobiocin	At_76E5	0
+Novobiocin	At_76E4	0
+Novobiocin	At_76E1	1
+Novobiocin	At_76E2	0
+Novobiocin	At_76E12	0
+Novobiocin	At_76E11	0
+Novobiocin	At_76C4	0
+Novobiocin	At_85A5	0
+Novobiocin	At_85A4	0
+Novobiocin	At_78D2	1
+Novobiocin	At_78D1	0
+Novobiocin	VVGT1	0
+Coumermycin A1	At_71C1	0
+Coumermycin A1	At_71C2	0
+Coumermycin A1	At_71C3	0
+Coumermycin A1	At_71C4	0
+Coumermycin A1	At_71C5	0
+Coumermycin A1	At_71B8	0
+Coumermycin A1	At_71B6	0
+Coumermycin A1	At_71B5	0
+Coumermycin A1	At_71B1	0
+Coumermycin A1	At_88A1	0
+Coumermycin A1	At_72E2	0
+Coumermycin A1	At_72E3	0
+Coumermycin A1	At_72E1	0.5
+Coumermycin A1	At_72D1	0
+Coumermycin A1	At_72C1	0
+Coumermycin A1	At_72B3	0
+Coumermycin A1	At_73C3	0
+Coumermycin A1	At_73C4	0
+Coumermycin A1	At_73C5	0
+Coumermycin A1	At_73C6	0
+Coumermycin A1	At_73C1	0
+Coumermycin A1	At_73C7	0
+Coumermycin A1	At_73B2	0
+Coumermycin A1	At_73B3	0
+Coumermycin A1	At_73B4	0
+Coumermycin A1	At_73B5	0
+Coumermycin A1	At_73B1	0
+Coumermycin A1	At_89B1	0
+Coumermycin A1	At_89C1	0
+Coumermycin A1	At_84A3	0
+Coumermycin A1	At_84A4	0
+Coumermycin A1	At_84A2	0
+Coumermycin A1	At_84A1	0
+Coumermycin A1	At_84B1	0
+Coumermycin A1	At_84B2	0
+Coumermycin A1	At_75B1	0
+Coumermycin A1	At_75D1	0
+Coumermycin A1	At_74F1	0
+Coumermycin A1	At_74F2	0
+Coumermycin A1	At_74B1	0
+Coumermycin A1	At_76E5	0
+Coumermycin A1	At_76E4	0
+Coumermycin A1	At_76E1	0
+Coumermycin A1	At_76E2	0
+Coumermycin A1	At_76E12	0
+Coumermycin A1	At_76E11	0
+Coumermycin A1	At_76C4	0
+Coumermycin A1	At_85A5	0
+Coumermycin A1	At_85A4	0
+Coumermycin A1	At_78D2	0.5
+Coumermycin A1	At_78D1	0
+Coumermycin A1	VVGT1	0
+7-hydroxycoumerin 3-carboxylic acid	At_71C1	0
+7-hydroxycoumerin 3-carboxylic acid	At_71C2	0
+7-hydroxycoumerin 3-carboxylic acid	At_71C3	0
+7-hydroxycoumerin 3-carboxylic acid	At_71C4	0
+7-hydroxycoumerin 3-carboxylic acid	At_71C5	0
+7-hydroxycoumerin 3-carboxylic acid	At_71B8	0
+7-hydroxycoumerin 3-carboxylic acid	At_71B6	0
+7-hydroxycoumerin 3-carboxylic acid	At_71B5	0
+7-hydroxycoumerin 3-carboxylic acid	At_71B1	0
+7-hydroxycoumerin 3-carboxylic acid	At_88A1	0
+7-hydroxycoumerin 3-carboxylic acid	At_72E2	0
+7-hydroxycoumerin 3-carboxylic acid	At_72E3	0
+7-hydroxycoumerin 3-carboxylic acid	At_72E1	0
+7-hydroxycoumerin 3-carboxylic acid	At_72D1	0
+7-hydroxycoumerin 3-carboxylic acid	At_72C1	0
+7-hydroxycoumerin 3-carboxylic acid	At_72B3	0
+7-hydroxycoumerin 3-carboxylic acid	At_73C3	0
+7-hydroxycoumerin 3-carboxylic acid	At_73C4	0
+7-hydroxycoumerin 3-carboxylic acid	At_73C5	0
+7-hydroxycoumerin 3-carboxylic acid	At_73C6	0
+7-hydroxycoumerin 3-carboxylic acid	At_73C1	0
+7-hydroxycoumerin 3-carboxylic acid	At_73C7	0
+7-hydroxycoumerin 3-carboxylic acid	At_73B2	0.5
+7-hydroxycoumerin 3-carboxylic acid	At_73B3	0
+7-hydroxycoumerin 3-carboxylic acid	At_73B4	1
+7-hydroxycoumerin 3-carboxylic acid	At_73B5	0
+7-hydroxycoumerin 3-carboxylic acid	At_73B1	0
+7-hydroxycoumerin 3-carboxylic acid	At_89B1	0
+7-hydroxycoumerin 3-carboxylic acid	At_89C1	0
+7-hydroxycoumerin 3-carboxylic acid	At_84A3	0
+7-hydroxycoumerin 3-carboxylic acid	At_84A4	1
+7-hydroxycoumerin 3-carboxylic acid	At_84A2	1
+7-hydroxycoumerin 3-carboxylic acid	At_84A1	1
+7-hydroxycoumerin 3-carboxylic acid	At_84B1	0
+7-hydroxycoumerin 3-carboxylic acid	At_84B2	0
+7-hydroxycoumerin 3-carboxylic acid	At_75B1	1
+7-hydroxycoumerin 3-carboxylic acid	At_75D1	0
+7-hydroxycoumerin 3-carboxylic acid	At_74F1	0
+7-hydroxycoumerin 3-carboxylic acid	At_74F2	1
+7-hydroxycoumerin 3-carboxylic acid	At_74B1	0
+7-hydroxycoumerin 3-carboxylic acid	At_76E5	0
+7-hydroxycoumerin 3-carboxylic acid	At_76E4	0
+7-hydroxycoumerin 3-carboxylic acid	At_76E1	0
+7-hydroxycoumerin 3-carboxylic acid	At_76E2	0
+7-hydroxycoumerin 3-carboxylic acid	At_76E12	0
+7-hydroxycoumerin 3-carboxylic acid	At_76E11	0
+7-hydroxycoumerin 3-carboxylic acid	At_76C4	0
+7-hydroxycoumerin 3-carboxylic acid	At_85A5	0
+7-hydroxycoumerin 3-carboxylic acid	At_85A4	0
+7-hydroxycoumerin 3-carboxylic acid	At_78D2	0
+7-hydroxycoumerin 3-carboxylic acid	At_78D1	0
+7-hydroxycoumerin 3-carboxylic acid	VVGT1	0.5
+7-hydroxycoumerin 4-acetic acid	At_71C1	0
+7-hydroxycoumerin 4-acetic acid	At_71C2	0.5
+7-hydroxycoumerin 4-acetic acid	At_71C3	0
+7-hydroxycoumerin 4-acetic acid	At_71C4	0
+7-hydroxycoumerin 4-acetic acid	At_71C5	0.5
+7-hydroxycoumerin 4-acetic acid	At_71B8	0
+7-hydroxycoumerin 4-acetic acid	At_71B6	0
+7-hydroxycoumerin 4-acetic acid	At_71B5	0
+7-hydroxycoumerin 4-acetic acid	At_71B1	1
+7-hydroxycoumerin 4-acetic acid	At_88A1	0
+7-hydroxycoumerin 4-acetic acid	At_72E2	0
+7-hydroxycoumerin 4-acetic acid	At_72E3	0
+7-hydroxycoumerin 4-acetic acid	At_72E1	0
+7-hydroxycoumerin 4-acetic acid	At_72D1	0
+7-hydroxycoumerin 4-acetic acid	At_72C1	0
+7-hydroxycoumerin 4-acetic acid	At_72B3	1
+7-hydroxycoumerin 4-acetic acid	At_73C3	0
+7-hydroxycoumerin 4-acetic acid	At_73C4	0
+7-hydroxycoumerin 4-acetic acid	At_73C5	0
+7-hydroxycoumerin 4-acetic acid	At_73C6	0
+7-hydroxycoumerin 4-acetic acid	At_73C1	1
+7-hydroxycoumerin 4-acetic acid	At_73C7	0
+7-hydroxycoumerin 4-acetic acid	At_73B2	0.5
+7-hydroxycoumerin 4-acetic acid	At_73B3	0
+7-hydroxycoumerin 4-acetic acid	At_73B4	0
+7-hydroxycoumerin 4-acetic acid	At_73B5	1
+7-hydroxycoumerin 4-acetic acid	At_73B1	0
+7-hydroxycoumerin 4-acetic acid	At_89B1	0
+7-hydroxycoumerin 4-acetic acid	At_89C1	0
+7-hydroxycoumerin 4-acetic acid	At_84A3	0
+7-hydroxycoumerin 4-acetic acid	At_84A4	0
+7-hydroxycoumerin 4-acetic acid	At_84A2	0
+7-hydroxycoumerin 4-acetic acid	At_84A1	0
+7-hydroxycoumerin 4-acetic acid	At_84B1	0
+7-hydroxycoumerin 4-acetic acid	At_84B2	0
+7-hydroxycoumerin 4-acetic acid	At_75B1	0
+7-hydroxycoumerin 4-acetic acid	At_75D1	0.5
+7-hydroxycoumerin 4-acetic acid	At_74F1	0
+7-hydroxycoumerin 4-acetic acid	At_74F2	0
+7-hydroxycoumerin 4-acetic acid	At_74B1	0.5
+7-hydroxycoumerin 4-acetic acid	At_76E5	0
+7-hydroxycoumerin 4-acetic acid	At_76E4	0
+7-hydroxycoumerin 4-acetic acid	At_76E1	0
+7-hydroxycoumerin 4-acetic acid	At_76E2	0
+7-hydroxycoumerin 4-acetic acid	At_76E12	1
+7-hydroxycoumerin 4-acetic acid	At_76E11	0
+7-hydroxycoumerin 4-acetic acid	At_76C4	0
+7-hydroxycoumerin 4-acetic acid	At_85A5	0
+7-hydroxycoumerin 4-acetic acid	At_85A4	0
+7-hydroxycoumerin 4-acetic acid	At_78D2	0
+7-hydroxycoumerin 4-acetic acid	At_78D1	0
+7-hydroxycoumerin 4-acetic acid	VVGT1	0.5
+Chloramphenicol	At_71C1	0
+Chloramphenicol	At_71C2	0
+Chloramphenicol	At_71C3	0
+Chloramphenicol	At_71C4	0
+Chloramphenicol	At_71C5	0
+Chloramphenicol	At_71B8	0
+Chloramphenicol	At_71B6	0
+Chloramphenicol	At_71B5	0
+Chloramphenicol	At_71B1	0
+Chloramphenicol	At_88A1	0
+Chloramphenicol	At_72E2	0
+Chloramphenicol	At_72E3	0
+Chloramphenicol	At_72E1	0
+Chloramphenicol	At_72D1	0
+Chloramphenicol	At_72C1	0
+Chloramphenicol	At_72B3	0
+Chloramphenicol	At_73C3	0
+Chloramphenicol	At_73C4	0
+Chloramphenicol	At_73C5	0.5
+Chloramphenicol	At_73C6	0.5
+Chloramphenicol	At_73C1	0
+Chloramphenicol	At_73B2	0
+Chloramphenicol	At_73B3	0
+Chloramphenicol	At_73B4	0
+Chloramphenicol	At_73B5	0
+Chloramphenicol	At_73B1	0
+Chloramphenicol	At_89B1	0
+Chloramphenicol	At_89C1	0
+Chloramphenicol	At_84A3	0
+Chloramphenicol	At_84A4	0
+Chloramphenicol	At_84A2	0
+Chloramphenicol	At_84A1	0
+Chloramphenicol	At_84B1	0
+Chloramphenicol	At_84B2	0
+Chloramphenicol	At_75B1	0
+Chloramphenicol	At_75D1	0
+Chloramphenicol	At_74F1	0
+Chloramphenicol	At_74F2	0
+Chloramphenicol	At_74B1	0
+Chloramphenicol	At_76E4	0
+Chloramphenicol	At_76E1	0
+Chloramphenicol	At_76E2	0
+Chloramphenicol	At_76E12	0
+Chloramphenicol	At_76E11	0
+Chloramphenicol	At_85A5	0
+Chloramphenicol	At_85A4	0
+Chloramphenicol	At_78D2	0
+Chloramphenicol	At_78D1	0
+Chloramphenicol	VVGT1	0
+Kanamycin	At_71C1	0
+Kanamycin	At_71C2	0
+Kanamycin	At_71C3	0
+Kanamycin	At_71C4	0
+Kanamycin	At_71C5	0
+Kanamycin	At_71B8	0
+Kanamycin	At_71B6	0
+Kanamycin	At_71B5	0
+Kanamycin	At_71B1	0
+Kanamycin	At_88A1	0
+Kanamycin	At_72E2	0
+Kanamycin	At_72E3	0
+Kanamycin	At_72E1	0
+Kanamycin	At_72D1	0
+Kanamycin	At_72C1	0
+Kanamycin	At_72B3	0
+Kanamycin	At_73C3	0
+Kanamycin	At_73C4	0
+Kanamycin	At_73C5	0
+Kanamycin	At_73C6	0
+Kanamycin	At_73C1	0
+Kanamycin	At_73B2	0
+Kanamycin	At_73B3	0
+Kanamycin	At_73B4	0
+Kanamycin	At_73B5	0
+Kanamycin	At_73B1	0
+Kanamycin	At_89B1	0
+Kanamycin	At_89C1	0
+Kanamycin	At_84A3	0
+Kanamycin	At_84A4	0
+Kanamycin	At_84A2	0
+Kanamycin	At_84A1	0
+Kanamycin	At_84B1	0
+Kanamycin	At_84B2	0
+Kanamycin	At_75B1	0
+Kanamycin	At_75D1	0
+Kanamycin	At_74F1	0
+Kanamycin	At_74F2	0
+Kanamycin	At_74B1	0
+Kanamycin	At_76E4	0
+Kanamycin	At_76E1	0
+Kanamycin	At_76E2	0
+Kanamycin	At_76E12	0
+Kanamycin	At_76E11	0
+Kanamycin	At_85A5	0
+Kanamycin	At_85A4	0
+Kanamycin	At_78D2	0
+Kanamycin	At_78D1	0
+Kanamycin	VVGT1	0
+Carbencillin disodium salt	At_71C1	0
+Carbencillin disodium salt	At_71C2	0
+Carbencillin disodium salt	At_71C3	0
+Carbencillin disodium salt	At_71C4	0
+Carbencillin disodium salt	At_71C5	0
+Carbencillin disodium salt	At_71B8	0
+Carbencillin disodium salt	At_71B6	0
+Carbencillin disodium salt	At_71B5	0
+Carbencillin disodium salt	At_71B1	0
+Carbencillin disodium salt	At_88A1	0
+Carbencillin disodium salt	At_72E2	0
+Carbencillin disodium salt	At_72E3	0
+Carbencillin disodium salt	At_72E1	0
+Carbencillin disodium salt	At_72D1	0
+Carbencillin disodium salt	At_72C1	0
+Carbencillin disodium salt	At_72B3	0
+Carbencillin disodium salt	At_73C3	0
+Carbencillin disodium salt	At_73C4	0
+Carbencillin disodium salt	At_73C5	0
+Carbencillin disodium salt	At_73C6	0
+Carbencillin disodium salt	At_73C1	0
+Carbencillin disodium salt	At_73B2	0
+Carbencillin disodium salt	At_73B3	0
+Carbencillin disodium salt	At_73B4	0
+Carbencillin disodium salt	At_73B5	0
+Carbencillin disodium salt	At_73B1	0
+Carbencillin disodium salt	At_89B1	0
+Carbencillin disodium salt	At_89C1	0
+Carbencillin disodium salt	At_84A3	0
+Carbencillin disodium salt	At_84A4	0
+Carbencillin disodium salt	At_84A2	0
+Carbencillin disodium salt	At_84A1	0
+Carbencillin disodium salt	At_84B1	0
+Carbencillin disodium salt	At_84B2	0
+Carbencillin disodium salt	At_75B1	0
+Carbencillin disodium salt	At_75D1	0
+Carbencillin disodium salt	At_74F1	0
+Carbencillin disodium salt	At_74F2	0
+Carbencillin disodium salt	At_74B1	0
+Carbencillin disodium salt	At_76E4	0
+Carbencillin disodium salt	At_76E1	0
+Carbencillin disodium salt	At_76E2	0
+Carbencillin disodium salt	At_76E12	0
+Carbencillin disodium salt	At_76E11	0
+Carbencillin disodium salt	At_85A5	0
+Carbencillin disodium salt	At_85A4	0
+Carbencillin disodium salt	At_78D2	0
+Carbencillin disodium salt	At_78D1	0
+Carbencillin disodium salt	VVGT1	0
+β-GlcOBn	At_71C1	0
+β-GlcOBn	At_71C2	0
+β-GlcOBn	At_71C3	0
+β-GlcOBn	At_71C4	0
+β-GlcOBn	At_71C5	0
+β-GlcOBn	At_71B8	0
+β-GlcOBn	At_71B6	0
+β-GlcOBn	At_71B5	0
+β-GlcOBn	At_71B1	0
+β-GlcOBn	At_88A1	0
+β-GlcOBn	At_72E2	0
+β-GlcOBn	At_72E3	0
+β-GlcOBn	At_72E1	0
+β-GlcOBn	At_72D1	0
+β-GlcOBn	At_72C1	0
+β-GlcOBn	At_72B3	0
+β-GlcOBn	At_73C3	0
+β-GlcOBn	At_73C4	0
+β-GlcOBn	At_73C5	0
+β-GlcOBn	At_73C6	0
+β-GlcOBn	At_73C1	0
+β-GlcOBn	At_73B2	0
+β-GlcOBn	At_73B3	0
+β-GlcOBn	At_73B4	0
+β-GlcOBn	At_73B5	0
+β-GlcOBn	At_73B1	0
+β-GlcOBn	At_89B1	0
+β-GlcOBn	At_89C1	0
+β-GlcOBn	At_84A3	0
+β-GlcOBn	At_84A4	0
+β-GlcOBn	At_84A2	0
+β-GlcOBn	At_84A1	0
+β-GlcOBn	At_84B1	0
+β-GlcOBn	At_84B2	0
+β-GlcOBn	At_75B1	0
+β-GlcOBn	At_75D1	0
+β-GlcOBn	At_74F1	0
+β-GlcOBn	At_74F2	0
+β-GlcOBn	At_74B1	0
+β-GlcOBn	At_76E4	0
+β-GlcOBn	At_76E1	0
+β-GlcOBn	At_76E2	0
+β-GlcOBn	At_76E12	0
+β-GlcOBn	At_76E11	0
+β-GlcOBn	At_85A5	0
+β-GlcOBn	At_85A4	0
+β-GlcOBn	At_78D2	0
+β-GlcOBn	At_78D1	0
+β-GlcOBn	VVGT1	0
+a-ManOBn	At_71C1	0
+a-ManOBn	At_71C2	0
+a-ManOBn	At_71C3	0
+a-ManOBn	At_71C4	0
+a-ManOBn	At_71C5	0
+a-ManOBn	At_71B8	0
+a-ManOBn	At_71B6	0
+a-ManOBn	At_71B5	0.5
+a-ManOBn	At_71B1	0
+a-ManOBn	At_88A1	0
+a-ManOBn	At_72E2	0
+a-ManOBn	At_72E3	0
+a-ManOBn	At_72E1	0
+a-ManOBn	At_72D1	0
+a-ManOBn	At_72C1	0
+a-ManOBn	At_72B3	0
+a-ManOBn	At_73C3	0
+a-ManOBn	At_73C4	0
+a-ManOBn	At_73C5	0
+a-ManOBn	At_73C6	0
+a-ManOBn	At_73C1	0
+a-ManOBn	At_73B2	0
+a-ManOBn	At_73B3	0
+a-ManOBn	At_73B4	0
+a-ManOBn	At_73B5	0
+a-ManOBn	At_73B1	0
+a-ManOBn	At_89B1	0
+a-ManOBn	At_89C1	0
+a-ManOBn	At_84A3	0
+a-ManOBn	At_84A4	0
+a-ManOBn	At_84A2	0
+a-ManOBn	At_84A1	0
+a-ManOBn	At_84B1	0
+a-ManOBn	At_84B2	0
+a-ManOBn	At_75B1	0
+a-ManOBn	At_75D1	0.5
+a-ManOBn	At_74F1	0
+a-ManOBn	At_74F2	0.5
+a-ManOBn	At_74B1	0.5
+a-ManOBn	At_76E4	0
+a-ManOBn	At_76E1	0
+a-ManOBn	At_76E2	0
+a-ManOBn	At_76E12	0
+a-ManOBn	At_76E11	0
+a-ManOBn	At_85A5	0
+a-ManOBn	At_85A4	0
+a-ManOBn	At_78D2	0
+a-ManOBn	At_78D1	0.5
+a-ManOBn	VVGT1	0.5
+a-ManOPh	At_71C1	0
+a-ManOPh	At_71C2	0
+a-ManOPh	At_71C3	0
+a-ManOPh	At_71C4	0
+a-ManOPh	At_71C5	0
+a-ManOPh	At_71B8	0
+a-ManOPh	At_71B6	0
+a-ManOPh	At_71B5	0
+a-ManOPh	At_71B1	0.5
+a-ManOPh	At_88A1	0
+a-ManOPh	At_72E2	0
+a-ManOPh	At_72E3	0
+a-ManOPh	At_72E1	0
+a-ManOPh	At_72D1	0
+a-ManOPh	At_72C1	0
+a-ManOPh	At_72B3	0
+a-ManOPh	At_73C3	0
+a-ManOPh	At_73C4	0
+a-ManOPh	At_73C5	0
+a-ManOPh	At_73C6	0
+a-ManOPh	At_73C1	0
+a-ManOPh	At_73B2	0
+a-ManOPh	At_73B3	0
+a-ManOPh	At_73B4	0
+a-ManOPh	At_73B5	0
+a-ManOPh	At_73B1	0
+a-ManOPh	At_89B1	0
+a-ManOPh	At_89C1	0
+a-ManOPh	At_84A3	0
+a-ManOPh	At_84A4	0
+a-ManOPh	At_84A2	0
+a-ManOPh	At_84A1	0
+a-ManOPh	At_84B1	0
+a-ManOPh	At_84B2	0
+a-ManOPh	At_75B1	0
+a-ManOPh	At_75D1	0
+a-ManOPh	At_74F1	0
+a-ManOPh	At_74F2	0
+a-ManOPh	At_74B1	0
+a-ManOPh	At_76E4	0
+a-ManOPh	At_76E1	0
+a-ManOPh	At_76E2	0
+a-ManOPh	At_76E12	0
+a-ManOPh	At_76E11	0
+a-ManOPh	At_85A5	0
+a-ManOPh	At_85A4	0
+a-ManOPh	At_78D2	0
+a-ManOPh	At_78D1	0
+a-ManOPh	VVGT1	0
+a-ManOCH2Bn	At_71C1	0
+a-ManOCH2Bn	At_71C2	0
+a-ManOCH2Bn	At_71C3	0
+a-ManOCH2Bn	At_71C4	0
+a-ManOCH2Bn	At_71C5	0
+a-ManOCH2Bn	At_71B8	0
+a-ManOCH2Bn	At_71B6	0
+a-ManOCH2Bn	At_71B5	0
+a-ManOCH2Bn	At_71B1	0.5
+a-ManOCH2Bn	At_88A1	0
+a-ManOCH2Bn	At_72E2	0
+a-ManOCH2Bn	At_72E3	0
+a-ManOCH2Bn	At_72E1	0
+a-ManOCH2Bn	At_72D1	0
+a-ManOCH2Bn	At_72C1	0
+a-ManOCH2Bn	At_72B3	0
+a-ManOCH2Bn	At_73C3	0
+a-ManOCH2Bn	At_73C4	0
+a-ManOCH2Bn	At_73C5	0
+a-ManOCH2Bn	At_73C6	0
+a-ManOCH2Bn	At_73C1	0
+a-ManOCH2Bn	At_73B2	0
+a-ManOCH2Bn	At_73B3	0
+a-ManOCH2Bn	At_73B4	0
+a-ManOCH2Bn	At_73B5	0
+a-ManOCH2Bn	At_73B1	0
+a-ManOCH2Bn	At_89B1	0
+a-ManOCH2Bn	At_89C1	0
+a-ManOCH2Bn	At_84A3	0
+a-ManOCH2Bn	At_84A4	0
+a-ManOCH2Bn	At_84A2	0
+a-ManOCH2Bn	At_84A1	0
+a-ManOCH2Bn	At_84B1	0
+a-ManOCH2Bn	At_84B2	0
+a-ManOCH2Bn	At_75B1	0
+a-ManOCH2Bn	At_75D1	0
+a-ManOCH2Bn	At_74F1	0
+a-ManOCH2Bn	At_74F2	0
+a-ManOCH2Bn	At_74B1	0
+a-ManOCH2Bn	At_76E4	0
+a-ManOCH2Bn	At_76E1	0
+a-ManOCH2Bn	At_76E2	0
+a-ManOCH2Bn	At_76E12	0
+a-ManOCH2Bn	At_76E11	0
+a-ManOCH2Bn	At_85A5	0
+a-ManOCH2Bn	At_85A4	0
+a-ManOCH2Bn	At_78D2	0
+a-ManOCH2Bn	At_78D1	0
+a-ManOCH2Bn	VVGT1	0
+a-ManOPMP	At_71C1	0
+a-ManOPMP	At_71C2	0
+a-ManOPMP	At_71C3	0
+a-ManOPMP	At_71C4	0
+a-ManOPMP	At_71C5	0
+a-ManOPMP	At_71B8	0
+a-ManOPMP	At_71B6	0
+a-ManOPMP	At_71B5	0
+a-ManOPMP	At_71B1	0
+a-ManOPMP	At_88A1	0
+a-ManOPMP	At_72E2	0
+a-ManOPMP	At_72E3	0
+a-ManOPMP	At_72E1	0
+a-ManOPMP	At_72D1	0
+a-ManOPMP	At_72C1	0
+a-ManOPMP	At_72B3	0
+a-ManOPMP	At_73C3	0
+a-ManOPMP	At_73C4	0
+a-ManOPMP	At_73C5	0
+a-ManOPMP	At_73C6	0
+a-ManOPMP	At_73C1	0
+a-ManOPMP	At_73B2	0
+a-ManOPMP	At_73B3	0
+a-ManOPMP	At_73B4	0
+a-ManOPMP	At_73B5	0
+a-ManOPMP	At_73B1	0
+a-ManOPMP	At_89B1	0
+a-ManOPMP	At_89C1	0
+a-ManOPMP	At_84A3	0
+a-ManOPMP	At_84A4	0
+a-ManOPMP	At_84A2	0
+a-ManOPMP	At_84A1	0
+a-ManOPMP	At_84B1	0
+a-ManOPMP	At_84B2	0
+a-ManOPMP	At_75B1	0
+a-ManOPMP	At_75D1	0
+a-ManOPMP	At_74F1	0
+a-ManOPMP	At_74F2	0
+a-ManOPMP	At_74B1	0
+a-ManOPMP	At_76E4	0
+a-ManOPMP	At_76E1	0
+a-ManOPMP	At_76E2	0
+a-ManOPMP	At_76E12	0
+a-ManOPMP	At_76E11	0
+a-ManOPMP	At_85A5	0
+a-ManOPMP	At_85A4	0
+a-ManOPMP	At_78D2	0
+a-ManOPMP	At_78D1	0
+a-ManOPMP	VVGT1	0
+a-ManOBn(pNO2)	At_71C1	0
+a-ManOBn(pNO2)	At_71C2	0
+a-ManOBn(pNO2)	At_71C3	0
+a-ManOBn(pNO2)	At_71C4	0
+a-ManOBn(pNO2)	At_71C5	0
+a-ManOBn(pNO2)	At_71B8	0
+a-ManOBn(pNO2)	At_71B6	0
+a-ManOBn(pNO2)	At_71B5	0
+a-ManOBn(pNO2)	At_71B1	0
+a-ManOBn(pNO2)	At_88A1	0
+a-ManOBn(pNO2)	At_72E2	0
+a-ManOBn(pNO2)	At_72E3	0
+a-ManOBn(pNO2)	At_72E1	0
+a-ManOBn(pNO2)	At_72D1	0
+a-ManOBn(pNO2)	At_72C1	0
+a-ManOBn(pNO2)	At_72B3	0
+a-ManOBn(pNO2)	At_73C3	0
+a-ManOBn(pNO2)	At_73C4	0
+a-ManOBn(pNO2)	At_73C5	0
+a-ManOBn(pNO2)	At_73C6	0
+a-ManOBn(pNO2)	At_73C1	0
+a-ManOBn(pNO2)	At_73B2	0
+a-ManOBn(pNO2)	At_73B3	0
+a-ManOBn(pNO2)	At_73B4	0
+a-ManOBn(pNO2)	At_73B5	0
+a-ManOBn(pNO2)	At_73B1	0
+a-ManOBn(pNO2)	At_89B1	0
+a-ManOBn(pNO2)	At_89C1	0
+a-ManOBn(pNO2)	At_84A3	0
+a-ManOBn(pNO2)	At_84A4	0
+a-ManOBn(pNO2)	At_84A2	0
+a-ManOBn(pNO2)	At_84A1	0
+a-ManOBn(pNO2)	At_84B1	0
+a-ManOBn(pNO2)	At_84B2	0
+a-ManOBn(pNO2)	At_75B1	0
+a-ManOBn(pNO2)	At_75D1	0
+a-ManOBn(pNO2)	At_74F1	0
+a-ManOBn(pNO2)	At_74F2	0
+a-ManOBn(pNO2)	At_74B1	0
+a-ManOBn(pNO2)	At_76E4	0
+a-ManOBn(pNO2)	At_76E1	0
+a-ManOBn(pNO2)	At_76E2	0
+a-ManOBn(pNO2)	At_76E12	0
+a-ManOBn(pNO2)	At_76E11	0
+a-ManOBn(pNO2)	At_85A5	0
+a-ManOBn(pNO2)	At_85A4	0
+a-ManOBn(pNO2)	At_78D2	0
+a-ManOBn(pNO2)	At_78D1	0
+a-ManOBn(pNO2)	VVGT1	0
+a-ManOPhF5	At_71C1	0
+a-ManOPhF5	At_71C2	0
+a-ManOPhF5	At_71C3	0
+a-ManOPhF5	At_71C4	0
+a-ManOPhF5	At_71C5	0
+a-ManOPhF5	At_71B8	0
+a-ManOPhF5	At_71B6	0
+a-ManOPhF5	At_71B5	0
+a-ManOPhF5	At_71B1	0
+a-ManOPhF5	At_88A1	0
+a-ManOPhF5	At_72E2	0
+a-ManOPhF5	At_72E3	0
+a-ManOPhF5	At_72E1	0
+a-ManOPhF5	At_72D1	0
+a-ManOPhF5	At_72C1	0
+a-ManOPhF5	At_72B3	0
+a-ManOPhF5	At_73C3	0
+a-ManOPhF5	At_73C4	0
+a-ManOPhF5	At_73C5	0
+a-ManOPhF5	At_73C6	0
+a-ManOPhF5	At_73C1	0
+a-ManOPhF5	At_73B2	0
+a-ManOPhF5	At_73B3	0
+a-ManOPhF5	At_73B4	0
+a-ManOPhF5	At_73B5	0
+a-ManOPhF5	At_73B1	0
+a-ManOPhF5	At_89B1	0
+a-ManOPhF5	At_89C1	0
+a-ManOPhF5	At_84A3	0
+a-ManOPhF5	At_84A4	0
+a-ManOPhF5	At_84A2	0
+a-ManOPhF5	At_84A1	0
+a-ManOPhF5	At_84B1	0
+a-ManOPhF5	At_84B2	0
+a-ManOPhF5	At_75B1	0
+a-ManOPhF5	At_75D1	0
+a-ManOPhF5	At_74F1	0
+a-ManOPhF5	At_74F2	0
+a-ManOPhF5	At_74B1	0
+a-ManOPhF5	At_76E4	0
+a-ManOPhF5	At_76E1	0
+a-ManOPhF5	At_76E2	0
+a-ManOPhF5	At_76E12	0
+a-ManOPhF5	At_76E11	0
+a-ManOPhF5	At_85A5	0
+a-ManOPhF5	At_85A4	0
+a-ManOPhF5	At_78D2	0
+a-ManOPhF5	At_78D1	0
+a-ManOPhF5	VVGT1	0
+a-ManOBnF5	At_71C1	0
+a-ManOBnF5	At_71C2	0
+a-ManOBnF5	At_71C3	0
+a-ManOBnF5	At_71C4	0
+a-ManOBnF5	At_71C5	0
+a-ManOBnF5	At_71B8	0
+a-ManOBnF5	At_71B6	0
+a-ManOBnF5	At_71B5	0
+a-ManOBnF5	At_71B1	0
+a-ManOBnF5	At_88A1	0
+a-ManOBnF5	At_72E2	0
+a-ManOBnF5	At_72E3	0
+a-ManOBnF5	At_72E1	0
+a-ManOBnF5	At_72D1	0
+a-ManOBnF5	At_72C1	0
+a-ManOBnF5	At_72B3	0
+a-ManOBnF5	At_73C3	0
+a-ManOBnF5	At_73C4	0
+a-ManOBnF5	At_73C5	0
+a-ManOBnF5	At_73C6	0
+a-ManOBnF5	At_73C1	0
+a-ManOBnF5	At_73B2	0
+a-ManOBnF5	At_73B3	0
+a-ManOBnF5	At_73B4	0
+a-ManOBnF5	At_73B5	0
+a-ManOBnF5	At_73B1	0
+a-ManOBnF5	At_89B1	0
+a-ManOBnF5	At_89C1	0
+a-ManOBnF5	At_84A3	0
+a-ManOBnF5	At_84A4	0
+a-ManOBnF5	At_84A2	0
+a-ManOBnF5	At_84A1	0
+a-ManOBnF5	At_84B1	0
+a-ManOBnF5	At_84B2	0
+a-ManOBnF5	At_75B1	0
+a-ManOBnF5	At_75D1	0
+a-ManOBnF5	At_74F1	0
+a-ManOBnF5	At_74F2	0
+a-ManOBnF5	At_74B1	0
+a-ManOBnF5	At_76E4	0
+a-ManOBnF5	At_76E1	0
+a-ManOBnF5	At_76E2	0
+a-ManOBnF5	At_76E12	0
+a-ManOBnF5	At_76E11	0
+a-ManOBnF5	At_85A5	0
+a-ManOBnF5	At_85A4	0
+a-ManOBnF5	At_78D2	0
+a-ManOBnF5	At_78D1	0
+a-ManOBnF5	VVGT1	0
+ManSTol	At_71C1	0
+ManSTol	At_71C2	0
+ManSTol	At_71C3	0
+ManSTol	At_71C4	0
+ManSTol	At_71C5	0
+ManSTol	At_71B8	0
+ManSTol	At_71B6	0
+ManSTol	At_71B5	0
+ManSTol	At_71B1	0
+ManSTol	At_88A1	0
+ManSTol	At_72E2	0
+ManSTol	At_72E3	0
+ManSTol	At_72E1	0
+ManSTol	At_72D1	0
+ManSTol	At_72C1	0
+ManSTol	At_72B3	0
+ManSTol	At_73C3	0
+ManSTol	At_73C4	0
+ManSTol	At_73C5	0
+ManSTol	At_73C6	0
+ManSTol	At_73C1	0
+ManSTol	At_73B2	0
+ManSTol	At_73B3	0
+ManSTol	At_73B4	0
+ManSTol	At_73B5	0
+ManSTol	At_73B1	0
+ManSTol	At_89B1	0
+ManSTol	At_89C1	0
+ManSTol	At_84A3	0
+ManSTol	At_84A4	0
+ManSTol	At_84A2	0
+ManSTol	At_84A1	0
+ManSTol	At_84B1	0
+ManSTol	At_84B2	0
+ManSTol	At_75B1	0
+ManSTol	At_75D1	0
+ManSTol	At_74F1	0
+ManSTol	At_74F2	0
+ManSTol	At_74B1	0
+ManSTol	At_76E4	0
+ManSTol	At_76E1	0
+ManSTol	At_76E2	0
+ManSTol	At_76E12	0
+ManSTol	At_76E11	0
+ManSTol	At_85A5	0
+ManSTol	At_85A4	0
+ManSTol	At_78D2	0
+ManSTol	At_78D1	0
+ManSTol	VVGT1	0
+Man (6a) Man(3a)Man(a)OPh	At_71C1	0
+Man (6a) Man(3a)Man(a)OPh	At_71C2	0
+Man (6a) Man(3a)Man(a)OPh	At_71C3	0
+Man (6a) Man(3a)Man(a)OPh	At_71C4	0
+Man (6a) Man(3a)Man(a)OPh	At_71C5	0
+Man (6a) Man(3a)Man(a)OPh	At_71B8	0
+Man (6a) Man(3a)Man(a)OPh	At_71B6	0
+Man (6a) Man(3a)Man(a)OPh	At_71B5	0
+Man (6a) Man(3a)Man(a)OPh	At_71B1	0
+Man (6a) Man(3a)Man(a)OPh	At_88A1	0
+Man (6a) Man(3a)Man(a)OPh	At_72E2	0
+Man (6a) Man(3a)Man(a)OPh	At_72E3	0
+Man (6a) Man(3a)Man(a)OPh	At_72E1	0
+Man (6a) Man(3a)Man(a)OPh	At_72D1	0
+Man (6a) Man(3a)Man(a)OPh	At_72C1	0
+Man (6a) Man(3a)Man(a)OPh	At_72B3	0
+Man (6a) Man(3a)Man(a)OPh	At_73C3	0
+Man (6a) Man(3a)Man(a)OPh	At_73C4	0
+Man (6a) Man(3a)Man(a)OPh	At_73C5	0
+Man (6a) Man(3a)Man(a)OPh	At_73C6	0
+Man (6a) Man(3a)Man(a)OPh	At_73C1	0
+Man (6a) Man(3a)Man(a)OPh	At_73B2	0
+Man (6a) Man(3a)Man(a)OPh	At_73B3	0
+Man (6a) Man(3a)Man(a)OPh	At_73B4	0
+Man (6a) Man(3a)Man(a)OPh	At_73B5	0
+Man (6a) Man(3a)Man(a)OPh	At_73B1	0
+Man (6a) Man(3a)Man(a)OPh	At_89B1	0
+Man (6a) Man(3a)Man(a)OPh	At_89C1	0
+Man (6a) Man(3a)Man(a)OPh	At_84A3	0
+Man (6a) Man(3a)Man(a)OPh	At_84A4	0
+Man (6a) Man(3a)Man(a)OPh	At_84A2	0
+Man (6a) Man(3a)Man(a)OPh	At_84A1	0
+Man (6a) Man(3a)Man(a)OPh	At_84B1	0
+Man (6a) Man(3a)Man(a)OPh	At_84B2	0
+Man (6a) Man(3a)Man(a)OPh	At_75B1	0
+Man (6a) Man(3a)Man(a)OPh	At_75D1	0
+Man (6a) Man(3a)Man(a)OPh	At_74F1	0
+Man (6a) Man(3a)Man(a)OPh	At_74F2	0
+Man (6a) Man(3a)Man(a)OPh	At_74B1	0
+Man (6a) Man(3a)Man(a)OPh	At_76E4	0
+Man (6a) Man(3a)Man(a)OPh	At_76E1	0
+Man (6a) Man(3a)Man(a)OPh	At_76E2	0
+Man (6a) Man(3a)Man(a)OPh	At_76E12	0
+Man (6a) Man(3a)Man(a)OPh	At_76E11	0
+Man (6a) Man(3a)Man(a)OPh	At_85A5	0
+Man (6a) Man(3a)Man(a)OPh	At_85A4	0
+Man (6a) Man(3a)Man(a)OPh	At_78D2	0
+Man (6a) Man(3a)Man(a)OPh	At_78D1	0
+Man (6a) Man(3a)Man(a)OPh	VVGT1	0
+D-erythro-sphingosine	At_71C1	0
+D-erythro-sphingosine	At_71C2	0
+D-erythro-sphingosine	At_71C3	0
+D-erythro-sphingosine	At_71C4	0
+D-erythro-sphingosine	At_71C5	0
+D-erythro-sphingosine	At_71B8	0
+D-erythro-sphingosine	At_71B6	0
+D-erythro-sphingosine	At_71B5	0
+D-erythro-sphingosine	At_71B1	0
+D-erythro-sphingosine	At_88A1	0
+D-erythro-sphingosine	At_72E2	0
+D-erythro-sphingosine	At_72E3	0
+D-erythro-sphingosine	At_72E1	0
+D-erythro-sphingosine	At_72D1	0
+D-erythro-sphingosine	At_72C1	0
+D-erythro-sphingosine	At_72B3	0
+D-erythro-sphingosine	At_73C3	0
+D-erythro-sphingosine	At_73C4	0
+D-erythro-sphingosine	At_73C5	0
+D-erythro-sphingosine	At_73C6	0
+D-erythro-sphingosine	At_73C1	0
+D-erythro-sphingosine	At_73B2	0
+D-erythro-sphingosine	At_73B3	0
+D-erythro-sphingosine	At_73B4	0
+D-erythro-sphingosine	At_73B5	0
+D-erythro-sphingosine	At_73B1	0
+D-erythro-sphingosine	At_89B1	0
+D-erythro-sphingosine	At_89C1	0
+D-erythro-sphingosine	At_84A3	0
+D-erythro-sphingosine	At_84A4	0
+D-erythro-sphingosine	At_84A2	0
+D-erythro-sphingosine	At_84A1	0
+D-erythro-sphingosine	At_84B1	0
+D-erythro-sphingosine	At_84B2	0
+D-erythro-sphingosine	At_75B1	0
+D-erythro-sphingosine	At_75D1	0
+D-erythro-sphingosine	At_74F1	0
+D-erythro-sphingosine	At_74F2	0
+D-erythro-sphingosine	At_74B1	0
+D-erythro-sphingosine	At_76E4	0
+D-erythro-sphingosine	At_76E1	0
+D-erythro-sphingosine	At_76E2	0
+D-erythro-sphingosine	At_76E12	0
+D-erythro-sphingosine	At_76E11	0
+D-erythro-sphingosine	At_85A5	0
+D-erythro-sphingosine	At_85A4	0
+D-erythro-sphingosine	At_78D2	0
+D-erythro-sphingosine	At_78D1	0
+D-erythro-sphingosine	VVGT1	0
+Catechin	At_71C1	0.5
+Catechin	At_71C2	0
+Catechin	At_71C3	0
+Catechin	At_71C4	0
+Catechin	At_71C5	0.5
+Catechin	At_71B8	0
+Catechin	At_71B6	0
+Catechin	At_71B5	0.5
+Catechin	At_71B1	0.5
+Catechin	At_88A1	1
+Catechin	At_72E2	0
+Catechin	At_72E3	0.5
+Catechin	At_72E1	0.5
+Catechin	At_72D1	1
+Catechin	At_72C1	0
+Catechin	At_72B3	0
+Catechin	At_73C3	1
+Catechin	At_73C4	0
+Catechin	At_73C5	1
+Catechin	At_73C6	1
+Catechin	At_73C1	0
+Catechin	At_73C7	0
+Catechin	At_73B2	0
+Catechin	At_73B3	1
+Catechin	At_73B4	0
+Catechin	At_73B5	1
+Catechin	At_73B1	0.5
+Catechin	At_89B1	0
+Catechin	At_89C1	1
+Catechin	At_84A3	0
+Catechin	At_84A4	0
+Catechin	At_84A2	1
+Catechin	At_84A1	1
+Catechin	At_84B1	1
+Catechin	At_84B2	0.5
+Catechin	At_75B1	0
+Catechin	At_75D1	0
+Catechin	At_74F1	0.5
+Catechin	At_74F2	1
+Catechin	At_74B1	1
+Catechin	At_76E5	0
+Catechin	At_76E4	0
+Catechin	At_76E1	0
+Catechin	At_76E2	0
+Catechin	At_76E12	0
+Catechin	At_76E11	0
+Catechin	At_76C4	0
+Catechin	At_85A5	0
+Catechin	At_85A4	0
+Catechin	At_78D2	1
+Catechin	At_78D1	0
+Catechin	VVGT1	1
+Genistein	At_71C1	1
+Genistein	At_71C2	0
+Genistein	At_71C3	1
+Genistein	At_71C4	0
+Genistein	At_71C5	0
+Genistein	At_71B8	0
+Genistein	At_71B6	0
+Genistein	At_71B5	1
+Genistein	At_71B1	0.5
+Genistein	At_88A1	1
+Genistein	At_72E2	0
+Genistein	At_72E3	0
+Genistein	At_72E1	0
+Genistein	At_72D1	1
+Genistein	At_72C1	0
+Genistein	At_72B3	0
+Genistein	At_73C3	0.5
+Genistein	At_73C4	0
+Genistein	At_73C5	1
+Genistein	At_73C6	1
+Genistein	At_73C1	1
+Genistein	At_73C7	0
+Genistein	At_73B2	1
+Genistein	At_73B3	0
+Genistein	At_73B4	1
+Genistein	At_73B5	1
+Genistein	At_73B1	0
+Genistein	At_89B1	0
+Genistein	At_89C1	0
+Genistein	At_84A3	1
+Genistein	At_84A4	1
+Genistein	At_84A2	1
+Genistein	At_84A1	1
+Genistein	At_84B1	0
+Genistein	At_84B2	0
+Genistein	At_75B1	1
+Genistein	At_75D1	0
+Genistein	At_74F1	0
+Genistein	At_74F2	1
+Genistein	At_74B1	1
+Genistein	At_76E5	0
+Genistein	At_76E4	0
+Genistein	At_76E1	0.5
+Genistein	At_76E2	0
+Genistein	At_76E12	1
+Genistein	At_76E11	0
+Genistein	At_76C4	0.5
+Genistein	At_85A5	0.5
+Genistein	At_85A4	0
+Genistein	At_78D2	0
+Genistein	At_78D1	0.5
+Genistein	VVGT1	1
+N6-Benzyladenine	At_71C1	0
+N6-Benzyladenine	At_71C2	0
+N6-Benzyladenine	At_71C3	0
+N6-Benzyladenine	At_71C4	0
+N6-Benzyladenine	At_71C5	0
+N6-Benzyladenine	At_71B8	0
+N6-Benzyladenine	At_71B6	0
+N6-Benzyladenine	At_71B5	0
+N6-Benzyladenine	At_71B1	0
+N6-Benzyladenine	At_88A1	0
+N6-Benzyladenine	At_72E2	0
+N6-Benzyladenine	At_72E3	0
+N6-Benzyladenine	At_72E1	0
+N6-Benzyladenine	At_72D1	0
+N6-Benzyladenine	At_72C1	0
+N6-Benzyladenine	At_72B3	0
+N6-Benzyladenine	At_73C3	0
+N6-Benzyladenine	At_73C4	0
+N6-Benzyladenine	At_73C5	0
+N6-Benzyladenine	At_73C6	0
+N6-Benzyladenine	At_73C1	0
+N6-Benzyladenine	At_73C7	0
+N6-Benzyladenine	At_73B2	0
+N6-Benzyladenine	At_73B3	0
+N6-Benzyladenine	At_73B4	0
+N6-Benzyladenine	At_73B5	0
+N6-Benzyladenine	At_73B1	0
+N6-Benzyladenine	At_89B1	0
+N6-Benzyladenine	At_89C1	0
+N6-Benzyladenine	At_84A3	0
+N6-Benzyladenine	At_84A2	0
+N6-Benzyladenine	At_84A1	0
+N6-Benzyladenine	At_84B1	0
+N6-Benzyladenine	At_84B2	0
+N6-Benzyladenine	At_75B1	0
+N6-Benzyladenine	At_75D1	0
+N6-Benzyladenine	At_74F1	0
+N6-Benzyladenine	At_74B1	0
+N6-Benzyladenine	At_76E5	0
+N6-Benzyladenine	At_76E4	0
+N6-Benzyladenine	At_76E1	0
+N6-Benzyladenine	At_76E2	0
+N6-Benzyladenine	At_76E12	0
+N6-Benzyladenine	At_76E11	0
+N6-Benzyladenine	At_76C4	0
+N6-Benzyladenine	At_85A5	0
+N6-Benzyladenine	At_85A4	0
+N6-Benzyladenine	At_78D2	0
+N6-Benzyladenine	At_78D1	0
+N6-Benzyladenine	VVGT1	0
+Trans-Zentin-Glucose	At_71C1	0
+Trans-Zentin-Glucose	At_71C2	0
+Trans-Zentin-Glucose	At_71C3	0
+Trans-Zentin-Glucose	At_71C4	0
+Trans-Zentin-Glucose	At_71C5	0
+Trans-Zentin-Glucose	At_71B8	0
+Trans-Zentin-Glucose	At_71B6	0
+Trans-Zentin-Glucose	At_71B5	0
+Trans-Zentin-Glucose	At_71B1	0
+Trans-Zentin-Glucose	At_88A1	0
+Trans-Zentin-Glucose	At_72E2	0
+Trans-Zentin-Glucose	At_72E3	0
+Trans-Zentin-Glucose	At_72E1	0
+Trans-Zentin-Glucose	At_72D1	0
+Trans-Zentin-Glucose	At_72C1	0
+Trans-Zentin-Glucose	At_72B3	0
+Trans-Zentin-Glucose	At_73C3	0
+Trans-Zentin-Glucose	At_73C4	0
+Trans-Zentin-Glucose	At_73C5	0
+Trans-Zentin-Glucose	At_73C6	0
+Trans-Zentin-Glucose	At_73C1	0
+Trans-Zentin-Glucose	At_73C7	0
+Trans-Zentin-Glucose	At_73B2	0
+Trans-Zentin-Glucose	At_73B3	0
+Trans-Zentin-Glucose	At_73B4	0
+Trans-Zentin-Glucose	At_73B5	0
+Trans-Zentin-Glucose	At_73B1	0.5
+Trans-Zentin-Glucose	At_89B1	0
+Trans-Zentin-Glucose	At_89C1	0
+Trans-Zentin-Glucose	At_84A3	0
+Trans-Zentin-Glucose	At_84A2	0
+Trans-Zentin-Glucose	At_84A1	0
+Trans-Zentin-Glucose	At_84B1	0
+Trans-Zentin-Glucose	At_84B2	0
+Trans-Zentin-Glucose	At_75B1	0
+Trans-Zentin-Glucose	At_75D1	0
+Trans-Zentin-Glucose	At_74F1	0
+Trans-Zentin-Glucose	At_74B1	0
+Trans-Zentin-Glucose	At_76E5	0
+Trans-Zentin-Glucose	At_76E4	0
+Trans-Zentin-Glucose	At_76E1	0
+Trans-Zentin-Glucose	At_76E2	0
+Trans-Zentin-Glucose	At_76E12	0
+Trans-Zentin-Glucose	At_76E11	0
+Trans-Zentin-Glucose	At_76C4	0
+Trans-Zentin-Glucose	At_85A5	0
+Trans-Zentin-Glucose	At_85A4	0
+Trans-Zentin-Glucose	At_78D2	0
+Trans-Zentin-Glucose	At_78D1	0
+Trans-Zentin-Glucose	VVGT1	0
+DihydroZeatin	At_71C1	0
+DihydroZeatin	At_71C2	0
+DihydroZeatin	At_71C3	0
+DihydroZeatin	At_71C4	0
+DihydroZeatin	At_71C5	0
+DihydroZeatin	At_71B8	0
+DihydroZeatin	At_71B6	0
+DihydroZeatin	At_71B5	0
+DihydroZeatin	At_71B1	0
+DihydroZeatin	At_88A1	0
+DihydroZeatin	At_72E2	0
+DihydroZeatin	At_72E3	0
+DihydroZeatin	At_72E1	0
+DihydroZeatin	At_72D1	0
+DihydroZeatin	At_72C1	0
+DihydroZeatin	At_72B3	0
+DihydroZeatin	At_73C3	0
+DihydroZeatin	At_73C4	0
+DihydroZeatin	At_73C5	1
+DihydroZeatin	At_73C6	1
+DihydroZeatin	At_73C1	1
+DihydroZeatin	At_73C7	0
+DihydroZeatin	At_73B2	0
+DihydroZeatin	At_73B3	0
+DihydroZeatin	At_73B4	1
+DihydroZeatin	At_73B5	0
+DihydroZeatin	At_73B1	0
+DihydroZeatin	At_89B1	0
+DihydroZeatin	At_89C1	0
+DihydroZeatin	At_84A3	0
+DihydroZeatin	At_84A2	0
+DihydroZeatin	At_84A1	0
+DihydroZeatin	At_84B1	0
+DihydroZeatin	At_84B2	0
+DihydroZeatin	At_75B1	0
+DihydroZeatin	At_75D1	0
+DihydroZeatin	At_74F1	0
+DihydroZeatin	At_74B1	0
+DihydroZeatin	At_76E5	0
+DihydroZeatin	At_76E4	0
+DihydroZeatin	At_76E1	0
+DihydroZeatin	At_76E2	0
+DihydroZeatin	At_76E12	0
+DihydroZeatin	At_76E11	0
+DihydroZeatin	At_76C4	0
+DihydroZeatin	At_85A5	0
+DihydroZeatin	At_85A4	0
+DihydroZeatin	At_78D2	0
+DihydroZeatin	At_78D1	0
+DihydroZeatin	VVGT1	0
+Olomoucine	At_71C1	0
+Olomoucine	At_71C2	0
+Olomoucine	At_71C3	0
+Olomoucine	At_71C4	0
+Olomoucine	At_71C5	0
+Olomoucine	At_71B8	0
+Olomoucine	At_71B6	0
+Olomoucine	At_71B5	0
+Olomoucine	At_71B1	0
+Olomoucine	At_88A1	0
+Olomoucine	At_72E2	0
+Olomoucine	At_72E3	0
+Olomoucine	At_72E1	0
+Olomoucine	At_72D1	0
+Olomoucine	At_72C1	0
+Olomoucine	At_72B3	0
+Olomoucine	At_73C3	0
+Olomoucine	At_73C4	0
+Olomoucine	At_73C5	1
+Olomoucine	At_73C6	1
+Olomoucine	At_73C1	1
+Olomoucine	At_73C7	0
+Olomoucine	At_73B2	0
+Olomoucine	At_73B3	0
+Olomoucine	At_73B4	0
+Olomoucine	At_73B5	0
+Olomoucine	At_73B1	0
+Olomoucine	At_89B1	0
+Olomoucine	At_89C1	0
+Olomoucine	At_84A3	0
+Olomoucine	At_84A2	0
+Olomoucine	At_84A1	0
+Olomoucine	At_84B1	0
+Olomoucine	At_84B2	0
+Olomoucine	At_75B1	0
+Olomoucine	At_75D1	0
+Olomoucine	At_74F1	0
+Olomoucine	At_74B1	0
+Olomoucine	At_76E5	0
+Olomoucine	At_76E4	0
+Olomoucine	At_76E1	0
+Olomoucine	At_76E2	0
+Olomoucine	At_76E12	0
+Olomoucine	At_76E11	0
+Olomoucine	At_76C4	0
+Olomoucine	At_85A5	0
+Olomoucine	At_85A4	0
+Olomoucine	At_78D2	0
+Olomoucine	At_78D1	0
+Olomoucine	VVGT1	0
+N6-isopentenyladenine	At_71C1	0
+N6-isopentenyladenine	At_71C2	0
+N6-isopentenyladenine	At_71C3	0
+N6-isopentenyladenine	At_71C4	0
+N6-isopentenyladenine	At_71C5	0
+N6-isopentenyladenine	At_71B8	0
+N6-isopentenyladenine	At_71B6	0
+N6-isopentenyladenine	At_71B5	0
+N6-isopentenyladenine	At_71B1	0
+N6-isopentenyladenine	At_88A1	0
+N6-isopentenyladenine	At_72E2	0
+N6-isopentenyladenine	At_72E3	0
+N6-isopentenyladenine	At_72E1	0
+N6-isopentenyladenine	At_72D1	0
+N6-isopentenyladenine	At_72C1	0
+N6-isopentenyladenine	At_72B3	0
+N6-isopentenyladenine	At_73C3	0
+N6-isopentenyladenine	At_73C4	0
+N6-isopentenyladenine	At_73C5	0
+N6-isopentenyladenine	At_73C6	0
+N6-isopentenyladenine	At_73C1	0
+N6-isopentenyladenine	At_73C7	0
+N6-isopentenyladenine	At_73B2	0
+N6-isopentenyladenine	At_73B3	0
+N6-isopentenyladenine	At_73B4	0
+N6-isopentenyladenine	At_73B5	0
+N6-isopentenyladenine	At_73B1	0
+N6-isopentenyladenine	At_89B1	0
+N6-isopentenyladenine	At_89C1	0
+N6-isopentenyladenine	At_84A3	0
+N6-isopentenyladenine	At_84A2	0
+N6-isopentenyladenine	At_84A1	0
+N6-isopentenyladenine	At_84B1	0
+N6-isopentenyladenine	At_84B2	0
+N6-isopentenyladenine	At_75B1	0
+N6-isopentenyladenine	At_75D1	0
+N6-isopentenyladenine	At_74F1	0
+N6-isopentenyladenine	At_74B1	0
+N6-isopentenyladenine	At_76E5	0
+N6-isopentenyladenine	At_76E4	0
+N6-isopentenyladenine	At_76E1	0
+N6-isopentenyladenine	At_76E2	0
+N6-isopentenyladenine	At_76E12	0
+N6-isopentenyladenine	At_76E11	0
+N6-isopentenyladenine	At_76C4	0
+N6-isopentenyladenine	At_85A5	0
+N6-isopentenyladenine	At_85A4	0
+N6-isopentenyladenine	At_78D2	0
+N6-isopentenyladenine	At_78D1	0
+N6-isopentenyladenine	VVGT1	0
+Erythromycin	At_71C1	0
+Erythromycin	At_71C2	0
+Erythromycin	At_71C3	0
+Erythromycin	At_71C4	0
+Erythromycin	At_71C5	0
+Erythromycin	At_71B8	0
+Erythromycin	At_71B6	0
+Erythromycin	At_71B5	0
+Erythromycin	At_71B1	0
+Erythromycin	At_88A1	0
+Erythromycin	At_72E2	0
+Erythromycin	At_72E3	0
+Erythromycin	At_72E1	0
+Erythromycin	At_72D1	0
+Erythromycin	At_72C1	0
+Erythromycin	At_72B3	0
+Erythromycin	At_73C3	0
+Erythromycin	At_73C4	0
+Erythromycin	At_73C5	0
+Erythromycin	At_73C6	0
+Erythromycin	At_73C1	0
+Erythromycin	At_73B2	0
+Erythromycin	At_73B3	0
+Erythromycin	At_73B4	0
+Erythromycin	At_73B5	0
+Erythromycin	At_73B1	0
+Erythromycin	At_89B1	0
+Erythromycin	At_89C1	0
+Erythromycin	At_84A3	0
+Erythromycin	At_84B1	0
+Erythromycin	At_84B2	0
+Erythromycin	At_75D1	0
+Erythromycin	At_74F1	0
+Erythromycin	At_74B1	0
+Erythromycin	At_76E4	0
+Erythromycin	At_76E1	0
+Erythromycin	At_76E2	0
+Erythromycin	At_76E12	0
+Erythromycin	At_76E11	0
+Erythromycin	At_85A5	0
+Erythromycin	At_85A4	0
+Erythromycin	At_78D2	0
+Erythromycin	At_78D1	0
+Erythromycin	VVGT1	0
+Tylosin	At_71C1	0
+Tylosin	At_71C2	0
+Tylosin	At_71C3	0
+Tylosin	At_71C4	0
+Tylosin	At_71C5	0
+Tylosin	At_71B8	0
+Tylosin	At_71B6	0
+Tylosin	At_71B5	0
+Tylosin	At_71B1	0
+Tylosin	At_88A1	0
+Tylosin	At_72E2	0
+Tylosin	At_72E3	0
+Tylosin	At_72E1	0
+Tylosin	At_72D1	0
+Tylosin	At_72C1	0
+Tylosin	At_72B3	0
+Tylosin	At_73C3	0
+Tylosin	At_73C4	0
+Tylosin	At_73C5	0
+Tylosin	At_73C6	0
+Tylosin	At_73C1	0
+Tylosin	At_73B2	0
+Tylosin	At_73B3	0
+Tylosin	At_73B4	0
+Tylosin	At_73B5	0
+Tylosin	At_73B1	0
+Tylosin	At_89B1	0
+Tylosin	At_89C1	0
+Tylosin	At_84A3	0
+Tylosin	At_84B1	0
+Tylosin	At_84B2	0
+Tylosin	At_75D1	0
+Tylosin	At_74F1	0
+Tylosin	At_74B1	0
+Tylosin	At_76E4	0
+Tylosin	At_76E1	0
+Tylosin	At_76E2	0
+Tylosin	At_76E12	0
+Tylosin	At_76E11	0
+Tylosin	At_85A5	0
+Tylosin	At_85A4	0
+Tylosin	At_78D2	0
+Tylosin	At_78D1	0
+Tylosin	VVGT1	0
+Spectinomycin	At_71C3	0
+Spectinomycin	At_71C4	0
+Spectinomycin	At_71B8	0
+Spectinomycin	At_71B6	0
+Spectinomycin	At_71B1	0
+Spectinomycin	At_88A1	0
+Spectinomycin	At_72E2	0
+Spectinomycin	At_72E3	0
+Spectinomycin	At_72E1	0
+Spectinomycin	At_72D1	0
+Spectinomycin	At_72C1	0
+Spectinomycin	At_73C5	0
+Spectinomycin	At_73C6	0
+Spectinomycin	At_73B4	0
+Spectinomycin	At_73B5	0
+Spectinomycin	At_73B1	0
+Spectinomycin	At_89B1	0
+Spectinomycin	At_89C1	0
+Spectinomycin	At_74F1	0
+Spectinomycin	At_76E4	0
+Spectinomycin	At_76E1	0
+Spectinomycin	At_76E2	0
+Spectinomycin	At_76E12	0
+Spectinomycin	At_76E11	0
+Spectinomycin	At_85A5	0
+Spectinomycin	At_85A4	0
+Spectinomycin	At_78D2	0
+Echinomycin	At_71C1	0
+Echinomycin	At_71C2	0
+Echinomycin	At_71C3	0
+Echinomycin	At_71C4	0
+Echinomycin	At_71C5	0
+Echinomycin	At_71B8	0
+Echinomycin	At_71B6	0
+Echinomycin	At_71B5	0
+Echinomycin	At_71B1	0
+Echinomycin	At_88A1	0
+Echinomycin	At_72E2	0
+Echinomycin	At_72E3	0
+Echinomycin	At_72E1	0
+Echinomycin	At_72D1	0
+Echinomycin	At_72C1	0
+Echinomycin	At_72B3	0
+Echinomycin	At_73C3	0
+Echinomycin	At_73C4	0
+Echinomycin	At_73C5	0
+Echinomycin	At_73C6	0
+Echinomycin	At_73C1	0
+Echinomycin	At_73B2	0
+Echinomycin	At_73B3	0
+Echinomycin	At_73B4	0
+Echinomycin	At_73B5	0
+Echinomycin	At_73B1	0
+Echinomycin	At_89B1	0
+Echinomycin	At_89C1	0
+Echinomycin	At_84A3	0
+Echinomycin	At_84B1	0
+Echinomycin	At_84B2	0
+Echinomycin	At_75D1	0
+Echinomycin	At_74F1	0
+Echinomycin	At_74B1	0
+Echinomycin	At_76E4	0
+Echinomycin	At_76E1	0
+Echinomycin	At_76E2	0
+Echinomycin	At_76E12	0
+Echinomycin	At_76E11	0
+Echinomycin	At_85A5	0
+Echinomycin	At_85A4	0
+Echinomycin	At_78D2	0
+Echinomycin	At_78D1	0
+Echinomycin	VVGT1	0
+CHAPS	At_71C1	0
+CHAPS	At_71C2	0
+CHAPS	At_71C3	0
+CHAPS	At_71C4	0
+CHAPS	At_71C5	0
+CHAPS	At_71B8	0
+CHAPS	At_71B6	0
+CHAPS	At_71B5	0
+CHAPS	At_71B1	0
+CHAPS	At_88A1	0
+CHAPS	At_72E2	0
+CHAPS	At_72E3	0
+CHAPS	At_72E1	0
+CHAPS	At_72D1	0
+CHAPS	At_72C1	0
+CHAPS	At_72B3	0
+CHAPS	At_73C3	0
+CHAPS	At_73C4	0
+CHAPS	At_73C5	0
+CHAPS	At_73C6	0.5
+CHAPS	At_73C1	0
+CHAPS	At_73B2	0
+CHAPS	At_73B3	0
+CHAPS	At_73B4	0
+CHAPS	At_73B5	0
+CHAPS	At_73B1	0
+CHAPS	At_89B1	0
+CHAPS	At_89C1	0
+CHAPS	At_84A3	0
+CHAPS	At_84B1	0
+CHAPS	At_84B2	0
+CHAPS	At_75D1	0
+CHAPS	At_74F1	0
+CHAPS	At_74B1	0
+CHAPS	At_76E4	0
+CHAPS	At_76E1	0
+CHAPS	At_76E2	0
+CHAPS	At_76E12	0
+CHAPS	At_76E11	0
+CHAPS	At_85A5	0
+CHAPS	At_85A4	0
+CHAPS	At_78D2	0
+CHAPS	At_78D1	0
+CHAPS	VVGT1	0
+a-Ecdysone	At_71C1	0
+a-Ecdysone	At_71C2	0
+a-Ecdysone	At_71C3	0
+a-Ecdysone	At_71C4	0
+a-Ecdysone	At_71C5	0
+a-Ecdysone	At_71B8	0
+a-Ecdysone	At_71B6	0
+a-Ecdysone	At_71B5	0
+a-Ecdysone	At_71B1	0
+a-Ecdysone	At_88A1	0
+a-Ecdysone	At_72E2	0
+a-Ecdysone	At_72E3	0
+a-Ecdysone	At_72E1	0
+a-Ecdysone	At_72D1	0
+a-Ecdysone	At_72C1	0
+a-Ecdysone	At_72B3	0
+a-Ecdysone	At_73C3	0
+a-Ecdysone	At_73C4	0
+a-Ecdysone	At_73C5	0
+a-Ecdysone	At_73C6	0.5
+a-Ecdysone	At_73C1	0
+a-Ecdysone	At_73B2	0
+a-Ecdysone	At_73B3	0
+a-Ecdysone	At_73B4	0
+a-Ecdysone	At_73B5	0
+a-Ecdysone	At_73B1	0
+a-Ecdysone	At_89B1	0
+a-Ecdysone	At_89C1	0
+a-Ecdysone	At_84A3	0
+a-Ecdysone	At_84B1	0
+a-Ecdysone	At_84B2	0
+a-Ecdysone	At_75D1	0
+a-Ecdysone	At_74F1	0
+a-Ecdysone	At_74B1	0
+a-Ecdysone	At_76E4	0
+a-Ecdysone	At_76E1	0
+a-Ecdysone	At_76E2	0
+a-Ecdysone	At_76E12	0
+a-Ecdysone	At_76E11	0
+a-Ecdysone	At_85A5	0
+a-Ecdysone	At_85A4	0
+a-Ecdysone	At_78D2	0
+a-Ecdysone	At_78D1	0
+a-Ecdysone	VVGT1	0
+Solanidine	At_71C1	0
+Solanidine	At_71C2	0
+Solanidine	At_71C3	0
+Solanidine	At_71C4	0
+Solanidine	At_71C5	0
+Solanidine	At_71B8	0
+Solanidine	At_71B6	0
+Solanidine	At_71B5	0
+Solanidine	At_71B1	0
+Solanidine	At_88A1	0
+Solanidine	At_72E2	0
+Solanidine	At_72E3	0
+Solanidine	At_72E1	0
+Solanidine	At_72D1	0
+Solanidine	At_72C1	0
+Solanidine	At_72B3	0
+Solanidine	At_73C3	0
+Solanidine	At_73C4	0
+Solanidine	At_73C5	0
+Solanidine	At_73C6	0.5
+Solanidine	At_73C1	0
+Solanidine	At_73B2	0
+Solanidine	At_73B3	0
+Solanidine	At_73B4	0
+Solanidine	At_73B5	0
+Solanidine	At_73B1	0
+Solanidine	At_89B1	0
+Solanidine	At_89C1	0
+Solanidine	At_84A3	0
+Solanidine	At_84B1	0
+Solanidine	At_84B2	0
+Solanidine	At_75D1	0
+Solanidine	At_74F1	0
+Solanidine	At_74B1	0
+Solanidine	At_76E4	0
+Solanidine	At_76E1	0
+Solanidine	At_76E2	0
+Solanidine	At_76E12	0
+Solanidine	At_76E11	0
+Solanidine	At_85A5	0
+Solanidine	At_85A4	0
+Solanidine	At_78D2	0
+Solanidine	At_78D1	0
+Solanidine	VVGT1	0
+Solasodine	At_71C1	0
+Solasodine	At_71C2	0
+Solasodine	At_71C3	0
+Solasodine	At_71C4	0
+Solasodine	At_71C5	0
+Solasodine	At_71B8	0
+Solasodine	At_71B6	0
+Solasodine	At_71B5	0
+Solasodine	At_71B1	0
+Solasodine	At_88A1	0
+Solasodine	At_72E2	0
+Solasodine	At_72E3	0
+Solasodine	At_72E1	0
+Solasodine	At_72D1	0
+Solasodine	At_72C1	0
+Solasodine	At_72B3	0
+Solasodine	At_73C3	0
+Solasodine	At_73C4	0
+Solasodine	At_73C5	0
+Solasodine	At_73C6	0.5
+Solasodine	At_73C1	0
+Solasodine	At_73B2	0
+Solasodine	At_73B3	0
+Solasodine	At_73B4	0
+Solasodine	At_73B5	0
+Solasodine	At_73B1	0
+Solasodine	At_89B1	0
+Solasodine	At_89C1	0
+Solasodine	At_84A3	0
+Solasodine	At_84B1	0
+Solasodine	At_84B2	0
+Solasodine	At_75D1	0
+Solasodine	At_74F1	0
+Solasodine	At_74B1	0
+Solasodine	At_76E4	0
+Solasodine	At_76E1	0
+Solasodine	At_76E2	0
+Solasodine	At_76E12	0
+Solasodine	At_76E11	0
+Solasodine	At_85A5	0
+Solasodine	At_85A4	0
+Solasodine	At_78D2	0
+Solasodine	At_78D1	0
+Solasodine	VVGT1	0
+N-Acetyl-D-sphingosine	At_71C1	0
+N-Acetyl-D-sphingosine	At_71C2	0
+N-Acetyl-D-sphingosine	At_71C3	0
+N-Acetyl-D-sphingosine	At_71C4	0
+N-Acetyl-D-sphingosine	At_71C5	0
+N-Acetyl-D-sphingosine	At_71B8	0
+N-Acetyl-D-sphingosine	At_71B6	0
+N-Acetyl-D-sphingosine	At_71B5	0
+N-Acetyl-D-sphingosine	At_71B1	0
+N-Acetyl-D-sphingosine	At_88A1	0
+N-Acetyl-D-sphingosine	At_72E2	0
+N-Acetyl-D-sphingosine	At_72E3	0
+N-Acetyl-D-sphingosine	At_72E1	0
+N-Acetyl-D-sphingosine	At_72D1	0
+N-Acetyl-D-sphingosine	At_72C1	0
+N-Acetyl-D-sphingosine	At_72B3	0
+N-Acetyl-D-sphingosine	At_73C3	0
+N-Acetyl-D-sphingosine	At_73C4	0
+N-Acetyl-D-sphingosine	At_73C5	0
+N-Acetyl-D-sphingosine	At_73C6	0
+N-Acetyl-D-sphingosine	At_73C1	0
+N-Acetyl-D-sphingosine	At_73B2	0
+N-Acetyl-D-sphingosine	At_73B3	0
+N-Acetyl-D-sphingosine	At_73B4	0
+N-Acetyl-D-sphingosine	At_73B5	0
+N-Acetyl-D-sphingosine	At_73B1	0
+N-Acetyl-D-sphingosine	At_89B1	0
+N-Acetyl-D-sphingosine	At_89C1	0
+N-Acetyl-D-sphingosine	At_84A3	0
+N-Acetyl-D-sphingosine	At_84B1	0
+N-Acetyl-D-sphingosine	At_84B2	0
+N-Acetyl-D-sphingosine	At_75D1	0
+N-Acetyl-D-sphingosine	At_74F1	0
+N-Acetyl-D-sphingosine	At_74B1	0
+N-Acetyl-D-sphingosine	At_76E4	0
+N-Acetyl-D-sphingosine	At_76E1	0
+N-Acetyl-D-sphingosine	At_76E2	0
+N-Acetyl-D-sphingosine	At_76E12	0
+N-Acetyl-D-sphingosine	At_76E11	0
+N-Acetyl-D-sphingosine	At_85A5	0
+N-Acetyl-D-sphingosine	At_85A4	0
+N-Acetyl-D-sphingosine	At_78D2	0
+N-Acetyl-D-sphingosine	At_78D1	0
+N-Acetyl-D-sphingosine	VVGT1	0
+N-hexanoyl-D-sphingosine	At_71C1	0
+N-hexanoyl-D-sphingosine	At_71C2	0
+N-hexanoyl-D-sphingosine	At_71C3	0
+N-hexanoyl-D-sphingosine	At_71C4	0
+N-hexanoyl-D-sphingosine	At_71C5	0
+N-hexanoyl-D-sphingosine	At_71B8	0
+N-hexanoyl-D-sphingosine	At_71B6	0
+N-hexanoyl-D-sphingosine	At_71B5	0
+N-hexanoyl-D-sphingosine	At_71B1	0
+N-hexanoyl-D-sphingosine	At_88A1	0
+N-hexanoyl-D-sphingosine	At_72E2	0
+N-hexanoyl-D-sphingosine	At_72E3	0
+N-hexanoyl-D-sphingosine	At_72E1	0
+N-hexanoyl-D-sphingosine	At_72D1	0
+N-hexanoyl-D-sphingosine	At_72C1	0
+N-hexanoyl-D-sphingosine	At_72B3	0
+N-hexanoyl-D-sphingosine	At_73C3	0
+N-hexanoyl-D-sphingosine	At_73C4	0
+N-hexanoyl-D-sphingosine	At_73C5	0
+N-hexanoyl-D-sphingosine	At_73C6	0
+N-hexanoyl-D-sphingosine	At_73C1	0
+N-hexanoyl-D-sphingosine	At_73B2	0
+N-hexanoyl-D-sphingosine	At_73B3	0
+N-hexanoyl-D-sphingosine	At_73B4	0
+N-hexanoyl-D-sphingosine	At_73B5	0
+N-hexanoyl-D-sphingosine	At_73B1	0
+N-hexanoyl-D-sphingosine	At_89B1	0
+N-hexanoyl-D-sphingosine	At_89C1	0
+N-hexanoyl-D-sphingosine	At_84A3	0
+N-hexanoyl-D-sphingosine	At_84B1	0
+N-hexanoyl-D-sphingosine	At_84B2	0
+N-hexanoyl-D-sphingosine	At_75D1	0
+N-hexanoyl-D-sphingosine	At_74F1	0
+N-hexanoyl-D-sphingosine	At_74B1	0
+N-hexanoyl-D-sphingosine	At_76E4	0
+N-hexanoyl-D-sphingosine	At_76E1	0
+N-hexanoyl-D-sphingosine	At_76E2	0
+N-hexanoyl-D-sphingosine	At_76E12	0
+N-hexanoyl-D-sphingosine	At_76E11	0
+N-hexanoyl-D-sphingosine	At_85A5	0
+N-hexanoyl-D-sphingosine	At_85A4	0
+N-hexanoyl-D-sphingosine	At_78D2	0
+N-hexanoyl-D-sphingosine	At_78D1	0
+N-hexanoyl-D-sphingosine	VVGT1	0
+β-Sitosterol	At_71C1	0
+β-Sitosterol	At_71C2	0
+β-Sitosterol	At_71C3	0
+β-Sitosterol	At_71C4	0
+β-Sitosterol	At_71C5	0
+β-Sitosterol	At_71B8	0
+β-Sitosterol	At_71B6	0
+β-Sitosterol	At_71B5	0
+β-Sitosterol	At_71B1	0
+β-Sitosterol	At_88A1	0
+β-Sitosterol	At_72E2	0
+β-Sitosterol	At_72E3	0
+β-Sitosterol	At_72E1	0
+β-Sitosterol	At_72D1	0
+β-Sitosterol	At_72C1	0
+β-Sitosterol	At_72B3	0
+β-Sitosterol	At_73C3	0
+β-Sitosterol	At_73C4	0
+β-Sitosterol	At_73C5	0
+β-Sitosterol	At_73C6	0
+β-Sitosterol	At_73C1	0
+β-Sitosterol	At_73B2	0
+β-Sitosterol	At_73B3	0
+β-Sitosterol	At_73B4	0
+β-Sitosterol	At_73B5	0
+β-Sitosterol	At_73B1	0
+β-Sitosterol	At_89B1	0
+β-Sitosterol	At_89C1	0
+β-Sitosterol	At_84A3	0
+β-Sitosterol	At_84B1	0
+β-Sitosterol	At_84B2	0
+β-Sitosterol	At_75D1	0
+β-Sitosterol	At_74F1	0
+β-Sitosterol	At_74B1	0
+β-Sitosterol	At_76E4	0
+β-Sitosterol	At_76E1	0
+β-Sitosterol	At_76E2	0
+β-Sitosterol	At_76E12	0
+β-Sitosterol	At_76E11	0
+β-Sitosterol	At_85A5	0
+β-Sitosterol	At_85A4	0
+β-Sitosterol	At_78D2	0
+β-Sitosterol	At_78D1	0
+β-Sitosterol	VVGT1	0
+Staurospoine	At_71C1	0
+Staurospoine	At_71C2	0
+Staurospoine	At_71C3	0
+Staurospoine	At_71C4	0
+Staurospoine	At_71C5	0
+Staurospoine	At_71B8	0
+Staurospoine	At_71B6	0
+Staurospoine	At_71B5	0
+Staurospoine	At_71B1	0
+Staurospoine	At_88A1	0
+Staurospoine	At_72E2	0
+Staurospoine	At_72E3	0
+Staurospoine	At_72E1	0
+Staurospoine	At_72D1	0
+Staurospoine	At_72C1	0
+Staurospoine	At_72B3	0
+Staurospoine	At_73C3	0
+Staurospoine	At_73C4	0
+Staurospoine	At_73C5	0
+Staurospoine	At_73C6	0
+Staurospoine	At_73C1	0
+Staurospoine	At_73B2	0
+Staurospoine	At_73B3	0
+Staurospoine	At_73B4	0
+Staurospoine	At_73B5	0
+Staurospoine	At_73B1	0
+Staurospoine	At_89B1	0
+Staurospoine	At_89C1	0
+Staurospoine	At_84A3	0
+Staurospoine	At_84B1	0
+Staurospoine	At_84B2	0
+Staurospoine	At_75D1	0
+Staurospoine	At_74F1	0
+Staurospoine	At_74B1	0
+Staurospoine	At_76E4	0
+Staurospoine	At_76E1	0
+Staurospoine	At_76E2	0
+Staurospoine	At_76E12	0
+Staurospoine	At_76E11	0
+Staurospoine	At_85A5	0
+Staurospoine	At_85A4	0
+Staurospoine	At_78D2	0
+Staurospoine	At_78D1	0
+Staurospoine	VVGT1	0
+2,4,5-trichlorophenol	At_71C1	1
+2,4,5-trichlorophenol	At_71C2	1
+2,4,5-trichlorophenol	At_71C3	0.5
+2,4,5-trichlorophenol	At_71C4	0.5
+2,4,5-trichlorophenol	At_71C5	0
+2,4,5-trichlorophenol	At_71B8	0
+2,4,5-trichlorophenol	At_71B6	0
+2,4,5-trichlorophenol	At_71B1	0.5
+2,4,5-trichlorophenol	At_88A1	1
+2,4,5-trichlorophenol	At_72E2	1
+2,4,5-trichlorophenol	At_72D1	1
+2,4,5-trichlorophenol	At_72C1	1
+2,4,5-trichlorophenol	At_72B3	1
+2,4,5-trichlorophenol	At_72B1	1
+2,4,5-trichlorophenol	At_73C3	1
+2,4,5-trichlorophenol	At_73C4	0.5
+2,4,5-trichlorophenol	At_73C5	1
+2,4,5-trichlorophenol	At_73C6	1
+2,4,5-trichlorophenol	At_73C1	0.5
+2,4,5-trichlorophenol	At_73B2	0.5
+2,4,5-trichlorophenol	At_73B3	0
+2,4,5-trichlorophenol	At_73B4	0.5
+2,4,5-trichlorophenol	At_73B5	0.5
+2,4,5-trichlorophenol	At_73B1	1
+2,4,5-trichlorophenol	At_89B1	0.5
+2,4,5-trichlorophenol	At_75B1	0
+2,4,5-trichlorophenol	At_75D1	0.5
+2,4,5-trichlorophenol	At_74F1	0.5
+2,4,5-trichlorophenol	At_74F2	0.5
+2,4,5-trichlorophenol	At_74B1	0
+2,4,5-trichlorophenol	At_76E1	0
+2,4,5-trichlorophenol	At_76E2	0
+2,4,5-trichlorophenol	At_76E12	0.5
+2,4,5-trichlorophenol	At_76E11	0
+2,4,5-trichlorophenol	At_85A4	0.5
+2,4,5-trichlorophenol	At_78D2	0
+4-Nitrophenol	At_71C1	0
+4-Nitrophenol	At_71C2	0.5
+4-Nitrophenol	At_71C3	0
+4-Nitrophenol	At_71C4	0
+4-Nitrophenol	At_71C5	0
+4-Nitrophenol	At_71B8	0
+4-Nitrophenol	At_71B6	0.5
+4-Nitrophenol	At_71B1	0
+4-Nitrophenol	At_88A1	0.5
+4-Nitrophenol	At_72E2	0
+4-Nitrophenol	At_72D1	0
+4-Nitrophenol	At_72C1	0
+4-Nitrophenol	At_72B3	0
+4-Nitrophenol	At_72B1	0.5
+4-Nitrophenol	At_73C3	0.5
+4-Nitrophenol	At_73C4	0
+4-Nitrophenol	At_73C5	0.5
+4-Nitrophenol	At_73C6	0.5
+4-Nitrophenol	At_73C1	0
+4-Nitrophenol	At_73B2	0
+4-Nitrophenol	At_73B3	0
+4-Nitrophenol	At_73B4	0
+4-Nitrophenol	At_73B5	0
+4-Nitrophenol	At_73B1	0
+4-Nitrophenol	At_89B1	0
+4-Nitrophenol	At_75B1	0
+4-Nitrophenol	At_75D1	0
+4-Nitrophenol	At_74F1	0
+4-Nitrophenol	At_74F2	0
+4-Nitrophenol	At_74B1	0
+4-Nitrophenol	At_76E1	0
+4-Nitrophenol	At_76E2	0
+4-Nitrophenol	At_76E12	0
+4-Nitrophenol	At_76E11	0
+4-Nitrophenol	At_85A4	0
+4-Nitrophenol	At_78D2	0
+2-chloro-4-trifluoromethylphenol	At_71C1	1
+2-chloro-4-trifluoromethylphenol	At_71C2	1
+2-chloro-4-trifluoromethylphenol	At_71C3	0.5
+2-chloro-4-trifluoromethylphenol	At_71C4	0.5
+2-chloro-4-trifluoromethylphenol	At_71C5	0
+2-chloro-4-trifluoromethylphenol	At_71B8	0.5
+2-chloro-4-trifluoromethylphenol	At_71B6	0
+2-chloro-4-trifluoromethylphenol	At_71B1	0.5
+2-chloro-4-trifluoromethylphenol	At_88A1	1
+2-chloro-4-trifluoromethylphenol	At_72E2	0.5
+2-chloro-4-trifluoromethylphenol	At_72D1	0.5
+2-chloro-4-trifluoromethylphenol	At_72C1	0.5
+2-chloro-4-trifluoromethylphenol	At_72B3	1
+2-chloro-4-trifluoromethylphenol	At_72B1	1
+2-chloro-4-trifluoromethylphenol	At_73C3	1
+2-chloro-4-trifluoromethylphenol	At_73C4	0.5
+2-chloro-4-trifluoromethylphenol	At_73C5	1
+2-chloro-4-trifluoromethylphenol	At_73C6	1
+2-chloro-4-trifluoromethylphenol	At_73C1	0.5
+2-chloro-4-trifluoromethylphenol	At_73B2	0.5
+2-chloro-4-trifluoromethylphenol	At_73B3	0.5
+2-chloro-4-trifluoromethylphenol	At_73B4	0
+2-chloro-4-trifluoromethylphenol	At_73B5	0
+2-chloro-4-trifluoromethylphenol	At_73B1	0.5
+2-chloro-4-trifluoromethylphenol	At_89B1	0.5
+2-chloro-4-trifluoromethylphenol	At_75B1	0
+2-chloro-4-trifluoromethylphenol	At_75D1	0
+2-chloro-4-trifluoromethylphenol	At_74F1	0.5
+2-chloro-4-trifluoromethylphenol	At_74F2	1
+2-chloro-4-trifluoromethylphenol	At_74B1	0.5
+2-chloro-4-trifluoromethylphenol	At_76E1	0.5
+2-chloro-4-trifluoromethylphenol	At_76E2	0.5
+2-chloro-4-trifluoromethylphenol	At_76E12	0.5
+2-chloro-4-trifluoromethylphenol	At_76E11	0
+2-chloro-4-trifluoromethylphenol	At_85A4	0.5
+2-chloro-4-trifluoromethylphenol	At_78D2	0.5
+1-Naphthol	At_71C1	1
+1-Naphthol	At_71C2	1
+1-Naphthol	At_71C3	0.5
+1-Naphthol	At_71C4	0.5
+1-Naphthol	At_71C5	0
+1-Naphthol	At_71B8	0.5
+1-Naphthol	At_71B6	0
+1-Naphthol	At_71B1	0
+1-Naphthol	At_88A1	0.5
+1-Naphthol	At_72E2	0.5
+1-Naphthol	At_72D1	0.5
+1-Naphthol	At_72C1	0.5
+1-Naphthol	At_72B3	0.5
+1-Naphthol	At_72B1	1
+1-Naphthol	At_73C3	0.5
+1-Naphthol	At_73C4	0
+1-Naphthol	At_73C5	0.5
+1-Naphthol	At_73C6	0.5
+1-Naphthol	At_73C1	0
+1-Naphthol	At_73B2	0
+1-Naphthol	At_73B3	0
+1-Naphthol	At_73B4	0
+1-Naphthol	At_73B5	0
+1-Naphthol	At_73B1	0.5
+1-Naphthol	At_89B1	0.5
+1-Naphthol	At_75B1	0
+1-Naphthol	At_75D1	0
+1-Naphthol	At_74F1	0
+1-Naphthol	At_74F2	0
+1-Naphthol	At_74B1	0
+1-Naphthol	At_76E1	0
+1-Naphthol	At_76E2	0
+1-Naphthol	At_76E12	0
+1-Naphthol	At_76E11	0
+1-Naphthol	At_85A4	0
+1-Naphthol	At_78D2	0
+Triclosan	At_71C1	1
+Triclosan	At_71C2	1
+Triclosan	At_71C3	0.5
+Triclosan	At_71C4	0.5
+Triclosan	At_71C5	0
+Triclosan	At_71B8	1
+Triclosan	At_71B6	0
+Triclosan	At_71B1	0.5
+Triclosan	At_88A1	1
+Triclosan	At_72E2	0.5
+Triclosan	At_72D1	0.5
+Triclosan	At_72C1	0.5
+Triclosan	At_72B3	0.5
+Triclosan	At_72B1	1
+Triclosan	At_73C3	1
+Triclosan	At_73C4	0.5
+Triclosan	At_73C5	0.5
+Triclosan	At_73C6	0.5
+Triclosan	At_73C1	0
+Triclosan	At_73B2	0.5
+Triclosan	At_73B3	0
+Triclosan	At_73B4	0
+Triclosan	At_73B5	0.5
+Triclosan	At_73B1	1
+Triclosan	At_89B1	0
+Triclosan	At_75B1	0
+Triclosan	At_75D1	0.5
+Triclosan	At_74F1	0.5
+Triclosan	At_74F2	0
+Triclosan	At_74B1	0
+Triclosan	At_76E1	0.5
+Triclosan	At_76E2	0
+Triclosan	At_76E12	0.5
+Triclosan	At_76E11	0.5
+Triclosan	At_85A4	0.5
+Triclosan	At_78D2	0
+4-chlorothiophenol	At_71C1	0
+4-chlorothiophenol	At_71C2	0.5
+4-chlorothiophenol	At_71C3	0
+4-chlorothiophenol	At_71C4	0
+4-chlorothiophenol	At_71C5	0
+4-chlorothiophenol	At_71B8	0
+4-chlorothiophenol	At_71B6	0
+4-chlorothiophenol	At_71B1	0
+4-chlorothiophenol	At_88A1	1
+4-chlorothiophenol	At_72E2	0
+4-chlorothiophenol	At_72D1	0
+4-chlorothiophenol	At_72C1	0
+4-chlorothiophenol	At_72B3	0
+4-chlorothiophenol	At_72B1	0.5
+4-chlorothiophenol	At_73C3	0.5
+4-chlorothiophenol	At_73C4	0
+4-chlorothiophenol	At_73C5	0.5
+4-chlorothiophenol	At_73C6	0.5
+4-chlorothiophenol	At_73C1	0.5
+4-chlorothiophenol	At_73B2	0
+4-chlorothiophenol	At_73B3	0
+4-chlorothiophenol	At_73B4	0
+4-chlorothiophenol	At_73B5	0
+4-chlorothiophenol	At_73B1	1
+4-chlorothiophenol	At_89B1	0
+4-chlorothiophenol	At_75B1	0
+4-chlorothiophenol	At_75D1	0
+4-chlorothiophenol	At_74F1	1
+4-chlorothiophenol	At_74F2	0.5
+4-chlorothiophenol	At_74B1	1
+4-chlorothiophenol	At_76E1	0
+4-chlorothiophenol	At_76E2	0
+4-chlorothiophenol	At_76E12	0
+4-chlorothiophenol	At_76E11	0.5
+4-chlorothiophenol	At_85A4	0
+4-chlorothiophenol	At_78D2	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71C1	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71C2	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71C3	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71C4	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71C5	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71B8	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71B6	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_71B1	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_88A1	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_72E2	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_72D1	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_72C1	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_72B3	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_72B1	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73C3	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73C4	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73C5	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73C6	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73C1	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73B2	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73B3	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73B4	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73B5	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_73B1	1
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_89B1	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_75B1	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_75D1	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_74F1	1
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_74F2	0.5
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_74B1	1
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_76E1	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_76E2	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_76E12	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_76E11	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_85A4	0
+2-Chrolor-4-(trifluoromethyl)benzenethiol	At_78D2	0
+2-napthalenethiol	At_71C1	0
+2-napthalenethiol	At_71C2	0.5
+2-napthalenethiol	At_71C3	0
+2-napthalenethiol	At_71C4	0
+2-napthalenethiol	At_71C5	0
+2-napthalenethiol	At_71B8	0
+2-napthalenethiol	At_71B6	0
+2-napthalenethiol	At_71B1	0
+2-napthalenethiol	At_88A1	1
+2-napthalenethiol	At_72E2	0
+2-napthalenethiol	At_72D1	0
+2-napthalenethiol	At_72C1	0
+2-napthalenethiol	At_72B3	0
+2-napthalenethiol	At_72B1	0
+2-napthalenethiol	At_73C3	0.5
+2-napthalenethiol	At_73C4	0
+2-napthalenethiol	At_73C5	0.5
+2-napthalenethiol	At_73C6	0.5
+2-napthalenethiol	At_73C1	0
+2-napthalenethiol	At_73B2	0
+2-napthalenethiol	At_73B3	0
+2-napthalenethiol	At_73B4	0
+2-napthalenethiol	At_73B5	0
+2-napthalenethiol	At_73B1	1
+2-napthalenethiol	At_89B1	0.5
+2-napthalenethiol	At_75B1	0.5
+2-napthalenethiol	At_75D1	0
+2-napthalenethiol	At_74F1	1
+2-napthalenethiol	At_74F2	0.5
+2-napthalenethiol	At_74B1	1
+2-napthalenethiol	At_76E1	0
+2-napthalenethiol	At_76E2	0
+2-napthalenethiol	At_76E12	0
+2-napthalenethiol	At_76E11	0
+2-napthalenethiol	At_85A4	0
+2-napthalenethiol	At_78D2	0
+Metribuzin	At_71C1	0
+Metribuzin	At_71C2	0
+Metribuzin	At_71C3	0
+Metribuzin	At_71C4	0
+Metribuzin	At_71C5	0
+Metribuzin	At_71B8	0
+Metribuzin	At_71B6	0
+Metribuzin	At_71B1	0
+Metribuzin	At_88A1	0.5
+Metribuzin	At_72E2	0
+Metribuzin	At_72D1	0
+Metribuzin	At_72C1	0
+Metribuzin	At_72B3	0
+Metribuzin	At_72B1	0
+Metribuzin	At_73C3	0
+Metribuzin	At_73C4	0
+Metribuzin	At_73C5	0.5
+Metribuzin	At_73C6	0
+Metribuzin	At_73C1	0
+Metribuzin	At_73B2	0
+Metribuzin	At_73B3	0
+Metribuzin	At_73B4	0
+Metribuzin	At_73B5	0
+Metribuzin	At_73B1	0
+Metribuzin	At_89B1	0
+Metribuzin	At_75B1	0
+Metribuzin	At_75D1	0
+Metribuzin	At_74F1	0
+Metribuzin	At_74F2	0
+Metribuzin	At_74B1	0
+Metribuzin	At_76E1	0
+Metribuzin	At_76E2	0
+Metribuzin	At_76E12	0
+Metribuzin	At_76E11	0
+Metribuzin	At_85A4	0
+Metribuzin	At_78D2	0
+Picloram	At_71C1	0
+Picloram	At_71C2	0
+Picloram	At_71C3	0
+Picloram	At_71C4	0
+Picloram	At_71C5	0
+Picloram	At_71B8	0
+Picloram	At_71B6	0
+Picloram	At_71B1	0
+Picloram	At_88A1	0.5
+Picloram	At_72E2	0
+Picloram	At_72D1	0
+Picloram	At_72C1	0
+Picloram	At_72B3	0
+Picloram	At_72B1	0.5
+Picloram	At_73C3	0
+Picloram	At_73C4	0
+Picloram	At_73C5	0
+Picloram	At_73C6	0
+Picloram	At_73C1	0
+Picloram	At_73B2	0
+Picloram	At_73B3	0
+Picloram	At_73B4	0
+Picloram	At_73B5	0
+Picloram	At_73B1	0
+Picloram	At_89B1	0
+Picloram	At_75B1	0.5
+Picloram	At_75D1	0
+Picloram	At_74F1	0
+Picloram	At_74F2	0
+Picloram	At_74B1	0
+Picloram	At_76E1	0
+Picloram	At_76E2	0
+Picloram	At_76E12	0
+Picloram	At_76E11	0
+Picloram	At_85A4	0
+Picloram	At_78D2	0

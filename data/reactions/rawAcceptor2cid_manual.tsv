@@ -26,8 +26,9 @@ Gibberellin A3	6466
 UDPGlc	8629		
 2-Methyl-umbelliferone	5280567		2-methyl doesn't seem to exist and it says 4-methyl in the GT Predict paper so it is a typo
 ()- cis, trans Abscisic acid	5280896		looked in the GT Predict paper
+(±)- cis, trans Abscisic acid	5280896		
 a-cyano-4-hydroxyl-cinnamic acid	5328791		a-cyano-4-hydroxyl-cinnamic acid
-Trans-Zentin-Glucose	449093		from GT-Predict. They only refer to Trans-Zeatin in paper.
+Trans-Zentin-Glucose	9842892		from GT-Predict. They only refer to Trans-Zeatin in paper. Zentin searches gives no results except zentinic and trans-Zeatin-Glucosid is on pubchem.
 MUGlcNAc	2733787		or 118328, but they have the same canonical SMILES
 BocCysThrOMe			
 1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine			
@@ -58,7 +59,7 @@ phenylacetohydroximate	220184		Found by drawing in https://molview.org/ using dr
 3-Hydroxy-α-damascone		C/C=C/C(=O)C1C(=CC(O)CC1(C)C)C	Found by drawing in https://molview.org/ using drawing from https://doi.org/10.1021/jf00009a021
 Salicyl-7-benzoate	12731045		Drawing from https://doi.org/10.1093/jxb/eraa562 fig. 2 drawn in molview.org
 Salicyl-2-benzoate	12731046		Drawing from https://doi.org/10.1093/jxb/eraa562 fig. 2 drawn in molview.orgDrawing in doi: 10.1111/tpj.14615 drawn in molview.org
-3.4-hydroxycinnamic acid	637542		Ignoring the leading "3."
+3.4-hydroxycinnamic acid	689043		Seeing differing value between this and 4-hydroxycinnamic acid for OleD made me realize the 3. matters. Looking in GTPredict_All_Data/Extension--Berry\ dataset/Predict_Lycium_GT1s_GT-Predict.xlsx there is mention of "3,4-dihyroxy cinnamic acid" so that is obviously what is meant.
 4-chlorothiophenol (4-CTP)	7815		
 Salicyl alcohol (2-hydroxybenzyl alcohol; saligenin)	5146		
 (dl)-jasmonic acid	12304694		
@@ -66,3 +67,4 @@ Salicyl alcohol (2-hydroxybenzyl alcohol; saligenin)	5146
 a-cyano-4-hydroxyl-cinamic acid	5328791		
 Serine-Phenylalanine	7009598		
 Serine-Leucine	7015695		
+(±)-Jasmonic acid	12304694		

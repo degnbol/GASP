@@ -19,7 +19,7 @@ subs = function(patterns, replacements, x, fixeds=F) {
 # read files with raw names that needs converting to cid
 hts_ugt.raw = colnames(fread("Fatemeh_eval/all-experimental.tsv"))[-1]
 tmh.raw = unique(fread("inhouse/pTMH.tsv", select="acceptor")$acceptor)
-gtpred.raw = unique(fread("reactions/gtpred_reactions.tsv", select="acceptor")$acceptor)
+gtpred.raw = unique(fread("GT-Predict/AcceptorActivityPlotsWithTree_acceptorsFullCleanedUp.tsv", select="acceptor")$acceptor)
 gtpred_ext.raw = unique(fread("GT-Predict/extensions.tsv")$Acceptor)
 lit.raw = unique(fread("lit/lit.tsv")$Acceptor)
 
@@ -84,6 +84,7 @@ substitutions = rbind(
     c("hydroxyl-", "hydroxy"),
     c("hydroxy ", "hydroxy"),
     c("coumerin", "coumarin"),  # typo
+    c("Staurospoine", "Staurosporine"),  # typo
     c("Zentin", "zeatin"),   # typo
     c("oleanodmycin", "oleandomycin"), # typo
     c("Carbencillin", "Carbenicillin"), # typo
@@ -108,7 +109,7 @@ queries = raw2query[! raw %in% raw2cid$raw]
 nRawLeft = length(unique(queries$raw))
 message("Running ", nrow(queries), " get_cid queries from ", nRawLeft, " raw chemical names...")
 # match="na" means we don't get a match if there are multiple returned by 
-# pubchemwe don't get a match if there are multiple returned by pubchem.
+# we don't get a match if there are multiple returned by pubchem.
 cids = get_cid(queries$query, match="na")
 cids = na.omit(cids)
 raw.matched = unique(merge(cids, queries, all.x=T))$raw
@@ -130,6 +131,7 @@ nRawLeft = length(unique(queries$raw))
 message("Running ", nrow(queries), " get_cid flexible queries from ", nRawLeft, " raw chemical names...")
 cids.flex = get_cid(queries$query, match="first")
 cids.flex = na.omit(cids.flex)
+cids = rbind(cids, cids.flex)
 raw.matched = unique(merge(cids.flex, queries, all.x=T))$raw
 message(length(raw.matched), "/", nRawLeft, " matched raw acceptor names.")
 queries = queries[! raw %in% raw.matched]
