@@ -9,7 +9,9 @@ Pkg.add("MultivariateStats")
 Pkg.add(["DataFrames", "CSV", "Random", "MLJ", "Glob", "DecisionTree", "Chain", "ThreadPools"])
 Pkg.add(url="https://github.com/diegozea/ROC.jl")
 
-ENV["PYTHON"] = expanduser("~/miniconda3/envs/gt/bin/python")
+# get conda env path
+envs = "~/.conda/environments.txt" |> expanduser |> readlines
+ENV["PYTHON"] = envs[endswith.(envs, "GT")] |> only
 Pkg.add("PyCall")
 # if PyCall was already installed for some reason then explicitly calling build 
 # will be necessary after setting the PYTHON env variable.
