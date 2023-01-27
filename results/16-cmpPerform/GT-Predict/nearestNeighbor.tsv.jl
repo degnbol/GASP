@@ -10,9 +10,9 @@ include("$ROOT/src/utilities/AUC.jl")
 ## READ
 
 df_water = CSV.read("water.tsv.gz", DataFrame)
-# the following file is the same as the raw GT-Predict 
-# enzyme_interaction_data.txt except for some formatting and rename UGT -> At_
-df_gtpred = CSV.read("$ROOT/data/reactions/gtpred_reactions_enz.tsv", DataFrame)
+# The file specified in the matlab code as being used when copying data for 
+# nearest neighbor.
+df_gtpred = CSV.read("$ROOT/data/GT-Predict/enzyme_interaction_data.txt", DataFrame; skipto=3, drop=[:Column1])
 df_react = CSV.read(glob("$ROOT/results/*generateNegatives/reactions.tsv"), DataFrame)
 df_raw2cid = CSV.read("$ROOT/data/reactions/rawAcceptor_cid_title.tsv", DataFrame)
 
@@ -21,6 +21,7 @@ df_raw2cid = CSV.read("$ROOT/data/reactions/rawAcceptor_cid_title.tsv", DataFram
 df_react = df_react[df_react.reaction .!= 0.5, :]
 df_react.reaction = df_react.reaction .|> Bool
 
+rename!(df_gtpred, :Column2 => :acceptor)
 df_gtpred = stack(df_gtpred, Not(:acceptor), variable_name=:enzyme)
 # GT-Predict values as per
 # GTPredict+code/PredictEnzymeInteraction/Readme.txt
@@ -38,6 +39,8 @@ df_gtpred = stack(df_gtpred, Not(:acceptor), variable_name=:enzyme)
 df_gtpred.value[ismissing.(df_gtpred.value)] .= 0
 df_gtpred = df_gtpred[df_gtpred.value .< 2, :]
 df_gtpred.value = df_gtpred.value .|> Bool
+# Using the species naming like most other places.
+df_gtpred.enzyme .= replace.(df_gtpred.enzyme, "UGT" => "At_")
 
 ## NEAREST NEIGHBOR
 
@@ -63,8 +66,11 @@ end
 rename!(df, :Query => :enzyme, :Target => :Neighbor, :acceptor => :raw, :value => :GTpred)
 
 df_chem = unique(df[!, [:raw]])
+# got unmapped names due to special char so we remove it since we have mappings 
+# for the versions without it. The special char is ±
+df_chem.raw = replace.(df_chem.raw, "\xb1" => "")
 leftjoin!(df_chem, df_raw2cid, on=:raw)
-@info "Unmapped chems:" df_chem[ismissing.(df_chem.cid), :raw]
+sum(ismissing.(df_chem.cid)) == 0 || @info "Unmapped chems:" df_chem[ismissing.(df_chem.cid), :raw]
 
 leftjoin!(df, df_chem; on=:raw)
 df = innerjoin(df, df_react; on=[:enzyme, :cid], matchmissing=:notequal)

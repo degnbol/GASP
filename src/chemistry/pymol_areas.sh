@@ -20,5 +20,5 @@ for fname in ${=INFILES}; do
 	name=${fname:t:r}
 	echo $name
 	echo -n "$name\t" >> $OUTFILE
-	pymol $fname -Q -cmd $CMD | sed 's/.*: //' | sed 's/ .*//' >> $OUTFILE
+	pymol $fname -Q -cmd $CMD | grep -v '^PyMOL>' | grep -oE ' [0-9.]+' | tr -d ' ' >> $OUTFILE
 done

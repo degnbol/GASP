@@ -58,8 +58,8 @@ $SRC/E3FP_features.jl -ck 12 $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid'
 # This is done by having it earlier in the list, since miller takes priority to earlier files in the join.
 echo '# join intermediate files'
 mlr -t      --from "$WORK/volumes.tsv" \
-    join -j cid -f "$WORK/RDKitDescriptors.tsv" then \
-    join -j cid -f "$WORK/areas.tsv" then \
-    join -j cid -f "$WORK/E3FP_MDS.tsv" then \
+    join -j cid -f "$WORK/RDKitDescriptors.tsv" + \
+    join -j cid -f "$WORK/areas.tsv" + \
+    join -j cid -f "$WORK/E3FP_MDS.tsv" + \
     rename -r ' ,_' > "$OUTFILE"
 

@@ -3,7 +3,7 @@ ROOT=`git root`
 LIB=$ROOT/tools/degnlib/subfunctions
 
 for file in pred*.gz; do
-    zcat $file | mlr --tsv cut -f cid,enzyme,pred > $file:r
+    gunzip -c $file | mlr --tsv cut -f cid,enzyme,pred > $file:r
 done
 
 grep '^seq' $ROOT/results/*features/selection/species_select.txt > speciesSeqSelect.tmp

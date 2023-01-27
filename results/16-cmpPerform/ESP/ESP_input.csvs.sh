@@ -18,3 +18,5 @@ mlr --t2c --from $INFILE filter '$reaction != 0.5 && $source !=~ "^GT-Predict" &
 
 echo "https://esp.cs.hhu.de/ES_pred_multiple"
 
+# NOTE: the filtering here was NOT GT-Predict AND NOT negatives, so lit data was included by mistake. Doesn't make much difference.
+# This can be corrected by using results/*-dataset1/dataset1.tsv
