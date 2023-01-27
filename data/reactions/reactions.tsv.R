@@ -60,10 +60,22 @@ setnames(DT, "title", "acceptor")
 # Is there conflict between rate data and GT-Predict data and
 # what is the lowest rate for an enzyme where a postive datapoint is found from GT-Predict?
 rateVreact = merge(DT[!is.na(rate) &  is.na(reaction), .SD, .SDcols=!c("reaction", "acceptor")],
-                   DT[ is.na(rate) & !is.na(reaction), .SD, .SDcols=!c("rate", "acceptor", "NormEnz")],
+                   DT[ is.na(rate) & !is.na(reaction), .SD, .SDcols=!c("rate", "NormEnz")],
                    by=c("cid", "enzyme"), suffixes=c(".rate", ".reaction"))
 rateVreact[order(enzyme, rate)]
-# looks actually pretty consistent. We keep data from both sides in spite of conflicting info, 
+
+library(ggplot2)
+
+ggplot(rateVreact, aes(x=rate, y=reaction, shape=acceptor, color=as.factor(NormEnz))) +
+    facet_wrap(enzyme ~ .) +
+    geom_point(size=5) +
+    scale_shape_manual(values=c(0, 1, 2, 3, 4, 5, 6, 20, 18), name="Acceptor") +
+    scale_y_discrete(name="GT-Predict data", labels=c("unreactive", "reactive")) +
+    scale_x_continuous(name="Dataset 1 rate") +
+    scale_color_discrete(name="Classification based on rate", labels=c("unreactive", "unclear", "reactive"))
+ggsave("reactions/GTpredVrate.pdf", height=4, width=9)
+
+# looks actually pretty consistent. We keep data from both sides in spite of 5 conflicting points, 
 # since using both will have an effect of somewhere in the middle for a randomforest 
 # with its random sampling etc.
 DT[!is.na(NormEnz) & is.na(reaction), reaction:=NormEnz]
