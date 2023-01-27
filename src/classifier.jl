@@ -4,6 +4,11 @@ using DataFrames, CSV
 using Statistics
 using Chain: @chain
 using Statistics, Random
+using ScikitLearn
+using ScikitLearn: fit!
+using ScikitLearn: @sk_import
+using PyCall, JLD, PyCallJLD # PyCallJLD makes JLD work for PyObjects
+@sk_import ensemble: RandomForestClassifier
 ROOT = readchomp(`git root`)
 include("$ROOT/src/utilities/glob.jl")
 include("$ROOT/src/utilities/AUC.jl")
@@ -11,8 +16,7 @@ include("$ROOT/src/utilities/dataframe.jl")
 
 
 parser = ArgParseSettings(description=
-"""Train (-o/--train) or evaluate (-i/--eval) a classifier. 
-Multiple classifiers are available.""")
+"""Train (-o/--train) or evaluate (-i/--eval) a random forest classifier.""")
 @add_arg_table parser begin
     "infiles"
     arg_type = String # default is Any
@@ -43,12 +47,11 @@ Multiple classifiers are available.""")
     "--model", "-m"
     arg_type = String
     nargs = '+'
-    default = ["randomforest", "n_trees=100"]
-    help = "Choose classifier type in case of training.
-    First arg is name of classifier, extra args are given to the classifier."
+    default = ["n_estimators=100"]
+    help = "Provide args given to ScikitLearn RandomForestClassifier.
+    https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html"
     "--test", "-t"
-    help = "For classifiers that support train-test-eval, use this to set test set for early stopping.
-    Otherwise it is used for a quick evaluation, i.e. combines train and prediction.
+    help = "For quick evaluation, i.e. train and prediction in one call.
     If a path is given it is assumed to be a table file similar to the first infile.
     If a string is given found as a column name in any of the infiles,
     then the column should contain 0 and 1, where 1 indicates testset,
@@ -64,9 +67,6 @@ Multiple classifiers are available.""")
     Should contain numeric columns for substitution and a single string column for naming the new features.
     Default file extension is .tsv
     so simply \"blosum62Amb\" or \"matchAmb\" will be enough."
-    "--std"
-    action = :store_true
-    help = "Standardize features."
 end
 
 # if run as script
@@ -78,7 +78,7 @@ else
     pTrainset = glob("$ROOT/results/*-cmpPerform/RF/trainset.tsv") |> only
     pTestset = glob("$ROOT/results/*-cmpPerform/RF/testset.tsv") |> only
     pChems = glob("$ROOT/results/*-chemicalFeatures/acceptors2_features.tsv") |> only
-    sArgs = "$pTrainset $pChems -j cid enzyme -t $pTestset -c reaction rate -s seq blosum62Amb -o RF.mdl"
+    sArgs = "$pTrainset $pChems -j cid enzyme -t $pTestset -c reaction rate -s seq blosum62Amb -o RF.jld2"
     args = split(sArgs, ' ')
 end
 args = parse_args(args, parser, as_symbols=true) |> NamedTuple
@@ -193,9 +193,7 @@ if args.substitute !== nothing
         df
     end
     df = substitute(df);
-    if args.test !== nothing
-        df_test = substitute(df_test);
-    end
+    if args.test !== nothing df_test = substitute(df_test); end
 end
 
 # drop trivial features
@@ -211,7 +209,11 @@ if !all(numCols)
     @info "Dropping non-number columns: $(names(X)[.!numCols])"
     X = X[!, numCols];
 end;
-Xnew = df_test[!, unique([names(X); intersect(args.class, names(df_test))])];
+if args.test !== nothing
+    Xnew = df_test[!, unique([names(X); intersect(args.class, names(df_test))])];
+else
+    Xnew = DataFrame(zeros(0, size(X,2)), names(X))
+end
 
 dropmissing_verbose!(X)
 dropmissing_verbose!(Xnew)
@@ -221,53 +223,30 @@ X = X[!, Not(class)]
 ynew = Xnew[!, intersect(args.class, names(Xnew))]
 Xnew = Xnew[!, names(X)];
 
-# standardized mats
-if args.std
-    μs = mean(vcat(X, Xnew); dims=1)
-    σs = std(vcat(X, Xnew); dims=1)
-    X = @. (X - μs) / σs 
-    Xnew = @. (Xnew - μs) / σs 
+function Base.parse(x::AbstractString)
+    try parse(Int, x)
+    catch
+        try parse(Float64, x)
+        catch; x end
+    end
 end
 
-using DecisionTree: DecisionTreeClassifier
-using DecisionTree: RandomForestClassifier as RFC
-using ScikitLearn
-using ScikitLearn: fit!
-using ScikitLearn: @sk_import
-@sk_import neighbors: KNeighborsClassifier
-@sk_import svm: SVC
-@sk_import naive_bayes: GaussianNB
-@sk_import gaussian_process: GaussianProcessClassifier
-@sk_import gaussian_process.kernels: RBF
-@sk_import ensemble: GradientBoostingClassifier
-@sk_import ensemble: RandomForestClassifier
-# using Flux
-# using PyCall
+getpred(clf, Xnew) = predict_proba(clf, Matrix(Xnew))[:, 2]
 
-classifiers = [
-    KNeighborsClassifier(2), # AUC = 0.55
-    SVC(kernel="linear", C=0.025), # AUC = 0.61
-    SVC(gamma=2, C=1), # AUC = 0.53
-    DecisionTreeClassifier(pruning_purity_threshold=0.8),
-    RFC(n_trees=100), # AUC = 0.7
-    RFC(n_trees=1000), # AUC = 0.72
-    RFC(n_trees=1000, min_samples_leaf=1, partial_sampling=1.),
-    # AUC = 0.788, same default as scikit learn
-    RandomForestClassifier(n_estimators=1000), # AUC = 0.787
-    AdaBoostStumpClassifier(n_iterations=3),
-    GaussianNB(),
-    GradientBoostingClassifier(n_estimators=10),
-]
+function evalpred(clf, Xnew, ynew::Vector)
+    pred = getpred(clf, Xnew)
 
-function run(clf, X, y, Xnew, ynew)
-    fit!(clf, Matrix(X), y)
-    
-    pred = try 
-        decision_function(clf, Matrix(Xnew))
-    catch
-        predict_proba(clf, Matrix(Xnew))[:, 2]
-    end;
-    
+    tru = ynew
+    if length(unique(tru)) == 2
+        println("AUC = ", AUC(pred, tru))
+    else
+        println("cor = ", cor(pred, tru))
+        println("AUC = ", AUC(pred, tru .> mean(tru)))
+    end
+end
+function evalpred(clf, Xnew, ynew::DataFrame)
+    pred = getpred(clf, Xnew)
+
     for class_test in names(ynew)
         println(class_test)
         tru = ynew[!, class_test]
@@ -280,12 +259,20 @@ function run(clf, X, y, Xnew, ynew)
     end
 end
 
-for clf in classifiers
-    println(clf)
-    run(clf, X, y, Xnew, ynew)   
+global clf
+if args.train !== nothing
+    model_args = [Symbol(k)=>parse(v) for (k,v) in split.(model, '=')]
+    clf = RandomForestClassifier(; model_args...)
+    fit!(clf, Matrix(X), y)
+    JLD.save(args.train, "model", clf)
+else
+    # clf = JLD.load(args.eval, "model")
+    # in case a model is saved with another key
+    clf = JLD.load(args.eval) |> values |> only
+    evalpred(clf, X, y)
 end
 
-
+nrow(Xnew) == 0 || evalpred(clf, Xnew, ynew)
 
 
 
