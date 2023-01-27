@@ -3,10 +3,11 @@ using ArgParse
 using DataFrames, CSV
 using Statistics
 using Chain: @chain
-include("utilities/glob.jl")
-include("utilities/AUC.jl")
-include("utilities/dataframe.jl")
+using Statistics, Random
 ROOT = readchomp(`git root`)
+include("$ROOT/src/utilities/glob.jl")
+include("$ROOT/src/utilities/AUC.jl")
+include("$ROOT/src/utilities/dataframe.jl")
 
 
 parser = ArgParseSettings(description=
@@ -37,7 +38,8 @@ Multiple classifiers are available.""")
     arg_type = String
     nargs = '+'
     help = "Required for training. Column name containing true class.
-    Multiple can be given for getting cor and AUC on testset."
+    Multiple can be given for getting cor and AUC on testset, 
+    where the first column provided found in trainset is used as the training class."
     "--model", "-m"
     arg_type = String
     nargs = '+'
@@ -61,7 +63,10 @@ Multiple classifiers are available.""")
     either as absolute path, relative to pwd or to data/NCBI/.
     Should contain numeric columns for substitution and a single string column for naming the new features.
     Default file extension is .tsv
-    so simply \"blosum64Amb\" or \"matchAmb\" will be enough."
+    so simply \"blosum62Amb\" or \"matchAmb\" will be enough."
+    "--std"
+    action = :store_true
+    help = "Standardize features."
 end
 
 # if run as script
@@ -70,12 +75,10 @@ if abspath(PROGRAM_FILE) == @__FILE__
 else
     # if interactive, do an example
     ROOT = readchomp(`git root`)
-    CHEM = glob("$ROOT/results/*-chemicalFeatures") |> only
-    pTrain = glob("$ROOT/results/*-features/train.tsv") |> only
-    pChems = @chain eglob("$CHEM/{acceptors,20220215}_features.tsv") join(' ')
-    pSeqs = glob("$ROOT/results/*-align/muscle_qual.hmm.nterm.tsv.gz") |> only
-    pTestset = glob("$ROOT/results/*-experimentalValidation/experimentYield.tsv") |> only
-    sArgs = "$pTrain $pChems $pSeqs -j cid enzyme -t $pTestset -c reaction Yield -s seq matchAmb -o hej"
+    pTrainset = glob("$ROOT/results/*-cmpPerform/RF/trainset.tsv") |> only
+    pTestset = glob("$ROOT/results/*-cmpPerform/RF/testset.tsv") |> only
+    pChems = glob("$ROOT/results/*-chemicalFeatures/acceptors2_features.tsv") |> only
+    sArgs = "$pTrainset $pChems -j cid enzyme -t $pTestset -c reaction rate -s seq blosum62Amb -o RF.mdl"
     args = split(sArgs, ' ')
 end
 args = parse_args(args, parser, as_symbols=true) |> NamedTuple
@@ -87,7 +90,10 @@ args = parse_args(args, parser, as_symbols=true) |> NamedTuple
 
 readdf(source::AbstractString) = CSV.read(source, DataFrame; delim=args.delim)
 
-function dropmissing_verbose!(df, cols=:)
+# edge case where a column contains only missing entries
+dropmissing_cols(df::DataFrame) = df[!, eltype.(eachcol(df)) .!= Missing]
+
+function dropmissing_verbose!(df::DataFrame, cols=:)
     cols isa Colon || intersect!(cols, names(df))
     colHasMiss = [n for n in names(df[!, cols]) if any(ismissing, df[!, n])]
     before = nrow(df)
@@ -102,10 +108,11 @@ dfs = readdf.(args.infiles);
 @info "infile(s):" size.(dfs)
 df = joinleft(dfs, args.join);
 @info "after leftjoins:" size(df)
-dropmissing_verbose!(df)
+df = dropmissing_cols(df)
 
-# make sure exactly one of provided class column names is found in the trainset
-class = intersect(args.class, names(df)) |> only
+# the first class column found in training data is the class used for training.
+class = intersect(args.class, names(df))[1]
+@info "class for training: \"$class\""
 
 if args.test !== nothing
     if isfile(args.test)
@@ -113,10 +120,10 @@ if args.test !== nothing
         @info "test:" size(df_test)
         df_test = joinleft([df_test, dfs[2:end]...], args.join);
         @info "after leftjoins:" size(df_test)
-        dropmissing_verbose!(df_test, names(df))
-        # Any extra columns in df_test will not be features, and will be 
-        # written out unaffected. Extra columns in train should only be the 
-        # -c/--class.
+        df_test = dropmissing_cols(df_test)
+        # Any columns in df_test not found in df will not be features, and will 
+        # be written out unaffected. Extra columns in train should only be the 
+        # -c/--class or non-number since we currently ignore them.
         extraInTrain = setdiff(names(df), names(df_test))
         extraInTrainTypes = df[!, extraInTrain] |> eachcol .|> eltype
         # we are only concerned about potential features
@@ -198,28 +205,34 @@ if any(trivial)
     df = df[!, .!trivial];
 end
 
-X, y = df[!, Not([class, args.join...])], df[!, class]
-realcols = eltype.(eachcol(X)) .<: Real
-if !all(realcols)
-    @info "Dropping non-number columns: $(names(X)[.!realcols])"
-    X = X[!, realcols];
+X = df[!, Not(args.join)]
+numCols = eltype.(eachcol(X)) .<: Union{Missing,Number}
+if !all(numCols)
+    @info "Dropping non-number columns: $(names(X)[.!numCols])"
+    X = X[!, numCols];
 end;
-Xnew = df_test[!, names(X)];
+Xnew = df_test[!, unique([names(X); intersect(args.class, names(df_test))])];
 
+dropmissing_verbose!(X)
+dropmissing_verbose!(Xnew)
+
+y = X[!, class]
+X = X[!, Not(class)]
+ynew = Xnew[!, intersect(args.class, names(Xnew))]
+Xnew = Xnew[!, names(X)];
 
 # standardized mats
-X = Matrix(X);
-Xnew = Matrix(Xnew);
-μs = mean(vcat(X, Xnew); dims=1)
-σs = std(vcat(X, Xnew); dims=1)
-X = @. (X - μs) / σs 
-Xnew = @. (Xnew - μs) / σs 
+if args.std
+    μs = mean(vcat(X, Xnew); dims=1)
+    σs = std(vcat(X, Xnew); dims=1)
+    X = @. (X - μs) / σs 
+    Xnew = @. (Xnew - μs) / σs 
+end
 
-using Flux
+using DecisionTree: DecisionTreeClassifier
+using DecisionTree: RandomForestClassifier as RFC
 using ScikitLearn
 using ScikitLearn: fit!
-using PyCall
-using DecisionTree, Statistics, Random
 using ScikitLearn: @sk_import
 @sk_import neighbors: KNeighborsClassifier
 @sk_import svm: SVC
@@ -227,21 +240,26 @@ using ScikitLearn: @sk_import
 @sk_import gaussian_process: GaussianProcessClassifier
 @sk_import gaussian_process.kernels: RBF
 @sk_import ensemble: GradientBoostingClassifier
+@sk_import ensemble: RandomForestClassifier
+# using Flux
+# using PyCall
 
 classifiers = [
-    KNeighborsClassifier(2), # AUC = 0.47
-    SVC(kernel="linear", C=0.025),
-    SVC(gamma=2, C=1),
-    GaussianProcessClassifier(1. * RBF(1.)),
+    KNeighborsClassifier(2), # AUC = 0.55
+    SVC(kernel="linear", C=0.025), # AUC = 0.61
+    SVC(gamma=2, C=1), # AUC = 0.53
     DecisionTreeClassifier(pruning_purity_threshold=0.8),
-    RandomForestClassifier(n_trees=1000), # AUC = 0.50
-    AdaBoostStumpClassifier(n_iterations=3), # AUC = 0.59 (high score)
+    RFC(n_trees=100), # AUC = 0.7
+    RFC(n_trees=1000), # AUC = 0.72
+    RFC(n_trees=1000, min_samples_leaf=1, partial_sampling=1.),
+    # AUC = 0.788, same default as scikit learn
+    RandomForestClassifier(n_estimators=1000), # AUC = 0.787
+    AdaBoostStumpClassifier(n_iterations=3),
     GaussianNB(),
     GradientBoostingClassifier(n_estimators=10),
 ]
 
-
-for clf in classifiers
+function run(clf, X, y, Xnew, ynew)
     fit!(clf, Matrix(X), y)
     
     pred = try 
@@ -250,20 +268,21 @@ for clf in classifiers
         predict_proba(clf, Matrix(Xnew))[:, 2]
     end;
     
-    try 
-        for class_test in intersect(args.class, names(df_test))
-            println(clf)
-            println("cor = ", cor(pred .== 1, df_test[!, class_test]))
-            println("AUC = ", AUC(df_test[!, class_test], pred .== 1))
+    for class_test in names(ynew)
+        println(class_test)
+        tru = ynew[!, class_test]
+        if length(unique(tru)) == 2
+            println("AUC = ", AUC(pred, tru))
+        else
+            println("cor = ", cor(pred, tru))
+            println("AUC = ", AUC(pred, tru .> mean(tru)))
         end
-    catch
     end
-    
-    for class_test in intersect(args.class, names(df_test))
-        println(clf)
-        println("cor = ", cor(pred, df_test[!, class_test]))
-        println("AUC = ", AUC(pred, df_test[!, class_test] .> 50))
-    end
+end
+
+for clf in classifiers
+    println(clf)
+    run(clf, X, y, Xnew, ynew)   
 end
 
 
