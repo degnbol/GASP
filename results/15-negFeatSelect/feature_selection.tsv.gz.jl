@@ -7,7 +7,6 @@ using LinearAlgebra
 using ScikitLearn
 using ScikitLearn: fit!
 using ScikitLearn: @sk_import
-using PyCall, JLD, PyCallJLD # PyCallJLD makes JLD work for PyObjects
 @sk_import ensemble: RandomForestClassifier
 using ThreadPools
 using Printf
