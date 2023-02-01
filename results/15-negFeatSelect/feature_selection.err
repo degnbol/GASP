@@ -1,0 +1,13 @@
+  Activating project at `/data/gpfs/projects/punim0638/cdmadsen/GT`
+[ Info: Dropping non-number columns: ["smiles"]
+┌ Info: Dropping trivial
+│   trivial =
+│    125-element Vector{String}:
+│     "seq_Y023"
+│     "seq_G169"
+│     "seq_N225"
+│     "seq_D225"
+│     ⋮
+│     "Ndealkylation2"
+│     "alkyl_carbamate"
+└     "HOCCN"

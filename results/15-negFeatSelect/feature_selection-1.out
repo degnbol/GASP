@@ -1,0 +1,281 @@
+dropmissing: 49342 -> 49052
+sample 2000 datapoints from generated negatives.
+Perfectly correlated features: 141
+Ignoring 99 perfectly correlated features.
+ 14.120688 seconds (21.65 M allocations: 40.953 GiB, 49.81% compilation time)
+Selected: PackingDensity
+ 16.688563 seconds (12.52 M allocations: 39.860 GiB, 43.78% gc time)
+Selected: N_O
+  5.321265 seconds (11.99 M allocations: 37.932 GiB, 51.54% gc time)
+Selected: Complexity
+  5.846888 seconds (12.28 M allocations: 38.043 GiB, 62.80% gc time)
+Selected: MDS_05
+  5.453898 seconds (12.08 M allocations: 37.255 GiB, 67.21% gc time)
+Selected: MinAbsPartialCharge
+  5.968694 seconds (11.44 M allocations: 35.460 GiB, 66.59% gc time)
+Selected: InertialShapeFactor
+  4.557001 seconds (12.24 M allocations: 37.202 GiB, 49.27% gc time)
+Selected: hydroxyamino
+  4.985490 seconds (11.99 M allocations: 34.839 GiB, 62.47% gc time)
+Selected: Al_OH
+  1.946624 seconds (11.87 M allocations: 35.120 GiB)
+Selected: phos_acid
+  5.324790 seconds (11.81 M allocations: 34.509 GiB, 68.78% gc time)
+Selected: SASA
+  4.600601 seconds (11.62 M allocations: 33.066 GiB, 71.01% gc time)
+Selected: Al_COO
+  5.172945 seconds (11.55 M allocations: 34.638 GiB, 67.48% gc time)
+Selected: NH0
+  5.065570 seconds (11.45 M allocations: 31.966 GiB, 71.39% gc time)
+Selected: ester
+  1.186564 seconds (11.13 M allocations: 30.777 GiB)
+Selected: para_hydroxylation
+  5.384230 seconds (11.49 M allocations: 31.379 GiB, 73.88% gc time)
+Selected: MinPartialCharge
+  4.359568 seconds (11.03 M allocations: 30.871 GiB, 69.35% gc time)
+Selected: SolventExcludedVolume
+  1.165303 seconds (11.11 M allocations: 30.042 GiB)
+Selected: NumRings
+  4.898042 seconds (10.92 M allocations: 28.751 GiB, 76.51% gc time)
+Selected: NumSpiroAtoms
+  5.203519 seconds (10.75 M allocations: 28.617 GiB, 74.08% gc time)
+Selected: benzene
+  1.135229 seconds (10.85 M allocations: 29.143 GiB)
+Selected: NumHeteroatoms
+  5.157060 seconds (10.39 M allocations: 25.794 GiB, 79.44% gc time)
+Selected: AtomStereoCount
+  1.163178 seconds (10.44 M allocations: 26.751 GiB)
+Selected: aryl_methyl
+  5.587638 seconds (10.14 M allocations: 26.422 GiB, 80.52% gc time)
+Selected: MDS_01
+  4.823433 seconds (10.01 M allocations: 26.343 GiB, 74.22% gc time)
+Selected: NumSaturatedRings
+  0.982291 seconds (10.16 M allocations: 25.493 GiB)
+Selected: imidazole
+  5.443436 seconds (9.97 M allocations: 24.305 GiB, 81.37% gc time)
+Selected: HeavyAtomCount
+  1.040526 seconds (10.04 M allocations: 24.347 GiB)
+Selected: LabuteASA
+  4.828918 seconds (9.10 M allocations: 23.221 GiB, 77.34% gc time)
+Selected: Charge
+  0.823507 seconds (9.46 M allocations: 21.698 GiB)
+Selected: C_O_noCOO
+  5.652040 seconds (9.78 M allocations: 23.042 GiB, 80.79% gc time)
+Selected: piperdine
+  0.893391 seconds (9.66 M allocations: 22.522 GiB)
+Selected: TPSA
+  5.504924 seconds (9.30 M allocations: 22.659 GiB, 82.07% gc time)
+Selected: MDS_06
+  0.909067 seconds (9.60 M allocations: 22.229 GiB)
+Selected: NumAliphaticRings
+  4.508924 seconds (8.92 M allocations: 20.379 GiB, 81.50% gc time)
+Selected: nitro
+  0.778182 seconds (8.89 M allocations: 19.640 GiB)
+Selected: phenol
+  4.354339 seconds (8.64 M allocations: 20.232 GiB, 78.50% gc time)
+Selected: furan
+  0.742492 seconds (8.82 M allocations: 18.846 GiB)
+Selected: FractionCSP3
+  4.251272 seconds (8.45 M allocations: 18.295 GiB, 78.23% gc time)
+Selected: primary_alcohol
+  0.738260 seconds (8.86 M allocations: 18.170 GiB)
+Selected: C_S
+  0.797921 seconds (8.55 M allocations: 18.327 GiB)
+Selected: MolLogP
+  5.898348 seconds (8.22 M allocations: 17.338 GiB, 86.61% gc time)
+Selected: priamide
+  0.603325 seconds (7.87 M allocations: 16.646 GiB)
+Selected: NumValenceElectrons
+  5.775653 seconds (8.45 M allocations: 17.270 GiB, 83.84% gc time)
+Selected: C_O
+  0.607023 seconds (8.22 M allocations: 16.097 GiB)
+Selected: NumAliphaticCarbocycles
+  0.596406 seconds (7.99 M allocations: 15.799 GiB)
+Selected: HBondAcceptorCount
+  4.820691 seconds (7.74 M allocations: 15.352 GiB, 82.63% gc time)
+Selected: nitrile
+  0.534054 seconds (7.60 M allocations: 13.745 GiB)
+Selected: Asphericity
+  0.595380 seconds (7.76 M allocations: 14.971 GiB)
+Selected: NumAliphaticHeterocycles
+  1.076743 seconds (7.37 M allocations: 13.574 GiB)
+Selected: SESA
+  5.387100 seconds (7.04 M allocations: 13.812 GiB, 87.50% gc time)
+Selected: MolMR
+  0.527279 seconds (7.02 M allocations: 12.763 GiB)
+Selected: BondStereoCount
+  0.557516 seconds (7.28 M allocations: 12.546 GiB)
+Selected: NumHeterocycles
+  4.449946 seconds (6.69 M allocations: 12.351 GiB, 85.76% gc time)
+Selected: NumAmideBonds
+  0.536578 seconds (7.01 M allocations: 12.799 GiB)
+Selected: MDS_02
+  0.486807 seconds (6.85 M allocations: 11.593 GiB)
+Selected: sulfide
+  0.630674 seconds (6.62 M allocations: 11.153 GiB)
+Selected: MDS_09
+  5.922080 seconds (6.67 M allocations: 10.983 GiB, 91.73% gc time)
+Selected: Ar_COO
+  0.438856 seconds (6.86 M allocations: 10.841 GiB)
+Selected: alkyl_halide
+  0.506525 seconds (6.32 M allocations: 9.969 GiB)
+Selected: Ar_NH
+  0.488250 seconds (6.32 M allocations: 9.898 GiB)
+Selected: phenol_noOrthoHbond
+  5.682213 seconds (5.95 M allocations: 9.132 GiB, 93.43% gc time)
+Selected: COO
+  0.362753 seconds (6.21 M allocations: 9.166 GiB)
+Selected: MaxPartialCharge
+  0.345192 seconds (5.86 M allocations: 8.681 GiB)
+Selected: RadiusOfGyration
+  0.315838 seconds (5.56 M allocations: 8.358 GiB)
+Selected: epoxide
+  0.374487 seconds (5.82 M allocations: 8.390 GiB)
+Selected: halogen
+  4.779525 seconds (5.64 M allocations: 8.104 GiB, 92.71% gc time)
+Selected: NumSaturatedHeterocycles
+  0.337242 seconds (5.46 M allocations: 8.059 GiB)
+Selected: quatN
+  0.312234 seconds (5.27 M allocations: 7.378 GiB)
+Selected: pyridine
+  0.320663 seconds (5.33 M allocations: 7.251 GiB)
+Selected: NH2
+  0.320808 seconds (4.95 M allocations: 6.826 GiB)
+Selected: SH
+  0.337679 seconds (5.02 M allocations: 6.654 GiB)
+Selected: Al_OH_noTert
+  4.815432 seconds (4.91 M allocations: 6.355 GiB, 93.75% gc time)
+Selected: ketone_Topliss
+  0.244444 seconds (4.72 M allocations: 5.805 GiB)
+Selected: NH1
+  0.237733 seconds (4.64 M allocations: 5.686 GiB)
+Selected: coumarin
+  0.254789 seconds (4.79 M allocations: 5.785 GiB)
+Selected: MolecularWeight
+  0.250711 seconds (4.58 M allocations: 5.472 GiB)
+Selected: NumAromaticHeterocycles
+  0.239299 seconds (4.37 M allocations: 4.906 GiB)
+Selected: bicyclic
+  0.240656 seconds (4.22 M allocations: 4.592 GiB)
+Selected: thiophenol
+  0.249019 seconds (3.92 M allocations: 4.359 GiB)
+Selected: ketone
+  5.306799 seconds (4.08 M allocations: 4.436 GiB, 93.85% gc time)
+Selected: secondary_alcohol
+  0.198923 seconds (3.82 M allocations: 4.143 GiB)
+Selected: aldehyde
+  0.183002 seconds (3.55 M allocations: 3.554 GiB)
+Selected: MDS_10
+  0.182705 seconds (3.66 M allocations: 3.663 GiB)
+Selected: HBondDonorCount
+  0.185413 seconds (3.78 M allocations: 3.649 GiB)
+Selected: NumAromaticRings
+  0.156519 seconds (3.44 M allocations: 3.219 GiB)
+Selected: ether
+  0.151359 seconds (3.30 M allocations: 2.890 GiB)
+Selected: MDS_12
+  0.136387 seconds (3.28 M allocations: 2.554 GiB)
+Selected: Ar_N
+  0.136327 seconds (2.95 M allocations: 2.524 GiB)
+Selected: tertiary_alcohol
+  0.131937 seconds (3.03 M allocations: 2.381 GiB)
+Selected: NumLipinskiHBA
+  0.136005 seconds (2.85 M allocations: 2.307 GiB)
+Selected: SpherocityIndex
+  0.129402 seconds (2.81 M allocations: 2.087 GiB)
+Selected: MDS_03
+  0.115382 seconds (2.63 M allocations: 1.925 GiB)
+Selected: MDS_11
+  0.100615 seconds (2.66 M allocations: 1.829 GiB)
+Selected: MDS_07
+  0.089087 seconds (2.36 M allocations: 1.567 GiB)
+Selected: methoxy
+  0.086681 seconds (2.33 M allocations: 1.492 GiB)
+Selected: NumAromaticCarbocycles
+  0.085143 seconds (2.21 M allocations: 1.452 GiB)
+Selected: Ar_OH
+  6.409796 seconds (2.07 M allocations: 1.240 GiB, 98.40% gc time)
+Selected: RotatableBondCount
+  0.073467 seconds (1.99 M allocations: 1.173 GiB)
+Selected: NPR1
+  0.065039 seconds (1.87 M allocations: 1.021 GiB)
+Selected: ArN
+  0.060806 seconds (1.77 M allocations: 925.679 MiB)
+Selected: VoidVolume
+  0.048427 seconds (1.64 M allocations: 800.813 MiB)
+Selected: Eccentricity
+  0.051159 seconds (1.50 M allocations: 760.456 MiB)
+Selected: NPR2
+  0.039792 seconds (1.36 M allocations: 600.607 MiB)
+Selected: MDS_04
+  0.036779 seconds (1.20 M allocations: 539.441 MiB)
+Selected: aniline
+  0.033980 seconds (1.11 M allocations: 465.619 MiB)
+Selected: allylic_oxid
+  0.029516 seconds (972.98 k allocations: 400.311 MiB)
+Selected: NumBridgeheadAtoms
+  0.025315 seconds (878.11 k allocations: 324.000 MiB)
+Selected: Ndealkylation1
+  0.026127 seconds (701.88 k allocations: 236.709 MiB)
+Selected: nitro_arom
+  0.020740 seconds (596.82 k allocations: 197.569 MiB)
+Selected: lactone
+  0.018368 seconds (487.69 k allocations: 146.999 MiB)
+Selected: NumSaturatedCarbocycles
+  0.015199 seconds (371.06 k allocations: 102.853 MiB)
+Selected: NumLipinskiHBD
+  0.020911 seconds (270.49 k allocations: 64.967 MiB, 46.03% compilation time)
+Selected: VanDerWaalsVolume
+Max metric 0.8614 reached with removal of: PackingDensity, N_O, Complexity, MDS_05, MinAbsPartialCharge, InertialShapeFactor, hydroxyamino, Al_OH, phos_acid, SASA, Al_COO, NH0, ester, para_hydroxylation, MinPartialCharge, SolventExcludedVolume, NumRings, NumSpiroAtoms, benzene, NumHeteroatoms, AtomStereoCount, aryl_methyl, MDS_01, NumSaturatedRings, imidazole, HeavyAtomCount, LabuteASA, Charge, C_O_noCOO, piperdine, TPSA, MDS_06
+192.547064 seconds (402.23 M allocations: 912.603 GiB, 41.05% gc time)
+Selected: seq_W032
+136.836203 seconds (403.41 M allocations: 913.647 GiB, 27.39% gc time)
+Selected: seq_L037
+157.568020 seconds (398.03 M allocations: 906.920 GiB, 24.36% gc time)
+Selected: seq_A180
+111.440499 seconds (393.90 M allocations: 901.893 GiB, 28.35% gc time)
+Selected: seq_E126
+179.200471 seconds (400.44 M allocations: 909.831 GiB, 44.00% gc time)
+Selected: seq_E186
+101.061917 seconds (392.22 M allocations: 899.192 GiB, 31.59% gc time)
+Selected: seq_N208
+115.735045 seconds (403.11 M allocations: 912.648 GiB, 35.96% gc time)
+Selected: seq_S075
+106.698566 seconds (401.16 M allocations: 909.819 GiB, 35.82% gc time)
+Selected: seq_G093
+ 87.827632 seconds (388.68 M allocations: 894.055 GiB, 37.63% gc time)
+Selected: seq_W037
+121.042265 seconds (403.72 M allocations: 912.633 GiB, 28.07% gc time)
+Selected: seq_G006
+107.818164 seconds (394.29 M allocations: 900.553 GiB, 41.82% gc time)
+Selected: seq_L167
+102.272514 seconds (393.62 M allocations: 899.876 GiB, 30.22% gc time)
+Selected: seq_Q022
+102.443853 seconds (396.05 M allocations: 902.599 GiB, 29.05% gc time)
+Selected: seq_R148
+ 99.204169 seconds (393.36 M allocations: 899.292 GiB, 40.22% gc time)
+Selected: seq_E177
+ 94.253187 seconds (391.35 M allocations: 896.788 GiB, 39.12% gc time)
+Selected: seq_F012
+ 85.124698 seconds (387.09 M allocations: 891.279 GiB, 43.30% gc time)
+Selected: seq_T022
+ 80.509967 seconds (390.13 M allocations: 894.262 GiB, 39.53% gc time)
+Selected: seq_R063
+ 95.051872 seconds (394.35 M allocations: 899.388 GiB, 45.19% gc time)
+Selected: seq_V036
+ 77.474243 seconds (389.90 M allocations: 893.972 GiB, 40.44% gc time)
+Selected: seq_V005
+ 82.451145 seconds (397.35 M allocations: 902.624 GiB, 40.88% gc time)
+Selected: seq_N012
+ 86.834057 seconds (392.47 M allocations: 896.940 GiB, 45.82% gc time)
+Selected: seq_L039
+136.533443 seconds (395.02 M allocations: 900.142 GiB, 52.17% gc time)
+Selected: seq_T020
+ 83.018765 seconds (396.92 M allocations: 901.744 GiB, 40.05% gc time)
+Selected: seq_M005
+702.421663 seconds (391.09 M allocations: 894.779 GiB, 65.46% gc time)
+Selected: seq_W045
+102.299763 seconds (404.49 M allocations: 910.485 GiB, 46.73% gc time)
+Selected: seq_I169
+445.642816 seconds (392.54 M allocations: 895.663 GiB, 64.49% gc time)
+Selected: seq_R047

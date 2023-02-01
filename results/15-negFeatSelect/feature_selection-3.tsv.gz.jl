@@ -45,6 +45,9 @@ df = @chain "$ROOT/results/*-features/train.tsv" glob CSV.read(DataFrame) unique
 df_seq_feat = @chain "$ROOT/results/*-features/blosum62Amb.tsv.gz" glob CSV.read(DataFrame)
 df_chem_feat = @chain "$ROOT/results/*-chemicalFeatures/acceptors2_features.tsv" glob CSV.read(DataFrame)
 
+# what makes this different from the other version:
+# no info about the testset dataset 1 or lit data.
+df = df[startswith.(df.source, "GT-Predict") .| startswith.(df.source, "negatives"), :]
 df.reaction = df.reaction .|> Bool 
 
 leftjoin!(df, df_seq_feat; on=:enzyme)
@@ -60,7 +63,6 @@ isGenNeg = startswith.(df.source, "negatives")
 df_negSample = df[isGenNeg, :]
 df_negSample = df_negSample[shuffle([trues(nSample); falses(nrow(df_negSample)-nSample)]), :]
 df = vcat(df[.!isGenNeg, :], df_negSample)
-isGenNeg = startswith.(df.source, "negatives") # recalc for later use
 
 feat_names = setdiff(names(df), ["reaction", "enzyme", "cid", "source"])
 realcols = eltype.(eachcol(df[!, feat_names])) .<: Real
@@ -90,7 +92,7 @@ leftjoin!(df_feats, df_feats_cor; on=:name)
 
 df_feats.iteration .= 0
 
-# only consider one member from a set of perfectly correlated features.
+# only consider one of a set of perfectly correlated features.
 ignore = String[]
 for row in eachrow(df_feats_cor[df_feats_cor.maxcor .== 1, [:name, :maxcor_names]])
     row.name in ignore || append!(ignore, split(row.maxcor_names, ' '))
@@ -101,41 +103,33 @@ setdiff!(feat_names, ignore)
 
 isSeqFeat = startswith.(feat_names, "seq_")
 
-for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!isGenNeg)]
-    consider = feat_names[.!isSeqFeat]
+for (colname, consider_idx, n_trees) in [(:cid, .!isSeqFeat, 100), (:enzyme, isSeqFeat, 1)]
+    consider = feat_names[consider_idx]
 
-    uCol = unique(df[!, :cid])
+    uCol = unique(df[!, colname])
     nConsider = length(consider)
 
-    X, y = Matrix{Float64}(df[rowIdx, consider]), df[rowIdx, :reaction]
+    X, y = Matrix{Float64}(df[!, consider]), df[!, :reaction]
 
     for it in 1:nConsider-1
-        
-        # repeat to be less affected by the randomness of shuffling
-        nRep = 10
-        metrics = zeros(nRep,size(X,2))
-        for rep in 1:nRep
-            sample = shuffle(uCol)[1:floor(Int, length(uCol) / 5)]
-            testidx = df[rowIdx, :cid] .∈ Ref(sample)
+        sample = shuffle(uCol)[1:floor(Int, length(uCol) / 5)]
+        testidx = df[!, colname] .∈ Ref(sample)
 
-            Xtrain, ytrain = X[.!testidx, :], y[.!testidx]
-            Xtest, ytest = X[testidx, :], y[testidx]
+        Xtrain, ytrain = X[.!testidx, :], y[.!testidx]
+        Xtest, ytest = X[testidx, :], y[testidx]
 
-            @time metrics_rep = tmap(1:size(X,2)) do i
-                clf = RandomForestClassifier(n_trees=100, partial_sampling=1.)
-                fit!(clf, view(Xtrain, :, Not(i)), ytrain)
-                pred = predict_proba(clf, view(Xtest, :, Not(i)))[:, 2]
-                metric(pred, ytest)
-            end
-            metrics[rep, :] = metrics_rep
+        @time metrics = tmap(1:size(X,2)) do i
+            clf = RandomForestClassifier(n_trees=n_trees)
+            fit!(clf, view(Xtrain, :, Not(i)), ytrain)
+            pred = predict_proba(clf, view(Xtest, :, Not(i)))[:, 2]
+            topP_metric(pred, ytest)
         end
-        metrics = mean(metrics; dims=1) |> vec
 
-        leftjoin!(df_feats, DataFrame("name"=>consider, @sprintf("%s_%s_%03d", metric_name, :cid, it)=>metrics); on=:name)
+        leftjoin!(df_feats, DataFrame("name"=>consider, @sprintf("metric_%s_%03d", colname, it)=>metrics); on=:name)
 
         best = argmax(metrics)
         df_feats.iteration[df_feats.name .== consider[best]] .= it
-        println(@sprintf("%s=%.3f Deselecting %s", metric_name, metrics[best], consider[best]))
+        println("Selected: ", consider[best])
         flush(stdout)
         deleteat!(consider, best)
         X = X[:, Not(best)]
@@ -144,11 +138,11 @@ for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!i
     # the winner:
     df_feats.iteration[df_feats.name .== only(consider)] .= nConsider
     
-    CSV.write("feature_selection.tsv.gz", df_feats; delim='\t', compress=true)
+    CSV.write("feature_selection-2.tsv.gz", df_feats; delim='\t', compress=true)
     
-    max_metrics = df_feats[!, startswith.(names(df_feats), metric_name)] |> eachcol .|> missmax
+    max_metrics = df_feats[!, startswith.(names(df_feats), "metric_$colname")] |> eachcol .|> missmax
     max_metric, max_it = findmax(max_metrics)
     max_selected = [only(df_feats.name[df_feats.iteration .== i]) for i in 1:max_it]
-    println(@sprintf("Max %s %.4f reached with removal of: ", metric_name, max_metric), join(max_selected, ", "))
+    println(@sprintf("Max metric %.4f reached with removal of: ", max_metric), join(max_selected, ", "))
 end
 
