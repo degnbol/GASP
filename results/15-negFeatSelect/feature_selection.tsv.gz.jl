@@ -45,6 +45,8 @@ df = @chain "$ROOT/results/*-features/train.tsv" glob CSV.read(DataFrame) unique
 df_seq_feat = @chain "$ROOT/results/*-features/blosum62Amb.tsv.gz" glob CSV.read(DataFrame)
 df_chem_feat = @chain "$ROOT/results/*-chemicalFeatures/acceptors2_features.tsv" glob CSV.read(DataFrame)
 
+# only use GT-Predict and negatives
+df = df[startswith.(df.source, "GT-Predict") .|| startswith.(df.source, "negatives"), :]
 df.reaction = df.reaction .|> Bool 
 
 leftjoin!(df, df_seq_feat; on=:enzyme)
@@ -104,7 +106,7 @@ isSeqFeat = startswith.(feat_names, "seq_")
 for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!isGenNeg)]
     consider = feat_names[.!isSeqFeat]
 
-    uCol = unique(df[!, :cid])
+    uCol = unique(df[!, :enzyme])
     nConsider = length(consider)
 
     X, y = Matrix{Float64}(df[rowIdx, consider]), df[rowIdx, :reaction]
@@ -116,22 +118,23 @@ for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!i
         metrics = zeros(nRep,size(X,2))
         for rep in 1:nRep
             sample = shuffle(uCol)[1:floor(Int, length(uCol) / 5)]
-            testidx = df[rowIdx, :cid] .∈ Ref(sample)
+            testidx = df[rowIdx, :enzyme] .∈ Ref(sample)
 
             Xtrain, ytrain = X[.!testidx, :], y[.!testidx]
             Xtest, ytest = X[testidx, :], y[testidx]
 
             @time metrics_rep = tmap(1:size(X,2)) do i
-                clf = RandomForestClassifier(n_trees=100, partial_sampling=1.)
+                clf = RandomForestClassifier(n_trees=10, partial_sampling=1.)
                 fit!(clf, view(Xtrain, :, Not(i)), ytrain)
                 pred = predict_proba(clf, view(Xtest, :, Not(i)))[:, 2]
                 metric(pred, ytest)
             end
+            flush(stdout)
             metrics[rep, :] = metrics_rep
         end
         metrics = mean(metrics; dims=1) |> vec
 
-        leftjoin!(df_feats, DataFrame("name"=>consider, @sprintf("%s_%s_%03d", metric_name, :cid, it)=>metrics); on=:name)
+        leftjoin!(df_feats, DataFrame("name"=>consider, @sprintf("%s_%s_%03d", metric_name, :enzyme, it)=>metrics); on=:name)
 
         best = argmax(metrics)
         df_feats.iteration[df_feats.name .== consider[best]] .= it
