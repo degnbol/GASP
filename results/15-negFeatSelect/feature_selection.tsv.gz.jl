@@ -103,22 +103,27 @@ setdiff!(feat_names, ignore)
 
 isSeqFeat = startswith.(feat_names, "seq_")
 
+consider = feat_names[.!isSeqFeat]
+nConsider = length(consider)
+
+uCol = unique(df[!, :cid])
+nChem = length(uCol)
+chemFeatNames = feat_names[.!startswith.(feat_names, "seq_")]
+chemCor = @chain df[findfirst.(df.cid .== c for c in uCol), chemFeatNames] Matrix transpose cor
+
+X, y = Matrix{Float64}(df[rowIdx, consider]), df[rowIdx, :reaction]
+
 for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!isGenNeg)]
-    consider = feat_names[.!isSeqFeat]
-
-    uCol = unique(df[!, :enzyme])
-    nConsider = length(consider)
-
-    X, y = Matrix{Float64}(df[rowIdx, consider]), df[rowIdx, :reaction]
-
     for it in 1:nConsider-1
-        
         # repeat to be less affected by the randomness of shuffling
         nRep = 10
         metrics = zeros(nRep,size(X,2))
         for rep in 1:nRep
-            sample = shuffle(uCol)[1:floor(Int, length(uCol) / 5)]
-            testidx = df[rowIdx, :enzyme] .∈ Ref(sample)
+            # pick a random chemical and take it's nearest neighbors to form 
+            # the 20% testset. Since the diagonal is 1, the first element of 
+            # sample will be the intial pick/seed.
+            sample = sortperm(chemCor[rand(1:length(uCol)), :]; rev=true)[1:ceil(Int, nChem // 5)]
+            testidx = df[rowIdx, :cid] .∈ Ref(uCol[sample])
 
             Xtrain, ytrain = X[.!testidx, :], y[.!testidx]
             Xtest, ytest = X[testidx, :], y[testidx]
@@ -134,7 +139,7 @@ for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!i
         end
         metrics = mean(metrics; dims=1) |> vec
 
-        leftjoin!(df_feats, DataFrame("name"=>consider, @sprintf("%s_%s_%03d", metric_name, :enzyme, it)=>metrics); on=:name)
+        leftjoin!(df_feats, DataFrame("name"=>consider, @sprintf("%s_%s_%03d", metric_name, :cid, it)=>metrics); on=:name)
 
         best = argmax(metrics)
         df_feats.iteration[df_feats.name .== consider[best]] .= it
