@@ -36,5 +36,4 @@ The main randomforest train and test script is `src/randomforest.py`.
 - Adding new acceptors: see `results/5-chemicalFeatures/`
 - Adding new enzymes: see `results/6-unaligned/` and/or `results/7-align/`
 - `encode_features.py --help` and `randomforest.py --help` for instructions.
-- If using the same data from this work there is also `randomforest.sh` for convenience.
 
