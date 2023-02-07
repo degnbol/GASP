@@ -21,8 +21,9 @@ The main randomforest train and test script is `src/randomforest.py`.
   done by running `./PATHS.sh >> ~/.zshrc` or by copy-pasting the output of 
   `./PATHS.sh` to somewhere in `~/.zshrc`.
 - Run `./install.sh`. It will install python packages to environment "gt". 
-  Activate env with `conda activate gt`. `install.sh` also defines command `git 
-  root` and calls `./install.R` which installs R packages.
+  Activate env with `conda activate gt`.
+  `install.sh` also defines command `git root` and calls `./install.R` which 
+  installs R packages.
 - [Miller](https://github.com/johnkerl/miller), e.g. with homebrew on mac: 
   `brew install miller`
 - Pymol in order to run chemical feature generation pipeline. E.g. install free 
