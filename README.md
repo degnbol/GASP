@@ -1,6 +1,9 @@
 # GT
 Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
 
+The instructions here are to be able to reproduce any of the work.
+The main randomforest train and test script is `src/randomforest.py`.
+
 ## REQUIREMENTS
 - unix shell with zsh
 - R
