@@ -9,6 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_auc_score as AUC
 import joblib
 import logging as log
+import re
 
 
 def get_parser():
@@ -24,12 +25,12 @@ def get_parser():
     Amino acids can be encoded with encode_features.py. 
     Optionally use CV to split infile into train and test. """, formatter_class=RawTextHelpFormatter) # RawTextHelpFormatter to keep newlines.
     
-    parser.add_argument("-i", "--id", dest="ids", nargs="+",
+    parser.add_argument("-i", "--id", dest="ids", nargs="+", default=[],
         help="Name of columns that are neither feature nor class so should be identifier\ncolumns. They are simply copied to output for identification.")
     parser.add_argument("-a", "--annotate", nargs="+",
         help="Filename(s) for providing features, that will annotate the infile by matching on overlapping ids given by -i/--id.")
     parser.add_argument("-F", "--features", nargs="+",
-        help="Name of columns that are features to be used.")
+        help="Names and regexes of columns that are features to be used.")
     parser.add_argument("-t", "--identity", dest="threshold", type=float, default=1.,
         help="Threshold for train vs test identity.")
     parser.add_argument("-o", "--out",
@@ -261,10 +262,19 @@ def main(args):
             log.info(f"shape = {infile.shape}")
     
     if args.features is not None:
-        args.features = list(set(args.features) - set(args.ids).union({args.Class, args.eval, args.set}))
+        notFeatures = set(args.ids)
+        if args.Class is not None: notFeatures.add(args.Class)
+        if args.eval is not None: notFeatures.add(args.eval)
+        if args.set is not None: notFeatures.add(args.set)
+        notFeatures = notFeatures.intersection(infile.columns)
+        args.features = list(set(args.features) - notFeatures)
+        feature_names = [[col for col in infile.columns if re.match(rx, col)] for rx in args.features]
+        nMatches = sum(len(m)>0 for m in feature_names)
+        # collapse
+        feature_names = [feat for feats in feature_names for feat in feats]
         # remove columns that are not feature, id, eval or class
-        infile = infile[[k for k in args.features + args.ids + [args.Class, args.eval, args.set] if k in infile]]
-        log.info("{}/{} given features found in infile.".format(np.sum(np.in1d(args.features, infile.columns)), len(args.features)))
+        infile = infile[list(notFeatures.union(feature_names))]
+        log.info("{}/{} given feature names/regexes found in infile.".format(nMatches, len(args.features)))
     
     if infile.isna().any().any():
         # not using ','.join(...) since it becomes long, e.g. if all seq features are involved.
