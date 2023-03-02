@@ -20,8 +20,8 @@ The main randomforest train and test script is `src/randomforest.py`.
 - Modify `$PATH` and `$PYTHONPATH` to easily access code. Assuming zsh this is 
   done by running `./PATHS.sh >> ~/.zshrc` or by copy-pasting the output of 
   `./PATHS.sh` to somewhere in `~/.zshrc`.
-- Run `./install.sh`. It will install python packages to environment "gt". 
-  Activate env with `conda activate gt`.
+- Run `./install.sh`. It will install python packages to environment "GT". 
+  Activate env with `conda activate GT`.
   `install.sh` also defines command `git root` and calls `./install.R` which 
   installs R packages.
 - [Miller](https://github.com/johnkerl/miller), e.g. with homebrew on mac: 
