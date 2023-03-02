@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
-FEATURES=`git root`/results/*features
+ROOT=`git root`
+FEATURES=`\ls -d $ROOT/results/*features`
 ids="enzyme acceptor source cid"
 chemFeatures=$(cat $FEATURES/selection/selected_ratethres.txt | grep -v 'seq_' | tr '\n' ' ')
 seqFeatures=$(cat $FEATURES/selection/species_select.txt | grep 'seq_' | tr '\n' ' ')

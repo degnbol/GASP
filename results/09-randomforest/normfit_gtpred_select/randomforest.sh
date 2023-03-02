@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
-FEATURES=`git root`/results/*features
+ROOT=`git root`
+FEATURES=`\ls -d $ROOT/results/*features`
 ids="enzyme acceptor source cid"
 # use features selected for distinguishing chemical groups AND for distinguising between species
 features=$(cat $FEATURES/selection/species_select.txt | tr '\n' ' ')

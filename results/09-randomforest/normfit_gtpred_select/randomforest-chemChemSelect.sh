@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
-FEATURES=`git root`/results/*features
+ROOT=`git root`
+FEATURES=`\ls -d $ROOT/results/*features`
 ids="enzyme acceptor source cid"
 seqFeatures=$(gzcat $FEATURES/traintest_match.tsv | head -n1 | tr '\t' '\n' | grep 'seq_' | tr '\n' ' ')
 features=$(cat $FEATURES/selection/selected_ratethres.txt | tr '\n' ' ')
