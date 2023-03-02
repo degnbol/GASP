@@ -29,8 +29,10 @@ def get_parser():
         help="Name of columns that are neither feature nor class so should be identifier\ncolumns. They are simply copied to output for identification.")
     parser.add_argument("-a", "--annotate", nargs="+",
         help="Filename(s) for providing features, that will annotate the infile by matching on overlapping ids given by -i/--id.")
-    parser.add_argument("-F", "--features", nargs="+",
-        help="Names and regexes of columns that are features to be used.")
+    parser.add_argument("-F", "--features", nargs="+", default=[],
+        help="Names of columns that are features to be used.")
+    parser.add_argument("-R", "--features-regex", nargs="+", default=[],
+        help="Name regexes of columns that are features to be used.")
     parser.add_argument("-t", "--identity", dest="threshold", type=float, default=1.,
         help="Threshold for train vs test identity.")
     parser.add_argument("-o", "--out",
@@ -261,20 +263,24 @@ def main(args):
                     infile.drop(columns=colname, inplace=True)
             log.info(f"shape = {infile.shape}")
     
-    if args.features is not None:
+    if len(args.features) > 0 or len(args.features_regex) > 0:
+        # collect column names that are not features but should be kept.
         notFeatures = set(args.ids)
         if args.Class is not None: notFeatures.add(args.Class)
         if args.eval is not None: notFeatures.add(args.eval)
         if args.set is not None: notFeatures.add(args.set)
         notFeatures = notFeatures.intersection(infile.columns)
-        args.features = list(set(args.features) - notFeatures)
-        feature_names = [[col for col in infile.columns if re.match(rx, col)] for rx in args.features]
-        nMatches = sum(len(m)>0 for m in feature_names)
-        # collapse
-        feature_names = [feat for feats in feature_names for feat in feats]
-        # remove columns that are not feature, id, eval or class
+        feature_names = set(args.features).difference(notFeatures).intersection(infile.columns)
+        if len(args.features) > 0: log.info("{}/{} given feature names found in infile.".format(len(feature_names), len(args.features)))
+        # regex matching
+        if len(args.features_regex) > 0:
+            features_matched = [[col for col in infile.columns if re.match(rx, col)] for rx in args.features_regex]
+            nMatches = sum(len(m)>0 for m in features_matched)
+            features_matched = [feat for feats in features_matched for feat in feats]  # collapse
+            feature_names = feature_names.union(features_matched) - notFeatures
+            log.info("{}/{} given feature regexes matched in infile.".format(nMatches, len(args.features_regex)))
+        # modify the table as a result of the feature selection
         infile = infile[list(notFeatures.union(feature_names))]
-        log.info("{}/{} given feature names/regexes found in infile.".format(nMatches, len(args.features)))
     
     if infile.isna().any().any():
         # not using ','.join(...) since it becomes long, e.g. if all seq features are involved.
