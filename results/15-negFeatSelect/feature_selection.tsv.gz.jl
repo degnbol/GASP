@@ -46,7 +46,7 @@ df_seq_feat = @chain "$ROOT/results/*-features/blosum62Amb.tsv.gz" glob CSV.read
 df_chem_feat = @chain "$ROOT/results/*-chemicalFeatures/acceptors2_features.tsv" glob CSV.read(DataFrame)
 
 # only use GT-Predict and negatives
-df = df[startswith.(df.source, "GT-Predict") .|| startswith.(df.source, "negatives"), :]
+# df = df[startswith.(df.source, "GT-Predict") .|| startswith.(df.source, "negatives"), :]
 df.reaction = df.reaction .|> Bool 
 
 leftjoin!(df, df_seq_feat; on=:enzyme)
@@ -111,9 +111,9 @@ nChem = length(uCol)
 chemFeatNames = feat_names[.!startswith.(feat_names, "seq_")]
 chemCor = @chain df[findfirst.(df.cid .== c for c in uCol), chemFeatNames] Matrix transpose cor
 
-X, y = Matrix{Float64}(df[rowIdx, consider]), df[rowIdx, :reaction]
-
 for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!isGenNeg)]
+    X, y = Matrix{Float64}(df[rowIdx, consider]), df[rowIdx, :reaction]
+
     for it in 1:nConsider-1
         # repeat to be less affected by the randomness of shuffling
         nRep = 10
