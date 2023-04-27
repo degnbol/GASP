@@ -103,15 +103,14 @@ setdiff!(feat_names, ignore)
 
 isSeqFeat = startswith.(feat_names, "seq_")
 
-consider = feat_names[.!isSeqFeat]
-nConsider = length(consider)
-
 uCol = unique(df[!, :cid])
 nChem = length(uCol)
 chemFeatNames = feat_names[.!startswith.(feat_names, "seq_")]
 chemCor = @chain df[findfirst.(df.cid .== c for c in uCol), chemFeatNames] Matrix transpose cor
 
 for (metric, metric_name, rowIdx) in [(topP_metric, "topP", :), (AUC, "AUC", .!isGenNeg)]
+    consider = feat_names[.!isSeqFeat]
+    nConsider = length(consider)
     X, y = Matrix{Float64}(df[rowIdx, consider]), df[rowIdx, :reaction]
 
     for it in 1:nConsider-1
