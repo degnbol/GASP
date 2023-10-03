@@ -1,15 +1,18 @@
-# GT
-Prediction of reactivity for Glycosyl Transferase Superfamily 1 (GT1).
+# GASP
+Glycosyltransferase Acceptor Specificity Prediction (GASP).
+Pan-specific prediction of reactivity between any Glycosyltransferase 
+Superfamily 1 (GT1) and chemical acceptor.
 
-The instructions here are to be able to reproduce any of the work.
+The install instructions here are thorough in order to allow for reproducing 
+any of the work.
 The main randomforest train and test script is `src/randomforest.py`.
 
 ## REQUIREMENTS
-- unix shell with zsh
-- R
-- java runtime for some chemical feature generation.
+- Unix shell with zsh.
+- R.
+- Java runtime for some chemical feature generation.
   E.g. install with homebrew on Mac: `brew install adoptopenjdk8`
-- pip
+- `pip`.
 - miniconda for python 3, e.g. use `./install_conda.sh`
 - julia for
   - adding new chemicals to an already established E3FP MDS (chemical 
