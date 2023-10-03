@@ -2,7 +2,7 @@
 # USAGE: src/chemistry/ProteinVolume.sh "pdbs" > $WORK/volumes.tsv
 # volumes.tsv will have columns Protein,SolventExcludedVolume,VanDerWaalsVolume
 # use PDBs in folder given in only argument to make volumes and also writes intermediary logs to pdbs/OutputDir_pdbs_*.txt
-# we can get solvent-excluded volume with ProteinVolume https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0531-2
+# Calculates solvent-excluded (and other) volumes with ProteinVolume https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0531-2
 # http://gmlab.bio.rpi.edu/download.php
 WORK=$1
 
@@ -21,8 +21,8 @@ java -jar $TOOL/ProteinVolume_1.3.jar -het --radiusFileName $TOOL/bondi.rad $WOR
     tee ProteinVolume.tmp.tsv | $ROOT/src/progress.sh "$N" 6 1>&2 # STDERR
 
 sed '1,6d' ProteinVolume.tmp.tsv | sed $'s/   */\t/g' |
-    mlr --tsv rename -g -r ' ,' then cut -x -f 'TimeTaken(ms)' then \
-    rename 'TotalVolume(A3),SolventExcludedVolume,VDWVolume,VanDerWaalsVolume,Protein,cid' then \
+    mlr -t rename -g -r ' ,' + cut -x -f 'TimeTaken(ms)' + \
+    rename 'TotalVolume(A3),SolventExcludedVolume,VDWVolume,VanDerWaalsVolume,Protein,cid' + \
     sort -n cid # STDOUT
 
 # cleanup
