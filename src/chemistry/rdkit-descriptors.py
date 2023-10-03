@@ -2,7 +2,7 @@
 import argparse
 import sys
 import pandas as pd
-import src.chemistry.chem_utils.rdkit_utils as rd
+import chem_utils.rdkit_utils as rd
 from rdkit import Chem
 from rdkit.Chem import Descriptors, AllChem, rdFreeSASA
 
@@ -42,25 +42,25 @@ sys.stderr.write("Conformers embedded.\n")
 # more effecient to build dict then concat into dataframe in one op
 cols = {}
 
-funcs_pubchem = ["MolWt", "NumHAcceptors", "NumHDonors", "NumRotatableBonds"]
-
 funcs = ["NumValenceElectrons", "NumHeteroatoms",
-         "MinPartialCharge", "MaxPartialCharge", "MinAbsPartialCharge", "MaxAbsPartialCharge"]
+         "MinPartialCharge", "MaxPartialCharge", "MinAbsPartialCharge", "MaxAbsPartialCharge",
+         "MolWt", "NumHAcceptors", "NumHDonors", "NumRotatableBonds",
+         # BertzCT is the complexity measure used by pubchem according to their glossary but seems a bit different.
+         # There is a note about a fix done by RDKit so their value should be better.
+         "BertzCT"]
 for f in funcs:
     cols[f] = [getattr(Descriptors, f)(m) for m in mols]
 
 funcs = ["CalcHallKierAlpha", "CalcLabuteASA",
          "CalcNumRings", "CalcNumAmideBonds", "CalcNumBridgeheadAtoms", "CalcNumHeterocycles",
          "CalcNumLipinskiHBA", "CalcNumLipinskiHBD", "CalcNumSpiroAtoms",
-         # "CalcTPSA", # this is also found in PubChem
+         "CalcTPSA",
          "CalcNumAliphaticRings", "CalcNumAliphaticCarbocycles", "CalcNumAliphaticHeterocycles",
          "CalcNumAromaticRings", "CalcNumAromaticCarbocycles", "CalcNumAromaticHeterocycles",
          "CalcNumSaturatedCarbocycles", "CalcNumSaturatedHeterocycles", "CalcNumSaturatedRings",
          "CalcFractionCSP3"]
 # requires a 3D conformer
 funcs_3D = ["CalcEccentricity", "CalcAsphericity", "CalcInertialShapeFactor", "CalcNPR1", "CalcNPR2", "CalcSpherocityIndex", "CalcRadiusOfGyration"]
-# error from these:
-funcs_err = ["CalcNumAtomStereoCenters"]
 # descriptors that are not scalar. Currently not used.
 funcs_array = ["BCUT2D"]
 
@@ -72,7 +72,10 @@ for f in funcs + funcs_3D:
 cols["MolLogP"], cols["MolMR"] = zip(*[Descriptors.rdMolDescriptors.CalcCrippenDescriptors(m) for m in mols])
 cols["HeavyAtomCount"] = [m.GetNumHeavyAtoms() for m in mols]
 cols["VanDerWaalsVolume"] = [AllChem.ComputeMolVolume(m) for m in mols]
+cols["Charge"] = [Chem.GetFormalCharge(m) for m in mols]
 cols["SASA"] = [rdFreeSASA.CalcSASA(m, rdFreeSASA.classifyAtoms(m)) for m in mols]
+cols["AtomStereoCount"] = [rd.calcNumAtomStereo(m) for m in mols]
+cols["BondStereoCount"] = [rd.calcNumBondStereo(m) for m in mols]
 
 # from http://rdkit.org/docs/source/rdkit.Chem.Fragments.html
 for name, f in rd.numFragments.items(): cols[name] = [f(m) for m in mols]
@@ -81,4 +84,13 @@ for name in ['primary_alcohol', 'secondary_alcohol', 'tertiary_alcohol', 'coumar
     cols[name] = [rd.get_num_substructs(m, rd.substructs[name]) for m in mols]
 
 out = pd.concat([df, pd.DataFrame(cols)], axis=1)
+# for backwards compatibility, keep names used when values were curated from pubchem
+out = out.rename(columns=dict(
+    MolWt = "MolecularWeight",
+    BertzCT = "Complexity",
+    NumHDonors = "HBondDonorCount",
+    NumHAcceptors = "HBondAcceptorCount",
+    NumRotatableBonds = "RotatableBondCount"
+))
+
 out.to_csv(sys.stdout, sep='\t', index=False)

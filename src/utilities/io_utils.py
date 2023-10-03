@@ -16,5 +16,5 @@ def git_root(relpath=""):
     :param relpath: string path relative to git root.
     :return: string absolute path.
     """
-    return run("git root") + "/" + relpath
+    return os.path.join(run("git root"), relpath)
 

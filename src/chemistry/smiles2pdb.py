@@ -4,7 +4,6 @@ import sys
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem, rdmolfiles
-from src.utilities.io_utils import git_root
 
 def get_parser():
     parser = argparse.ArgumentParser(description="Make .pdb files of structures from SMILES given in stdin.")
@@ -18,7 +17,7 @@ def get_parser():
 debug = False
 if debug:
     args = get_parser().parse_args()
-    df = pd.read_table(git_root("data/pubchem.tsv"))
+    df = pd.DataFrame(dict(cid=[40024], smiles=["CC1=CC2C(C(C1=O)O)(C3(CC(C(C34CO4)O2)O)C)CO"]))
 else:
     args = get_parser().parse_args()
     df = pd.read_table(sys.stdin, sep='\t')

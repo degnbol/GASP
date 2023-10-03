@@ -23,7 +23,7 @@ java -jar $TOOL/ProteinVolume_1.3.jar -het --radiusFileName $TOOL/bondi.rad $WOR
 sed '1,6d' ProteinVolume.tmp.tsv | sed $'s/   */\t/g' |
     mlr --tsv rename -g -r ' ,' then cut -x -f 'TimeTaken(ms)' then \
     rename 'TotalVolume(A3),SolventExcludedVolume,VDWVolume,VanDerWaalsVolume,Protein,cid' then \
-    sort -n cid # STDOUT
+    sort -n cid | tr ',' '.' # make sure it uses . as decimal then STDOUT
 
 # cleanup
 rm ProteinVolume.tmp.tsv

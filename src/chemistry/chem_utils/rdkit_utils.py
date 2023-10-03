@@ -57,7 +57,7 @@ COOMe = Chem.MolFromSmarts("C(=O)O[CH3]")
 
 substructs = dict(OMe=OMe, OAc=OAc, COOMe=COOMe)
 
-MOLDIR = os.path.dirname(sys.modules['src.chemistry'].__file__) + '/mols'
+MOLDIR = os.path.join(os.path.dirname(__file__), '..', 'mols')
 for fname in os.listdir(MOLDIR):
     if fname.endswith(".mol"):
         name = fname[:-len(".mol")]
@@ -101,6 +101,12 @@ def identifier2molecules(queries, names=None):
 
     if names is not None: set_names(molecules, names)
     return molecules
+
+
+def calcNumAtomStereo(mol):
+    return sum(s.type.name.startswith("Atom") for s in Chem.FindPotentialStereo(mol))
+def calcNumBondStereo(mol):
+    return sum(s.type.name.startswith("Bond") for s in Chem.FindPotentialStereo(mol))
 
 
 def _has_frag(molecules, fragment):
