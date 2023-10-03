@@ -1,7 +1,7 @@
 [x] are we following DOME? see Ditte email.
  - we are partly, but if we want to address and cover everything mentioned in 
    the DOME paper then I have a lot more work to do.
-[.] look thru writing, are they saying something silly about ML?
+x.] look thru writing, are they saying something silly about ML?
 [x] make phylo of dataset 1, 1031 datapoints maybe with clustal omega (what 
 david used for other phylo). Show chems on other axis. show bool reactivity 
 with red, gray, green and put raw rates in fig as numbers.
@@ -14,5 +14,6 @@ with red, gray, green and put raw rates in fig as numbers.
       seqs, but almost .7 on seqs with neighbor.
   [ ] pan-specific randomforest. Has to do better than .7.
 [ ] lit data moves to eval.
-[.] neg feature selection. - Running on spartan.
+[x] neg feature selection. - Running on spartan.
     Takes a lot of time for seq select so only decision tree for that.
+    Not really improving performance.
