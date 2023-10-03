@@ -4,16 +4,37 @@ using DataFrames, CSV
 using Statistics
 using Chain: @chain
 using Statistics, Random
-using ScikitLearn
-using ScikitLearn: fit!
-using ScikitLearn: @sk_import
-using PyCall, JLD, PyCallJLD # PyCallJLD makes JLD work for PyObjects
-@sk_import ensemble: RandomForestClassifier
+using Flux
+using Flux: logitbinarycrossentropy
 ROOT = readchomp(`git root`)
 include("$ROOT/src/utilities/glob.jl")
 include("$ROOT/src/utilities/AUC.jl")
 include("$ROOT/src/utilities/dataframe.jl")
 
+
+"""
+Custom metric to evaluate predictive performance.
+Has biotechnological relevance, e.g. for predicting top P candidates, and testing them in lab.
+Metric is on a scale from 0 to 1, where 1 is perfect prediction on top P datapoints, 
+and 0 means no true positives among top P datapoints.
+Approach:
+1.	Set P equal to number of positive datapoints.
+2.	Sort datapoints by prediction score.
+3.	Assign weights 1…P to top P datapoints from lowest prediction score to highest.
+4.	Normalize weights so they sum to 1.
+5.	The performance metric is the sum of weights for positive datapoints.
+"""
+function topP_metric(pred::Vector{<:AbstractFloat}, class::Union{BitVector,Vector{Bool}})::Float64
+    P = sum(class)
+    class = class[sortperm(pred)][end-P+1:end]
+    weights = (1:P) ./ sum(1:P)
+    weights[class] |> sum
+end
+# unit test
+@assert(topP_metric(
+    [0.12, 0.3, 0.31, 0.4, 0.5, 0.6, 0.7, 0.72, 0.8, 0.9], 
+    [false, false, false, true, true, false, true, false, true, false]) == 0.4,
+    "Unit test failed")
 
 parser = ArgParseSettings(description=
 """Train (-o/--train) or evaluate (-i/--eval) a random forest classifier.""")
@@ -47,7 +68,7 @@ parser = ArgParseSettings(description=
     "--model", "-m"
     arg_type = String
     nargs = '+'
-    default = ["n_estimators=100"]
+    default = ["n_trees=100", "partial_sampling=1."]
     help = "Provide args given to ScikitLearn RandomForestClassifier.
     https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html"
     "--test", "-t"
@@ -233,9 +254,10 @@ end
 
 getpred(clf, Xnew) = predict_proba(clf, Matrix(Xnew))[:, 2]
 
+
 function evalpred(clf, Xnew, ynew::Vector)
     pred = getpred(clf, Xnew)
-
+    
     tru = ynew
     if length(unique(tru)) == 2
         println("AUC = ", AUC(pred, tru))
@@ -244,9 +266,8 @@ function evalpred(clf, Xnew, ynew::Vector)
         println("AUC = ", AUC(pred, tru .> mean(tru)))
     end
 end
-function evalpred(clf, Xnew, ynew::DataFrame)
-    pred = getpred(clf, Xnew)
-
+evalpred(clf, Xnew, ynew::DataFrame) = evalpred(getpred(clf, Xnew), ynew)
+function evalpred(pred, ynew::DataFrame)
     for class_test in names(ynew)
         println(class_test)
         tru = ynew[!, class_test]
@@ -259,11 +280,32 @@ function evalpred(clf, Xnew, ynew::DataFrame)
     end
 end
 
+model = Chain(Dense(size(X,2) => 16, tanh), Dense(16 => 1, σ), vec)
+
+_X = Matrix{Float32}(X)' |> collect
+optim = Flux.setup(Flux.Adam(), model);  # will store optimiser momentum, etc.
+
+for epoch in 1:2_000
+    loss, grads = Flux.withgradient(model) do m
+        preds = m(_X)
+        sum(preds .^ 2 .* (1 .- 2 .* y))
+    end
+    Flux.update!(optim, model, grads[1])
+    epoch % 100 == 0 && println(loss)
+end
+
+preds = model(Matrix{Float32}(Xnew)')
+AUC(preds, ynew.reaction)
+CSV.write("hejsa.tsv", DataFrame(reaction=ynew.reaction, pred=preds); delim='\t')
+
+
+
 global clf
 if args.train !== nothing
-    model_args = [Symbol(k)=>parse(v) for (k,v) in split.(model, '=')]
+    model_args = [Symbol(k)=>parse(v) for (k,v) in split.(args.model, '=')]
     clf = RandomForestClassifier(; model_args...)
-    fit!(clf, Matrix(X), y)
+    
+    @time fit!(clf, Matrix(X), y)
     JLD.save(args.train, "model", clf)
 else
     # clf = JLD.load(args.eval, "model")
