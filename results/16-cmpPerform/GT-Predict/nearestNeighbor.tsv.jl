@@ -14,7 +14,7 @@ df_water = CSV.read("water.tsv.gz", DataFrame)
 # nearest neighbor.
 df_gtpred = CSV.read("$ROOT/data/GT-Predict/enzyme_interaction_data.txt", DataFrame; skipto=3, drop=[:Column1])
 df_react = CSV.read(glob("$ROOT/results/*generateNegatives/reactions.tsv"), DataFrame)
-df_raw2cid = CSV.read("$ROOT/data/reactions/rawAcceptor_cid_title.tsv", DataFrame)
+df_raw2cid = CSV.read("$ROOT/data/reactions/rawAcceptor_cid_title.tsv", DataFrame)[!, Not(:smiles)]
 
 ## PREPROCESS
 

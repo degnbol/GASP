@@ -49,7 +49,8 @@ DT = rbind(rates, gtpred.reactions, gtpred.ext, lit)
 
 # add CIDs
 nBefore = nrow(DT)
-raw2cid = fread("reactions/rawAcceptor_cid_title.tsv", sep='\t')
+# Currently discarding entries without CID, that does have SMILES
+raw2cid = na.omit(fread("reactions/rawAcceptor_cid_title.tsv", sep='\t', drop="smiles"))
 # Losing these:
 # DT[! acceptor %in% raw2cid$raw, as.character(unique(acceptor))]
 DT = merge(DT, raw2cid, by.x="acceptor", by.y="raw")

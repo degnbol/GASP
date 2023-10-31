@@ -26,13 +26,13 @@ lit.raw = unique(fread("lit/lit.tsv")$Acceptor)
 accs.raw = unique(c(hts_ugt.raw, tmh.raw, gtpred.raw, gtpred_ext.raw, lit.raw))
 
 # manual effort
-raw2cid.manual = fread("reactions/rawAcceptor2cid_manual.tsv", drop=c("smiles", "comment"))
+raw2cid.manual = fread("reactions/rawAcceptor2cid_manual.tsv", drop=c("comment"))
 
 # save curation time by only running webchem for acceptors that haven't already been looked up.
 # Do this by reading the result from this script if present and skipping those entries in the lookup.
 if(file.exists("reactions/rawAcceptor2cid.tsv")) {
     raw2cid = fread("reactions/rawAcceptor2cid.tsv")
-    raw2cid = rbind(raw2cid, raw2cid.manual)
+    raw2cid = rbind(raw2cid, raw2cid.manual, fill=TRUE)
 } else {
     raw2cid = raw2cid.manual
 }
@@ -123,7 +123,7 @@ raw2query = rbind(raw2query, raw2query.paren)
 queries = rbind(queries, raw2query.paren)
 # again, skip queries for raw acceptor names that have already been curated.
 queries = raw2query[! raw %in% raw2cid$raw]
-                  
+
 # in cases where there are multiple matches we can take the first match,
 # but only if we didn't manage to find a match with any of the variants 
 # ("query") that describes a given raw string.
@@ -150,6 +150,6 @@ if(nMultiMatch > 0) message(nMultiMatch, " raw strings with multiple matches.")
 # remove them
 raw2cid.new = raw2cid.new[!raw%in%raw2cid.new[,.N, by=raw][N>1, raw]]
 
-raw2cid = na.omit(unique(rbind(raw2cid, raw2cid.new)))
-fwrite(raw2cid, "reactions/rawAcceptor2cid.tsv", sep='\t')
+raw2cid = unique(rbind(raw2cid, raw2cid.new, fill=TRUE))[!((is.na(cid) | cid=="") & (is.na(smiles) | smiles==""))]
+fwrite(raw2cid, "reactions/rawAcceptor2cid.tsv", sep='\t', quote=FALSE)
 

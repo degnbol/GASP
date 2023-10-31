@@ -30,16 +30,19 @@ UDPGlc	8629
 a-cyano-4-hydroxyl-cinnamic acid	5328791		a-cyano-4-hydroxyl-cinnamic acid
 Trans-Zentin-Glucose	9842892		from GT-Predict. They only refer to Trans-Zeatin in paper. Zentin searches gives no results except zentinic and trans-Zeatin-Glucosid is on pubchem.
 MUGlcNAc	2733787		or 118328, but they have the same canonical SMILES
-BocCysThrOMe			
-1-Thio-S-cyanomethyl-N-acetyl-D-glucosamine			
+BocCysThrOMe		O=C(N[C@@H](CS)C(N[C@H](C(OC)=O)[C@@H](O)C)=O)OC(C)(C)C	
+Boc-Cys-Thr-Ome		O=C(N[C@@H](CS)C(N[C@H](C(OC)=O)[C@@H](O)C)=O)OC(C)(C)C	
+1-Thio-S-cyanomethyl-N-acetyl-D-lactosamine		OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](NC(C)=O)[C@H](SCC#N)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@H]1O	
+1-Thio-S-(16-hexadecanoic acid)-N-acetyl-D-glucosamine		OC[C@H]1O[C@@H](SCCCCCCCCCCCCCCC(O)=O)[C@H](NC(C)=O)[C@@H](O)[C@@H]1O	
+Man (6a) Man(3a)Man(a)OPh		O[C@H]1[C@H](O[C@H]2[C@@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O2)[C@H](O)[C@@H](OC3=CC=CC=C3)O[C@@H]1CO[C@@H]4[C@@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O4	
 ?-GlcOBn			
 a-ManOBn			
 a-ManOCH2Bn			
 a-ManOPh			
 a-ManOPMP			
 a-ManOBn(pNO2)			
-a-ManOPhF5			
-a-ManOBnF5			
+a-ManOPhF5		OC[C@H]1O[C@H](OC2=C(F)C(F)=C(F)C(F)=C2F)[C@@H](O)[C@@H](O)[C@@H]1O	
+a-ManOBnF5		OC[C@H]1O[C@H](OCC2=C(F)C(F)=C(F)C(F)=C2F)[C@@H](O)[C@@H](O)[C@@H]1O	
 ManSTol			mannose-S-toluene ?
 UDP5SGlc	8629		I think based on looking at the GT-Predict paper that this is just UDP-glucose bound at a 5S location 
 dTDPXyl	122707150		best match but doesn't seem like a perfect match?
