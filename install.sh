@@ -1,6 +1,8 @@
 #!/usr/bin/env zsh
 # make a command "git root" that gives the root folder of the repo.
 git config alias.root 'rev-parse --show-toplevel'
+# download submodules if not already present.
+git submodule update --init
 
 # make sure you have miniconda installed
 conda --version &> /dev/null || ./install_conda.sh
