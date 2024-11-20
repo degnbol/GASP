@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 import argparse
-import sys
+import sys, os, stat
 import math
 import numpy as np
 import pandas as pd
 import logging as log
-from degnutil import input_output as io
 
 def get_parser():
     parser = argparse.ArgumentParser(description="Encode features for ML, e.g. convert sequences to numeric encoding, remove redundant features, indicate train vs test set. Read train set from stdin, pipe /dev/null to use no train set.")
@@ -184,10 +183,20 @@ def main(args):
     df.to_csv(sys.stdout, sep='\t', index=False)
 
 
+def is_reading_from_pipe():
+    """
+    Find out if we are piping into this script, i.e. should we be looking at stdin?
+    This method is more robust that sys.stdin.isatty() and similar isatty calls, since they fail for e.g.
+    cat <(myscript.py file) | ...
+    A small consideration is FIFO is a named pipe, so it might mean that we would not detect an anonymous pipe.
+    I don't think it is a problem on a modern system.
+    :return: bool
+    """
+    return stat.S_ISFIFO(os.stat(0).st_mode)
 
 if __name__ == '__main__':
     args = get_parser().parse_args()
-    args.infile = sys.stdin if io.is_reading_from_pipe() else None
+    args.infile = sys.stdin if is_reading_from_pipe() else None
     main(args)
 
 debug = False
