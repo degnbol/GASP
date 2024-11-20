@@ -20,5 +20,7 @@ for fname in ${=INFILES}; do
 	name=${fname:t:r}
 	echo $name
 	echo -n "$name\t" >> $OUTFILE
-	pymol $fname -Q -cmd $CMD | grep -v '^PyMOL>' | grep -oE ' [0-9.]+' | tr -d ' ' >> $OUTFILE
+	# -k = don't load ~/.pymolrc which may affect things and cause logging outputs
+	# -Q = quiet, suppress all text output
+	pymol $fname -k -Q -cmd $CMD | grep -oE ' [0-9.]+' | tr -d ' ' >> $OUTFILE
 done
