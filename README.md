@@ -11,7 +11,7 @@ The main randomforest train and test script is `src/randomforest.py`.
 - Unix shell with zsh.
 - R.
 - Java runtime for some chemical feature generation.
-  E.g. install with homebrew on Mac: `brew install adoptopenjdk8`
+  E.g. install with homebrew on Mac: `brew install --cask temurin`
 - `pip`.
 - miniconda for python 3, e.g. use `./install_conda.sh`
 - julia for
