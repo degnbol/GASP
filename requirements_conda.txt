@@ -29,6 +29,7 @@ prompt-toolkit
 pygments
 # RDKit is for physiochemcial properties of acceptor molecules. https://www.rdkit.org/docs/Install.html
 rdkit
+pymol-open-source
 svglib # e.g. used in results/2-validateAcceptors/assertNoCO-.py
 
 readline
@@ -45,3 +46,4 @@ hmmer
 
 # for excel table generation
 xlsxwriter
+
