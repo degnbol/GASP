@@ -10,10 +10,6 @@ smiles = df.smiles
 
 mols = [Chem.MolFromSmiles(s) for s in smiles]
 
-# is calculating 3D shapes necessary?
-mols = [Chem.AddHs(m) for m in mols]
-for m in mols: AllChem.EmbedMolecule(m)
-
 # fingerprints listed here:
 # http://www.rdkit.org/docs/GettingStartedInPython.html#list-of-available-fingerprints
 rdkfps = [Chem.RDKFingerprint(m) for m in mols]
