@@ -24,34 +24,60 @@ mkdir -p "$WORK"
 	echo "$0 $@"
 } > "$WORK/README.sh"
 
-SRC="`git root`/src/chemistry"
+SRC="$0:h"
 
 # get SMILES and other pubchem listed properties that are always listed.
 echo '# get SMILES from CIDs'
-$SRC/pubchem_props.R < "$INFILE" > "$WORK/pubchem.tsv"
+if [ -s "$WORK/pubchem.tsv" ]; then
+    echo "SKIP. Already exists: $WORK/pubchem.tsv"
+else
+    $SRC/pubchem_props.R < "$INFILE" > "$WORK/pubchem.tsv"
+fi
 
 echo '# get RDKit descriptors from SMILES'
-$SRC/rdkit-descriptors.py < "$WORK/pubchem.tsv" > "$WORK/RDKitDescriptors.tsv"
+if [ -s "$WORK/RDKitDescriptors.tsv" ]; then
+    echo "SKIP. Already exists: $WORK/RDKitDescriptors.tsv"
+else
+    $SRC/rdkit-descriptors.py --pdb "$WORK/PDBs" < "$WORK/pubchem.tsv" > "$WORK/RDKitDescriptors.tsv"
+fi
 
-echo '# make PDBs from SMILES'
-mkdir -p "$WORK/PDBs"
-$SRC/smiles2pdb.py cid -o "$WORK/PDBs" < "$WORK/pubchem.tsv"
+# activate env to make sure pymol can be found
+which pymol > /dev/null || {
+    echo 'pymol not found in PATH. rerun after `conda activate GT`'
+    exit 1
+}
 
 echo '# calculate areas from PDBs using PyMol'
-N=`ls $WORK/PDBs/*.pdb | wc -l | xargs`
-$SRC/pymol_areas.sh $WORK/PDBs/*.pdb "$WORK/areas.tsv" | $SRC/../progress.sh $N
+if [ -s "$WORK/areas.tsv" ]; then
+    echo "SKIP. Already exists: $WORK/areas.tsv"
+else
+    N=`ls $WORK/PDBs/*.pdb | wc -l | xargs`
+    $SRC/pymol_areas.sh $WORK/PDBs/*.pdb > "$WORK/areas.tsv"
+fi
 
 echo '# make volumes from PDBs'
-$SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv"
+if [ -s "$WORK/volumes.tsv" ]; then
+    echo "SKIP. Already exists: $WORK/volumes.tsv"
+else
+    $SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv"
+fi
 
 echo '# make E3FP fingerprints using SMILES'
-# because of python subprocess weirdness we had to print to stderr,
-# then redirect pipe to stdout with 2>&1 in order to use progress.sh
-# grep for numbers since there can be other stderr warnings. Note that these are silenced by the progress reporting.
-$SRC/e3fp-fprints.py "$WORK/E3FP.fpz" -c < "$WORK/pubchem.tsv" 2>&1 | grep -E '^[0-9]+$' | $SRC/../progress.sh $N
+if [ -s "$WORK/E3FP.fpz" ]; then
+    echo "SKIP. Already exists: $WORK/E3FP.fpz"
+else
+    # because of python subprocess weirdness we had to print to stderr,
+    # then redirect pipe to stdout with 2>&1 in order to use progress.sh
+    # grep for numbers since there can be other stderr warnings. Note that these are silenced by the progress reporting.
+    $SRC/e3fp-fprints.py "$WORK/E3FP.fpz" -c < "$WORK/pubchem.tsv" 2>&1 | grep -E '^[0-9]+$' | $SRC/../progress.sh $N
+fi
 
-echo '# use the chemical fingerprints to generate 12 MDS features'
-$SRC/E3FP_features.jl -ck 12 $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
+if [ -s "$WORK/E3FP_MDS.tsv" ]; then
+    echo "SKIP. Already exists: $WORK/E3FP_MDS.tsv"
+else
+    echo '# use the chemical fingerprints to generate 12 MDS features'
+    $SRC/E3FP_features.jl -ck 12 $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
+fi
 
 # RDKit and ProteinVolume both generate a Van Der Waals Volume.
 # We keep the version from ProteinVolume to have consistency between different volume calculations.

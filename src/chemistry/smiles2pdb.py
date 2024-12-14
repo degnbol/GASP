@@ -3,7 +3,7 @@ import argparse
 import sys
 import pandas as pd
 from rdkit import Chem
-from rdkit.Chem import AllChem, rdmolfiles
+from rdkit.Chem import AllChem
 
 def get_parser():
     parser = argparse.ArgumentParser(description="Make .pdb files of structures from SMILES given in stdin.")
