@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
+from ast import Try
 import sys
 import argparse
 import pandas as pd
 from e3fp.pipeline import fprints_from_smiles
 from e3fp.fingerprint.db import FingerprintDatabase
-# from python_utilities.parallel import Parallelizer
-import multiprocess as mp
+from multiprocess import Pool, cpu_count
 import logging
 # avoid verbose logging
-logging.basicConfig(level=logging.WARNING, force=True)
+logging.basicConfig(level=logging.ERROR, force=True)
 
 def get_parser():
     parser = argparse.ArgumentParser(description="Create E3FP fingerprints from smiles.")
     parser.add_argument("outfile", help="Filename of output, e.g. ending in .fpz. We can't use stdout since e3fp code uses the file ending in the savez code.")
     parser.add_argument("-s", "--smiles", default="smiles", help="Name of column with SMILES. Default=\"smiles\".")
     parser.add_argument("-i", "--id", default="cid", help="Name of column with molecule identifiers. Default=\"cid\".")
-    parser.add_argument("-t", "--threads", type=int, default=mp.cpu_count(), help="Number of threads for multiprocess. Default=all.")
+    parser.add_argument("-t", "--threads", type=int, default=cpu_count(), help="Number of threads for multiprocess. Default=all.")
     parser.add_argument("-c", "--conformers", action="store_true", help="Write all conformers for each id. Default=write only one.")
     return parser
 
@@ -31,17 +31,23 @@ else:
 smiles = df[args.smiles]
 ids = df[args.id]
 
-def progress(s, n):
-    fps = fprints_from_smiles(s, n)
-    # for some reason the starmap subprogress stuff means stdout can only be used if not piping, 
-    # which means in order to use the progress.sh script and measure progress 
-    # as percentage after pipe we have to print to stderr, then repipe back to 
-    # stdout then pipe into progress.sh
-    print(n, file=sys.stderr)
+def progress(s_n):
+    s, n = s_n
+    try:
+        fps = fprints_from_smiles(s, n)
+    except ValueError: # errors if the smiles is too simple, e.g. [H+]
+        return None
+    print(n)
+    sys.stdout.flush()
     return fps
 
-with mp.Pool(args.threads) as pool:
-    fprints = pool.starmap(progress, zip(smiles, ids))
+with Pool(args.threads) as pool:
+    fprints = pool.map(progress, zip(smiles, ids))
+
+n_attempts = len(fprints)
+fprints = [fp for fp in fprints if fp is not None]
+n_results = len(fprints)
+sys.stderr.write("Successes: {n_results}/{n_attempts}\n")
 
 if args.conformers:
     fingerprints = [fp for fps in fprints for fp in fps]

@@ -17,12 +17,14 @@ pdb_logs=($1/OutputDir_pdbs_*.txt(N))
 N=`ls $WORK/*.pdb | wc -l | xargs`
 
 java -jar $TOOL/ProteinVolume_1.3.jar -het --radiusFileName $TOOL/bondi.rad $WORK |
-    tee ProteinVolume.tmp.tsv | $0:h/../progress.sh "$N" 6 1>&2 # STDERR
+    tee $WORK/ProteinVolume.tmp.tsv | $0:h/../progress.sh "$N" 6 1>&2 # STDERR
 
-sed '1,6d' ProteinVolume.tmp.tsv | sed $'s/   */\t/g' |
-    mlr --tsv rename -g -r ' ,' then cut -x -f 'TimeTaken(ms)' then \
-    rename 'TotalVolume(A3),SolventExcludedVolume,VDWVolume,VanDerWaalsVolume,Protein,cid' then \
+# has info at the top of file and may print warnings within data, e.g.
+# "Reading hydrogens is turned on, but couldn't find any hydrogens in ..."
+# So we grep for lines that have 6 columns separated by spaces, where there the 5 last columns have to be integer or float.
+grep -E '^[^ ]+ +([0-9.]+ +){4}' $WORK/ProteinVolume.tmp.tsv | sed $'s/   */\t/g' |
+    mlr -t label 'cid,SolventExcludedVolume,VoidVolume,VanDerWaalsVolume,PackingDensity,Time_ms' +\
     sort -n cid | tr ',' '.' # make sure it uses . as decimal then STDOUT
 
 # cleanup
-rm ProteinVolume.tmp.tsv
+# rm $WORK/ProteinVolume.tmp.tsv
