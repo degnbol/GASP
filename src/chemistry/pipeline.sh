@@ -79,7 +79,7 @@ trap 'pkill -f ProteinVolume_1.3; exit 1' SIGINT SIGTERM EXIT
 # get SMILES and other pubchem listed properties that are always listed.
 echo '# get SMILES from CIDs'
 if [ -s "$WORK/pubchem.tsv" ]; then
-    echo "SKIP. Already exists: $WORK/pubchem.tsv"
+    echo "# SKIP. Already exists: $WORK/pubchem.tsv"
 else
     $SRC/pubchem_props.R < "$INFILE" > "$WORK/pubchem.tsv"
 fi
@@ -99,7 +99,7 @@ which pymol > /dev/null || {
 
 echo '# calculate areas from PDBs using PyMol'
 if [ -s "$WORK/areas.tsv" ]; then
-    echo "SKIP. Already exists: $WORK/areas.tsv"
+    echo "# SKIP. Already exists: $WORK/areas.tsv"
 else
     N=`ls $WORK/PDBs/*.pdb | wc -l | xargs`
     if [ "$NPROC" -gt 1 ]; then
@@ -111,7 +111,7 @@ fi
 
 echo '# make volumes from PDBs'
 if [ -s "$WORK/volumes.tsv" ]; then
-    echo "SKIP. Already exists: $WORK/volumes.tsv"
+    echo "# SKIP. Already exists: $WORK/volumes.tsv"
 else
     if [ "$NPROC" -gt 1 ]; then
         $SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv" &
@@ -121,15 +121,13 @@ else
 fi
 
 echo '# make E3FP fingerprints using SMILES'
-if [ -s "$WORK/E3FP.fpz" ]; then
-    echo "SKIP. Already exists: $WORK/E3FP.fpz"
-else
-    N=`sed 1d $WORK/pubchem.tsv | wc -l | xargs`
-    $SRC/e3fp-fprints.py -t "$NPROC" "$WORK/E3FP.fpz" -c < "$WORK/pubchem.tsv" 2> /dev/null | $SRC/../progress.sh $N
-fi
+# Don't check for skipping existing file since we read the outfile and see if it lacks entries.
+N=`sed 1d $WORK/pubchem.tsv | wc -l | xargs`
+# suppressing stderr with verbose warnings from RDKit conformer gen
+$SRC/e3fp-fprints.py -ct "$NPROC" "$WORK/E3FP.fpz" < "$WORK/pubchem.tsv" 2> /dev/null | $SRC/../progress.sh $N
 
 if [ -s "$WORK/E3FP_MDS.tsv" ]; then
-    echo "SKIP. Already exists: $WORK/E3FP_MDS.tsv"
+    echo "# SKIP. Already exists: $WORK/E3FP_MDS.tsv"
 else
     echo '# use the chemical fingerprints to generate MDS features'
     $SRC/E3FP_features.jl -ck $MDS $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
