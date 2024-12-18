@@ -22,7 +22,8 @@ def get_parser():
     parser.add_argument("-t", "--threads", type=int, default=cpu_count(), help="Number of threads for multiprocess. Default=all.")
     parser.add_argument("-c", "--conformers", default=1, const=-1, action="store_const", help="Write all conformers for each id. Default=write only one.")
     parser.add_argument("--first", type=int, default=3, help="Max number of first conformers to generate fingerprints for.")
-    parser.add_argument("--bits", type=int, default=2**16, help="Store fingerprints with this many bits. Must be a power of two.")
+    parser.add_argument("-b", "--bits", type=int, default=2**16, help="Store fingerprints with this many bits. Must be a power of two.")
+    parser.add_argument("-l", "--level", type=int, default=5, help="Fingerprint level")
     return parser
 
 debug = False
@@ -38,7 +39,7 @@ assert args.bits.bit_count() == 1, "--bits not a power of two"
 df.set_index(args.id, inplace=True)
 
 confgen_params = dict(first=args.first, num_conf=args.conformers)
-fprint_params = dict(first=args.first, bits=args.bits)
+fprint_params = dict(first=args.first, bits=args.bits, level=args.level)
 
 if not args.outfile.endswith(".fpz"):
     args.outfile = args.outfile + ".fpz"
@@ -50,7 +51,7 @@ if os.path.isfile(args.outfile):
     df = df.loc[list(remaining)]
 else:
     # level 5 is default. Adding new fingerprints will error if this isn't reflected here.
-    db = FingerprintDatabase(level=5)
+    db = FingerprintDatabase(level=args.level)
 
 smiles = list(df[args.smiles])
 ids = list(df.index)
