@@ -71,7 +71,7 @@ mkdir -p "$WORK"
 # Other scripts are located relative to this file
 SRC="$0:h"
 
-# make sure we can exit this pipeline with a simple ctrl+c.
+# make sure we can exit the whole pipeline with a simple ctrl+c.
 trap 'exit 1' SIGINT SIGTERM EXIT
 
 # get SMILES and other pubchem listed properties that are always listed.
@@ -125,13 +125,13 @@ echo '# make E3FP fingerprints using SMILES'
 # Don't check for skipping existing file since we read the outfile and see if it lacks entries.
 N=`sed 1d $WORK/pubchem.tsv | wc -l | xargs`
 # suppressing stderr with verbose warnings from RDKit conformer gen
-$SRC/e3fp-fprints.py -ct "$NPROC" "$WORK/E3FP.fpz" < "$WORK/pubchem.tsv" 2> /dev/null | $SRC/../progress.sh $N
+# $SRC/e3fp-fprints.py -ct "$NPROC" "$WORK/E3FP.fpz" < "$WORK/pubchem.tsv" # 2> /dev/null | $SRC/../progress.sh $N
 
 if [ -s "$WORK/E3FP_MDS.tsv" ]; then
     echo "# SKIP. Already exists: $WORK/E3FP_MDS.tsv"
 else
     echo '# use the chemical fingerprints to generate MDS features'
-    $SRC/E3FP_features.jl -ck $MDS $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
+    julia --startup-file=no --project=$SRC/../../ $SRC/E3FP_features.jl -ck $MDS $PREVIOUS "$WORK/E3FP.fpz" | mlr -t rename 'id,cid' > "$WORK/E3FP_MDS.tsv"
 fi
 
 if [ "$NPROC" -gt 1 ]; then

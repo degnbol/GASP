@@ -3,11 +3,9 @@ using ArgParse
 using MultivariateStats
 using DelimitedFiles
 using Statistics: mean
-# using PyCall instead of NPZ since the latter doesn't support large files:
-# https://bytemeta.vip/repo/fhs/NPZ.jl/issues/46
+# using PyCall instead of NPZ since the latter had a problem with large files.
 # If PyCall is installed as specified in install.jl then it will be using the 
-# python env called gt that contains an install of E3FP. Otherwise the pyimport 
-# will result in an error.
+# python env called GT. Otherwise the pyimport will result in an error.
 using PyCall
 DB = pyimport("e3fp.fingerprint.db").FingerprintDatabase
 

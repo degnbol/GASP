@@ -24,6 +24,7 @@ def get_parser():
     parser.add_argument("--first", type=int, default=3, help="Max number of first conformers to generate fingerprints for.")
     parser.add_argument("-b", "--bits", type=int, default=2**16, help="Store fingerprints with this many bits. Must be a power of two.")
     parser.add_argument("-l", "--level", type=int, default=5, help="Fingerprint level")
+    parser.add_argument("-r", "--retries", type=int, default=1, help="Number of times to retry for difficult inputs.")
     return parser
 
 debug = False
@@ -58,15 +59,24 @@ ids = list(df.index)
 
 def generate(s_n):
     s, n = s_n
+    if s == "[H+]": s = ""
     try:
-        fps = fprints_from_smiles(s, n, confgen_params=confgen_params, fprint_params=fprint_params)
-    except (ValueError, TypeError):
+        return fprints_from_smiles(s, n, confgen_params=confgen_params, fprint_params=fprint_params)
+    except ValueError:
         # ValueError if the smiles is too simple, e.g. [H+]
+        pass
+    except TypeError:
         # TypeError in the E3FP pipeline if the conformer generation fails.
         # TypeError specifically as a bug in the E3FP code, where confgen_result is Bool (probably False to indicate failed confgen),
         # where `mol = confgen_result[0]` then throws a TypeError from the subscription `[0]`.
-        return [None, n]
-    return fps
+        # A retry may succeed even if the same call failed before.
+        for retry in range(args.retries):
+            print(f"# Retrying {n}. Attempt {retry+2}.")
+            try:
+                return fprints_from_smiles(s, n, confgen_params=confgen_params, fprint_params=fprint_params)
+            except TypeError:
+                pass
+    return [None, n]
 
 last = time()
 successes = 0

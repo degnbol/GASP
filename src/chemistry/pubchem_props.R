@@ -43,9 +43,12 @@ if(F) {  # test example
 # assume cid can be parsed to int and SMILES can't.
 # Use strtoi instead of as.integer to avoid warning when unable to parse.
 isSMILES = is.na(strtoi(cids))
-# cids named UNKNOWN# are assigned since cids are used as IDs through the chemical pipeline to distinguish chemicals.
-# Note that some of the downstream code doesn't allow even an underscore in the cid, but UNKNOWN# is tested to work.
-out = data.table(cid=paste0("UNKNOWN", 1:sum(isSMILES)), smiles=cids[isSMILES])
+# cids named CHEM# are assigned when SMILES are given, since chemical identifiers are needed through the pipeline to distinguish entries.
+# Note that some of the downstream code doesn't allow even an underscore in the cid, but CHEM# is tested to work.
+if(sum(isSMILES)>0) {
+    cat(sum(isSMILES), "SMILES given. Assigning CIDs CHEM1, CHEM2, ...")
+}
+out = data.table(cid=paste0("CHEM", 1:sum(isSMILES)), smiles=cids[isSMILES])
 if(sum(!isSMILES) > 0){
     # pc_prop handles multiple CIDs and integers even though the help info does not indicate that.
     pub = data.table(pc_prop(cids[!isSMILES], args$props))
