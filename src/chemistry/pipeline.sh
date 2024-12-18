@@ -72,9 +72,7 @@ mkdir -p "$WORK"
 SRC="$0:h"
 
 # make sure we can exit this pipeline with a simple ctrl+c.
-# NOTE that this only worked when searching for the processes by name, 
-# which can match any other process of the same name.
-trap 'pkill -f ProteinVolume_1.3; exit 1' SIGINT SIGTERM EXIT
+trap 'exit 1' SIGINT SIGTERM EXIT
 
 # get SMILES and other pubchem listed properties that are always listed.
 echo '# get SMILES from CIDs'
@@ -113,6 +111,9 @@ echo '# make volumes from PDBs'
 if [ -s "$WORK/volumes.tsv" ]; then
     echo "# SKIP. Already exists: $WORK/volumes.tsv"
 else
+    # NOTE that this only worked when searching for the processes by name, 
+    # which can match any other process of the same name.
+    trap 'pkill -f ProteinVolume_1.3; exit 1' SIGINT SIGTERM EXIT
     if [ "$NPROC" -gt 1 ]; then
         $SRC/ProteinVolume.sh "$WORK/PDBs" > "$WORK/volumes.tsv" &
     else
