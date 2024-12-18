@@ -60,8 +60,12 @@ def generate(s_n):
     s, n = s_n
     try:
         fps = fprints_from_smiles(s, n, confgen_params=confgen_params, fprint_params=fprint_params)
-    except ValueError: # errors if the smiles is too simple, e.g. [H+]
-        return None
+    except (ValueError, TypeError):
+        # ValueError if the smiles is too simple, e.g. [H+]
+        # TypeError in the E3FP pipeline if the conformer generation fails.
+        # TypeError specifically as a bug in the E3FP code, where confgen_result is Bool (probably False to indicate failed confgen),
+        # where `mol = confgen_result[0]` then throws a TypeError from the subscription `[0]`.
+        return [None, n]
     return fps
 
 last = time()
@@ -69,8 +73,10 @@ successes = 0
 
 with Pool(args.threads) as pool:
     for fps in pool.imap_unordered(generate, zip(smiles, ids)):
-        if fps is not None:
-            pprint(fps[0].name) # for progress tracking
+        if fps[0] is None:
+            pprint(f"Failed: {fps[1]}")
+        else:
+            pprint(f"Succeeded: {fps[0].name}")
             if args.conformers == 1:
                 db.add_fingerprints(fps[0])
             else:
