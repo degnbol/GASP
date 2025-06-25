@@ -18,7 +18,6 @@ conda install --name GT -c conda-forge pynvim
 # R packages
 ./install.R
 
-# julia packages. Requires conda env with E3FP already installed, so the following is important
-conda activate GT
-./install.jl
+# julia packages in local env. Requires conda env with E3FP already installed
+conda run --name GT --no-capture-output ./install.jl
 

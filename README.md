@@ -3,7 +3,7 @@ Glycosyltransferase Acceptor Specificity Prediction (GASP).
 Pan-specific prediction of reactivity between any Glycosyltransferase 
 Superfamily 1 (GT1) and chemical acceptor.
 
-The install instructions here are thorough in order to allow for reproducing 
+The installation instructions here are thorough in order to allow for reproducing 
 any of the work.
 The main randomforest train and test script is `src/randomforest.py`.
 
@@ -13,18 +13,18 @@ The main randomforest train and test script is `src/randomforest.py`.
 - Java runtime for some chemical feature generation.
   E.g. install with homebrew on Mac: `brew install --cask temurin`
 - `pip`.
-- (mini)conda for python 3, e.g. use `./install_conda.sh`
-- julia for
+- (mini)conda for python 3, e.g. [miniforge](https://github.com/conda-forge/miniforge)
+- Julia for
   - adding new chemicals to an already established E3FP MDS (chemical 
     features).
   - Feature selection (v1.8.5 used)
 
 ## INSTALL
-- Run `./install.sh`. It will install python packages to environment "GT". 
-  Activate env with `conda activate GT`.
+- Run `./install.sh`. It will install python packages to environment "GT" and julia packages to project-local env. 
+  Activate python env with `conda activate GT` and Julia env e.g. with `julia --project=@.` when running julia from within the project.
   `install.sh` also defines alias `git root` and calls `./install.R` which 
   installs R packages.
-- [Miller](https://github.com/johnkerl/miller), e.g. with homebrew on mac: 
+- [Miller](https://github.com/johnkerl/miller), e.g. with homebrew on Mac: 
   `brew install miller`
 
 ## RUN
