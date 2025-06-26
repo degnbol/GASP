@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 # All-vs-all Smith-Waterman alignments.
-# REQUIREMENTS: emboss water. Install with brew install emboss.
+# REQUIREMENTS: emboss water. Install with `conda install bioconda::emboss`.
 # USAGE: water.sh TARGETS.fa [options] < QUERIES.fa > OUTFILE.tsv
 cat - | while read header; read seq
 do
